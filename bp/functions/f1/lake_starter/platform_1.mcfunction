@@ -3,3 +3,5 @@ summon -383 157 192 fireworks_rocket
 
 setblock -379 159 205 diamond_block
 setblock -379 160 205 stone_pressure_plate
+
+scoreboard players set @p f1-platforms 2
