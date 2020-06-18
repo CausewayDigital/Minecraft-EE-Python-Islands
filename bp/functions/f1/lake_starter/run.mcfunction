@@ -1,1 +1,2 @@
-execute @c[x=-383,y=157,z=192, r=1] ~ ~ ~ detect 383 158 192 diamond_block 0 execute @p ~ ~ ~ title @p title hello
+execute @p[scores={f1-platforms=1}] ~ ~ ~ detect -383 157 192 stone_pressure_plate 1 function f1/lake_starter/platform_1
+execute @p[scores={f1-platforms=1}] ~ ~ ~ detect -379 160 205 stone_pressure_plate 1 function f1/lake_starter/platform_2
