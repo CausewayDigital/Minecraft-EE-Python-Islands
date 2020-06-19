@@ -1,5 +1,5 @@
 say Success! Now try the other pad up to the left!
-summon -383 157 192 fireworks_rocket
+summon fireworks_rocket -383 157 192
 
 # Set platform 1 to diamond
 setblock -383 156 192 diamond_block
