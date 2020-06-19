@@ -7,3 +7,4 @@ setblock -379 160 205 air
 setblock -379 159 205 air
 
 scoreboard players set @p f1-platforms 0
+execute @c ~ ~ ~ tp @c -378 155 198 facing -376 155 198
