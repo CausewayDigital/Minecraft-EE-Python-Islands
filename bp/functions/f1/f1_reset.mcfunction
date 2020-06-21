@@ -16,3 +16,6 @@ scoreboard players set @a f1-farm-plot-3 0
 # Add barrier to farm
 fill -363 156 174 -363 154 177 barrier
 fill -361 156 177 -363 154 177 barrier
+
+# Add barrier to forest
+fill -371 157 203 -372 155 202 acacia_planks
