@@ -1,4 +1,5 @@
-say Success! Now try the other pad up to the left!
+title @p subtitle Now try to reach other golden block, in the tree to the left!
+title @p title Success!
 summon fireworks_rocket -383 157 192
 
 # Set platform 1 to diamond
