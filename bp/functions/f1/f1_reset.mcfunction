@@ -5,7 +5,7 @@ scoreboard players set @a f1-mine-complete 0
 scoreboard players set @a f1-say-complete 0
 
 scoreboard players set @a f1-lake-progress 0
-scoreboard players set @a f1-forest-progress 0
+scoreboard players set @a f1-forest-prog 0
 scoreboard players set @a f1-forest-apple 0
 
 # Add barrier to farm
