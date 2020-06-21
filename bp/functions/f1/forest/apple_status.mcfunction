@@ -1,1 +1,0 @@
-scoreboard players set @a f1-forest-apple 1
