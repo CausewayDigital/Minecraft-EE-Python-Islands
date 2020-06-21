@@ -1,4 +1,5 @@
-say Success! Now try the other pad up to the left!
+title @p subtitle Now try to reach other golden block, in the tree to the left!
+title @p title Success!
 summon fireworks_rocket -383 157 192
 
 # Set platform 1 to diamond
@@ -10,4 +11,4 @@ setblock -380 155 197 air
 setblock -379 159 205 gold_block
 setblock -379 160 205 stone_pressure_plate
 
-scoreboard players set @p f1-platforms 2
+scoreboard players set @p f1-lake-progress 2
