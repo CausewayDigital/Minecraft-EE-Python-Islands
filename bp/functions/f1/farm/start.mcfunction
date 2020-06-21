@@ -1,2 +1,2 @@
 function f1/farm/reset
-scoreboard players set @p 1-farm-progress 1
+scoreboard players set @p f1-farm-progress 1
