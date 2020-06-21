@@ -1,4 +1,4 @@
-scoreboard players set @a 1-lake-complete 0
+scoreboard players set @a f1-lake-complete 0
 scoreboard players set @a 1-farm-complete 0
 scoreboard players set @a 1-forest-complete 0
 scoreboard players set @a 1-mine-complete 0

@@ -11,4 +11,4 @@ setblock -380 155 197 air
 setblock -379 159 205 gold_block
 setblock -379 160 205 stone_pressure_plate
 
-scoreboard players set @p 1-lake-progress 2
+scoreboard players set @p f1-lake-progress 2
