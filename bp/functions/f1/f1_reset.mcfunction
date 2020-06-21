@@ -1,7 +1,8 @@
-scoreboard players set @a complete-1-lake 0
-scoreboard players set @a complete-1-farm 0
-scoreboard players set @a complete-1-forest 0
-scoreboard players set @a complete-1-mine 0
+scoreboard players set @a 1-lake-complete 0
+scoreboard players set @a 1-farm-complete 0
+scoreboard players set @a 1-forest-complete 0
+scoreboard players set @a 1-mine-complete 0
+scoreboard players set @a 1-say-complete 0
 
 # Add barrier to farm
 fill -363 156 174 -363 154 177 barrier
