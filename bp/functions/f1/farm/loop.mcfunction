@@ -30,3 +30,5 @@ execute @p[scores={f1-farm-plot-3=1,f1-farm-progress=1}] ~ ~ ~ detect -347 158 1
 
 # Once all 3 have been tilled and seeded
 execute @p[scores={f1-farm-plot-1=2,f1-farm-plot-2=2,f1-farm-plot-3=2,f1-farm-progress=1}] ~ ~ ~ function f1/farm/finish
+
+title @p[scores={f1-farm-progress=1}] actionbar Press the C key to open the code builder again
