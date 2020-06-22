@@ -6,3 +6,7 @@ particle minecraft:balloon_gas_particle -393 153 198
 particle minecraft:balloon_gas_particle -393 153 201
 particle minecraft:balloon_gas_particle -393 153 204
 particle minecraft:balloon_gas_particle -393 153 207
+particle minecraft:balloon_gas_particle -392 153 184
+particle minecraft:balloon_gas_particle -389 153 181
+particle minecraft:balloon_gas_particle -385 153 179
+particle minecraft:balloon_gas_particle -381 153 178
