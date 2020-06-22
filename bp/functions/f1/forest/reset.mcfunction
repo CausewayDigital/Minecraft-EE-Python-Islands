@@ -11,4 +11,4 @@ execute @p[scores={f1-forest-apple=1}] ~ ~ ~ clone -349 147 223 -349 147 223 -35
 execute @p[scores={f1-forest-apple=1}] ~ ~ ~ clone -349 147 223 -349 147 223 -348 160 217
 execute @p[scores={f1-forest-apple=1}] ~ ~ ~ clone -349 147 223 -349 147 223 -348 160 220
 execute @p[scores={f1-forest-apple=1}] ~ ~ ~ clone -349 147 223 -349 147 223 -350 158 211
-scoreboard players set @a f1-forest-apple 0
+scoreboard players set @a f1-forest-apples 0
