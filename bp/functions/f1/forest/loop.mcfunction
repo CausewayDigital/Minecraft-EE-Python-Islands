@@ -15,10 +15,10 @@ execute @p[scores={f1-forest-prog=3}, x=-348, y=164, z=226, dx=-7, dy=0, dz=-10]
 execute @p[scores={f1-forest-prog=4}] ~ ~ ~ function f1/forest/fetch_apples
 
 # 5 = Completed, collected apples, prompt final talk to bird
-execute @p[scores={f1-forest-prog=5}] ~ ~ ~ execute f1/forest/lesson3
+execute @p[scores={f1-forest-prog=5}] ~ ~ ~ function f1/forest/lesson3
 
 # 6 = Completed, final talk to bird
-execute @p[scores={f1-forest-prog=6}] ~ ~ ~ execute f1/forest/lesson4
+execute @p[scores={f1-forest-prog=6}] ~ ~ ~ function f1/forest/lesson4
 
 # 7 = Placeholder before completing task
 
