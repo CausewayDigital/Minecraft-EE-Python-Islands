@@ -1,10 +1,18 @@
-execute @p[scores={f1-forest-prog=1}] ~ ~ ~ detect -356 161 218 air 0 function f1/forest/apple1
-execute @p[scores={f1-forest-prog=1}] ~ ~ ~ detect -350 160 219 air 0 function f1/forest/apple2
-execute @p[scores={f1-forest-prog=1}] ~ ~ ~ detect -350 161 223 air 0 function f1/forest/apple3
-execute @p[scores={f1-forest-prog=1}] ~ ~ ~ detect -355 158 210 air 0 function f1/forest/apple4
-execute @p[scores={f1-forest-prog=1}] ~ ~ ~ detect -350 159 206 air 0 function f1/forest/apple5
-execute @p[scores={f1-forest-prog=1}] ~ ~ ~ detect -348 160 217 air 0 function f1/forest/apple6
-execute @p[scores={f1-forest-prog=1}] ~ ~ ~ detect -348 160 220 air 0 function f1/forest/apple7
-execute @p[scores={f1-forest-prog=1}] ~ ~ ~ detect -350 158 211 air 0 function f1/forest/apple8
+# Scoreboard progress path (filter by progress point)
 
-execute @p[scores={f1-forest-apples=5}] ~ ~ ~ say "goose"
+# 0 = not attempted/started
+
+# 1 = Started, approaching ladder building task
+execute @p[scores={f1-forest-prog=1}, x=-353 ,y=157, z=219, r=4] ~ ~ ~ function f1/forest/lesson1
+
+# 2 = Started, building ladder
+
+
+# 3 = Started, built ladder, approached big bird
+execute @p[scores={f1-forest-prog=3}, x=-348, y=164, z=226, dx=-7, dy=0, dz=-10] ~ ~ ~ function f1/forest/lesson2
+
+# 4 = Started, talked to big bird, fetching apples
+execute @p[scores={f1-forest-prog=4}] ~ ~ ~ function f1/function/fetch_apples
+
+# 5 = Completed, collected apples, final talk to bird
+execute @p[scores={f1-forest-prog=5}] ~ ~ ~ 
