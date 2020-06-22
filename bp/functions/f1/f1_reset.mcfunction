@@ -2,7 +2,10 @@ scoreboard players set @a f1-lake-complete 0
 scoreboard players set @a f1-farm-complete 0
 scoreboard players set @a f1-forest-complete 0
 scoreboard players set @a f1-mine-complete 0
+
 scoreboard players set @a f1-say-complete 0
+scoreboard players set @a f1-var-complete 0
+scoreboard players set @a f1-say-var-done 0 
 
 scoreboard players set @a f1-farm-progress 0
 scoreboard players set @a f1-lake-progress 0

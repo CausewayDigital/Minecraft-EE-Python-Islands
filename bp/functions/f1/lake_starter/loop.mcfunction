@@ -8,3 +8,8 @@ title @p[scores={f1-lake-progress=1}] actionbar Code your agent to fly over to t
 execute @p[scores={f1-lake-progress=2}] ~ ~ ~ detect -379 160 205 stone_pressure_plate 1 function f1/lake_starter/platform_2
 execute @p[scores={f1-lake-progress=2}] ~ ~ ~ particle minecraft:cauldron_explosion_emitter -379 163 205
 title @p[scores={f1-lake-progress=2}] actionbar Code your agent to fly over to the golden block!
+
+
+
+# If both say and var tasks are complete, set f1-say-var-done to 1
+execute @p[scores={f1-say-complete=1, f1-var-complete=1, f1-say-var-done=0}] ~ ~ ~ scoreboard players set @p f1-say-var-done 1
