@@ -1,6 +1,6 @@
 execute @p[scores={f1-forest-prog=4}] ~ ~ ~ detect -356 161 218 air 0 function f1/forest/apple1
 execute @p[scores={f1-forest-prog=4}] ~ ~ ~ detect -356 161 218 air 0 setblock -356 161 218 barrier
-particle minecraft:endrod -356 160 218
+particle minecraft:endrod -356 159 218
 
 execute @p[scores={f1-forest-prog=4}] ~ ~ ~ detect -351 160 219 air 0 function f1/forest/apple1
 execute @p[scores={f1-forest-prog=4}] ~ ~ ~ detect -351 160 219 air 0 setblock -350 160 219 barrier
@@ -8,7 +8,7 @@ particle minecraft:endrod -351 158 219
 
 execute @p[scores={f1-forest-prog=4}] ~ ~ ~ detect -350 161 223 air 0 function f1/forest/apple1
 execute @p[scores={f1-forest-prog=4}] ~ ~ ~ detect -350 161 223 air 0 setblock -350 161 223 barrier
-particle minecraft:endrod -350 158 223
+particle minecraft:endrod -350 159 223
 
 execute @p[scores={f1-forest-prog=4}] ~ ~ ~ detect -355 158 210 air 0 function f1/forest/apple1
 execute @p[scores={f1-forest-prog=4}] ~ ~ ~ detect -355 158 210 air 0 setblock -355 158 210 barrier
