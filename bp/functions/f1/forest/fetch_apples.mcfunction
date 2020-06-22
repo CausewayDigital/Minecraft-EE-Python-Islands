@@ -32,4 +32,4 @@ particle minecraft:endrod -350 157 211
 
 
 # Check for the total number of apples collected
-execute @p[scores={f1-forest-prog=4,f1-forest-apples=5}] ~ ~ ~ scoreboard players set @p f1-forest-prog 5
+execute @p[scores={f1-forest-prog=4,f1-forest-appleC=5}] ~ ~ ~ scoreboard players set @p f1-forest-prog 5

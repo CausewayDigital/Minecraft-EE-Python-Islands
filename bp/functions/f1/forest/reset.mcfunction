@@ -11,4 +11,4 @@ clone -349 147 223 -349 147 223 -350 159 216
 clone -349 147 223 -349 147 223 -348 160 217
 clone -349 147 223 -349 147 223 -348 160 220
 clone -349 147 223 -349 147 223 -350 158 211
-scoreboard players set @a f1-forest-apples 0
+scoreboard players set @a f1-forest-appleC 0
