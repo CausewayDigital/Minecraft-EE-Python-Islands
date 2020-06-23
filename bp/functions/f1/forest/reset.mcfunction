@@ -14,3 +14,4 @@ clone -349 147 223 -349 147 223 -350 158 211
 scoreboard players set @a f1-forest-appleC 0
 scoreboard players set @a f1-forest-appleS 0
 scoreboard players set @a f1-forest-prog 0
+kill @e[type=item]

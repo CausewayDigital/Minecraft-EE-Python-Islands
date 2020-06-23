@@ -1,4 +1,3 @@
-tp @p -360 156 214
-
+function f1/forest/reset
 scoreboard players set @p f1-forest-prog 1
-scoreboard players set @a f1-forest-apple 0
+tp @p -360 156 214
