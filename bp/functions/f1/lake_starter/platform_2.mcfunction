@@ -8,4 +8,8 @@ scoreboard players set @p f1-lake-complete 1
 fill -363 156 174 -363 154 177 air
 fill -361 156 177 -363 154 177 air
 
+# Open the farm
+setblock -364 153 175 air
+setblock -364 153 176 air
+
 function f1/lake_starter/quit

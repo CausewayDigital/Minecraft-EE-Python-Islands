@@ -5,7 +5,7 @@ scoreboard players set @a f1-mine-complete 0
 
 scoreboard players set @a f1-say-complete 0
 scoreboard players set @a f1-var-complete 0
-scoreboard players set @a f1-say-var-done 0 
+scoreboard players set @a f1-say-var-done 0
 
 scoreboard players set @a f1-farm-progress 0
 scoreboard players set @a f1-lake-progress 0
@@ -22,3 +22,7 @@ fill -361 156 177 -363 154 177 barrier
 
 # Add barrier to forest
 fill -371 157 203 -372 155 202 planks 4
+
+# Add fences to farm
+execute @p[scores={f1-lake-complete=0}] ~ ~ ~ setblock -364 153 175 fence 5
+execute @p[scores={f1-lake-complete=0}] ~ ~ ~ setblock -364 153 176 fence 5
