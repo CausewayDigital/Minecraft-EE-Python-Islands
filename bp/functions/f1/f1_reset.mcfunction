@@ -11,6 +11,7 @@ scoreboard players set @a f1-farm-progress 0
 scoreboard players set @a f1-lake-progress 0
 scoreboard players set @a f1-forest-prog 0
 scoreboard players set @a f1-forest-apple 0
+scoreboard players set @a f1-forest-appleC 0
 
 scoreboard players set @a f1-farm-plot-1 0
 scoreboard players set @a f1-farm-plot-2 0
