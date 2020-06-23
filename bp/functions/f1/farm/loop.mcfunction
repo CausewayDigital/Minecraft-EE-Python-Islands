@@ -1,7 +1,13 @@
-execute @p[scores={f1-lake-complete=1}] ~ ~ ~ setblock -364 153 175 dark_oak_fence_gate 15
-execute @p[scores={f1-lake-complete=0}] ~ ~ ~ setblock -364 153 175 dark_oak_fence_gate 3
-execute @p[scores={f1-lake-complete=1}] ~ ~ ~ setblock -364 153 176 dark_oak_fence_gate 15
-execute @p[scores={f1-lake-complete=0}] ~ ~ ~ setblock -364 153 176 dark_oak_fence_gate 3
+# Main gate to the farm task
+#execute @p[scores={f1-lake-complete=1}] ~ ~ ~ setblock -364 153 175 dark_oak_fence_gate 15
+#execute @p[scores={f1-lake-complete=0}] ~ ~ ~ setblock -364 153 175 dark_oak_fence_gate 3
+#execute @p[scores={f1-lake-complete=1}] ~ ~ ~ setblock -364 153 176 dark_oak_fence_gate 15
+#execute @p[scores={f1-lake-complete=0}] ~ ~ ~ setblock -364 153 176 dark_oak_fence_gate 3
+
+execute @p[scores={f1-lake-complete=1}] ~ ~ ~ setblock -364 153 175 air
+execute @p[scores={f1-lake-complete=0}] ~ ~ ~ setblock -364 153 175 fence 5
+execute @p[scores={f1-lake-complete=1}] ~ ~ ~ setblock -364 153 176 air
+execute @p[scores={f1-lake-complete=0}] ~ ~ ~ setblock -364 153 176 fence 5
 
 # If not tilled yet
 execute @p[scores={f1-farm-plot-1=0,f1-farm-progress=1}] ~ ~ ~ particle minecraft:falling_dust_red_sand_particle -349 160 169
