@@ -18,4 +18,6 @@ execute @p[scores={f1-forest-appleS=1}] ~ ~ ~ clone -349 147 223 -349 147 223 -3
 execute @p[scores={f1-forest-appleS=1}] ~ ~ ~ clone -349 147 223 -349 147 223 -348 160 220
 execute @p[scores={f1-forest-appleS=1}] ~ ~ ~ clone -349 147 223 -349 147 223 -350 158 211
 
+kill @e[type=item]
+
 # master apple coords: -349 147 223
