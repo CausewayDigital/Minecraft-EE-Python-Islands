@@ -25,7 +25,7 @@ particle minecraft:endrod -350 158 216
 
 execute @p[scores={f1-forest-prog=4}] ~ ~ ~ detect -348 160 217 air 0 function f1/forest/apple1
 execute @p[scores={f1-forest-prog=4}] ~ ~ ~ detect -348 160 217 air 0 setblock -348 160 217 barrier
-execute @p[scores={f1-forest-prog=4}] ~ ~ ~ detect -358 160 217 barrier 0 setblock -348 154 217 stone
+execute @p[scores={f1-forest-prog=4}] ~ ~ ~ detect -348 160 217 barrier 0 setblock -348 154 217 stone
 particle minecraft:endrod -348 158 217
 
 execute @p[scores={f1-forest-prog=4}] ~ ~ ~ detect -348 160 220 air 0 function f1/forest/apple1
