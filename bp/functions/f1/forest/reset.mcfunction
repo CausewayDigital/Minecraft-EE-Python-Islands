@@ -7,4 +7,3 @@ scoreboard players set @p f1-forest-appleS 1
 function f1/forest/binary_apples
 scoreboard players set @a f1-forest-appleC 0
 scoreboard players set @a f1-forest-prog 0
-kill @e[type=item]
