@@ -15,3 +15,8 @@ execute @p[scores={f1-farm-complete=0, f1-lake-complete=1}] ~ ~ ~ scoreboard pla
 
 execute @p[scores={f1-farm-complete=0, f1-lake-complete=1}] ~ ~ ~ title @p subtitle Head up to the farm
 execute @p[scores={f1-farm-complete=0, f1-lake-complete=1}] ~ ~ ~ title @p title Looks good to me!
+
+
+# If lake task not done yet
+execute @p[scores={f1-lake-complete=0}] ~ ~ ~ title @p subtitle Go do your agent test by the lake first...
+execute @p[scores={f1-lake-complete=0}] ~ ~ ~ title @p title Qualified agent owners only!
