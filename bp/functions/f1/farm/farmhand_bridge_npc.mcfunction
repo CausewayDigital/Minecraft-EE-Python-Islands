@@ -18,5 +18,5 @@ execute @p[scores={f1-farm-complete=0, f1-lake-complete=1}] ~ ~ ~ title @p title
 
 
 # If lake task not done yet
-execute @p[scores={f1-lake-complete=0}] ~ ~ ~ title @p subtitle Go do your agent test by the lake first...
-execute @p[scores={f1-lake-complete=0}] ~ ~ ~ title @p title Qualified agent owners only!
+execute @p[scores={f1-lake-complete=0},r=10] ~ ~ ~ title @p subtitle Go do your agent test by the lake first...
+execute @p[scores={f1-lake-complete=0},r=10] ~ ~ ~ title @p title Qualified agent owners only!
