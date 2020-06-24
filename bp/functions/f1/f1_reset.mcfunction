@@ -17,6 +17,8 @@ scoreboard players set @a f1-farm-plot-1 0
 scoreboard players set @a f1-farm-plot-2 0
 scoreboard players set @a f1-farm-plot-3 0
 
+scoreboard players set @a f1-particle-path 0
+
 # Add barrier to farm
 fill -363 156 174 -363 154 177 barrier
 fill -361 156 177 -363 154 177 barrier
