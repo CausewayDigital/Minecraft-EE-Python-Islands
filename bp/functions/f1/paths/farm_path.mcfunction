@@ -1,0 +1,11 @@
+execute @p[scores={tick=0}] ~ ~ ~ particle minecraft:balloon_gas_particle -373 155 199
+execute @p[scores={tick=4}] ~ ~ ~ particle minecraft:balloon_gas_particle -374 155 195
+execute @p[scores={tick=8}] ~ ~ ~ particle minecraft:balloon_gas_particle -374 155 192
+execute @p[scores={tick=12}] ~ ~ ~ particle minecraft:balloon_gas_particle -374 155 189
+execute @p[scores={tick=16}] ~ ~ ~ particle minecraft:balloon_gas_particle -374 155 185
+execute @p[scores={tick=20}] ~ ~ ~ particle minecraft:balloon_gas_particle -374 155 183
+execute @p[scores={tick=24}] ~ ~ ~ particle minecraft:balloon_gas_particle -375 154 180
+execute @p[scores={tick=28}] ~ ~ ~ particle minecraft:balloon_gas_particle -375 153 177
+execute @p[scores={tick=32}] ~ ~ ~ particle minecraft:balloon_gas_particle -373 153 176
+execute @p[scores={tick=36}] ~ ~ ~ particle minecraft:balloon_gas_particle -369 153 175
+execute @p[scores={tick=40}] ~ ~ ~ particle minecraft:balloon_gas_particle -367 153 175
