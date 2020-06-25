@@ -24,4 +24,5 @@ execute @p[scores={f1-forest-prog=6}, x=-348, y=164, z=226, dx=-7, dy=0, dz=-10]
 
 # 8 = Final firework and complete task
 execute @p[scores={f1-forest-prog=8}] ~ ~ ~ summon fireworks_rocket -351 164 221
+execute @p[scores={f1-forest-prog=8}] ~ ~ ~ scoreboard players set @p f1-forest-comple 1
 execute @p[scores={f1-forest-prog=8}] ~ ~ ~ scoreboard players set @p f1-forest-prog 0
