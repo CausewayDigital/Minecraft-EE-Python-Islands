@@ -1,6 +1,6 @@
 scoreboard players set @a f1-lake-complete 0
 scoreboard players set @a f1-farm-complete 0
-scoreboard players set @a f1-forest-complete 0
+scoreboard players set @a f1-forest-comple 0
 scoreboard players set @a f1-mine-complete 0
 
 scoreboard players set @a f1-say-complete 0
@@ -16,6 +16,8 @@ scoreboard players set @a f1-forest-appleC 0
 scoreboard players set @a f1-farm-plot-1 0
 scoreboard players set @a f1-farm-plot-2 0
 scoreboard players set @a f1-farm-plot-3 0
+
+scoreboard players set @a f1-particle-path 0
 
 # Add barrier to farm
 fill -363 156 174 -363 154 177 barrier
