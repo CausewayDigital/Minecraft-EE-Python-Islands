@@ -13,4 +13,4 @@ title @p[scores={f1-lake-progress=2}] actionbar Code your agent to fly over to t
 
 # If both say and var tasks are complete, set f1-say-var-done to 1
 execute @p[scores={f1-say-complete=1, f1-var-complete=1, f1-say-var-done=0}] ~ ~ ~ scoreboard players set @p f1-say-var-done 1
-execute @p[scores={f1-say-complete=1, f1-var-complete=1, f1-lake-complete=0}] ~ ~ ~ scoreboard players set @p f1-particle-path 2
+execute @p[scores={f1-say-complete=1, f1-var-complete=1, f1-lake-complete=0}] ~ ~ ~ scoreboard players set @a f1-particle-path 2

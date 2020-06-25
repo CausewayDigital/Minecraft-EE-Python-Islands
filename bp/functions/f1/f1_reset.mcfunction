@@ -1,6 +1,6 @@
 scoreboard players set @a f1-lake-complete 0
 scoreboard players set @a f1-farm-complete 0
-scoreboard players set @a f1-forest-complete 0
+scoreboard players set @a f1-forest-comple 0
 scoreboard players set @a f1-mine-complete 0
 
 scoreboard players set @a f1-say-complete 0
