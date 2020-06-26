@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "name": "Python-Islands-BP",
+        "description": "Floating Islands Behaviour Pack",
+        "uuid": "5af3cd98-676b-4657-bb52-7af4ec037dc1",
+        "min_engine_version": [1, 12, 60],
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "fbc1cbe8-fa94-44ec-a0f4-34dfc354d522",
+            "version": [0, 0, 1]
+        }
+    ]
+}

@@ -2,7 +2,7 @@
     "format_version": 2,
     "header": {
         "description": "Floating Islands Resource Pack",
-        "name": "Python Islands",
+        "name": "Python-Islands-RP",
         "uuid": "66c6e9a8-3093-462a-9c36-dbb052165822",
         "version": [0, 0, 1],
         "min_engine_version": [ 1, 14, 0 ]
