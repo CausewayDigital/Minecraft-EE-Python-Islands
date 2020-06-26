@@ -33,3 +33,6 @@ execute @p[scores={f1-farm-plot-3=1,f1-farm-progress=1}] ~ ~ ~ detect -347 158 1
 execute @p[scores={f1-farm-plot-1=2,f1-farm-plot-2=2,f1-farm-plot-3=2,f1-farm-progress=1}] ~ ~ ~ function f1/farm/finish
 
 title @p[scores={f1-farm-progress=1}] actionbar Press the C key to open the code builder again
+
+# If they try to leave early, end the task
+execute @p[scores={f1-farm-progress=1..},x=-358,y=156,z=175,r=3] ~ ~ ~ function f1/farm/quit
