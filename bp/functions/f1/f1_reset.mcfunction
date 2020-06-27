@@ -21,6 +21,8 @@ scoreboard players set @a f1-mine-visit 0
 scoreboard players set @a f1-mine-progress 0
 scoreboard players set @a f1-mine-complete 0
 
+scoreboard players set @p f1-wizard-comple 0
+
 scoreboard players set @a f1-particle-path 0
 
 # Add barrier to farm
