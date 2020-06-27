@@ -1,0 +1,6 @@
+scoreboard players add @a f1-started 0
+
+execute @p[scores={f1-started=0}] ~ ~ ~ replaceitem entity @c slot.hotbar 0 fishing_rod
+execute @p[scores={f1-started=0}] ~ ~ ~ function f1/f1_reset
+execute @p[scores={f1-started=0}] ~ ~ ~ title @p title Welcome!
+execute @p[scores={f1-started=0}] ~ ~ ~ scoreboard players set @p f1-started 1
