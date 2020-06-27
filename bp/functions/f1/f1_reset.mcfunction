@@ -20,6 +20,7 @@ scoreboard players set @a f1-farm-plot-3 0
 scoreboard players set @a f1-mine-visit 0
 scoreboard players set @a f1-mine-progress 0
 scoreboard players set @a f1-mine-complete 0
+scoreboard players set @a f1-mine-birds = -1
 tp @e[type=npc,tag=mine-fly-over-nicole] -347 146 213
 
 scoreboard players set @p f1-wizard-comple 0
@@ -36,3 +37,5 @@ fill -371 157 203 -372 155 202 planks 4
 # Add fences to farm
 execute @p[scores={f1-lake-complete=0}] ~ ~ ~ setblock -364 153 175 fence 5
 execute @p[scores={f1-lake-complete=0}] ~ ~ ~ setblock -364 153 176 fence 5
+
+clear @a
