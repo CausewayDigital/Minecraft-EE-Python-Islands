@@ -7,4 +7,6 @@ execute @e[type=fishing_hook] ~ ~ ~ function f1/use_whistle
 
 execute @p[x=-393,y=154,z=218,r=10] ~ ~ ~ function f1/f1_loop_new_player
 
+function f1/f1_lifeboat
+
 #function f1/f1_loop_new_player
