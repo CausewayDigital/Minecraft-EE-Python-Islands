@@ -21,6 +21,9 @@ execute @a[scores={f1-mine-progress=-1}] ~ ~ ~ setblock -402 153 196 stone 0 rep
 execute @a[scores={f1-mine-progress=-1}] ~ ~ ~ scoreboard players set @p f1-mine-birds 0
 execute @a[scores={f1-mine-progress=-1,f1-forest-comple=1}] ~ ~ ~ function f1/mine/start
 
+
+execute @p[scores={f1-mine-birds=2}] -422 141 155 function f1/mine/check_coal
+
 # 0 - Player at task but has not started, transported by bird, now on island
 
 # 0 - Player openned cave, can talk to NPC and ask to go to island
