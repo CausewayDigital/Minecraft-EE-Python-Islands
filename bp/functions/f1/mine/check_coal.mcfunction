@@ -13,4 +13,4 @@ execute @p[scores={f1-mine-birds=2}] ~ ~ ~ detect -426 140 158 air -1 title @p s
 execute @p[scores={f1-mine-birds=2}] ~ ~ ~ detect -426 140 158 air -1 title @p title ...
 execute @p[scores={f1-mine-birds=2}] ~ ~ ~ detect -426 140 158 air -1 setblock -426 140 158 barrier 0
 
-execute @p[scores={f1-mine-birds=2, f1-mine-complete=0, f1-mine-progress=4}] ~ ~ ~ function f1/mine/finish
+execute @p[scores={f1-mine-birds=2, f1-mine-progress=4}] ~ ~ ~ function f1/mine/finish
