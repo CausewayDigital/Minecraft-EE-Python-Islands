@@ -1,5 +1,4 @@
-# Move bird to correct position and check every loop
-function f1/mine/clonebird
+
 
 # execute @a[scores={f1-mine-progress=5}] ~ ~ ~ function f1/mine/function
 

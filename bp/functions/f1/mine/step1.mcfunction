@@ -4,6 +4,7 @@
 execute @a[scores={f1-mine-progress=0}] ~ ~ ~ tp @p -422 147 174
 execute @a[scores={f1-mine-progress=0}] ~ ~ ~ scoreboard players set @p f1-mine-progress 1
 execute @a[scores={f1-mine-progress=0}] ~ ~ ~ scoreboard players set @p f1-mine-birds 0
+function f1/mine/clone_bird
 
 # If they cheated their way into he cave, then deny them access
 execute @a[scores={f1-mine-progress=-1,f1-forest-comple=0}] ~ ~ ~ title @a subtitle Why not collect some from the forest?
