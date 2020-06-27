@@ -19,9 +19,12 @@ execute @p[r=10,scores={f1-mine-complete=1, f1-wizard-comple=0}] ~ ~ ~ summon fi
 execute @p[r=10,scores={f1-mine-complete=1, f1-wizard-comple=0}] ~ ~ ~ summon fireworks_rocket ~ ~ ~
 execute @p[r=10,scores={f1-mine-complete=1, f1-wizard-comple=0}] ~ ~ ~ summon fireworks_rocket ~ ~ ~
 execute @p[r=10,scores={f1-mine-complete=1, f1-wizard-comple=0}] ~ ~ ~ summon fireworks_rocket ~ ~ ~
+
+clear @p[r=10,scores={f1-mine-complete=1, f1-wizard-comple=0}] coal_ore
+
 give @p[r=10,scores={f1-mine-complete=1, f1-wizard-comple=0}] coal 1
 
-scoreboard players set @p[r=10,scores={f1-mine-complete=1, f1-wizard-comple=0}] f1-particle-path 8
+scoreboard players set @p[r=10,scores={f1-mine-complete=1, f1-wizard-comple=0}] f1-particle-path 10
 scoreboard players set @p[r=10,scores={f1-mine-complete=1, f1-wizard-comple=0}] f1-wizard-comple 1
 
 
