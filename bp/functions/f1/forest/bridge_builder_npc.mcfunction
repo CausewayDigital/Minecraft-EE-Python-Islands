@@ -1,6 +1,6 @@
 
 # If farm task is completed
-execute @p[scores={f1-farm-complete=1, f1-forest-comple=0}] ~ ~ ~ clear @p surgar
+execute @p[scores={f1-farm-complete=1, f1-forest-comple=0}] ~ ~ ~ clear @p sugar
 execute @p[scores={f1-farm-complete=1, f1-forest-comple=0}] ~ ~ ~ title @p subtitle The forest is now open!
 execute @p[scores={f1-farm-complete=1, f1-forest-comple=0}] ~ ~ ~ title @p title Mmmm, now to fix this bridge..
 
