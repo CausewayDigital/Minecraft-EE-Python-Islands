@@ -2,7 +2,7 @@
 
 # Player must have completed forest task to be able to move over! If they have, teleport them, move the bird and update progress
 execute @a[scores={f1-mine-progress=0}] ~ ~ ~ tp @p -422 147 174
-execute @a[scores={f1-mine-progress=0}] ~ ~ ~ scoreboard players set @p f1-mine-birds 0
+execute @a[scores={f1-mine-progress=0}] ~ ~ ~ scoreboard players set @p f1-mine-birds 1
 execute @a[scores={f1-mine-progress=0}] ~ ~ ~ tp @e[type=npc,tag=mine-fly-over-nicole] -347 146 213
 execute @a[scores={f1-mine-progress=0}] ~ ~ ~ scoreboard players set @p f1-mine-progress 1
 function f1/mine/clone_bird

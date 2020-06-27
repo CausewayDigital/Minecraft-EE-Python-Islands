@@ -20,6 +20,7 @@ scoreboard players set @a f1-farm-plot-3 0
 scoreboard players set @a f1-mine-visit 0
 scoreboard players set @a f1-mine-progress 0
 scoreboard players set @a f1-mine-complete 0
+tp @e[type=npc,tag=mine-fly-over-nicole] -347 146 213
 
 scoreboard players set @p f1-wizard-comple 0
 
