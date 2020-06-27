@@ -22,7 +22,7 @@ scoreboard players set @a f1-mine-progress 0
 scoreboard players set @a f1-mine-complete 0
 scoreboard players set @a f1-mine-birds = -1
 tp @e[type=npc,tag=mine-fly-over-nicole] -347 146 213
-function f1/mine/check_coal
+function f1/mine/clone_bird
 
 scoreboard players set @p f1-wizard-comple 0
 
