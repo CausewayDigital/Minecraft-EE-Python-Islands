@@ -4,6 +4,7 @@
 execute @a[scores={f1-mine-progress=0}] ~ ~ ~ tp @a -422 147 174
 execute @a[scores={f1-mine-progress=0}] ~ ~ ~ scoreboard players set @a f1-mine-birds 1
 execute @a[scores={f1-mine-progress=0}] ~ ~ ~ tp @e[type=npc,tag=mine-fly-over-nicole] -347 146 213
+execute @a[scores={f1-mine-progress=0}] ~ ~ ~ tp @e[type=npc,tag=mine-return-nicole] -430 147 169
 execute @a[scores={f1-mine-progress=0}] ~ ~ ~ scoreboard players set @a f1-mine-progress 1
 function f1/mine/clone_bird
 
