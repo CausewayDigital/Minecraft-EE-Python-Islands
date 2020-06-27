@@ -1,6 +1,6 @@
 
 # Check if user is no longer on the mine island, but has completed forest
-execute @p[scores={f1-mine-progress=1..},x=-408,y=143,z=188,r=4] ~ ~ ~ function f1/mine/return_to_main_island
+execute @p[scores={f1-mine-birds=1..},x=-408,y=143,z=188,r=4] ~ ~ ~ function f1/mine/return_to_main_island
 
 
 
