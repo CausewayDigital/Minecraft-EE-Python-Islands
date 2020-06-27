@@ -22,7 +22,7 @@ execute @a[scores={f1-mine-progress=-1}] ~ ~ ~ scoreboard players set @p f1-mine
 execute @a[scores={f1-mine-progress=-1,f1-forest-comple=1}] ~ ~ ~ function f1/mine/start
 
 
-execute @p[scores={f1-mine-birds=2}] -422 141 155 function f1/mine/check_coal
+execute @p[scores={f1-mine-birds=2}] -425 141 151 function f1/mine/check_coal
 
 # 0 - Player at task but has not started, transported by bird, now on island
 
