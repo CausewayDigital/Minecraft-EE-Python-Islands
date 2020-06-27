@@ -1,4 +1,6 @@
 # Teleport player back onto the mine island
+
+execute @p ~ ~ ~ tp @c -430 147 168 facing -429 147 168
 tp @p -428 147 168 facing -429 147 167
 tp @e[tag=on-bird-nicole] -347 146 211
 
