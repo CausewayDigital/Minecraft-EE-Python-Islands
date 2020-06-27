@@ -43,5 +43,5 @@ execute @a[scores={f1-mine-progress=-1,f1-forest-comple=1}] ~ ~ ~ function f1/mi
 
 # 7 completed, teleport back to top with coal - bird on mining island
 
-scoreboard players set @a f1-mine-birds 2
+#scoreboard players set @a f1-mine-birds 2
 # 8 Dead somehow - bird on main island
