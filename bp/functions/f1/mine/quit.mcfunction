@@ -7,3 +7,4 @@ tp @e[tag=on-bird-nicole] -347 146 211
 scoreboard players set @a f1-mine-birds 1
 tp @e[type=npc,tag=mine-return-nicole] -430 147 169
 function f1/mine/clone_bird
+function f1/mine/reset
