@@ -15,6 +15,7 @@ execute @p[scores={f1-farm-complete=0, f1-lake-complete=1}] ~ ~ ~ setblock -364 
 execute @p[scores={f1-farm-complete=0, f1-lake-complete=1}] ~ ~ ~ setblock -364 153 176 air
 
 execute @p[scores={f1-farm-complete=0, f1-lake-complete=1}] ~ ~ ~ scoreboard players set @a f1-particle-path 5
+execute @p[scores={f1-farm-complete=0, f1-lake-complete=1}] ~ ~ ~ scoreboard players set §r objective 900070
 
 execute @p[scores={f1-farm-complete=0, f1-lake-complete=1}] ~ ~ ~ title @p subtitle Head up to the farm
 execute @p[scores={f1-farm-complete=0, f1-lake-complete=1}] ~ ~ ~ title @p title Looks good to me!

@@ -1,5 +1,6 @@
 scoreboard players set @p f1-farm-complete 1
 scoreboard players set @p f1-particle-path 6
+scoreboard players set §r objective 900090
 
 function f1/farm/quit
 

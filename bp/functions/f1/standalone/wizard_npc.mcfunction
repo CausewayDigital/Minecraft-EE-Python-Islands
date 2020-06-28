@@ -25,6 +25,7 @@ clear @p[r=10,scores={f1-mine-complete=1, f1-wizard-comple=0}] coal_ore
 give @p[r=10,scores={f1-mine-complete=1, f1-wizard-comple=0}] coal 1
 
 execute @p[r=10,scores={f1-mine-complete=1, f1-wizard-comple=0}] ~ ~ ~ scoreboard players set @a f1-particle-path 10
+execute @p[r=10,scores={f1-mine-complete=1, f1-wizard-comple=0}] ~ ~ ~ scoreboard players set §r objective 900150
 execute @p[r=10,scores={f1-mine-complete=1, f1-wizard-comple=0}] ~ ~ ~ scoreboard players set @p f1-wizard-comple 1
 
 
