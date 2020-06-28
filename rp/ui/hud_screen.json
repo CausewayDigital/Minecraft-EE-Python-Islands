@@ -43,7 +43,7 @@
   },
 
   "root_panel/sidebar":{
-    "offset": [ 10, 75 ],
+    "offset": [ 10, 200 ],
     "anchor_from": "top_right",
     "anchor_to": "top_right"
   },

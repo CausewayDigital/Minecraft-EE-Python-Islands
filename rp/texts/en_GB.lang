@@ -2,7 +2,7 @@ item.sugar.name=Sandwich	#
 item.phantom_membrane.name=Agent Certification	#
 
 900030=§fTalk to Say and Variable researchers.	###Titles of all tasks for objective scoreboard
-900040=Get your Agent Certification	#
+900040=§fGet your Agent Certification	#
 900050=§fTalk with the Bridge Builder	#
 900060=§fTalk with the Farmhand	#
 900070=§fTalk with the Farmer	#
@@ -15,4 +15,4 @@ item.phantom_membrane.name=Agent Certification	#
 900140=§fTalk to the Wizard #
 900150=§fTalk to the Chieftain	#
 
-objective=§l§6- Current Task -§r  
+objective=§l§6- Current Task -§r
