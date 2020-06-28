@@ -41,3 +41,6 @@ execute @p[scores={f1-lake-complete=0}] ~ ~ ~ setblock -364 153 175 fence 5
 execute @p[scores={f1-lake-complete=0}] ~ ~ ~ setblock -364 153 176 fence 5
 
 clear @a
+
+timelock true
+time set midnight
