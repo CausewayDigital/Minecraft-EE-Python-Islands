@@ -7,12 +7,12 @@ execute @p[scores={f1-farm-complete=0, f1-lake-complete=1}] ~ ~ ~ particle minec
 execute @p[scores={f1-farm-complete=0, f1-lake-complete=1}] ~ ~ ~ clear @p phantom_membrane
 
 # Clear farm access
-fill -363 156 174 -363 154 177 air
-fill -361 156 177 -363 154 177 air
+execute @p[scores={f1-farm-complete=0, f1-lake-complete=1}] ~ ~ ~ fill -363 156 174 -363 154 177 air
+execute @p[scores={f1-farm-complete=0, f1-lake-complete=1}] ~ ~ ~ fill -361 156 177 -363 154 177 air
 
 # Open the farm
-setblock -364 153 175 air
-setblock -364 153 176 air
+execute @p[scores={f1-farm-complete=0, f1-lake-complete=1}] ~ ~ ~ setblock -364 153 175 air
+execute @p[scores={f1-farm-complete=0, f1-lake-complete=1}] ~ ~ ~ setblock -364 153 176 air
 
 execute @p[scores={f1-farm-complete=0, f1-lake-complete=1}] ~ ~ ~ scoreboard players set @a f1-particle-path 5
 
