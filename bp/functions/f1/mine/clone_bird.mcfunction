@@ -4,7 +4,7 @@
 execute @p[scores={f1-mine-birds=0}] ~ ~ ~ clone -429 138 163 -427 140 166 -412 143 186
 #remove
 execute @p[scores={f1-mine-birds=1..2}] ~ ~ ~ clone -428 138 167 -426 140 170 -412 143 186
-
+execute @p[scores={f1-mine-birds=-1}] ~ ~ ~ clone -428 138 167 -426 140 170 -412 143 186
 #standing on the mining island
 execute @p[scores={f1-mine-birds=1}] ~ ~ ~ clone -433 138 164 -430 140 166 -432 147 169
 #remove
