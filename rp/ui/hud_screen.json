@@ -44,8 +44,8 @@
 
   "root_panel/sidebar":{
     "offset": [ 10, 75 ],
-    "anchor_from": "top_left",
-    "anchor_to": "top_left"
+    "anchor_from": "top_right",
+    "anchor_to": "top_right"
   },
 
   "root_panel":{
