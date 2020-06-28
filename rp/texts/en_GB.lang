@@ -1,2 +1,19 @@
 item.sugar.name=Sandwich	#
 item.phantom_membrane.name=Agent Certification	#
+
+# Titles of all tasks for objective scoreboard
+900030=§fTalk to Say and Variable researchers.	#
+900040=§fComplete your Agent Certification	#
+900050=§fTalk with the forest Bridge Builder	#
+900060=§fTalk with the Farmhand	#
+900070=§fTalk with the Farmer	#
+900080=§fComplete the farming task	#
+900090=§fTalk with the forest Bridge Builder	#
+900100=§fTalk with Marcus on the Forest Island	#
+900110=§fComplete the forest task	#
+900120=§fFind a way over to the Mine Island	#
+900130=§fComplete the mine task	#
+900140=§fTalk to the Wizard	#
+900150=§fTalk to the Chieftain	#
+
+objective=§l§6- Current Task -§r
