@@ -1,0 +1,17 @@
+{
+  "scoreboard_sidebar/main/lists":{
+    "offset": [0, 13],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle"
+  },
+  "player_score": {
+    "localize": true
+  },
+  "scoreboard_sidebar/main/displayed_objective": {
+    "offset": [ 0, 3 ],
+    "localize": true
+  },
+  "scoreboard_sidebar/main":{
+    "size": [ "100%cm + 10px", "100%c + 5px" ]
+  }
+}

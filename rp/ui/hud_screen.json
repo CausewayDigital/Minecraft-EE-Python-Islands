@@ -1,0 +1,80 @@
+{
+  "hud_title_text":{
+    "modifications":[
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "new_title_padding": {
+              "type": "panel",
+              "size": [ "100%", 30 ]
+            }
+          }
+        ]
+      }
+    ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle"
+  },
+  "hud_title_text/title_frame/title":{
+    "font_size": "large"
+  },
+  "hud_title_text/subtitle_frame/subtitle":{
+    "font_size": "medium"
+  },
+
+  "hud_actionbar_text":{
+    "offset": [ 0, "50%-50px" ]
+  },
+
+  "root_panel/hud_actionbar_text_area": {
+    "bindings": [
+      {
+        "binding_name": "#hud_visible_centered",
+        "binding_name_override": "#visible",
+        "binding_type": "global"
+      }
+    ]
+  },
+
+  "root_panel/hud_tip_text_factory":{
+    "offset": [ 0, 10 ]
+  },
+
+  "root_panel/sidebar":{
+    "offset": [ 10, 75 ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left"
+  },
+
+  "root_panel":{
+    "modifications":[
+      {
+        "control_name": "hud_actionbar_text_area",
+        "operation": "insert_after",
+        "value": [
+          {
+            "alt_hud_actionbar_text_area": {
+              "type": "panel",
+              "factory": {
+                "name": "hud_actionbar_text_factory",
+                "control_ids": {
+                  "hud_actionbar_text": "hud_actionbar_text@hud.hud_actionbar_text"
+                }
+              },
+              "offset": [ 0, 10 ],
+              "bindings": [
+                {
+                  "binding_name": "#hud_visible_not_centered",
+                  "binding_name_override": "#visible",
+                  "binding_type": "global"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
