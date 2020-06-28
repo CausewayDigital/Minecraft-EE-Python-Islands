@@ -8,3 +8,4 @@ scoreboard player set @a f1-forest-appleS 1
 function f1/forest/binary_apples
 
 scoreboard players set @p f1-forest-prog 4
+scoreboard players set §r objective 900112
