@@ -5,8 +5,7 @@ function f1/mine/loop
 function f1/f1_tick_loop
 execute @e[type=fishing_hook] ~ ~ ~ function f1/use_whistle
 
-#execute @p[x=-393,y=154,z=218,r=10] ~ ~ ~ function f1/f1_loop_new_player
-
 function f1/f1_lifeboat
 
-#function f1/f1_loop_new_player
+effect @a resistance 10000000 255 true
+effect @a saturation 99999 255 true
