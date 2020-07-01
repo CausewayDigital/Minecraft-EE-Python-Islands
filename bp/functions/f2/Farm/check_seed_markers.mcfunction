@@ -3,9 +3,9 @@
 # == 1 is marked
 
 # Plot 1 - 171 159 177
-execute @a[scores={f2-farm-plot1=0}] ~ ~ ~ detect 171 160 177 concrete 5 scoreboard players add @p f2-farm-progress 1
+execute @p[scores={f2-farm-plot1=0}] ~ ~ ~ detect 171 160 177 concrete 5 scoreboard players add @p f2-farm-progress 1
 execute @p[scores={f2-farm-plot1=0}] ~ ~ ~ detect 171 160 177 concrete 14 scoreboard players add @p f2-farm-progress 1
-execute @a[scores={f2-farm-plot1=0}] ~ ~ ~ detect 171 160 177 concrete 5 scoreboard players set @p f2-farm-plot1 1
+execute @p[scores={f2-farm-plot1=0}] ~ ~ ~ detect 171 160 177 concrete 5 scoreboard players set @p f2-farm-plot1 1
 execute @p[scores={f2-farm-plot1=0}] ~ ~ ~ detect 171 160 177 concrete 14 scoreboard players set @p f2-farm-plot1 1
 execute @p[scores={f2-farm-plot1=0}] ~ ~ ~ particle minecraft:falling_dust_top_snow_particle 171 159 177
 execute @p[scores={f2-farm-plot1=1}] ~ ~ ~ particle minecraft:villager_happy 171 159 177

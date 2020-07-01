@@ -1,4 +1,9 @@
 scoreboard players set @p f2-farm-progress 0
+scoreboard players set @p f2-farm-plot1 0
+scoreboard players set @p f2-farm-plot2 0
+scoreboard players set @p f2-farm-plot3 0
+scoreboard players set @p f2-farm-plot4 0
+
 
 # Reset farm land with crops
 fill 162 158 176 173 158 180 wheat 0
