@@ -1,0 +1,1 @@
+scoreboard players set @p f2-farm-progress 0
