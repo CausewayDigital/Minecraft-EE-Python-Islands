@@ -20,4 +20,4 @@ execute @p[scores={f2-farm-progress=2..5}] ~ ~ ~ function f2/Farm/check_seed_mar
 # 6 = final marker placed
 
 # Background runnings
-execute @p[scores={f2-farm-progress=1..6}, x=172 ,y=158, z=174, r=25] ~ ~ ~ title @p actionbar Press the C key to open the code builder again
+execute @p[scores={f2-farm-progress=1..5}, x=172 ,y=158, z=174, r=25] ~ ~ ~ title @p actionbar Press the C key to open the code builder again
