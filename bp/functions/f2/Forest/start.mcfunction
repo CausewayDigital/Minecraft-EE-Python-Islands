@@ -1,4 +1,4 @@
-function f2/Forest/Reset
+function f2/Forest/reset
 function clear_agent
 scoreboard players set @s f2-forest-progre 1
 scoreboard players set §r objective 900110
