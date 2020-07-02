@@ -1,8 +1,8 @@
 function f2/Farm/loop
-# function f2/Forest/loop
+function f2/Forest/loop
 # function f2/Mine/loop
-# function f2/f1_tick_loop - Already running
-execute @e[type=fishing_hook] ~ ~ ~ function f1/use_whistle
+# function f2/f1_tick_loop - Already running for f1
+execute @e[type=fishing_hook] ~ ~ ~ function f2/use_whistle
 
 function f2/f2_lifeboat
 
