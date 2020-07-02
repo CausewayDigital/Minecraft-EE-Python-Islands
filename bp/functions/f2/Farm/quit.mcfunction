@@ -1,5 +1,8 @@
 execute @p[scores={f2-farm-plot1=1,f2-farm-plot2=2,f2-farm-plot3=1,f2-farm-plot4=2}] ~ ~ ~ scoreboard players set @p f2-farm-complete 1
 function f2/Farm/reset
+function clear_agent
+clear @p concrete 5
+clear @p concrete 14
 
 execute @p[scores={f2-farm-complete=1}] ~ ~ ~ title @p subtitle Here's something to reward you for the help...
 execute @p[scores={f2-farm-complete=1}] ~ ~ ~ title @p title Great job!
