@@ -1,6 +1,7 @@
 # f2-farm-plot# 
 # == 0 is unmarked
-# == 1 is marked
+# == 1 is marked with green
+# == 2 is marked with red
 
 # Plot 1 - 171 159 177
 execute @p[scores={f2-farm-plot1=0}] ~ ~ ~ detect 171 160 177 concrete 5 scoreboard players add @p f2-farm-progress 1
