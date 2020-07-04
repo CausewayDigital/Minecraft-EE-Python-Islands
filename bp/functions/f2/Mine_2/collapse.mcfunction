@@ -21,3 +21,5 @@ effect @p blindness 10 1 true
 
 title @p subtitle Be more careful to not break non iron ore blocks next time!
 title @p title Tunnel collapse!!!
+
+function f2/Mine_2/reset
