@@ -10,6 +10,6 @@ setblock 89 145 167 air
 setblock 87 145 166 air
 
 # Add fences and border blocks
-fill 90 147 170 86 147 165 fences
+fill 90 147 170 86 147 165 fence
 fill 90 148 170 86 151 165 barrier
 fill 89 146 169 87 151 166 air
