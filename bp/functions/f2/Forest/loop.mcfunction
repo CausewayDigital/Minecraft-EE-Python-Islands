@@ -6,7 +6,7 @@ execute @p[scores={f2-forest-progre=0}, x=143 ,y=155, z=205, r=2] ~ ~ ~ function
 execute @p[scores={f2-forest-progre=1}, x=150 ,y=156, z=209, r=3] ~ ~ ~ function f2/Forest/enter
 
 #give blindness when entering the forest
-execute @p[x=152, y=156, z=210, r=2] ~ ~ ~ effect @s blindness 999
+execute @p[x=152, y=156, z=210, r=2] ~ ~ ~ effect @s blindness 999 1 true
 
 #remove blindness when leaving
 execute @p[x=150, y=156, z=209, r=2] ~ ~ ~ effect @s clear
