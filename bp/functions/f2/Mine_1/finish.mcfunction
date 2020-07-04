@@ -20,3 +20,4 @@ codebuilder navigate @p true https://causewaydigital.github.io/Everglade-live/in
 
 tp @e[tag=f2-miner1] 157 149 213
 tp @e[tag=f2-miner2] 87 147 171
+setblock 88 137 167 deny
