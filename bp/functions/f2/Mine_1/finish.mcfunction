@@ -15,4 +15,5 @@ particle minecraft:huge_explosion_emitter 88 146 167
 particle minecraft:huge_explosion_emitter 88 146 167
 particle minecraft:huge_explosion_emitter 88 146 167
 particle minecraft:huge_explosion_emitter 88 146 167
-execute @p ~ ~ ~ tp @c 86 147 171 facing 84 147 171 
+execute @p ~ ~ ~ tp @c 86 147 171 facing 84 147 171
+codebuilder navigate @p true https://causewaydigital.github.io/Everglade-live/index.html?lesson=lessons/islands/island_2/Mine/Mine_1_done.json
