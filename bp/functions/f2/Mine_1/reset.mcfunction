@@ -14,3 +14,5 @@ setblock 87 145 166 air
 #fill 90 148 170 86 151 165 barrier
 #fill 89 146 169 87 151 166 air
 setblock 88 147 170 fence
+
+setblock 88 137 167 allow
