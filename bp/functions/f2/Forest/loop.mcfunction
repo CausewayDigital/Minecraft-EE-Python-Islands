@@ -10,19 +10,19 @@ execute @p[x=141, y=155, z=203, r=2] ~ ~ ~ effect @s clear
 
 # Progress from here will be used to teleport the agent to the relevant position to break blocks
 # 2 = Teleport agent to the first block
-execute @p[scores={f2-forest-progre=2}] ~ ~ ~ tp @c 166 162 211 facing 167 165 211
+execute @p[scores={f2-forest-progre=2}] ~ ~ ~ tp @c 166 165 211 facing 167 165 211
 
 # 3 = Teleport agent to the second block
-execute @p[scores={f2-forest-progre=3}] ~ ~ ~ tp @c 160 162 213 facing 161 165 213
+execute @p[scores={f2-forest-progre=3}] ~ ~ ~ tp @c 160 165 213 facing 161 165 213
 
 # 4 = Teleport agent to the third block
-execute @p[scores={f2-forest-progre=4}] ~ ~ ~ tp @c 163 162 215 facing 164 165 215
+execute @p[scores={f2-forest-progre=4}] ~ ~ ~ tp @c 163 165 215 facing 164 165 215
 
 # 5 = Teleport agent to the fourth block
-execute @p[scores={f2-forest-progre=5}] ~ ~ ~ tp @c 165 162 219 facing 166 165 219
+execute @p[scores={f2-forest-progre=5}] ~ ~ ~ tp @c 165 165 219 facing 166 165 219
 
 # 6 = Teleport agent to the fifth block
-execute @p[scores={f2-forest-progre=6}] ~ ~ ~ tp @c 160 162 220 facing 161 165 220
+execute @p[scores={f2-forest-progre=6}] ~ ~ ~ tp @c 160 165 220 facing 161 165 220
 
 execute @p[scores={f2-forest-progre=2..6}] ~ ~ ~ function f2/Forest/check_blocks
 
