@@ -1,3 +1,5 @@
-# Block user from entering forest until they have talked to the forest explorer and started activity
-title @s subtitle If you want to go into the forest, talk to the §6Forest Explorer
-title @s title Woah, hold on one second...
+setblock 167 165 211 stone 0 replace
+setblock 161 165 213 leaves 0 replace
+setblock 164 165 215 leaves 0 replace
+setblock 166 165 219 stone 0 replace
+setblock 161 165 220 leaves 0 replace
