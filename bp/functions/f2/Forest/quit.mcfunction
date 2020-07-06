@@ -1,5 +1,6 @@
 execute @p[scores={f2-forest-block1=1,f2-forest-block2=1,f2-forest-block3=1,f2-forest-block4=1,f2-forest-block5=1}] ~ ~ ~ scoreboard players set @p f2-forest-done 1
 function f2/Forest/reset
+function clear_agent
 tp @s 141 155 203
 
 execute @p[scores={f2-forest-done=1}] ~ ~ ~ title @s subtitle Here's something to reward you for the help...
