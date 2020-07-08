@@ -1,4 +1,4 @@
-execute @p[x=88,y=139,z=168,r=2,scores={f2-mine2-prog=1}] ~ ~ ~ codebuilder navigate @p true https://causewaydigital.github.io/Everglade-live/index.html?lesson=lessons/islands/island_2/Mine/Mine_2.json
+execute @p[x=88,y=139,z=168,r=2,scores={f2-mine2-prog=1}] ~ ~ ~ codebuilder navigate @p true https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_2/Mine/Mine_2.json
 execute @p[x=88,y=139,z=168,r=2,scores={f2-mine2-prog=1}] ~ ~ ~ scoreboard players set @p[x=88,y=139,z=168,r=2,scores={f2-mine2-prog=1}] f2-mine2-prog 2
 
 
