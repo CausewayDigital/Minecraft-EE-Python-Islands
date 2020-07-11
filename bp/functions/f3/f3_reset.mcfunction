@@ -1,11 +1,11 @@
-scoreboard objectives add ship-hatch-prog dummy
-scoreboard objectives add ship-hatch-done dummy
-scoreboard objectives add ship-bridge-prog dummy
-scoreboard objectives add ship-bridge-done dummy
+scoreboard objectives add f3-ship-h-prog  dummy
+scoreboard objectives add f3-ship-h-done dummy
+scoreboard objectives add f3-ship-b-prog dummy
+scoreboard objectives add f3-ship-b-done dummy
 
 
 
-scoreboard players set @a ship-hatch-prog 0
-scoreboard players set @a ship-hatch-done 0
-scoreboard players set @a ship-bridge-prog 0
-scoreboard players set @a ship-bridge-done 0
+scoreboard players set @a f3-ship-h-prog 0
+scoreboard players set @a f3-ship-h-done 0
+scoreboard players set @a f3-ship-b-prog 0
+scoreboard players set @a f3-ship-b-done 0
