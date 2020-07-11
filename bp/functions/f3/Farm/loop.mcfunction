@@ -7,4 +7,12 @@ execute @p[scores={f3-farm-prog=1}, x=157, y=158, z=603, r=2] ~ ~ ~ scoreboard p
 # 2 to 26
 execute @p[scores={f3-farm-prog=2..26}] ~ ~ ~ function f3/Farm/check_farm
 
-execute @p[scores={f3-farm-prog=2..26}, x=157 ,y=158, z=603, r=25] ~ ~ ~ title @p actionbar Press the C key to open the code builder again
+execute @p[scores={f3-farm-prog=16}] ~ ~ ~ says 10 more seeds to plant
+execute @p[scores={f3-farm-prog=21}] ~ ~ ~ says 5 more seeds to plant
+execute @p[scores={f3-farm-prog=23}] ~ ~ ~ says 3 more seeds to plant
+execute @p[scores={f3-farm-prog=24}] ~ ~ ~ says 2 more seeds to plant
+execute @p[scores={f3-farm-prog=25}] ~ ~ ~ says 1 more seeds to plant
+
+execute @p[scores={f3-farm-prog=26}] ~ ~ ~ function f3/Farm/quit
+
+execute @p[scores={f3-farm-prog=2..25}, x=157 ,y=158, z=603, r=25] ~ ~ ~ title @p actionbar Press the C key to open the code builder again
