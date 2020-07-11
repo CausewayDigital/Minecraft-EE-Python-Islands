@@ -1,4 +1,4 @@
-# execute @p[scores={f2-farm-plot1=1,f2-farm-plot2=2,f2-farm-plot3=1,f2-farm-plot4=2}] ~ ~ ~ scoreboard players set @p f3-Farm-complete 1
+execute @p[scores={f3-farm-prog=26}] ~ ~ ~ scoreboard players set @p f3-Farm-complete 1
 function f3/Farm/reset
 function clear_agent
 
