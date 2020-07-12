@@ -72,4 +72,3 @@ execute @p[scores={f3-ship-h-prog=15}] ~ ~ ~ title @p actionbar 4 hatches left t
 execute @p[scores={f3-ship-h-prog=16}] ~ ~ ~ title @p actionbar 3 hatches left to cover
 execute @p[scores={f3-ship-h-prog=17}] ~ ~ ~ title @p actionbar 2 hatches left to cover
 execute @p[scores={f3-ship-h-prog=18}] ~ ~ ~ title @p actionbar 1 hatches left to cover
-execute @p[scores={f3-ship-h-prog=19}] ~ ~ ~ title @p actionbar 0 hatches left to cover
