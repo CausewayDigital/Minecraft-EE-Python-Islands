@@ -1,6 +1,6 @@
 # 1
 execute @p[scores={f3-forest-prog=1}, x=149, y=156, z=646, r=3] ~ ~ ~ tp @s 147 156 646
-execute @p[scores={f3-forest-prog=1}, x=149, y=156, z=646, r=3] ~ ~ ~ codebuilder navigate @s true https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_2/Farm/Farm.json
+execute @p[scores={f3-forest-prog=1}, x=149, y=156, z=646, r=3] ~ ~ ~ codebuilder navigate @s true https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_3/Forest/Forest.json
 execute @p[scores={f3-forest-prog=1}, x=149, y=156, z=646, r=3] ~ ~ ~ scoreboard players set @s f3-forest-prog 2
 
 # 2 to 26
