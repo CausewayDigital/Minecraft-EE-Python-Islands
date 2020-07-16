@@ -47,6 +47,10 @@ execute @s ~ ~ ~ detect 151 166 646 air 0 setblock 151 151 646 barrier 0 replace
 execute @s ~ ~ ~ detect 151 167 646 air 0 execute @s ~ ~ ~ detect 151 152 646 air 0 scoreboard players add @s f3-forest-prog 1
 execute @s ~ ~ ~ detect 151 167 646 air 0 setblock 151 152 646 barrier 0 replace
 
+# Block #12,1
+execute @s ~ ~ ~ detect 151 168 646 air 0 execute @s ~ ~ ~ detect 151 153 646 air 0 scoreboard players add @s f3-forest-prog 1
+execute @s ~ ~ ~ detect 151 168 646 air 0 setblock 151 153 646 barrier 0 replace
+
 ### --- 150 156 646 ---
 # Block #0,2
 execute @s ~ ~ ~ detect 150 156 646 air 0 execute @s ~ ~ ~ detect 150 141 646 air 0 scoreboard players add @s f3-forest-prog 1
@@ -95,6 +99,10 @@ execute @s ~ ~ ~ detect 150 166 646 air 0 setblock 150 151 646 barrier 0 replace
 # Block #11,2
 execute @s ~ ~ ~ detect 150 167 646 air 0 execute @s ~ ~ ~ detect 150 152 646 air 0 scoreboard players add @s f3-forest-prog 1
 execute @s ~ ~ ~ detect 150 167 646 air 0 setblock 150 152 646 barrier 0 replace
+
+# Block #12,2
+execute @s ~ ~ ~ detect 150 168 646 air 0 execute @s ~ ~ ~ detect 150 153 646 air 0 scoreboard players add @s f3-forest-prog 1
+execute @s ~ ~ ~ detect 150 168 646 air 0 setblock 150 153 646 barrier 0 replace
 
 ### --- 150 156 647 ---
 # Block #0,3
@@ -145,6 +153,10 @@ execute @s ~ ~ ~ detect 150 166 647 air 0 setblock 150 151 647 barrier 0 replace
 execute @s ~ ~ ~ detect 150 167 647 air 0 execute @s ~ ~ ~ detect 150 152 647 air 0 scoreboard players add @s f3-forest-prog 1
 execute @s ~ ~ ~ detect 150 167 647 air 0 setblock 150 152 647 barrier 0 replace
 
+# Block #12,3
+execute @s ~ ~ ~ detect 150 168 647 air 0 execute @s ~ ~ ~ detect 150 153 647 air 0 scoreboard players add @s f3-forest-prog 1
+execute @s ~ ~ ~ detect 150 168 647 air 0 setblock 150 153 647 barrier 0 replace
+
 ### --- 151 156 647 ---
 # Block #0,4
 execute @s ~ ~ ~ detect 151 156 647 air 0 execute @s ~ ~ ~ detect 151 141 647 air 0 scoreboard players add @s f3-forest-prog 1
@@ -193,3 +205,7 @@ execute @s ~ ~ ~ detect 151 166 647 air 0 setblock 151 151 647 barrier 0 replace
 # Block #11,4
 execute @s ~ ~ ~ detect 151 167 647 air 0 execute @s ~ ~ ~ detect 151 152 647 air 0 scoreboard players add @s f3-forest-prog 1
 execute @s ~ ~ ~ detect 151 167 647 air 0 setblock 151 152 647 barrier 0 replace
+
+# Block #12,4
+execute @s ~ ~ ~ detect 151 168 647 air 0 execute @s ~ ~ ~ detect 151 153 647 air 0 scoreboard players add @s f3-forest-prog 1
+execute @s ~ ~ ~ detect 151 168 647 air 0 setblock 151 153 647 barrier 0 replace
