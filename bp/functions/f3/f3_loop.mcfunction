@@ -1,4 +1,4 @@
-function f3/Farm/loop
+function @p[x=146,y=158,z=605,r=25] 146 158 605 f3/Farm/loop
 function f3/Forest/loop
 # function f3/Libary/loop
 # function f3/Mine/loop

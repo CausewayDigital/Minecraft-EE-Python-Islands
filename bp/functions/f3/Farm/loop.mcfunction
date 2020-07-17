@@ -1,6 +1,6 @@
 # Block / Unblock the farm
-execute @p[scores={f3-forest-comp=0}] ~ ~ ~ clone 158 151 605 157 151 607 130 154 606 replace
-execute @p[scores={f3-forest-comp=1}] ~ ~ ~ fill 130 154 606 131 154 608 air 0
+execute @p[x=146,y=158,z=605,r=25,scores={f3-forest-comp=0}] ~ ~ ~ clone 158 151 605 157 151 607 130 154 606 replace
+execute @p[x=146,y=158,z=605,r=25,scores={f3-forest-comp=1}] ~ ~ ~ fill 130 154 606 131 154 608 air 0
 
 # 1
 execute @p[scores={f3-farm-prog=1}, x=157, y=158, z=603, r=2] ~ ~ ~ tp @s 157 158 603
