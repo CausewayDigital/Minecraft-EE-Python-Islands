@@ -27,4 +27,4 @@ execute @p[scores={f1-forest-prog=8}] ~ ~ ~ summon fireworks_rocket -351 164 221
 execute @p[scores={f1-forest-prog=8}] ~ ~ ~ scoreboard players set @a f1-forest-comple 1
 execute @p[scores={f1-forest-prog=8}] ~ ~ ~ function f1/forest/finish
 
-title @p[scores={f1-forest-prog=2..4}] actionbar Press the C key to open the code builder again
+title @p[scores={f1-forest-prog=2..3}] actionbar Press the C key to open the code builder again
