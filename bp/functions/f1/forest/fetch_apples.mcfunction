@@ -44,8 +44,8 @@ execute @p[scores={f1-forest-prog=4,f1-forest-appleC=5}] ~ ~ ~ scoreboard player
 execute @p[scores={f1-forest-prog=4,f1-forest-appleC=5}] ~ ~ ~ function f1/forest/binary_apples
 execute @p[scores={f1-forest-prog=4,f1-forest-appleC=5}] ~ ~ ~ scoreboard players set @p f1-forest-prog 5
 
-title @p[scores={f1-forest-prog=4,f1-forest-appleC=0}] ~ ~ ~ title @p[scores={f1-forest-prog=4,f1-forest-appleC=0}] actionbar 5 apples remaining to collect
-title @p[scores={f1-forest-prog=4,f1-forest-appleC=1}] ~ ~ ~ title @p[scores={f1-forest-prog=4,f1-forest-appleC=1}] actionbar 4 apples remaining to collect
-title @p[scores={f1-forest-prog=4,f1-forest-appleC=2}] ~ ~ ~ title @p[scores={f1-forest-prog=4,f1-forest-appleC=2}] actionbar 3 apples remaining to collect
-title @p[scores={f1-forest-prog=4,f1-forest-appleC=3}] ~ ~ ~ title @p[scores={f1-forest-prog=4,f1-forest-appleC=3}] actionbar 2 apples remaining to collect
-title @p[scores={f1-forest-prog=4,f1-forest-appleC=4}] ~ ~ ~ title @p[scores={f1-forest-prog=4,f1-forest-appleC=4}] actionbar 1 apple remaining to collect
+title @p[scores={f1-forest-prog=4,f1-forest-appleC=0}] actionbar 5 apples remaining to collect
+title @p[scores={f1-forest-prog=4,f1-forest-appleC=1}] actionbar 4 apples remaining to collect
+title @p[scores={f1-forest-prog=4,f1-forest-appleC=2}] actionbar 3 apples remaining to collect
+title @p[scores={f1-forest-prog=4,f1-forest-appleC=3}] actionbar 2 apples remaining to collect
+title @p[scores={f1-forest-prog=4,f1-forest-appleC=4}] actionbar 1 apple remaining to collect
