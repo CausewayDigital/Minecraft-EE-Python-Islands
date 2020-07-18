@@ -18,6 +18,7 @@ execute @p[scores={f1-forest-prog=4}] ~ ~ ~ function f1/forest/fetch_apples
 execute @p[scores={f1-forest-prog=5}] ~ ~ ~ function f1/forest/lesson3
 
 # 6 = Completed, final talk to bird
+title @p[scores={f1-forest-prog=6}] actionbar Return back up the ladder to see Nicole
 execute @p[scores={f1-forest-prog=6}, x=-348, y=164, z=226, dx=-7, dy=0, dz=-10] ~ ~ ~ function f1/forest/lesson4
 
 # 7 = Placeholder before completing task
