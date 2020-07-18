@@ -13,3 +13,7 @@ setblock -360 158 212 barrier
 setblock -360 158 213 barrier
 setblock -360 156 212 barrier
 setblock -360 156 213 barrier
+
+# Reset Nicole
+tp @e[type=npc,tag=f1-forest-nicole-end] -348 146 219
+tp @e[type=npc,tag=f1-forest-nicole-start] -353 164 222
