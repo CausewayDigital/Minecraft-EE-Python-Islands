@@ -11,3 +11,5 @@ scoreboard players set @a f1-forest-prog 0
 scoreboard players set @a f1-mine-progress 0
 scoreboard players set @a f1-mine-birds 0
 function f1/mine/clone_bird
+
+clear @p prismarine_crystals
