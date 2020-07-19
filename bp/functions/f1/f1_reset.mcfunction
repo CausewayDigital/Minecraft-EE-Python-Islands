@@ -1,30 +1,8 @@
-scoreboard players set @a f1-lake-complete 0
-scoreboard players set @a f1-farm-complete 0
-scoreboard players set @a f1-forest-comple 0
-scoreboard players set @a f1-mine-complete 0
+function f1/reset_scoreboard
 
-scoreboard players set @a f1-say-complete 0
-scoreboard players set @a f1-var-complete 0
-scoreboard players set @a f1-say-var-done 0
-
-scoreboard players set @a f1-farm-progress 0
-scoreboard players set @a f1-lake-progress 0
-scoreboard players set @a f1-forest-prog 0
-scoreboard players set @a f1-forest-apple 0
-scoreboard players set @a f1-forest-appleC 0
-
-scoreboard players set @a f1-farm-plot-1 0
-scoreboard players set @a f1-farm-plot-2 0
-scoreboard players set @a f1-farm-plot-3 0
-
-scoreboard players set @a f1-mine-visit 0
-scoreboard players set @a f1-mine-progress 0
-scoreboard players set @a f1-mine-complete 0
-scoreboard players set @a f1-mine-birds -1
 tp @e[type=npc,tag=mine-fly-over-nicole] -347 146 213
 function f1/mine/clone_bird
 
-scoreboard players set @p f1-wizard-comple 0
 
 scoreboard players set @a f1-particle-path 1
 scoreboard players set §r objective 900030

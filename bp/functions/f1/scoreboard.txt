@@ -1,1 +1,24 @@
 # All scoreboard variable name should be placed before 1 per line, this will automatically generate the f1_scoreboard_reset.mcfunction file.
+f1-lake-complete
+f1-farm-complete
+f1-forest-comple
+f1-mine-complete
+
+f1-say-complete
+f1-var-complete
+f1-say-var-done
+
+f1-farm-progress
+f1-lake-progress
+f1-forest-prog
+f1-forest-apple
+f1-forest-appleC
+
+f1-farm-plot-1
+f1-farm-plot-2
+f1-farm-plot-3
+
+f1-mine-visit
+f1-mine-progress
+f1-mine-complete
+f1-mine-birds
