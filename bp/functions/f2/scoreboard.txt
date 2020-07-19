@@ -1,1 +1,18 @@
 # All scoreboard variable name should be placed before 1 per line, this will automatically generate the f2_scoreboard_reset.mcfunction file.
+ f2-mine1-done
+ f2-mine2-done
+ f2-mine1-prog
+ f2-mine2-prog
+
+f2-farm-progress
+f2-farm-plot1
+f2-farm-plot2
+f2-farm-plot3
+f2-farm-plot4
+
+f2-forest-progre
+f2-forest-block1
+f2-forest-block2
+f2-forest-block3
+f2-forest-block4
+f2-forest-block5
