@@ -1,1 +1,5 @@
 # All scoreboard variable name should be placed before 1 per line, this will automatically generate the f3_scoreboard_reset.mcfunction file.
+f3-ship-h-prog
+f3-ship-h-done
+f3-ship-b-prog
+f3-ship-b-done
