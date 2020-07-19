@@ -14,3 +14,11 @@ scoreboard objectives remove f3-ship-b-done
 scoreboard objectives add f3-ship-b-done dummy
 scoreboard players set @a f3-ship-b-done 0
 
+scoreboard objectives remove f3-library-done
+scoreboard objectives add f3-library-done dummy
+scoreboard players set @a f3-library-done 0
+
+scoreboard objectives remove f3-library-prog
+scoreboard objectives add f3-library-prog dummy
+scoreboard players set @a f3-library-prog 0
+
