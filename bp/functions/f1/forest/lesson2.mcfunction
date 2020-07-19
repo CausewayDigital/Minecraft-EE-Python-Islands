@@ -4,7 +4,7 @@ tp @c -353 156 217 facing -353 156 218
 codebuilder navigate @p true https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_1/Forest/Forest_2.json
 
 #replacing any broken apples
-scoreboard player set @a f1-forest-appleS 1
+scoreboard players set @a f1-forest-appleS 1
 function f1/forest/binary_apples
 
 scoreboard players set @p f1-forest-prog 4

@@ -1,7 +1,7 @@
 execute @p[scores={f3-farm-prog=26}] ~ ~ ~ scoreboard players set @s f3-farm-complete 1
 function f3/Farm/reset
 function clear_agent
-clear @s seeds
+clear @s wheat_seeds
 
 execute @p[scores={f3-farm-complete=1}] ~ ~ ~ title @s subtitle Here's something to reward you for the help...
 execute @p[scores={f3-farm-complete=1}] ~ ~ ~ title @s title Great job!
