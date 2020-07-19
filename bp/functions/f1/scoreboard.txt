@@ -1,0 +1,1 @@
+# All scoreboard variable name should be placed before 1 per line, this will automatically generate the f1_scoreboard_reset.mcfunction file.
