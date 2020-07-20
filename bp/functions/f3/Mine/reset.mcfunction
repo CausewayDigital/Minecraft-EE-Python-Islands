@@ -9,7 +9,7 @@ fill 67 134 601 67 131 601 stone
 
 # Set the gold blocks
 setblock 70 131 597 gold_ore
-setblock 67 131 599 gold_ore
+setblock 67 131 597 gold_ore
 setblock 67 131 601 gold_ore
 
 # Set cobblestone to distinguish where to mine
