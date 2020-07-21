@@ -7,5 +7,6 @@ execute @p[scores={f3-mine-prog=1}, x=62, y=136, z=598, r=3] ~ ~ ~ scoreboard pl
 execute @p[scores={f3-mine-prog=2..8}] ~ ~ ~ function f3/Mine/check_block
 
 execute @p[scores={f3-mine-prog=9}] ~ ~ ~ function f3/Mine/quit
+execute @p[scores={f3-mine-prog=10}] ~ ~ ~ function f3/Mine/quit
 
 execute @p[scores={f3-mine-prog=2..8}, x=62, y=136, z=598, r=25] ~ ~ ~ title @s actionbar Press the C key to open the code builder again
