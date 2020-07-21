@@ -1,4 +1,4 @@
-execute @p[scores={f3-mine-prog=9}] ~ ~ ~ scoreboard players set @s f3-mine-comp 1
+execute @p[scores={f3-mine-prog=6}] ~ ~ ~ scoreboard players set @s f3-mine-comp 1
 function f3/Mine/reset
 function clear_agent
 clear @s seeds
