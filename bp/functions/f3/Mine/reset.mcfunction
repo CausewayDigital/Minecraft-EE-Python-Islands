@@ -25,6 +25,7 @@ setblock 67 134 596 stone
 setblock 70 134 594 stone
 
 # Remove barrier blocks for checking
-setblock 70 129 595 air
-setblock 70 129 599 air
-setblock 67 129 599 air
+
+setblock 70 129 597 air
+setblock 67 129 597 air
+setblock 67 129 601 air
