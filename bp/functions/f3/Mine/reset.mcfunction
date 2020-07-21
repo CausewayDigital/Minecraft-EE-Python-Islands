@@ -21,10 +21,10 @@ setblock 67 134 599 cobblestone
 setblock 67 134 601 cobblestone
 
 # Set stone to replace the diamond blocks
-setblock 66 134 597 stone
-setblock 69 134 595 stone
+setblock 67 134 596 stone
+setblock 70 134 594 stone
 
 # Remove barrier blocks for checking
-setblock 70 129 595
-setblock 70 129 599
-setblock 67 129 599
+setblock 70 129 595 air
+setblock 70 129 599 air
+setblock 67 129 599 air
