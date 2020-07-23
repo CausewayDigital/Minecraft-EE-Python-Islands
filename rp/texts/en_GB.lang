@@ -1,10 +1,10 @@
 item.sugar.name=Sandwich	#
-item.phantom_membrane.name=Agent License	#
+item.phantom_membrane.name=Agent Licence	#
 item.fishing_rod.name=Call Agent	#
 item.prismarine_crystals.name=Apple
 
 900030=§fTalk to Say and Variable researchers.	###Island 1 scoreboard titles
-900040=§fGet your Agent License
+900040=§fGet your Agent Licence
 900050=§fTalk with the Bridge Builder
 900060=§fTalk with the Farmhand
 900070=§fTalk with the Farmer
