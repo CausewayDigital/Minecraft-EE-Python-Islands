@@ -5,6 +5,8 @@ function f1/mine/loop
 function f1/f1_tick_loop
 execute @e[type=fishing_hook] ~ ~ ~ function f1/use_whistle
 
+function f1/paths/npc_overhead_particles
+
 function f1/f1_lifeboat
 
 function code_status
