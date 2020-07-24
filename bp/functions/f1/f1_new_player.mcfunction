@@ -1,6 +1,5 @@
 
 # Run when a new player enters the world
-replaceitem entity @p slot.hotbar 0 fishing_rod
 title @p title Welcome!
 tp @p[scores={f1-started=1}] -393 154 219
 scoreboard players set @p f1-started 1
