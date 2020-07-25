@@ -1,7 +1,8 @@
-item.sugar.name=Sandwich	#
+﻿item.sugar.name=Sandwich	#
 item.phantom_membrane.name=Agent Licence	#
 item.fishing_rod.name=Call Agent	#
 item.prismarine_crystals.name=Apple
+item.dye_powder_black_new.name=Spell Book
 
 900030=§fTalk to Say and Variable researchers.	###Island 1 scoreboard titles
 900040=§fGet your Agent Licence
