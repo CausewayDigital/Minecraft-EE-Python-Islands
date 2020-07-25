@@ -5,3 +5,5 @@ replaceitem entity @p slot.hotbar 1 dye 1 16
 
 title @p subtitle Bring it to the Wizard now
 title @p title Book found!
+
+function f3/Library/quit
