@@ -1,3 +1,7 @@
+scoreboard objectives remove f2-if-else-done
+scoreboard objectives add f2-if-else-done dummy
+scoreboard players set @a f2-if-else-done 0
+
 scoreboard objectives remove f2-mine1-done
 scoreboard objectives add f2-mine1-done dummy
 scoreboard players set @a f2-mine1-done 0
