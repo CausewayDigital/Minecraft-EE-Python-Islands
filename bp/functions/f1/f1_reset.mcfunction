@@ -1,6 +1,7 @@
 function f1/reset_scoreboard
 
 tp @e[type=npc,tag=mine-fly-over-nicole] -347 146 213
+scoreboard players set @a f1-mine-birds -1
 function f1/mine/clone_bird
 
 
