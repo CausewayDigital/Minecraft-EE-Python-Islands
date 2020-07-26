@@ -6,4 +6,5 @@ execute @p[scores={f2-wizard-prog=1}, x=131, y=153, z=171] ~ ~ ~ fill 130 154 17
 execute @p[scores={f2-wizard-prog=1}, x=131, y=153, z=171] ~ ~ ~ setblock 129 153 170 diamond_block 0 replace
 execute @p[scores={f2-wizard-prog=1}, x=131, y=153, z=171] ~ ~ ~ setblock 128 151 170 redstone_block 0 replace
 execute @p[scores={f2-wizard-prog=1}, x=131, y=153, z=171] ~ ~ ~ setblock 131 152 171 smithing_table 0 replace
+execute @p[scores={f2-wizard-prog=1}, x=131, y=153, z=171] ~ ~ ~ tp @s 131 153 171 facing 130 153 171
 execute @p[scores={f2-wizard-prog=1}, x=131, y=153, z=171] ~ ~ ~ scoreboard players set @p f2-wizard-prog 2
