@@ -12,9 +12,9 @@ execute @p[scores={f3-ship-h-done=0}] ~ ~ ~ tp @e[type=npc, tag=f3-nancy-need-wo
 execute @p[scores={f3-ship-h-done=0}] ~ ~ ~ tp @e[type=npc, tag=f3-nancy-done] 149 147 648
 
 # After speaking with the king
-execute @p[r=5,scores={f3-library-done=0}] ~ ~ ~ scoreboard players set §r objective 300030
-execute @p[r=5,scores={f3-library-done=0}] ~ ~ ~ title @p subtitle To find the Spell book
-execute @p[r=5,scores={f3-library-done=0}] ~ ~ ~ title @p title Head to the Library
+execute @p[r=5,scores={f3-library-done=0, f3-ship-h-done=1}] ~ ~ ~ scoreboard players set §r objective 300030
+execute @p[r=5,scores={f3-library-done=0, f3-ship-h-done=1}] ~ ~ ~ title @p subtitle To find the Spell book
+execute @p[r=5,scores={f3-library-done=0, f3-ship-h-done=1}] ~ ~ ~ title @p title Head to the Library
 
 # After collecting the spell book
 execute @p[r=5,scores={f3-library-done=1, f3-mine-comp=0}] ~ ~ ~ tp @e[type=npc, tag=f3-nancy-spell] 149 147 642
