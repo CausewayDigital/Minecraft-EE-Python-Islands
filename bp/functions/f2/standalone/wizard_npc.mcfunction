@@ -1,0 +1,1 @@
+# THIS SHOULD BECOME BEGIN.mcfunction in the blacksmith folder
