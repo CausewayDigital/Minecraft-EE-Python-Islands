@@ -30,4 +30,16 @@ objective=§l§6- Current Task -§r
 200040=§fVisit the mine and speak with the miner
 
 
-300010=§fSpeak with the mayor   ###Island 3 scoreboard titles
+300010=§fSpeak with the King   ###Island 3 scoreboard titles
+300020=§fSpeak with the Wizard
+300030=§fFind the Spell Book in the Library
+300040=§fBring the book to the Wizard
+300050=§fGo to the Mine to find Gold
+300060=§fGet some Wood from the Forest
+300070=§fReturn to the Mine to get Gold
+300080=§fCollect Gold from the Mine
+300090=§fBring the Gold to the Wizard
+300100=§fCollect Wool from the Farm
+300110=§fBring the Wool to the Wizard
+300120=§fDeliver everything to the King
+300130=§fWorld Complete!
