@@ -14,34 +14,44 @@ execute @p[scores={f2-wizard-prog=1}, x=131, y=153, z=171] ~ ~ ~ scoreboard play
 execute @p[scores={f2-wizard-prog=2}] ~ ~ ~ setblock 128 154 170 hardened_clay 0 replace
 execute @p[scores={f2-wizard-prog=2}] ~ ~ ~ detect 129 155 170 concrete 5 execute @s ~ ~ ~ setblock 130 151 167 concrete 5
 execute @p[scores={f2-wizard-prog=2}] ~ ~ ~ detect 129 155 170 concrete 14 execute @s ~ ~ ~ setblock 130 151 167 concrete 14
+execute @p[scores={f2-wizard-prog=2}] ~ ~ ~ detect 129 155 170 concrete 5 setblock 129 155 170 air 0 replace
+execute @p[scores={f2-wizard-prog=2}] ~ ~ ~ detect 129 155 170 concrete 14 setblock 129 155 170 air 0 replace
 execute @p[scores={f2-wizard-prog=2}] ~ ~ ~ detect 130 151 167 concrete 5 execute @s ~ ~ ~ scoreboard players add @s f2-wizard-prog 1
 execute @p[scores={f2-wizard-prog=2}] ~ ~ ~ detect 130 151 167 concrete 14 execute @s ~ ~ ~ scoreboard players add @s f2-wizard-prog 1
 
 execute @p[scores={f2-wizard-prog=3}] ~ ~ ~ setblock 128 154 170 stained_hardened_clay 11 replace
 execute @p[scores={f2-wizard-prog=3}] ~ ~ ~ detect 129 155 170 concrete 5 execute @s ~ ~ ~ setblock 129 151 167 concrete 5
 execute @p[scores={f2-wizard-prog=3}] ~ ~ ~ detect 129 155 170 concrete 14 execute @s ~ ~ ~ setblock 129 151 167 concrete 14
+execute @p[scores={f2-wizard-prog=3}] ~ ~ ~ detect 129 155 170 concrete 5 setblock 129 155 170 air 0 replace
+execute @p[scores={f2-wizard-prog=3}] ~ ~ ~ detect 129 155 170 concrete 14 setblock 129 155 170 air 0 replace
 execute @p[scores={f2-wizard-prog=3}] ~ ~ ~ detect 129 151 167 concrete 5 execute @s ~ ~ ~ scoreboard players add @s f2-wizard-prog 1
 execute @p[scores={f2-wizard-prog=3}] ~ ~ ~ detect 129 151 167 concrete 14 execute @s ~ ~ ~ scoreboard players add @s f2-wizard-prog 1
 
 execute @p[scores={f2-wizard-prog=4}] ~ ~ ~ setblock 128 154 170 iron_ore 0 replace
 execute @p[scores={f2-wizard-prog=4}] ~ ~ ~ detect 129 155 170 concrete 5 execute @s ~ ~ ~ setblock 128 151 167 concrete 5
 execute @p[scores={f2-wizard-prog=4}] ~ ~ ~ detect 129 155 170 concrete 14 execute @s ~ ~ ~ setblock 128 151 167 concrete 14
+execute @p[scores={f2-wizard-prog=4}] ~ ~ ~ detect 129 155 170 concrete 5 setblock 129 155 170 air 0 replace
+execute @p[scores={f2-wizard-prog=4}] ~ ~ ~ detect 129 155 170 concrete 14 setblock 129 155 170 air 0 replace
 execute @p[scores={f2-wizard-prog=4}] ~ ~ ~ detect 128 151 167 concrete 5 execute @s ~ ~ ~ scoreboard players add @s f2-wizard-prog 1
 execute @p[scores={f2-wizard-prog=4}] ~ ~ ~ detect 128 151 167 concrete 14 execute @s ~ ~ ~ scoreboard players add @s f2-wizard-prog 1
 
 execute @p[scores={f2-wizard-prog=5}] ~ ~ ~ setblock 128 154 170 stained_hardened_clay 15 replace
 execute @p[scores={f2-wizard-prog=5}] ~ ~ ~ detect 129 155 170 concrete 5 execute @s ~ ~ ~ setblock 127 151 167 concrete 5
 execute @p[scores={f2-wizard-prog=5}] ~ ~ ~ detect 129 155 170 concrete 14 execute @s ~ ~ ~ setblock 127 151 167 concrete 14
+execute @p[scores={f2-wizard-prog=5}] ~ ~ ~ detect 129 155 170 concrete 5 setblock 129 155 170 air 0 replace
+execute @p[scores={f2-wizard-prog=5}] ~ ~ ~ detect 129 155 170 concrete 14 setblock 129 155 170 air 0 replace
 execute @p[scores={f2-wizard-prog=5}] ~ ~ ~ detect 127 151 167 concrete 5 execute @s ~ ~ ~ scoreboard players add @s f2-wizard-prog 1
 execute @p[scores={f2-wizard-prog=5}] ~ ~ ~ detect 127 151 167 concrete 14 execute @s ~ ~ ~ scoreboard players add @s f2-wizard-prog 1
 
 execute @p[scores={f2-wizard-prog=6}] ~ ~ ~ setblock 128 154 170 iron_ore 0 replace
 execute @p[scores={f2-wizard-prog=6}] ~ ~ ~ detect 129 155 170 concrete 5 execute @s ~ ~ ~ setblock 126 151 167 concrete 5
 execute @p[scores={f2-wizard-prog=6}] ~ ~ ~ detect 129 155 170 concrete 5 execute @s ~ ~ ~ setblock 126 151 167 concrete 14
+execute @p[scores={f2-wizard-prog=6}] ~ ~ ~ detect 129 155 170 concrete 5 setblock 129 155 170 air 0 replace
+execute @p[scores={f2-wizard-prog=6}] ~ ~ ~ detect 129 155 170 concrete 14 setblock 129 155 170 air 0 replace
 execute @p[scores={f2-wizard-prog=6}] ~ ~ ~ detect 126 151 167 concrete 5 execute @s ~ ~ ~ scoreboard players add @s f2-wizard-prog 1
 execute @p[scores={f2-wizard-prog=6}] ~ ~ ~ detect 126 151 167 concrete 14 execute @s ~ ~ ~ scoreboard players add @s f2-wizard-prog 1
 
 execute @p[scores={f2-wizard-prog=7}] ~ ~ ~ function f3/Blacksmith/quit
 
 # FOR DEBUGGUNG as if the block is not removed then it just continually increments the score
-execute @p[scores={f2-wizard-prog=2..7}] ~ ~ ~ setblock 129 155 170 air 0 replace
+execute @p[scores={f2-wizard-prog=2..7}] ~ ~ ~ 
