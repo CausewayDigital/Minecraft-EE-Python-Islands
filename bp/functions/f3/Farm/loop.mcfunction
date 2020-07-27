@@ -26,6 +26,6 @@ execute @p[scores={f3-farm-prog=24, f3-farm-titles=4}] ~ ~ ~ scoreboard players 
 execute @p[scores={f3-farm-prog=25, f3-farm-titles=5}] ~ ~ ~ title @s title 1 more seed to plant
 execute @p[scores={f3-farm-prog=25, f3-farm-titles=5}] ~ ~ ~ scoreboard players set @s f3-farm-titles 6
 
-execute @p[scores={f3-farm-prog=26}] ~ ~ ~ function f3/Farm/quit
+execute @p[scores={f3-farm-prog=26}] ~ ~ ~ function f3/Farm/finish
 
 execute @p[scores={f3-farm-prog=2..25}, x=157, y=158, z=603, r=25] ~ ~ ~ title @s actionbar Press the C key to open the code builder again
