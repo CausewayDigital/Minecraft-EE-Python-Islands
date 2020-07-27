@@ -1,3 +1,3 @@
 #
-function f3/Blacksmith/reset
+function f2/Blacksmith/reset
 say QUIT TASK
