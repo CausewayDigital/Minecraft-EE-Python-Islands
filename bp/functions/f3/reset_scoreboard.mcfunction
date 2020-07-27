@@ -6,14 +6,6 @@ scoreboard objectives remove f3-ship-h-done
 scoreboard objectives add f3-ship-h-done dummy
 scoreboard players set @a f3-ship-h-done 0
 
-scoreboard objectives remove f3-ship-b-prog
-scoreboard objectives add f3-ship-b-prog dummy
-scoreboard players set @a f3-ship-b-prog 0
-
-scoreboard objectives remove f3-ship-b-done
-scoreboard objectives add f3-ship-b-done dummy
-scoreboard players set @a f3-ship-b-done 0
-
 scoreboard objectives remove f3-library-done
 scoreboard objectives add f3-library-done dummy
 scoreboard players set @a f3-library-done 0
@@ -57,4 +49,8 @@ scoreboard players set @a f3-mine-prog 0
 scoreboard objectives remove f3-mine-titles
 scoreboard objectives add f3-mine-titles dummy
 scoreboard players set @a f3-mine-titles 0
+
+scoreboard objectives remove f3-wizard-done
+scoreboard objectives add f3-wizard-done dummy
+scoreboard players set @a f3-wizard-done 0
 
