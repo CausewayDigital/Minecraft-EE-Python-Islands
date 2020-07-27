@@ -52,7 +52,7 @@ execute @p[scores={f2-wizard-prog=6}] ~ ~ ~ detect 129 155 170 concrete 14 setbl
 execute @p[scores={f2-wizard-prog=6}] ~ ~ ~ detect 126 151 167 concrete 5 execute @s ~ ~ ~ scoreboard players add @s f2-wizard-prog 1
 execute @p[scores={f2-wizard-prog=6}] ~ ~ ~ detect 126 151 167 concrete 14 execute @s ~ ~ ~ scoreboard players add @s f2-wizard-prog 1
 
-execute @p[scores={f2-wizard-prog=7}] ~ ~ ~ function f3/Blacksmith/quit
+execute @p[scores={f2-wizard-prog=7}] ~ ~ ~ function f2/Blacksmith/quit
 
 # FOR DEBUGGUNG as if the block is not removed then it just continually increments the score
 execute @p[scores={f2-wizard-prog=2..7}] ~ ~ ~ 
