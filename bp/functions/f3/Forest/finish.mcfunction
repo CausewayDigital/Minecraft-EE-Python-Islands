@@ -5,4 +5,6 @@ execute @p[scores={f3-forest-comp=1}] ~ ~ ~ summon fireworks_rocket ~ ~ ~
 execute @p[scores={f3-forest-comp=1}] ~ ~ ~ particle minecraft:villager_happy ~ ~ ~
 execute @p[scores={f3-forest-comp=1}] ~ ~ ~ give @s planks 32
 
+scoreboard players set §r objective 300035
+
 function f3/Forest/quit
