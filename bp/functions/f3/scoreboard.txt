@@ -16,5 +16,3 @@ f3-forest-titles
 f3-mine-comp
 f3-mine-prog
 f3-mine-titles
-
-f3-wizard-done
