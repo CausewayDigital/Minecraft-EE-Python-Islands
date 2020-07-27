@@ -4,3 +4,5 @@ function f3/Ship/reset
 
 # Reset which Nancy NPC is needed
 function f3/Wizard/nancy
+
+scoreboard players set §r objective 300010
