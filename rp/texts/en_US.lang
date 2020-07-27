@@ -30,9 +30,12 @@ objective=§l§6- Current Task -§r
 200040=§fVisit the mine and speak with the miner
 
 
-300010=§fSpeak with the King   ###Island 3 scoreboard titles
+300000=§fCover the hatches   ###Island 3 scoreboard titles
+300005=§fBuild a gang plank to the island
+300010=§fSpeak with the King
 300020=§fSpeak with the Wizard
 300030=§fFind the Spell Book in the Library
+300035=§fReturn to the Wizard
 300040=§fBring the book to the Wizard
 300050=§fGo to the Mine to find Gold
 300060=§fGet some Wood from the Forest
