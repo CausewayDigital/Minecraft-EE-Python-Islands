@@ -50,7 +50,3 @@ scoreboard objectives remove f3-mine-titles
 scoreboard objectives add f3-mine-titles dummy
 scoreboard players set @a f3-mine-titles 0
 
-scoreboard objectives remove f3-wizard-done
-scoreboard objectives add f3-wizard-done dummy
-scoreboard players set @a f3-wizard-done 0
-
