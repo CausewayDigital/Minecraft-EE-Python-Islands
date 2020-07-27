@@ -15,11 +15,6 @@ execute @p[scores={f3-forest-prog=44, f3-forest-titles=2}] ~ ~ ~ scoreboard play
 execute @p[scores={f3-forest-prog=49, f3-forest-titles=3}] ~ ~ ~ title @s title 5 more logs to go!
 execute @p[scores={f3-forest-prog=49, f3-forest-titles=3}] ~ ~ ~ scoreboard players set @s f3-forest-titles 4
 
-execute @p[scores={f3-forest-prog=54}] ~ ~ ~ function f3/Forest/quit
+execute @p[scores={f3-forest-prog=54}] ~ ~ ~ function f3/Forest/finish
 
 execute @p[scores={f3-forest-prog=2..53}, x=149, y=156, z=646, r=25] ~ ~ ~ title @s actionbar Press the C key to open the code builder again
-
-
-
-
-
