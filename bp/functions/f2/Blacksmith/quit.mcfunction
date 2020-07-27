@@ -1,3 +1,5 @@
 #
 function f2/Blacksmith/reset
-say QUIT TASK
+function clear_agent
+
+

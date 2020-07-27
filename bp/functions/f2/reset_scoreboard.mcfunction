@@ -62,3 +62,11 @@ scoreboard objectives remove f2-forest-block5
 scoreboard objectives add f2-forest-block5 dummy
 scoreboard players set @a f2-forest-block5 0
 
+scoreboard objectives remove f2-wizard-prog
+scoreboard objectives add f2-wizard-prog dummy
+scoreboard players set @a f2-wizard-prog 0
+
+scoreboard objectives remove f2-wizard-comple
+scoreboard objectives add f2-wizard-comple dummy
+scoreboard players set @a f2-wizard-comple 0
+

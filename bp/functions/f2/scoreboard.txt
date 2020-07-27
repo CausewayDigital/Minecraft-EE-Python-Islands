@@ -2,10 +2,10 @@
 
 f2-if-else-done
 
- f2-mine1-done
- f2-mine2-done
- f2-mine1-prog
- f2-mine2-prog
+f2-mine1-done
+f2-mine2-done
+f2-mine1-prog
+f2-mine2-prog
 
 f2-farm-progress
 f2-farm-plot1
@@ -19,3 +19,6 @@ f2-forest-block2
 f2-forest-block3
 f2-forest-block4
 f2-forest-block5
+
+f2-wizard-prog
+f2-wizard-comple
