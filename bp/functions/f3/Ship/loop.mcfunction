@@ -10,5 +10,6 @@ execute @p[scores={f3-ship-h-prog=19}, r=20] ~ ~ ~ replaceitem entity @c slot.in
 execute @p[scores={f3-ship-h-prog=19}, r=20] ~ ~ ~ scoreboard players set @p[scores={f3-ship-h-prog=19}, r=20] f3-ship-h-prog 20
 execute @p[scores={f3-ship-h-prog=20}, r=20] ~ ~ ~ title @p actionbar Now build a gang plank using your agent
 execute @p[scores={f3-ship-h-prog=20}, r=20] ~ ~ ~ scoreboard players set §r objective 300005
+execute @p[scores={f3-ship-h-prog=20}, r=20] ~ ~ ~ scoreboard players set @a f3_status 300005
 
 execute @p[scores={f3-ship-h-prog=20}, r=4, x=104, y=153, z=657] ~ ~ ~ function f3/Ship/finish
