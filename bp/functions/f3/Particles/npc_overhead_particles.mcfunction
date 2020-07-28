@@ -18,8 +18,8 @@ execute @p[scores={f3-status=300090}] ~ ~ ~ particle minecraft:endrod 89 172 628
 execute @p[scores={f3-status=300110}] ~ ~ ~ particle minecraft:endrod 89 172 628
 
 # Mine top
-execute @p[scores={f3-status=300050}] ~ ~ ~ particle minecraft:endrod 66 150 601
-execute @p[scores={f3-status=300070}] ~ ~ ~ particle minecraft:endrod 66 150 601
+execute @p[scores={f3-status=300050}] ~ ~ ~ particle minecraft:endrod 66 150 600.5
+execute @p[scores={f3-status=300070}] ~ ~ ~ particle minecraft:endrod 66 150 600.5
 
 # Forest
 execute @p[scores={f3-status=300060}] ~ ~ ~ particle minecraft:endrod 137 159 641
