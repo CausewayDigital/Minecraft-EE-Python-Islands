@@ -7,6 +7,6 @@ setblock 128 154 170 air 0 replace
 setblock 131 152 171 smithing_table 0 replace
 tp @c 131 153 170 facing 131 153 171
 function clear_agent
-clear @p concrete 5
-clear @p concrete 14
-scoreboard players reset @p f2-wizard-prog
+clear @a[r=5] concrete 5
+clear @a[r=5] concrete 14
+scoreboard players reset @a f2-wizard-prog
