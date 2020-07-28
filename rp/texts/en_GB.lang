@@ -30,7 +30,8 @@ objective=§l§6- Current Task -§r
 200040=§fVisit the mine and speak with the miner
 
 
-300000=§fCover the hatches   ###Island 3 scoreboard titles
+300000=§fTalk to Captain Pappert   ###Island 3 scoreboard titles
+300003=§fCover the hatches
 300005=§fBuild a gang plank to the island
 300010=§fSpeak with the King
 300020=§fSpeak with the Wizard in her tower
