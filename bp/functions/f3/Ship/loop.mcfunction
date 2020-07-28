@@ -1,3 +1,6 @@
+execute @p[scores={f3-ship-h-prog=0, f3-ship-h-done=0}, r=20] title @p subtitle Talk to the captain to get started
+
+
 execute @p[x=104, y=151, z=670, r=20] ~ ~ ~ function f3/Ship/check_hatches
 execute @p[scores={f3-ship-h-prog=19}, r=20] ~ ~ ~ title @p subtitle Now build the gangplank
 execute @p[scores={f3-ship-h-prog=19}, r=20] ~ ~ ~ title @p title Hatches covered!
