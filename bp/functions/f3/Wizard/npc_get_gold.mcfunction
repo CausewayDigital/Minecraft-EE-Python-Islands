@@ -1,5 +1,5 @@
 execute @p[r=5,scores={f3-library-done=1, f3-mine-comp=0}] ~ ~ ~ scoreboard players set §r objective 300050
-execute @p[r=5,scores={f3-library-done=1, f3-mine-comp=0}] ~ ~ ~ scoreboard players set @a f3_status 300050
+execute @p[r=5,scores={f3-library-done=1, f3-mine-comp=0}] ~ ~ ~ scoreboard players set @a f3-status 300050
 execute @p[r=5,scores={f3-library-done=1, f3-mine-comp=0}] ~ ~ ~ fill 73 147 599 73 149 598 air
 execute @p[r=5,scores={f3-library-done=1, f3-mine-comp=0}] ~ ~ ~ title @p subtitle To find some Gold
 execute @p[r=5,scores={f3-library-done=1, f3-mine-comp=0}] ~ ~ ~ title @p title Head to the Mine

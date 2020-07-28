@@ -8,6 +8,6 @@ title @p title Book found!
 
 function f3/Library/quit
 scoreboard players set §r objective 300040
-scoreboard players set @a f3_status 300040
+scoreboard players set @a f3-status 300040
 
 codebuilder navigate @p[r=10] true https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_3/Library/library_found_1.json

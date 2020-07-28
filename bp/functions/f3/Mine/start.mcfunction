@@ -9,4 +9,4 @@ setblock 67 134 596 diamond_block
 setblock 70 134 594 diamond_block
 
 scoreboard players set §r objective 300080
-scoreboard players set @a f3_status 300080
+scoreboard players set @a f3-status 300080
