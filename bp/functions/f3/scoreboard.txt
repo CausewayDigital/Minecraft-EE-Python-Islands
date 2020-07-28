@@ -17,4 +17,4 @@ f3-mine-comp
 f3-mine-prog
 f3-mine-titles
 
-f3-particle-step
+f3_status

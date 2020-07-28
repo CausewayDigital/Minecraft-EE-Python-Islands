@@ -50,7 +50,7 @@ scoreboard objectives remove f3-mine-titles
 scoreboard objectives add f3-mine-titles dummy
 scoreboard players set @a f3-mine-titles 0
 
-scoreboard objectives remove f3-particle-step
-scoreboard objectives add f3-particle-step dummy
-scoreboard players set @a f3-particle-step 0
+scoreboard objectives remove f3_status
+scoreboard objectives add f3_status dummy
+scoreboard players set @a f3_status 0
 

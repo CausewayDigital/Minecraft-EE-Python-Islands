@@ -11,3 +11,4 @@ function f3/Mine/reset
 function f3/Forest/reset_access
 
 scoreboard players set §r objective 300000
+scoreboard players set @a f3_status 300000
