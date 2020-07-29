@@ -6,7 +6,7 @@ execute @p[r=5,scores={f3-library-done=1, f3-mine-comp=1, f3-farm-complete=1}] ~
 execute @p[r=5,scores={f3-library-done=1, f3-mine-comp=1, f3-farm-complete=1}] ~ ~ ~ replaceitem entity @p slot.hotbar 1 elytra
 execute @p[r=5,scores={f3-library-done=1, f3-mine-comp=1, f3-farm-complete=1}] ~ ~ ~ replaceitem entity @p slot.hotbar 2 golden_helmet
 execute @p[r=5,scores={f3-library-done=1, f3-mine-comp=1, f3-farm-complete=1}] ~ ~ ~ tp @e[type=npc,tag=f3-king-end] 131 155 623 facing 131 155 622
-execute @p[r=5,scores={f3-library-done=1, f3-mine-comp=1, f3-farm-complete=1}] ~ ~ ~ tp @e[type=npc,tag=f3-king-start] 156 148 650
+execute @p[r=5,scores={f3-library-done=1, f3-mine-comp=1, f3-farm-complete=1}] ~ ~ ~ tp @e[type=npc,tag=f3-king-start] 142 148 650
 
 execute @p[r=5,scores={f3-library-done=1, f3-mine-comp=1, f3-farm-complete=1}] ~ ~ ~ tp @e[type=npc, tag=f3-nancy-done] 89 169 628 facing 89 169 626
 execute @p[r=5,scores={f3-library-done=1, f3-mine-comp=1, f3-farm-complete=1}] ~ ~ ~ tp @e[type=npc, tag=f3-nancy-need-wool] 149 147 646
