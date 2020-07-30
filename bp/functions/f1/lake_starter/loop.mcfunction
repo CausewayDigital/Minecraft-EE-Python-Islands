@@ -1,3 +1,6 @@
+execute @p[r=5, scores={f1-lake-progress=1}, x=-378, y=155, z=196] ~ ~ ~ title @p actionbar Press "C" to code or touch the Agent icon
+
+
 # Working towards platform 1
 execute @p[scores={f1-lake-progress=1}] ~ ~ ~ detect -383 157 192 stone_pressure_plate 1 function f1/lake_starter/platform_1
 execute @p[scores={f1-lake-progress=1}] ~ ~ ~ particle minecraft:cauldron_explosion_emitter -383 160 192
