@@ -1,2 +1,2 @@
 function f2/Blacksmith/reset
-scoreboard players set @p f2-wizard-prog 1
+scoreboard players set @p[r=25] f2-wizard-prog 1
