@@ -9,6 +9,8 @@ function f1/paths/npc_overhead_particles
 
 function f1/f1_lifeboat
 
+function f1/standalone/loop
+
 function code_status
 
 effect @a resistance 10000000 255 true
