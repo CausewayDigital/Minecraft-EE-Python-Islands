@@ -8,8 +8,8 @@ title @p[scores={f1-lake-progress=1}] actionbar Code your agent to fly over to t
 
 
 # Working towards platform 2
-execute @p[scores={f1-lake-progress=2}] ~ ~ ~ detect -379 160 205 stone_pressure_plate 1 function f1/lake_starter/finish
-execute @p[scores={f1-lake-progress=2}] ~ ~ ~ particle minecraft:cauldron_explosion_emitter -379 163 205
+execute @p[scores={f1-lake-progress=2}] ~ ~ ~ detect -382 156 200 stone_pressure_plate 1 function f1/lake_starter/finish
+execute @p[scores={f1-lake-progress=2}] ~ ~ ~ particle minecraft:cauldron_explosion_emitter -382 159 200
 title @p[scores={f1-lake-progress=2}] actionbar Code your agent to fly over to the golden block!
 
 
