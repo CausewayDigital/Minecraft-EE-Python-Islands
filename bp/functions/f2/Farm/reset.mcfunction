@@ -1,8 +1,8 @@
-scoreboard players reset @a f2-farm-progress
-scoreboard players reset @a f2-farm-plot1
-scoreboard players reset @a f2-farm-plot2
-scoreboard players reset @a f2-farm-plot3
-scoreboard players reset @a f2-farm-plot4
+scoreboard players reset @a[r=25] f2-farm-progress
+scoreboard players reset @a[r=25] f2-farm-plot1
+scoreboard players reset @a[r=25] f2-farm-plot2
+scoreboard players reset @a[r=25] f2-farm-plot3
+scoreboard players reset @a[r=25] f2-farm-plot4
 
 
 # Reset farm land with crops

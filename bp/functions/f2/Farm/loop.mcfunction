@@ -19,4 +19,4 @@ execute @p[scores={f2-farm-progress=2..5},x=172 ,y=158, z=174, r=25] ~ ~ ~ funct
 execute @p[scores={f2-farm-progress=6},x=172 ,y=158, z=174, r=25] ~ ~ ~ function f2/Farm/quit
 
 # Background runnings
-execute @p[scores={f2-farm-progress=1..5}, x=172 ,y=158, z=174, r=25] ~ ~ ~ title @p actionbar Press the C key to open the code builder again
+execute @p[scores={f2-farm-progress=1..5}, x=172 ,y=158, z=174, r=25] ~ ~ ~ title @s actionbar Press the C key to open the code builder again
