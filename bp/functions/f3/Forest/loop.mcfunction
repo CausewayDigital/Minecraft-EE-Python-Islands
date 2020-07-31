@@ -16,4 +16,4 @@ execute @p[scores={f3-forest-prog=49, f3-forest-titles=3}] ~ ~ ~ scoreboard play
 
 execute @p[scores={f3-forest-prog=54}] ~ ~ ~ function f3/Forest/finish
 
-execute @p[scores={f3-forest-prog=1..53}, x=149, y=156, z=646, r=25] ~ ~ ~ title @s actionbar Press the C key to open the code builder again
+execute @p[scores={f3-forest-prog=1}, x=149, y=156, z=646, r=25] ~ ~ ~ title @s actionbar Press "C" to code or touch the Agent icon
