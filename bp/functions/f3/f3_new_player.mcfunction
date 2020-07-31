@@ -1,7 +1,6 @@
 function f3/f3_reset
-replaceitem entity @p slot.hotbar 0 fishing_rod
 clear @p
-
+replaceitem entity @p slot.hotbar 0 fishing_rod
 tp @p 116 154 670 facing 114 154 670
 
 title @p subtitle Using While Loops
