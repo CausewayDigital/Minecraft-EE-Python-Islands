@@ -23,7 +23,7 @@ execute @a[scores={f1-mine-progress=-1,f1-forest-comple=1}] ~ ~ ~ function f1/mi
 
 
 execute @p[scores={f1-mine-birds=2}] -425 141 151 function f1/mine/check_coal
-title @a[scores={f1-mine-birds=2}] actionbar Press the C key to open the code builder again
+title @a[scores={f1-mine-birds=2}] actionbar Press "C" to code or touch the Agent icon
 
 # 0 - Player at task but has not started, transported by bird, now on island
 
