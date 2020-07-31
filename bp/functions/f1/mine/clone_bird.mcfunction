@@ -8,7 +8,7 @@ execute @p[scores={f1-mine-birds=-1}, r=60] ~ ~ ~ clone -428 138 167 -426 140 17
 #standing on the mining island
 execute @p[scores={f1-mine-birds=1}, r=60] ~ ~ ~ clone -433 138 164 -430 140 166 -432 147 169
 #remove
-execute @p[scores={f1-mine-birds=0}, r=60] ~ ~ ~ fill -432 147 169 -429 149 171 air
+#execute @p[scores={f1-mine-birds=0}, r=60] ~ ~ ~ fill -432 147 169 -429 149 171 air
 execute @p[scores={f1-mine-birds=2}, r=60] ~ ~ ~ fill -432 147 169 -429 149 171 air
 
 #flying bird
