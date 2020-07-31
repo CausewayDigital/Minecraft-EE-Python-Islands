@@ -1,6 +1,5 @@
 # 1
-execute @p[scores={f3-forest-prog=1}, x=149, y=156, z=646, r=3] ~ ~ ~ tp @s 147 156 646
-execute @p[scores={f3-forest-prog=1}, x=149, y=156, z=646, r=3] ~ ~ ~ codebuilder navigate @s true https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_3/Forest/Forest.json
+#execute @p[scores={f3-forest-prog=1}, x=149, y=156, z=646, r=3] ~ ~ ~ tp @s 147 156 646
 execute @p[scores={f3-forest-prog=1}, x=149, y=156, z=646, r=3] ~ ~ ~ scoreboard players set @s f3-forest-prog 2
 
 # 2 to 52
@@ -17,4 +16,4 @@ execute @p[scores={f3-forest-prog=49, f3-forest-titles=3}] ~ ~ ~ scoreboard play
 
 execute @p[scores={f3-forest-prog=54}] ~ ~ ~ function f3/Forest/finish
 
-#execute @p[scores={f3-forest-prog=2..53}, x=149, y=156, z=646, r=25] ~ ~ ~ title @s actionbar Press the C key to open the code builder again
+execute @p[scores={f3-forest-prog=1..53}, x=149, y=156, z=646, r=25] ~ ~ ~ title @s actionbar Press the C key to open the code builder again
