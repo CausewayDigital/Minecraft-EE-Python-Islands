@@ -3,8 +3,8 @@
 # 0 = not attempted/started
 
 # 1 = Started, approaching ladder building task
-execute @p[scores={f1-forest-prog=1}, x=-353 ,y=157, z=219, r=4] ~ ~ ~ function f1/forest/lesson1
-title @p[scores={f1-forest-prog=1}] actionbar Walk over to the big tree
+#execute @p[scores={f1-forest-prog=1}, x=-353 ,y=157, z=219, r=4] ~ ~ ~ function f1/forest/lesson1
+#title @p[scores={f1-forest-prog=1}] actionbar Walk over to the big tree
 
 # 2 = Started, building ladder
 # Nothing is ran here as it's an intermediary step between building and progressing to the next lesson
