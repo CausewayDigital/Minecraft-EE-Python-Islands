@@ -74,3 +74,11 @@ scoreboard objectives remove f1-mine-birds
 scoreboard objectives add f1-mine-birds dummy
 scoreboard players set @a f1-mine-birds 0
 
+scoreboard objectives remove f1-wizard-comple
+scoreboard objectives add f1-wizard-comple dummy
+scoreboard players set @a f1-wizard-comple 0
+
+scoreboard objectives remove whistle-enabled
+scoreboard objectives add whistle-enabled dummy
+scoreboard players set @a whistle-enabled 0
+

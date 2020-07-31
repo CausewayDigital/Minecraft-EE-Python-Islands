@@ -22,3 +22,7 @@ f1-mine-visit
 f1-mine-progress
 f1-mine-complete
 f1-mine-birds
+
+f1-wizard-comple
+
+whistle-enabled
