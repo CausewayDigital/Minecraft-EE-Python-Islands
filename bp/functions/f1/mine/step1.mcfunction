@@ -8,7 +8,7 @@ execute @p[scores={f1-mine-progress=0}, r=100] -426 147 169 tp @e[type=npc,tag=m
 execute @p[scores={f1-mine-progress=0}, r=100] -426 147 169 title @p subtitle Talk to the miner on the island
 execute @p[scores={f1-mine-progress=0}, r=100] -426 147 169 title @p title Welcome to the mine island
 execute @p[scores={f1-mine-progress=0}, r=100] -426 147 169 scoreboard players set @a f1-mine-progress 1
-function f1/mine/clone_bird
+execute @p[r=100] -426 147 169 function f1/mine/clone_bird
 
 # If they cheated their way into he cave, then deny them access
 execute @a[scores={f1-mine-progress=-1,f1-forest-comple=0}] ~ ~ ~ title @a subtitle Why not collect some from the forest?
