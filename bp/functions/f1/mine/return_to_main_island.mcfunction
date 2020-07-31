@@ -7,4 +7,4 @@ scoreboard players set @a f1-mine-birds 0
 title @p subtitle To the main island
 title @p title Welcome back
 
-function f1/mine/clone_bird
+execute @p[r=100] -409 143 188 function f1/mine/clone_bird
