@@ -26,12 +26,12 @@ item.golden_helmet.name=Crown
 
 objective=§l§6- Current Task -§r
 
-200010=§fSpeak with the mayor   ###Island 2 scoreboard titles
-200020=§fSpeak with Brian the scientist
-200030=§fVisit the Mine and speak with the miner
+200010=§fSpeak with the Mayor   ###Island 2 scoreboard titles
+200020=§fSpeak with Brian the Scientist
+200030=§fVisit the Mine and speak with the Miner
 200040=§fTest the Mine pit ground
 200050=§fVisit the Farm and Forest for supplies
-200060=§fHelp Peter the farmer find bad seeds
+200060=§fHelp Peter the Farmer find bad seeds
 200070=§fCollect wood from the Forest
 200080=§fHead down the Mine shaft
 200090=§fMine 3 iron ore using your agent
