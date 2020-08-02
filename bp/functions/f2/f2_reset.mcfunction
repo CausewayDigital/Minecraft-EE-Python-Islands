@@ -9,3 +9,6 @@ tp @e[tag=f2-miner3] 157 149 217
 
 function f2/Mine_1/reset
 function f2/Mine_2/reset
+
+# Clone mine door
+setblock 111 150 194 air
