@@ -28,3 +28,5 @@ execute @p[scores={f2-forest-progre=2..6}] ~ ~ ~ function f2/Forest/check_blocks
 
 # 7 = Completed Task
 execute @p[scores={f2-forest-progre=7}] ~ ~ ~ function f2/Forest/quit
+
+execute @p[scores={f2-forest-progre=2..6}, r=40] ~ ~ ~ title @s actionbar Press "C" to code or touch the Agent icon
