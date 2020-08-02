@@ -14,3 +14,7 @@ effect @a saturation 99999 255 true
 function f2/standalone/loop
 
 function code_status
+
+# Return to mine if both farm and forest are done
+execute @p[scores={f2-farm-complete=1, f2-forest-done=1}] ~ ~ ~ scoreboard players set §r objective 200030
+execute @p[scores={f2-farm-complete=1, f2-forest-done=1}] ~ ~ ~ scoreboard players set @a f2-status 200030

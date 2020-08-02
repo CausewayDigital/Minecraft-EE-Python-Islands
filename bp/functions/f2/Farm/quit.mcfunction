@@ -1,13 +1,7 @@
-execute @s[scores={f2-farm-plot1=1,f2-farm-plot2=2,f2-farm-plot3=1,f2-farm-plot4=2}] ~ ~ ~ scoreboard players set @s f2-farm-complete 1
 function f2/Farm/reset
 function clear_agent
 clear @s concrete 5
 clear @s concrete 14
-
-execute @s[scores={f2-farm-complete=1}] ~ ~ ~ title @s subtitle Here's something to reward you for the help...
-execute @s[scores={f2-farm-complete=1}] ~ ~ ~ title @s title Great job!
-execute @s[scores={f2-farm-complete=1}] ~ ~ ~ summon fireworks_rocket 163 158 172
-execute @s[scores={f2-farm-complete=1}] ~ ~ ~ give @s string 3
 
 execute @s[scores={f2-farm-complete=0}] ~ ~ ~ title @s subtitle Seems like something went wrong...
 execute @s[scores={f2-farm-complete=0}] ~ ~ ~ title @s title Oh no...

@@ -14,6 +14,7 @@ f2-farm-plot1
 f2-farm-plot2
 f2-farm-plot3
 f2-farm-plot4
+f2-farm-complete
 
 f2-forest-progre
 f2-forest-block1
@@ -21,6 +22,7 @@ f2-forest-block2
 f2-forest-block3
 f2-forest-block4
 f2-forest-block5
+f2-forest-done
 
 f2-wizard-prog
 f2-wizard-comple

@@ -42,6 +42,10 @@ scoreboard objectives remove f2-farm-plot4
 scoreboard objectives add f2-farm-plot4 dummy
 scoreboard players set @a f2-farm-plot4 0
 
+scoreboard objectives remove f2-farm-complete
+scoreboard objectives add f2-farm-complete dummy
+scoreboard players set @a f2-farm-complete 0
+
 scoreboard objectives remove f2-forest-progre
 scoreboard objectives add f2-forest-progre dummy
 scoreboard players set @a f2-forest-progre 0
@@ -65,6 +69,10 @@ scoreboard players set @a f2-forest-block4 0
 scoreboard objectives remove f2-forest-block5
 scoreboard objectives add f2-forest-block5 dummy
 scoreboard players set @a f2-forest-block5 0
+
+scoreboard objectives remove f2-forest-done
+scoreboard objectives add f2-forest-done dummy
+scoreboard players set @a f2-forest-done 0
 
 scoreboard objectives remove f2-wizard-prog
 scoreboard objectives add f2-wizard-prog dummy

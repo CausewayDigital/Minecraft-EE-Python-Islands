@@ -1,7 +1,9 @@
 execute @p[x=88,y=139,z=168,r=2,scores={f2-mine2-prog=1}] ~ ~ ~ codebuilder navigate @p false https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_2/Mine/Mine_2.json
+execute @p[x=88,y=139,z=168,r=2,scores={f2-mine2-prog=1}] ~ ~ ~ scoreboard players set §r objective 200090
+execute @p[x=88,y=139,z=168,r=2,scores={f2-mine2-prog=1}] ~ ~ ~ scoreboard players set @a f2-status 200090
 execute @p[x=88,y=139,z=168,r=2,scores={f2-mine2-prog=1}] ~ ~ ~ scoreboard players set @p[x=88,y=139,z=168,r=2,scores={f2-mine2-prog=1}] f2-mine2-prog 2
 
-execute @p[x=88,y=139,z=168,r=10,scores={f2-mine2-prog=2}] ~ ~ ~ title @s actionbar Press "C" to code or touch the Agent icon
+execute @p[x=88,y=139,z=168,r=10,scores={f2-mine2-prog=2..4}] ~ ~ ~ title @s actionbar Press "C" to code or touch the Agent icon
 
 # If non stone is mined, collapse and reset
 execute @p[x=88,y=139,z=168,r=15] ~ ~ ~ detect 85 140 174 air 0 function f2/Mine_2/collapse
