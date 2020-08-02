@@ -12,3 +12,6 @@ function f2/Mine_2/reset
 
 # Clone mine door
 setblock 111 150 194 air
+
+scoreboard players set §r objective 300010
+scoreboard players set @a f2-status 300010
