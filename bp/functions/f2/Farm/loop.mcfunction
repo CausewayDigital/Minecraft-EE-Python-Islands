@@ -16,9 +16,9 @@ execute @p[scores={f2-farm-progress=2..5},x=172 ,y=158, z=174, r=25] ~ ~ ~ funct
 # 5 = one marker placed
 
 # 6 = final marker placed, complete task
-execute @s[scores={f2-farm-progress=6, f2-farm-plot1=1,f2-farm-plot2=2,f2-farm-plot3=1,f2-farm-plot4=2}] ~ ~ ~ scoreboard players set @s f2-farm-complete 1
+execute @p[scores={f2-farm-progress=6, f2-farm-plot1=1,f2-farm-plot2=2,f2-farm-plot3=1,f2-farm-plot4=2}] ~ ~ ~ scoreboard players set @s f2-farm-complete 1
 execute @p[scores={f2-farm-progress=6, f2-farm-complete=0} ,x=172 ,y=158, z=174, r=25] ~ ~ ~ function f2/Farm/quit
-execute @s[scores={f2-farm-progress=6, f2-farm-complete=1} ,x=172 ,y=158, z=174, r=25] ~ ~ ~ function f2/Farm/finish
+execute @p[scores={f2-farm-progress=6, f2-farm-complete=1} ,x=172 ,y=158, z=174, r=25] ~ ~ ~ function f2/Farm/finish
 
 # Background runnings
 execute @p[scores={f2-farm-progress=1..5}, x=172 ,y=158, z=174, r=25] ~ ~ ~ title @s actionbar Press "C" to code or touch the Agent icon
