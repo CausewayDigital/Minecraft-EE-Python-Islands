@@ -15,3 +15,5 @@ execute @e[type=fishing_hook] ~ ~ ~ function f3/use_whistle
 
 # Particles
 function f3/Particles/loop
+
+function code_status

@@ -12,3 +12,5 @@ effect @a resistance 10000000 255 true
 effect @a saturation 99999 255 true
 
 function f2/standalone/loop
+
+function code_status
