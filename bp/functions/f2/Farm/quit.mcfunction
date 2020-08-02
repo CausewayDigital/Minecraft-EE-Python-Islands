@@ -1,9 +1,9 @@
 function f2/Farm/reset
 function clear_agent
-clear @s concrete 5
-clear @s concrete 14
+clear @p concrete 5
+clear @p concrete 14
 
-execute @s[scores={f2-farm-complete=0}] ~ ~ ~ title @s subtitle Seems like something went wrong...
-execute @s[scores={f2-farm-complete=0}] ~ ~ ~ title @s title Oh no...
+execute @p[scores={f2-farm-complete=0}] ~ ~ ~ title @p subtitle Seems like something went wrong...
+execute @p[scores={f2-farm-complete=0}] ~ ~ ~ title @p title Oh no...
 
-execute @s ~ ~ ~ tp @c 163 158 172 facing 163 158 173
+execute @p ~ ~ ~ tp @c 163 158 172 facing 163 158 173
