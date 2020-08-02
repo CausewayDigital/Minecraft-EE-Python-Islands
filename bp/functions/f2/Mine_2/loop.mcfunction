@@ -10,12 +10,15 @@ execute @p[x=88,y=139,z=168,r=15] ~ ~ ~ detect 85 140 174 air 0 function f2/Mine
 execute @p[x=88,y=139,z=168,r=15] ~ ~ ~ detect 80 140 161 air 0 function f2/Mine_2/collapse
 
 execute @p[x=88,y=139,z=168,r=15] ~ ~ ~ detect 81 140 174 air 0 scoreboard players add @p[x=88,y=139,z=168,r=15] f2-mine2-prog 1
+execute @p[x=88,y=139,z=168,r=15] ~ ~ ~ detect 81 140 174 air 0 title @p title Iron Ore block extracted!
 execute @p[x=88,y=139,z=168,r=15] ~ ~ ~ detect 81 140 174 air 0 setblock 81 140 174 barrier
 
 execute @p[x=88,y=139,z=168,r=15] ~ ~ ~ detect 82 140 160 air 0 scoreboard players add @p[x=88,y=139,z=168,r=15] f2-mine2-prog 1
+execute @p[x=88,y=139,z=168,r=15] ~ ~ ~ detect 82 140 160 air 0 title @p title Iron Ore block extracted!
 execute @p[x=88,y=139,z=168,r=15] ~ ~ ~ detect 82 140 160 air 0 setblock 82 140 160 barrier
 
 execute @p[x=88,y=139,z=168,r=15] ~ ~ ~ detect 85 140 160 air 0 scoreboard players add @p[x=88,y=139,z=168,r=15] f2-mine2-prog 1
+execute @p[x=88,y=139,z=168,r=15] ~ ~ ~ detect 85 140 160 air 0 title @p title Iron Ore block extracted!
 execute @p[x=88,y=139,z=168,r=15] ~ ~ ~ detect 85 140 160 air 0 setblock 85 140 160 barrier
 
 execute @p[x=88,y=139,z=168,r=15,scores={f2-mine2-prog=5}] ~ ~ ~ function f2/Mine_2/finish
