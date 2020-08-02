@@ -10,7 +10,7 @@
 # Nothing is ran here as it's an intermediary step between building and progressing to the next lesson
 
 # 3 = Started, built ladder, approached big bird
-execute @p[scores={f1-forest-prog=2}, x=-348, y=164, z=226, dx=-7, dy=0, dz=-10] ~ ~ ~ function f1/forest/lesson2
+#execute @p[scores={f1-forest-prog=2}, x=-348, y=164, z=226, dx=-7, dy=0, dz=-10] ~ ~ ~ function f1/forest/lesson2
 title @p[scores={f1-forest-prog=2}] actionbar Place ladders inside your agent and write code to fix the ladders
 
 # 4 = Started, talked to big bird, fetching apples
