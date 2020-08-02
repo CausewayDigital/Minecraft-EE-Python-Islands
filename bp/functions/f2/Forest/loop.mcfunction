@@ -3,7 +3,7 @@
 # execute @p[scores={f2-forest-progre=0}, x=143 ,y=155, z=205, r=2] ~ ~ ~ function f2/Forest/block
 
 # 1 = Task started, talked to Forest Explorer, to enter forest
-execute @p[scores={f2-forest-progre=1}, x=152, y=156, z=210, r=2] ~ ~ ~ function f2/Forest/enter
+execute @p[x=152, y=156, z=210, r=4] ~ ~ ~ function f2/Forest/enter
 
 #remove blindness when leaving
 execute @p[x=141, y=155, z=203, r=2] ~ ~ ~ effect @s clear
