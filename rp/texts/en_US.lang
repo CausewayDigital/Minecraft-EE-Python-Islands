@@ -28,8 +28,16 @@ objective=§l§6- Current Task -§r
 
 200010=§fSpeak with the mayor   ###Island 2 scoreboard titles
 200020=§fSpeak with Brian the scientist
-200030=§fSpeak with Sandra the scientist
-200040=§fVisit the mine and speak with the miner
+200030=§fVisit the Mine and speak with the miner
+200040=§fTest the Mine pit ground
+200050=§fVisit the Farm and Forest for supplies
+200060=§fHelp Peter the farmer find bad seeds
+200070=§fCollect wood from the Forest
+200080=§fHead down the Mine shaft
+200090=§fMine 3 iron ore using your agent
+200100=§fTake the iron ore to the Blacksmith
+200110=§fTest the purity of the iron ore
+200120=§fBring the iron ingots to the Mayor
 
 
 300000=§fTalk to Captain Pappert   ###Island 3 scoreboard titles
