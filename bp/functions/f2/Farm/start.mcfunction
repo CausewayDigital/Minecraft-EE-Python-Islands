@@ -11,3 +11,6 @@ scoreboard players set @a[r=25] f2-farm-plot1 0
 scoreboard players set @a[r=25] f2-farm-plot2 0
 scoreboard players set @a[r=25] f2-farm-plot3 0
 scoreboard players set @a[r=25] f2-farm-plot4 0
+
+scoreboard players set §r objective 200060
+scoreboard players set @a f2-status 200060
