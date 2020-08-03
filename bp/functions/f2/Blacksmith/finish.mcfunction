@@ -1,8 +1,4 @@
-execute @s ~ ~ ~ detect 130 151 167 concrete 14 scoreboard players add @s f2-wizard-prog 1
-execute @s ~ ~ ~ detect 129 151 167 concrete 14 scoreboard players add @s f2-wizard-prog 1
-execute @s ~ ~ ~ detect 128 151 167 concrete 5 scoreboard players add @s f2-wizard-prog 1
-execute @s ~ ~ ~ detect 127 151 167 concrete 14 scoreboard players add @s f2-wizard-prog 1
-execute @s ~ ~ ~ detect 126 151 167 concrete 5 scoreboard players add @s f2-wizard-prog 1
+function f2/Blacksmith/check_blocks
 execute @s[scores={f2-wizard-prog=12}] ~ ~ ~ scoreboard players set @s f2-wizard-comple 1
 
 execute @s[scores={f2-wizard-comple=1}] ~ ~ ~ title @s subtitle Here's something to reward you for the help...
