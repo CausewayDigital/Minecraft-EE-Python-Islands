@@ -53,6 +53,6 @@ execute @p[scores={f2-wizard-prog=6}] ~ ~ ~ detect 129 155 170 concrete 14 setbl
 execute @p[scores={f2-wizard-prog=6}] ~ ~ ~ detect 126 151 167 concrete 5 execute @s ~ ~ ~ scoreboard players add @s f2-wizard-prog 1
 execute @p[scores={f2-wizard-prog=6}] ~ ~ ~ detect 126 151 167 concrete 14 execute @s ~ ~ ~ scoreboard players add @s f2-wizard-prog 1
 
-#execute @p[scores={f2-wizard-prog=7}] ~ ~ ~ function f2/Blacksmith/finish
+execute @p[scores={f2-wizard-prog=7}] ~ ~ ~ function f2/Blacksmith/finish
 
 execute @p[scores={f2-wizard-prog=2..7}] ~ ~ ~ title @s actionbar Press "C" to code or touch the Agent icon
