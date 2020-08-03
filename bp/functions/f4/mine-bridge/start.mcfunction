@@ -5,6 +5,7 @@ scoreboard players set @p f4-mine-b-prog 1
 
 # Teleport the agent into place
 execute @p ~ ~ ~ tp @c 935 150 627 facing 934 150 627
+execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 stone 32
 execute @p ~ ~ ~ title @s title Walk over to your agent to get started
 
 # Open the Notebook URL (using false always)
