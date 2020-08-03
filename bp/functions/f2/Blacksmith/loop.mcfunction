@@ -47,7 +47,7 @@ execute @p[scores={f2-wizard-prog=5}] ~ ~ ~ detect 127 151 167 concrete 14 execu
 
 execute @p[scores={f2-wizard-prog=6}] ~ ~ ~ setblock 128 154 170 iron_ore 0 replace
 execute @p[scores={f2-wizard-prog=6}] ~ ~ ~ detect 129 155 170 concrete 5 execute @s ~ ~ ~ setblock 126 151 167 concrete 5
-execute @p[scores={f2-wizard-prog=6}] ~ ~ ~ detect 129 155 170 concrete 5 execute @s ~ ~ ~ setblock 126 151 167 concrete 14
+execute @p[scores={f2-wizard-prog=6}] ~ ~ ~ detect 129 155 170 concrete 14 execute @s ~ ~ ~ setblock 126 151 167 concrete 14
 execute @p[scores={f2-wizard-prog=6}] ~ ~ ~ detect 129 155 170 concrete 5 setblock 129 155 170 air 0 replace
 execute @p[scores={f2-wizard-prog=6}] ~ ~ ~ detect 129 155 170 concrete 14 setblock 129 155 170 air 0 replace
 execute @p[scores={f2-wizard-prog=6}] ~ ~ ~ detect 126 151 167 concrete 5 execute @s ~ ~ ~ scoreboard players add @s f2-wizard-prog 1
