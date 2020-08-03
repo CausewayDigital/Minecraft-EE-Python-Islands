@@ -17,4 +17,4 @@ setblock 81 141 174 deny
 setblock 82 141 160 deny
 setblock 85 141 160 deny
 
-scoreboard players set @p f2-mine2-prog 0
+scoreboard players set @p f2-mine2-prog 1
