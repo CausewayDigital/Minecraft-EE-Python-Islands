@@ -36,6 +36,7 @@ execute @p[r=10,scores={f2-wizard-comple=1}] ~ ~ ~ particle minecraft:totem_part
 execute @p[r=10,scores={f2-wizard-comple=1}] ~ ~ ~ particle minecraft:totem_particle ~ ~ ~
 execute @p[r=10,scores={f2-wizard-comple=1}] ~ ~ ~ particle minecraft:totem_particle ~ ~ ~
 
+execute @p[r=10,scores={f2-wizard-comple=1}] ~ ~ ~ clear @p iron_ingot
 
 execute @p[r=10,scores={f2-wizard-comple=1}] ~ ~ ~ title @a subtitle Congratulations!
 execute @p[r=10,scores={f2-wizard-comple=1}] ~ ~ ~ title @a title World Complete
