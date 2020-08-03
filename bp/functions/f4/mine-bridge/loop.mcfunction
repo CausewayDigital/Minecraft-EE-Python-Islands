@@ -2,7 +2,7 @@
 # here (and it sound be run from the main world loop)
 
 # Block and unblock the bridge
-execute @p[x=146,y=158,z=605,r=25,scores={f4-mine-f-comp=0}] ~ ~ ~ detect 937 150 628 air 0 execute @s ~ ~ ~ clone 948 127 621 949 126 619 938 149 626 replace
+execute @p[x=146,y=158,z=605,r=25,scores={f4-mine-f-comp=0}] ~ ~ ~ detect 937 150 628 air 0 execute @s ~ ~ ~ clone 948 127 621 949 126 619 938 150 626 replace
 execute @p[x=146,y=158,z=605,r=25,scores={f4-mine-f-comp=1}] ~ ~ ~ detect 937 150 628 fence 0 execute @s ~ ~ ~ fill 937 150 628 938 150 626 air 0
 
 # 1
