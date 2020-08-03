@@ -9,6 +9,7 @@ execute @p[scores={f2-wizard-prog=1}] ~ ~ ~ execute @p[x=131, y=153, z=170, r=10
 execute @p[scores={f2-wizard-prog=1}] ~ ~ ~ codebuilder navigate @s false https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_2/Blacksmith/blacksmith.json
 execute @p[scores={f2-wizard-prog=1}] ~ ~ ~ tp @s 131 153 171 facing 130 153 171
 execute @p[scores={f2-wizard-prog=1}] ~ ~ ~ scoreboard players set @p f2-wizard-prog 2
+execute @p[scores={f2-wizard-prog=1}] ~ ~ ~ scoreboard players add @s f2-wizard-comple 0
 
 ## CHECK AND SETUP 'IRON' BLOCKS
 
