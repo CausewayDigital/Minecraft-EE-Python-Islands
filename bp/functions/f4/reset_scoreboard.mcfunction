@@ -1,4 +1,8 @@
-scoreboard objectives remove f4_bridge_test
-scoreboard objectives add f4_bridge_test dummy
-scoreboard players set @a f4_bridge_test 0
+scoreboard objectives remove f4-mine-b-prog
+scoreboard objectives add f4-mine-b-prog dummy
+scoreboard players set @a f4-mine-b-prog 0
+
+scoreboard objectives remove f4-mine-b-comp
+scoreboard objectives add f4-mine-b-comp dummy
+scoreboard players set @a f4-mine-b-comp 0
 
