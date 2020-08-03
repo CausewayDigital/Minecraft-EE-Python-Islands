@@ -24,3 +24,6 @@ setblock 141 155 202 fence
 
 # Block the farm
 fill 147 154 174 147 154 176 fence
+
+# Block the blacksmith
+setblock 133 151 173 air
