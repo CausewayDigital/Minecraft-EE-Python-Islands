@@ -16,5 +16,5 @@ function f2/standalone/loop
 function code_status
 
 # Return to mine if both farm and forest are done
-execute @p[scores={f2-farm-complete=1, f2-forest-done=1}] ~ ~ ~ scoreboard players set §r objective 200030
-execute @p[scores={f2-farm-complete=1, f2-forest-done=1}] ~ ~ ~ scoreboard players set @a f2-status 200030
+execute @p[scores={f2-farm-complete=1, f2-forest-done=1, f2-mine2-done=0, f2-wizard-comple=0}] ~ ~ ~ scoreboard players set §r objective 200030
+execute @p[scores={f2-farm-complete=1, f2-forest-done=1,f2-mine2-done=0, f2-wizard-comple=0}] ~ ~ ~ scoreboard players set @a f2-status 200030
