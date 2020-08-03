@@ -3,7 +3,7 @@
 # Rescue players
 title @a[x=1064,y=98,z=546,dx=-182,dy=10,dz=135] subtitle Be a bit more careful next time!
 title @a[x=1064,y=98,z=546,dx=-182,dy=10,dz=135] title You nearly fell!
-tp @a[x=1064,y=98,z=546,dx=-182,dy=10,dz=135] 1003 152 650 facing 1003 152 649
+tp @a[x=1064,y=98,z=546,dx=-182,dy=10,dz=135] 1003 153 650 facing 1003 153 649
 
 # Rescue any NPCs that fall out of the world...
 tp @e[x=1064,y=98,z=546,dx=-182,dy=10,dz=135] 1003 153 650
