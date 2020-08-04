@@ -1,2 +1,2 @@
-effect @s blindness 169999 1 false
+effect @p clear
 scoreboard players set @s f4-mine-b-blinded 0
