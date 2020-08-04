@@ -1,6 +1,6 @@
 # Run when the player tasks to the NPC. Should only be run once and Should
 # set up the objectives, run codebuilder and set the agent up.
-
+function f4/mine-bridge/reset
 scoreboard players set @p f4-mine-b-prog 1
 
 # Teleport the agent into place
