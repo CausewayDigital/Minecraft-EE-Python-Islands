@@ -18,7 +18,8 @@ execute @p[x=917, y=151, z=627, r=3, scores={f4-mine-b-prog=1, f4-mine-b-blinded
 execute @p[scores={f4-mine-b-prog=0, f4-mine-b-blinded=1}] ~ ~ ~ function f4/mine-bridge/eyes_cleared
 
 # 2 to 17
-execute @p[scores={f4-mine-b-prog=2..17}] ~ ~ ~ function f4/mine-bridge/check_mine_bridge
+#execute @p[scores={f4-mine-b-prog=2..17}] ~ ~ ~ function f4/mine-bridge/check_mine_bridge
+execute @p ~ ~ ~ function f4/mine-bridge/check_mine_bridge
 execute @p[scores={f4-mine-b-prog=11}] ~ ~ ~ title @p title I can see the Island
 execute @p[scores={f4-mine-b-prog=11}] ~ ~ ~ title @p subtitle Only 6 more to go!
 # Finish
