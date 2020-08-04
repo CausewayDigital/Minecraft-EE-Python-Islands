@@ -11,5 +11,5 @@ execute @p ~ ~ ~ title @s title Walk over to your agent to get started
 # Open the Notebook URL (using false always)
 codebuilder navigate @p false https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_4/Bridge/Bridge_1.json
 
-scoreboard players set §r objective 400003
-scoreboard players set @a f4-status 400003
+scoreboard players set §r objective 400010
+scoreboard players set @a f4-status 400010
