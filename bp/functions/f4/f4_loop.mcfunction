@@ -11,6 +11,7 @@ function code_status
 # Farm
 
 # Mine
+function f4/mine-factory/loop
 
 # Mine Bridge
 function f4/mine-bridge/loop
