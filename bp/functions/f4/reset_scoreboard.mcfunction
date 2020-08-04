@@ -18,3 +18,15 @@ scoreboard objectives remove f4-mine-b-title
 scoreboard objectives add f4-mine-b-title dummy
 scoreboard players set @a f4-mine-b-title 0
 
+scoreboard objectives remove f4-mine-f-prog
+scoreboard objectives add f4-mine-f-prog dummy
+scoreboard players set @a f4-mine-f-prog 0
+
+scoreboard objectives remove f4-mine-f-comp
+scoreboard objectives add f4-mine-f-comp dummy
+scoreboard players set @a f4-mine-f-comp 0
+
+scoreboard objectives remove f4-mine-f-title
+scoreboard objectives add f4-mine-f-title dummy
+scoreboard players set @a f4-mine-f-title 0
+
