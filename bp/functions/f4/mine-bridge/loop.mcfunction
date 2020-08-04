@@ -7,7 +7,7 @@ execute @p[x=146,y=158,z=605,r=25,scores={f4-mine-b-prog=1}] ~ ~ ~ detect 937 15
 
 # 1
 execute @p[scores={f4-mine-b-prog=1}, x=935, y=150, z=627, r=1] ~ ~ ~ give @s stone 0 16
-execute @p[scores={f4-mine-b-prog=1}, x=935, y=150, z=627, r=1] ~ ~ ~ scoreboard players set @s f4-mine-b-prog 2
+execute @p[scores={f4-mine-b-prog=1}, x=935, y=150, z=627, r=3] ~ ~ ~ scoreboard players set @s f4-mine-b-prog 2
 
 # Turn Blindness On
 execute @p[x=936, y=150, z=627, r=2, scores={f4-mine-b-prog=1, f4-mine-b-blinded=0}] ~ ~ ~ function f4/mine-bridge/blinded
