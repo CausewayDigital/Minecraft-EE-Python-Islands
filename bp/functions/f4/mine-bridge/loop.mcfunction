@@ -23,6 +23,6 @@ execute @p ~ ~ ~ function f4/mine-bridge/check_mine_bridge
 execute @p[scores={f4-mine-b-prog=11}] ~ ~ ~ title @p title I can see the Island
 execute @p[scores={f4-mine-b-prog=11}] ~ ~ ~ title @p subtitle Only 6 more to go!
 # Finish
-execute @p[x=916, y=151, y=627, scores={f4-mine-b-prog=18}] ~ ~ ~ function f4/mine-bridge/finish
+execute @p[x=916, y=151, z=627, scores={f4-mine-b-prog=18}] ~ ~ ~ function f4/mine-bridge/finish
 
 execute @p[scores={f4-mine-b-prog=1..17}, x=146,y=158,z=605,r=25] ~ ~ ~ title @p actionbar Press "C" to code or touch the Agent icon
