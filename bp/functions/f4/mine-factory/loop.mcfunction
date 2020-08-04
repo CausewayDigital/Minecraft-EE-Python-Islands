@@ -6,7 +6,7 @@
 #Pass One
 #Move block 2 into position for the first time
 execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=2}] ~ ~ ~ detect 947 143 614 air 0 execute @s ~ ~ ~ clone 950 143 611 950 143 611 947 143 614 replace
-execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=4}] ~ ~ ~ detect 947 143 614 air 0 execute @s ~ ~ ~ clone 949 143 611 949 143 611 947 143 614 replace
+execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=3}] ~ ~ ~ detect 947 143 614 air 0 execute @s ~ ~ ~ clone 949 143 611 949 143 611 947 143 614 replace
 
 
 execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=8, f4-mine-f-titles=0}] ~ ~ ~ title @p title Well done!
