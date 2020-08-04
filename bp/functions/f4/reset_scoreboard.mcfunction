@@ -10,7 +10,7 @@ scoreboard objectives remove f4-mine-b-comp
 scoreboard objectives add f4-mine-b-comp dummy
 scoreboard players set @a f4-mine-b-comp 0
 
-scoreboard objectives remove f4-mine-b-blinded
-scoreboard objectives add f4-mine-b-blinded dummy
-scoreboard players set @a f4-mine-b-blinded 0
+scoreboard objectives remove f4-mine-b-blind
+scoreboard objectives add f4-mine-b-blind dummy
+scoreboard players set @a f4-mine-b-blind 0
 

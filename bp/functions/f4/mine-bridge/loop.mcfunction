@@ -10,11 +10,11 @@ execute @p[scores={f4-mine-b-prog=1}, x=935, y=150, z=627, r=1] ~ ~ ~ give @s st
 execute @p[scores={f4-mine-b-prog=1}, x=935, y=150, z=627, r=3] ~ ~ ~ scoreboard players set @s f4-mine-b-prog 2
 
 # Turn Blindness On
-execute @p[x=936, y=150, z=627, r=2, scores={f4-mine-b-prog=1..6, f4-mine-b-blinded=0}] ~ ~ ~ function f4/mine-bridge/blinded
+execute @p[x=936, y=150, z=627, r=2, scores={f4-mine-b-prog=1..6, f4-mine-b-blind=0}] ~ ~ ~ function f4/mine-bridge/blinded
 
 #Turn Blindness Off
-execute @p[x=948, y=147, z=630, r=3, scores={f4-mine-b-prog=1, f4-mine-b-blinded=1}] ~ ~ ~ function f4/mine-bridge/eyes_cleared
-execute @p[scores={f4-mine-b-prog=0, f4-mine-b-blinded=1}] ~ ~ ~ function f4/mine-bridge/eyes_cleared
+execute @p[x=948, y=147, z=630, r=3, scores={f4-mine-b-prog=1, f4-mine-b-blind=1}] ~ ~ ~ function f4/mine-bridge/eyes_cleared
+execute @p[scores={f4-mine-b-prog=0, f4-mine-b-blind=1}] ~ ~ ~ function f4/mine-bridge/eyes_cleared
 
 # 2 to 17
 #execute @p[scores={f4-mine-b-prog=2..17}] ~ ~ ~ function f4/mine-bridge/check_mine_bridge
