@@ -20,3 +20,8 @@ execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=8, f4-mine-f-titles=0}]
 
 #Detect wool
 execute @p[x=947,y=143,z=620,r=15] ~ ~ ~ detect 947 144 615 wool -1 function f4/mine-factory/tp_blocks_back
+
+
+execute @p[scores={f4-mine-f-prog=2}] ~ ~ ~ scoreboard players set @s f4-mine-f-prog 3
+execute @p[scores={f4-mine-f-prog=4}] ~ ~ ~ scoreboard players set @s f4-mine-f-prog 5
+
