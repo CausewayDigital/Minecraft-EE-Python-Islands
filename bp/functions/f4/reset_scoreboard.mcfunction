@@ -30,7 +30,7 @@ scoreboard objectives remove f4-mine-f-title
 scoreboard objectives add f4-mine-f-title dummy
 scoreboard players set @a f4-mine-f-title 0
 
-scoreboard objectives remove ft-mine-f-score
-scoreboard objectives add ft-mine-f-score dummy
-scoreboard players set @a ft-mine-f-score 0
+scoreboard objectives remove f4-mine-f-score
+scoreboard objectives add f4-mine-f-score dummy
+scoreboard players set @a f4-mine-f-score 0
 
