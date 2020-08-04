@@ -16,9 +16,49 @@ execute @p[scores={f4-mine-f-prog=1}] ~ ~ ~ scoreboard players add @s f4-mine-f-
 ########################################################################################ß
 
 
-#Block two
-execute @p[scores={f4-mine-f-prog=1}] ~ ~ ~ clone 947 144 615 947 144 615 950 144 611 replace
-execute @p[scores={f4-mine-f-prog=1}] ~ ~ ~ fill 947 144 615 947 144 615 air 0
-execute @p[scores={f4-mine-f-prog=1}] ~ ~ ~ fill 947 143 614 947 143 614 air 0
-execute @p[scores={f4-mine-f-prog=1}] ~ ~ ~ detect 950 144 611 wool 1 execute @s ~ ~ ~ scoreboard players add @s f4-mine-f-score 1
-execute @p[scores={f4-mine-f-prog=1}] ~ ~ ~ scoreboard players add @s f4-mine-f-prog 1
+#Block Two
+execute @p[scores={f4-mine-f-prog=2}] ~ ~ ~ clone 947 144 615 947 144 615 950 144 611 replace
+execute @p[scores={f4-mine-f-prog=2}] ~ ~ ~ fill 947 144 615 947 144 615 air 0
+execute @p[scores={f4-mine-f-prog=2}] ~ ~ ~ fill 947 143 614 947 143 614 air 0
+execute @p[scores={f4-mine-f-prog=2}] ~ ~ ~ detect 950 144 611 wool 15 execute @s ~ ~ ~ scoreboard players add @s f4-mine-f-score 1
+execute @p[scores={f4-mine-f-prog=2}] ~ ~ ~ scoreboard players add @s f4-mine-f-prog 1
+
+
+#Block Three
+execute @p[scores={f4-mine-f-prog=3}] ~ ~ ~ clone 947 144 615 947 144 615 949 144 611 replace
+execute @p[scores={f4-mine-f-prog=3}] ~ ~ ~ fill 947 144 615 947 144 615 air 0
+execute @p[scores={f4-mine-f-prog=3}] ~ ~ ~ fill 947 143 614 947 143 614 air 0
+execute @p[scores={f4-mine-f-prog=3}] ~ ~ ~ detect 949 144 611 wool 1 execute @s ~ ~ ~ scoreboard players add @s f4-mine-f-score 1
+execute @p[scores={f4-mine-f-prog=3}] ~ ~ ~ scoreboard players add @s f4-mine-f-prog 1
+
+
+#Block Four
+execute @p[scores={f4-mine-f-prog=4}] ~ ~ ~ clone 947 144 615 947 144 615 948 144 611 replace
+execute @p[scores={f4-mine-f-prog=4}] ~ ~ ~ fill 947 144 615 947 144 615 air 0
+execute @p[scores={f4-mine-f-prog=4}] ~ ~ ~ fill 947 143 614 947 143 614 air 0
+execute @p[scores={f4-mine-f-prog=4}] ~ ~ ~ detect 948 144 611 wool 1 execute @s ~ ~ ~ scoreboard players add @s f4-mine-f-score 1
+execute @p[scores={f4-mine-f-prog=4}] ~ ~ ~ scoreboard players add @s f4-mine-f-prog 1
+
+
+#Block Five
+execute @p[scores={f4-mine-f-prog=5}] ~ ~ ~ clone 947 144 615 947 144 615 947 144 611 replace
+execute @p[scores={f4-mine-f-prog=5}] ~ ~ ~ fill 947 144 615 947 144 615 air 0
+execute @p[scores={f4-mine-f-prog=5}] ~ ~ ~ fill 947 143 614 947 143 614 air 0
+execute @p[scores={f4-mine-f-prog=5}] ~ ~ ~ detect 947 144 611 wool 15 execute @s ~ ~ ~ scoreboard players add @s f4-mine-f-score 1
+execute @p[scores={f4-mine-f-prog=5}] ~ ~ ~ scoreboard players add @s f4-mine-f-prog 1
+
+
+#Block Six
+execute @p[scores={f4-mine-f-prog=6}] ~ ~ ~ clone 947 144 615 947 144 615 946 144 611 replace
+execute @p[scores={f4-mine-f-prog=6}] ~ ~ ~ fill 947 144 615 947 144 615 air 0
+execute @p[scores={f4-mine-f-prog=6}] ~ ~ ~ fill 947 143 614 947 143 614 air 0
+execute @p[scores={f4-mine-f-prog=6}] ~ ~ ~ detect 946 144 611 wool 1 execute @s ~ ~ ~ scoreboard players add @s f4-mine-f-score 1
+execute @p[scores={f4-mine-f-prog=6}] ~ ~ ~ scoreboard players add @s f4-mine-f-prog 1
+
+
+#Block Seven
+execute @p[scores={f4-mine-f-prog=6}] ~ ~ ~ clone 947 144 615 947 144 615 945 144 611 replace
+execute @p[scores={f4-mine-f-prog=6}] ~ ~ ~ fill 947 144 615 947 144 615 air 0
+execute @p[scores={f4-mine-f-prog=6}] ~ ~ ~ fill 947 143 614 947 143 614 air 0
+execute @p[scores={f4-mine-f-prog=6}] ~ ~ ~ detect 945 144 611 wool 15 execute @s ~ ~ ~ scoreboard players add @s f4-mine-f-score 1
+execute @p[scores={f4-mine-f-prog=6}] ~ ~ ~ scoreboard players add @s f4-mine-f-prog 1
