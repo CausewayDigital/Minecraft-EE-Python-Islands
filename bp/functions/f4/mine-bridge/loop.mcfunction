@@ -3,7 +3,8 @@
 
 # Block and unblock the bridge
 execute @p[x=936,y=150,z=627,r=30,scores={f4-mine-b-prog=0}] ~ ~ ~ detect 937 150 626 air 0 execute @s ~ ~ ~ clone 948 126 621 949 126 619 937 150 626 replace
-execute @p[x=936,y=150,z=627,r=30,scores={f4-mine-b-prog=1..6}] ~ ~ ~ detect 937 150 626 fence 0 execute @s ~ ~ ~ clone 946 126 621 947 126 619 937 150 626 replace
+execute @p[x=936,y=150,z=627,r=30,scores={f4-mine-b-prog=1..6}] ~ ~ ~ detect 937 150 626 fence 0 execute @s ~ ~ ~ say Test
+#clone 946 126 621 947 126 619 937 150 626 replace
 
 # 1
 execute @p[scores={f4-mine-b-prog=1}, x=935, y=150, z=627, r=1] ~ ~ ~ give @s stone 0 16
