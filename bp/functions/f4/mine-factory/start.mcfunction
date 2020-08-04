@@ -2,7 +2,7 @@
 # set up the objectives, run codebuilder and set the agent up.
 
 function f4/mine-factory/reset
-scoreboard players set @p f4-mine-b-prog 1
+scoreboard players set @p f4-mine-f-prog 1
 
 # Teleport the agent into place
 execute @p ~ ~ ~ tp @c 947 143 615 facing 947 143 614
