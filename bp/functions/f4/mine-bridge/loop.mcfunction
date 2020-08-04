@@ -19,8 +19,8 @@ execute @p[scores={f4-mine-b-prog=0, f4-mine-b-blind=1}] ~ ~ ~ function f4/mine-
 # 2 to 17
 #execute @p[scores={f4-mine-b-prog=2..17}] ~ ~ ~ function f4/mine-bridge/check_mine_bridge
 execute @p ~ ~ ~ function f4/mine-bridge/check_mine_bridge
-execute @p[scores={f4-mine-b-prog=11}] ~ ~ ~ title @p title I can see the Island
-execute @p[scores={f4-mine-b-prog=11}] ~ ~ ~ title @p subtitle Only 6 more to go!
+execute @p[scores={f4-mine-b-prog=11, f4-mine-b-title=0}] ~ ~ ~ title @p title I can see the Island
+execute @p[scores={f4-mine-b-prog=11, f4-mine-b-title=0}] ~ ~ ~ title @p subtitle Only 6 more to go! ~ ~ ~ scoreboard players set @s f4-mine-b-title 1
 # Finish
 execute @p[x=916, y=151, z=627, r=3, scores={f4-mine-b-prog=18}] ~ ~ ~ function f4/mine-bridge/finish
 
