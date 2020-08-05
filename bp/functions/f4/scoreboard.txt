@@ -11,4 +11,3 @@ f4-mine-f-prog
 f4-mine-f-comp
 f4-mine-f-title
 f4-mine-f-score
-f4-mine-f-title

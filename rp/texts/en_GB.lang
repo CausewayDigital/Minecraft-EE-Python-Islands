@@ -63,4 +63,14 @@ objective=§l§6- Current Task -§r
 
 400000=§fTalk to the Mine Manager about the distant island
 400010=§fBuid a bridge to the distant island
-400020=§fWhat is after the bridge task?
+
+400020=§fGo to the farm
+400030=§fdo this
+
+400040=§fTalk to Frankie in the mines about digging for some diamonds
+400050=§fUse your agent to mine for diamonds
+
+400060=§fGo to the Airship Factory
+400070=§fDo that
+
+400080=§fFinished

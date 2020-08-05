@@ -8,5 +8,5 @@ execute @p ~ ~ ~ tp @c 0 0 0 facing 0 0 0
 
 # Open the Notebook URL (using false always)
 
-scoreboard players set §r objective 400003
-scoreboard players set @a f4-status 400003
+scoreboard players set §r objective 400070
+scoreboard players set @a f4-status 400070

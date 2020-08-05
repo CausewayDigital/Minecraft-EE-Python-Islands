@@ -2,5 +2,5 @@
 function f4/mine-factory/reset
 function clear_agent
 
-execute @p[scores={f4-mine-f-comp=0}] ~ ~ ~ title @s title Oh no...
-execute @p[scores={f4-mine-f-comp=0}] ~ ~ ~ title @s subtitle Seems like something went wrong...
+execute @p[scores={f4-mine-f-comp=0}] ~ ~ ~ title @s title ABORT
+execute @p[scores={f4-mine-f-comp=0}] ~ ~ ~ title @s subtitle Leaving Mission. You can start it again anytime.
