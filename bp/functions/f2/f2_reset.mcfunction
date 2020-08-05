@@ -27,3 +27,7 @@ fill 147 154 174 147 154 176 fence
 
 # Block the blacksmith
 setblock 133 151 173 air
+
+# Set up the mayor
+tp @e[type=npc, tag=f2-mayor-end] 157 149 223
+tp @e[type=npc, tag=f2-mayor-start] 120 153 219 facing 120 153 221
