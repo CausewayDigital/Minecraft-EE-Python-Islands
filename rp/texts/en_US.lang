@@ -5,6 +5,10 @@ item.prismarine_crystals.name=Apple
 item.dye.black_new.name=Spell Book
 item.elytra.name=Robes
 item.golden_helmet.name=Crown
+tile.beehive.name=Conveyor Belt
+tile.coral_block.purple.name=Multi ore
+
+
 
 900030=§fTalk to Say and Variable researchers.	###Island 1 scoreboard titles
 900040=§fGet your Agent Licence
