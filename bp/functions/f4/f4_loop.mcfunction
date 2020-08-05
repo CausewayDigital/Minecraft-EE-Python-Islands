@@ -9,7 +9,7 @@ function code_status
 # Island activities
 
 # Farm
-
+function f4/farm/loop
 # Mine
 function f4/mine-factory/loop
 
