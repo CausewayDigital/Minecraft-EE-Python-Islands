@@ -11,6 +11,6 @@ scoreboard players add @s f4-mine-b-prog 1
 
 #####
 scoreboard players set §r objective 400020
-scoreboard players set @a f4-status 300020
+scoreboard players set @a f4-status 400020
 
-function f4/mine_bridge/quit
+function f4/mine-bridge/quit
