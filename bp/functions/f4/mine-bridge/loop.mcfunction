@@ -6,9 +6,6 @@ execute @p[x=936,y=150,z=627,r=5,scores={f4-mine-b-prog=0, f4-prog=0}] ~ ~ ~ det
 execute @p[x=936,y=150,z=627,r=5,scores={f4-mine-b-prog=1..20}] ~ ~ ~ detect 937 150 626 fence 1 execute @p ~ ~ ~ fill 937 150 626 937 150 628 air 0
 execute @p[x=936,y=150,z=627,r=5,scores={f4-prog=1..10}] ~ ~ ~ detect 937 150 626 fence 1 execute @p ~ ~ ~ fill 937 150 626 937 150 628 air 0
 
-
-#Delete Bridge
-execute @p[x=936,y=150,z=627,r=30,scores={f4-mine-b-prog=0}] ~ ~ ~ detect 919 149 627 stone 0 execute @p ~ ~ ~ fill 134 149 627 919 149 627 air 0
 # 1
 execute @p[scores={f4-mine-b-prog=1}, x=935, y=150, z=627, r=1] ~ ~ ~ give @p stone 0 16
 execute @p[scores={f4-mine-b-prog=1}, x=935, y=150, z=627, r=3] ~ ~ ~ scoreboard players set @p f4-mine-b-prog 2

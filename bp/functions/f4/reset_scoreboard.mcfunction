@@ -18,6 +18,14 @@ scoreboard objectives remove f4-mine-b-blind
 scoreboard objectives add f4-mine-b-blind dummy
 scoreboard players set @a f4-mine-b-blind 0
 
+scoreboard objectives remove f4-farm-prog
+scoreboard objectives add f4-farm-prog dummy
+scoreboard players set @a f4-farm-prog 0
+
+scoreboard objectives remove f4-farm-comp
+scoreboard objectives add f4-farm-comp dummy
+scoreboard players set @a f4-farm-comp 0
+
 scoreboard objectives remove f4-mine-f-prog
 scoreboard objectives add f4-mine-f-prog dummy
 scoreboard players set @a f4-mine-f-prog 0
