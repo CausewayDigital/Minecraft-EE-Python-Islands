@@ -7,9 +7,9 @@ effect @p clear
 function clear_agent
 
 #Clear all the task scoreboards
-execute @p ~ ~ ~ scoreboard players set @s f4-mine-f-prog 0
-execute @p ~ ~ ~ scoreboard players set @s f4-mine-f-title 0
-execute @p ~ ~ ~ scoreboard players set @s f4-mine-f-score 0
+execute @p ~ ~ ~ scoreboard players set @p f4-mine-f-prog 0
+execute @p ~ ~ ~ scoreboard players set @p f4-mine-f-title 0
+execute @p ~ ~ ~ scoreboard players set @p f4-mine-f-score 0
 
 #Delete all the blocks used in the task
 execute @p ~ ~ ~ fill 951 144 611 942 144 611 air 0

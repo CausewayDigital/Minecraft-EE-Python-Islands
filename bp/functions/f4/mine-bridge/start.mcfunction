@@ -11,7 +11,7 @@ execute @p ~ ~ ~ tp @c 935 150 627 facing 934 150 627
 execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 stone 32
 
 #Tell the player what to do with a message
-execute @p ~ ~ ~ title @s title Walk over to your agent to get started
+execute @p ~ ~ ~ title @p title Walk over to your agent to get started
 
 # Open the Notebook URL (using false always)
 codebuilder navigate @p false https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_4/Bridge/Bridge_1.json
