@@ -11,10 +11,10 @@ execute @p[scores={f4-mine-f-prog=1}] ~ ~ ~ fill 947 143 614 947 143 614 air 0
 
 #f4-mine-f-score keeps the players score
 #f4-mine-f-prog keeps the players progress throughout the task
-execute @p[scores={f4-mine-f-prog=1}] ~ ~ ~ detect 951 144 611 wool 15 execute @p ~ ~ ~ scoreboard players add @p f4-mine-f-score 1
+execute @p[scores={f4-mine-f-prog=1}] ~ ~ ~ detect 951 144 611 wool 3 execute @p ~ ~ ~ scoreboard players add @p f4-mine-f-score 1
 
 #This gives the player an error message if they get it wrong.
-execute @p[scores={f4-mine-f-prog=1}] ~ ~ ~ detect 951 144 611 wool 3 function f4/mine-factory/failed
+execute @p[scores={f4-mine-f-prog=1}] ~ ~ ~ detect 951 144 611 wool 15 function f4/mine-factory/failed
 
 #f4-mine-f-prog keeps the players progress throughout the task
 execute @p[scores={f4-mine-f-prog=1}] ~ ~ ~ scoreboard players set @p f4-mine-f-prog 2
@@ -43,8 +43,8 @@ execute @p[scores={f4-mine-f-prog=5}] ~ ~ ~ scoreboard players set @p f4-mine-f-
 execute @p[scores={f4-mine-f-prog=7}] ~ ~ ~ clone 947 144 615 947 144 615 948 144 611 replace
 execute @p[scores={f4-mine-f-prog=7}] ~ ~ ~ fill 947 144 615 947 144 615 air 0
 execute @p[scores={f4-mine-f-prog=7}] ~ ~ ~ fill 947 143 614 947 143 614 air 0
-execute @p[scores={f4-mine-f-prog=7}] ~ ~ ~ detect 948 144 611 wool 3 execute @p ~ ~ ~ scoreboard players add @p f4-mine-f-score 1
-execute @p[scores={f4-mine-f-prog=7}] ~ ~ ~ detect 948 144 611 wool 15 execute @p ~ ~ ~ function f4/mine-factory/failed
+execute @p[scores={f4-mine-f-prog=7}] ~ ~ ~ detect 948 144 611 wool 15 execute @p ~ ~ ~ scoreboard players add @p f4-mine-f-score 1
+execute @p[scores={f4-mine-f-prog=7}] ~ ~ ~ detect 948 144 611 wool 3 execute @p ~ ~ ~ function f4/mine-factory/failed
 execute @p[scores={f4-mine-f-prog=7}] ~ ~ ~ scoreboard players set @p f4-mine-f-prog 8
 
 
