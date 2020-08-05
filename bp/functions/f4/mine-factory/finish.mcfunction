@@ -4,6 +4,7 @@ scoreboard players set @s f4-mine-f-comp 1
 
 execute @p[scores={f4-mine-f-comp=1}] ~ ~ ~ title @p title Well done!
 execute @p[scores={f4-mine-f-comp=1}] ~ ~ ~ title @p Subtitle You found all the Diamonds.
+execute @s ~ ~ ~ replaceitem entity @c slot.inventory 1 diamond 1
 
 #####
 scoreboard players set §r objective 400060
