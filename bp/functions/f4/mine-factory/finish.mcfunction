@@ -4,7 +4,7 @@
 scoreboard players set @p f4-mine-f-comp 1
 
 #Update Island status scoreboard
-execute @p ~ ~ ~ scoreboard players add @p f4-status 1
+execute @p ~ ~ ~ scoreboard players add @p f4-prog 1
 
 # Give the player a message telling them that they have completed the task
 execute @p[scores={f4-mine-f-comp=1}] ~ ~ ~ title @p title Well done!
