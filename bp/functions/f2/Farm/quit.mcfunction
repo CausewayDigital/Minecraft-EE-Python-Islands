@@ -7,3 +7,4 @@ execute @p[scores={f2-farm-complete=0}] ~ ~ ~ title @p subtitle Seems like somet
 execute @p[scores={f2-farm-complete=0}] ~ ~ ~ title @p title Oh no...
 
 execute @p ~ ~ ~ tp @c 163 158 172 facing 163 158 173
+scoreboard players set @p whistle-enabled 1
