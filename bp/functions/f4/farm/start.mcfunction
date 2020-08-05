@@ -1,14 +1,19 @@
 # Run when the player tasks to the NPC. Should only be run once and Should
-# set up the objectives, run codebuilder and set the agent up.
 
-scoreboard players set @p TASK-prog 1
+#Reset the task before start
+function f4/farm/reset
+
+#Set progress to 1
+scoreboard players set @p f4-farm-prog 1
 
 # Teleport the agent into place
-execute @p ~ ~ ~ tp @c 0 0 0 facing 0 0 0
+execute @p ~ ~ ~ tp @c 1017 160 566 facing 1018 160 566
 
-execute @p ~ ~ ~ clone 1018 153 566 1029 153 569 1018 159 566 replace
 
 # Open the Notebook URL (using false always)
+#codebuilder navigate @p false https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_4/Bridge/Bridge_1.json
 
+#Set the task scoreboard to the correct task
 scoreboard players set §r objective 400030
 scoreboard players set @a f4-status 400030
+
