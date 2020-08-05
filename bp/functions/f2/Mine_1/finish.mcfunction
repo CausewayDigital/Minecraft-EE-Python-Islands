@@ -34,3 +34,5 @@ setblock 88 137 167 deny
 # Move the mayor out of the way
 tp @e[type=npc, tag=f2-mayor-start] 157 149 221
 tp @e[type=npc, tag=f2-mayor-end] 144 155 191 facing 142 155 191
+
+scoreboard players set @p whistle-enabled 1

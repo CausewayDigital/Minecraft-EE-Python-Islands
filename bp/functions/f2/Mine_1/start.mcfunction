@@ -5,3 +5,4 @@ codebuilder navigate @p false https://meecode.blob.core.windows.net/everglade/ci
 
 scoreboard players set §r objective 200040
 scoreboard players set @a f2-status 200040
+scoreboard players set @p whistle-enabled 0
