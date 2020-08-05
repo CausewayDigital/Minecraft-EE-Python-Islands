@@ -16,9 +16,9 @@ execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=17}] ~ ~ ~ detect 947 1
 execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=19}] ~ ~ ~ detect 947 143 614 air 0 execute @s ~ ~ ~ clone 942 143 611 942 143 611 947 143 614 replace
 
 
-execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=21, f4-mine-f-prog=10, f4-mine-f-comp=0}] ~ ~ ~ function f4/mine-factory/finish
-execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=21, f4-mine-f-prog=0..9, f4-mine-f-comp=0}] ~ ~ ~ function f4/mine-factory/failed
-execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=21, f4-mine-f-prog=11..99, f4-mine-f-comp=0}] ~ ~ ~ function f4/mine-factory/failed
+execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=21, f4-mine-f-score=10, f4-mine-f-comp=0}] ~ ~ ~ function f4/mine-factory/finish
+execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=21, f4-mine-f-score=0..9, f4-mine-f-comp=0}] ~ ~ ~ function f4/mine-factory/failed
+execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=21, f4-mine-f-score=11..99, f4-mine-f-comp=0}] ~ ~ ~ function f4/mine-factory/failed
 
 #Detect wool
 execute @p[x=947,y=143,z=620,r=15] ~ ~ ~ detect 947 144 615 wool -1 function f4/mine-factory/tp_blocks_back
