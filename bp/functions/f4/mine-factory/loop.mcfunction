@@ -2,7 +2,7 @@
 # here (and it sound be run from the main world loop)
 
 #Block task off
-execute @p[x=936,y=150,z=627,r=30,scores={f4-mine-b-prog=0}] ~ ~ ~ detect 941 147 619 air 0 execute @s ~ ~ ~ clone 945 126 621 946 126 619 941 147 619 replace
+execute @p[x=936,y=150,z=627,r=30,scores={f4-mine-b-prog=0}] ~ ~ ~ detect 941 147 619 air 0 execute @s ~ ~ ~ clone 945 126 621 946 126 619 940 147 619 replace
 execute @p[x=936,y=150,z=627,r=30,scores={f4-mine-b-prog=1..22}] ~ ~ ~ detect 941 147 619 fence 1 execute @s ~ ~ ~ fill 941 147 619 941 147 621 air 0
 execute @p[x=936,y=150,z=627,r=30,scores={f4-mine-b-comp=1}] ~ ~ ~ detect 941 147 619 fence 1 execute @s ~ ~ ~ fill 941 147 619 941 147 621 air 0
 
