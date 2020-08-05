@@ -7,6 +7,9 @@ f4-mine-b-prog
 f4-mine-b-comp
 f4-mine-b-blind
 
+f4-farm-prog
+f4-farm-comp
+
 f4-mine-f-prog
 f4-mine-f-comp
 f4-mine-f-title
