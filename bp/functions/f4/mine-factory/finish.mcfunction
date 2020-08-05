@@ -11,7 +11,7 @@ execute @p[scores={f4-mine-f-comp=1}] ~ ~ ~ title @p title Well done!
 execute @p[scores={f4-mine-f-comp=1}] ~ ~ ~ title @p Subtitle You found all the Diamonds.
 
 #Give the player 1 diamond a a reward for the task
-execute @p ~ ~ ~ replaceitem entity @p slot.inventory 0 diamond 1 0
+give @p diamond 1
 
 
 #Set the task scoreboard to the correct task
