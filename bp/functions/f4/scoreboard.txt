@@ -5,7 +5,6 @@ f4-status
 f4-mine-b-prog
 f4-mine-b-comp
 f4-mine-b-blind
-f4-mine-b-title
 
 f4-mine-f-prog
 f4-mine-f-comp

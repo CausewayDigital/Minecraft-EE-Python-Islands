@@ -31,4 +31,4 @@ execute @p[x=927, y=149, z=627, r=15, scores={f4-mine-b-prog=16}] ~ ~ ~ detect 9
 # Block 16
 execute @p[x=927, y=149, z=627, r=15, scores={f4-mine-b-prog=17}] ~ ~ ~ detect 919 149 627 stone 0 scoreboard players add @s f4-mine-b-prog 1
 
-# f4-mine-b-prog finishes at 18
+# f4-mine-b-prog finishes at 18 
