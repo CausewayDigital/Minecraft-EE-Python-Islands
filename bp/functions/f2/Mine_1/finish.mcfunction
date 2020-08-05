@@ -30,3 +30,7 @@ fill 147 154 174 147 154 176 air
 tp @e[tag=f2-miner1] 157 149 213
 tp @e[tag=f2-miner2] 87 147 171
 setblock 88 137 167 deny
+
+# Move the mayor out of the way
+tp @e[type=npc, tag=f2-mayor-start] 157 149 221
+tp @e[type=npc, tag=f2-mayor-end] 144 155 191 facing 142 155 191
