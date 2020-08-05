@@ -1,6 +1,7 @@
 #Teleports the blocks back to the waiting area
 
 #Block one
+
 #This moves the wool block back to storage for checking
 execute @p[scores={f4-mine-f-prog=1}] ~ ~ ~ clone 947 144 615 947 144 615 951 144 611 replace
 execute @p[scores={f4-mine-f-prog=1}] ~ ~ ~ fill 947 144 615 947 144 615 air 0
