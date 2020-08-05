@@ -10,6 +10,9 @@ scoreboard players set @p f4-mine-b-prog 1
 execute @p ~ ~ ~ tp @c 935 150 627 facing 934 150 627
 execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 stone 32
 
+#Clear Bridge
+fill 934 149 627 919 149 627 air 0
+
 #Tell the player what to do with a message
 execute @p ~ ~ ~ title @p title Walk over to your agent to get started
 
