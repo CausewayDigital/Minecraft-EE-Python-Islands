@@ -3,6 +3,9 @@
 #Set the completeion scoreboard to 1
 execute @p ~ ~ ~ scoreboard players set @p f4-mine-b-comp 1
 
+#Update Island status scoreboard
+execute @p ~ ~ ~ scoreboard players add @p f4-mine-b-comp 1
+
 # Give the player a message telling them that they have completed the task
 execute @p ~ ~ ~ title @p subtitle Oh! There is an island over here.
 execute @p ~ ~ ~ title @p title You Did It!
