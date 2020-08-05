@@ -6,7 +6,7 @@ scoreboard players set @p TASK-prog 1
 # Teleport the agent into place
 execute @p ~ ~ ~ tp @c 0 0 0 facing 0 0 0
 
-execute @p ~ ~ ~ clone 1018 153 566 1029 153 566 1046 158 567 replace
+execute @p ~ ~ ~ clone 1018 153 566 1029 153 566 1035 158 567 replace
 
 # Open the Notebook URL (using false always)
 
