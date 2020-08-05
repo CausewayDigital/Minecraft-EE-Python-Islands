@@ -12,3 +12,4 @@ setblock 166 165 219 air 0 replace
 setblock 161 165 220 air 0 replace
 
 tp @c 137 155 202 facing 137 155 201
+gamerule showcoordinates false
