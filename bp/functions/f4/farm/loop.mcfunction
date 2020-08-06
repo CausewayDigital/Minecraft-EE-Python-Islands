@@ -1,6 +1,10 @@
 # Any code that should run each game tick, should be placed within
 # here (and it sound be run from the main world loop)
 
+#Block off Fram
+execute @p[x=936,y=150,z=627,r=5,scores={f4-prog=0..1}] ~ ~ ~ detect 1018 159 595 air 0 execute @p ~ ~ ~ clone 1027 153 561 1029 153 562 1018 159 595 replace
+execute @p[x=936,y=150,z=627,r=5,scores={f4-prog=2..10}] ~ ~ ~ detect 1018 159 595 fence 1 execute @p ~ ~ ~ fill 1018 159 595 1020 159 596 air 0
+
 # Make the flower processing script run as a loop
 execute @p[x=1029, y=163, z=566, r=25] ~ ~ ~ function f4/farm/flower_processing
 
