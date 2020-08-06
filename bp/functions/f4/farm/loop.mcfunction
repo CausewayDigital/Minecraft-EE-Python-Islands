@@ -229,13 +229,13 @@ execute @p[scores={f4-farm-prog=1..10}] ~ ~ ~ detect 1029 159 566 air 0 execute 
 
 #Add Poppys to agents inventory
 #Block 1
-detect 1025 154 564 red_flower 0 execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 red_flower 1
+execute @p[] ~ ~ ~ detect 1016 154 563 red_flower 0 execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 red_flower 1 0
 
 #Block 2
-detect 1025 154 564 red_flower 0 execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 red_flower 2
+execute @p[] ~ ~ ~ detect 1017 154 563 red_flower 0 execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 red_flower 2 0
 
 #Block 3
-detect 1025 154 564 red_flower 0 execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 red_flower 3
+execute @p[] ~ ~ ~ detect 1018 154 563 red_flower 0 execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 red_flower 3 0
 
 #Block 4
-detect 1025 154 564 red_flower 0 execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 red_flower 4
+execute @p[] ~ ~ ~ detect 1019 154 563 red_flower 0 execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 red_flower 4 0
