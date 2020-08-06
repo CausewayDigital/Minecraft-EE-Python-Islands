@@ -2,8 +2,8 @@
 # here (and it sound be run from the main world loop)
 
 #Block task off with a fence so player can't play it when they are not supposed to
-execute @p[x=936,y=150,z=627,r=5,scores={f4-prog=0}] ~ ~ ~ detect 941 147 619 air 0 execute @p ~ ~ ~ clone 945 126 621 946 126 619 940 147 619 replace
-execute @p[x=936,y=150,z=627,r=5,scores={f4-prog=1..10}] ~ ~ ~ detect 941 147 619 fence 1 execute @p ~ ~ ~ fill 941 147 619 941 147 621 air 0
+execute @p[x=940,y=147,z=619,r=5,scores={f4-prog=0}] ~ ~ ~ detect 941 147 619 air 0 execute @p ~ ~ ~ clone 945 126 621 946 126 619 940 147 619 replace
+execute @p[x=940,y=147,z=619,r=5,scores={f4-prog=1..10}] ~ ~ ~ detect 941 147 619 fence 1 execute @p ~ ~ ~ fill 941 147 619 941 147 621 air 0
 
 
 #Block one gets moved in the start function
