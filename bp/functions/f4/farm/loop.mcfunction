@@ -1,6 +1,7 @@
 # Any code that should run each game tick, should be placed within
 # here (and it sound be run from the main world loop)
 
+# Make the flower processing script run as a loop
 function f4/farm/flower_processing
 
 #### ROW ONE ####
@@ -202,13 +203,21 @@ execute @p[scores={f4-farm-prog=1..10}] ~ ~ ~ detect 1028 159 569 air 0 execute 
 execute @p[scores={f4-farm-prog=1..10}] ~ ~ ~ detect 1028 159 569 air 0 execute @p ~ ~ ~ clone 1024 154 564 1024 154 564 1028 159 569 replace
 
 #Block 12
-execute @p[scores={f4-farm-prog=1..10}] ~ ~ ~ detect 1029 159 569 air 0 execute @p ~ ~ ~ clone 1029 153 569 1029 153 569 1025 154 564 replace
-execute @p[scores={f4-farm-prog=1..10}] ~ ~ ~ detect 1029 159 569 air 0 execute @p ~ ~ ~ clone 1024 154 564 1024 154 564 1029 159 569 replace
+#There are no flowers here as this is where the agent spawns
 
-
-
+#Update Farm Progress
 execute @p[scores={f4-farm-prog=1}] ~ ~ ~ detect 1016 154 563 red_flower 0 execute @p ~ ~ ~ scoreboard players add @p f4-farm-prog 1
 execute @p[scores={f4-farm-prog=2}] ~ ~ ~ detect 1017 154 563 red_flower 0 execute @p ~ ~ ~ scoreboard players add @p f4-farm-prog 1
 execute @p[scores={f4-farm-prog=3}] ~ ~ ~ detect 1018 154 563 red_flower 0 execute @p ~ ~ ~ scoreboard players add @p f4-farm-prog 1
 execute @p[scores={f4-farm-prog=4}] ~ ~ ~ detect 1019 154 563 red_flower 0 execute @p ~ ~ ~ scoreboard players add @p f4-farm-prog 1
 
+
+#Teleport the agent when they get to the end of a row
+#End of row one
+execute @p[scores={f4-farm-prog=1..10}] ~ ~ ~ detect 1018 159 569 air 0 execute @p ~ ~ ~ tp @c 1018 160 568 facing 1019 160 568
+#End of row two
+execute @p[scores={f4-farm-prog=1..10}] ~ ~ ~ detect 1029 159 568 air 0 execute @p ~ ~ ~ tp @c 1029 160 567 facing 1028 160 567
+#End of row three
+execute @p[scores={f4-farm-prog=1..10}] ~ ~ ~ detect 1018 159 567 air 0 execute @p ~ ~ ~ tp @c 1018 160 566 facing 1019 160 566
+#End of row three
+execute @p[scores={f4-farm-prog=1..10}] ~ ~ ~ detect 1029 159 566 air 0 execute @p ~ ~ ~ tp @c 1025 163 566 facing 1026 163 566

@@ -7,7 +7,7 @@ function f4/farm/reset
 scoreboard players set @p f4-farm-prog 1
 
 # Teleport the agent into place
-execute @p ~ ~ ~ tp @c 1017 160 566 facing 1018 160 566
+execute @p ~ ~ ~ tp @c 1029 160 569 facing 1029 160 569
 
 
 # Open the Notebook URL (using false always)
