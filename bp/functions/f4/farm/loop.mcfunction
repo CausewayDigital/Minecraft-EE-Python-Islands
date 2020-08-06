@@ -2,7 +2,7 @@
 # here (and it sound be run from the main world loop)
 
 # Make the flower processing script run as a loop
-function f4/farm/flower_processing
+execute @p[x=1029, y=163, z=566, r=25] ~ ~ ~ function f4/farm/flower_processing
 
 #### ROW ONE ####
 #Block 1
