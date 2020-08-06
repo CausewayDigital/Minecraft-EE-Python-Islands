@@ -21,6 +21,9 @@ execute @p ~ ~ ~ scoreboard players set @p f4-farm-comp 1
 #Update Island status scoreboard
 execute @p ~ ~ ~ scoreboard players set @p f4-prog 2
 
+#Teleport the agent when the player finishes the task
+execute @p ~ ~ ~ tp @c 1025 163 566 facing 1026 163 566
+
 # Give the player a message telling them that they have completed the task
 execute @p ~ ~ ~ title @p subtitle You have successfully picked all the red flowers.
 execute @p ~ ~ ~ title @p title Woo Hoo!
