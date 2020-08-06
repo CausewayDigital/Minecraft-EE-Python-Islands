@@ -12,7 +12,7 @@ execute @p[scores={f3-ship-h-done=0}] ~ ~ ~ tp @e[type=npc, tag=f3-nancy-need-wo
 execute @p[scores={f3-ship-h-done=0}] ~ ~ ~ tp @e[type=npc, tag=f3-nancy-done] 149 147 648
 
 # King reset
-execute @p[scores={f3-ship-h-done=0}] ~ ~ ~ tp @e[type=npc, tag=f3-king-start] 131 155 622 facing 131 155 622
+execute @p[scores={f3-ship-h-done=0}] ~ ~ ~ tp @e[type=npc, tag=f3-king-start] 104 153 650 facing 104 153 652
 execute @p[scores={f3-ship-h-done=0}] ~ ~ ~ tp @e[type=npc, tag=f3-king-end] 142 148 648
 
 # King armour stand reset
