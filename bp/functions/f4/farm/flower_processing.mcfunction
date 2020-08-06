@@ -1,4 +1,4 @@
-detect 1025 154 564 red_flower 1 execute @p ~ ~ ~ function f4/farm/fail
+detect 1025 154 564 red_flower 1 execute @p ~ ~ ~ say "Not red flower!"
 detect 1025 154 564 red_flower 2 execute @p ~ ~ ~ function f4/farm/fail
 detect 1025 154 564 red_flower 3 execute @p ~ ~ ~ function f4/farm/fail
 detect 1025 154 564 red_flower 4 execute @p ~ ~ ~ function f4/farm/fail
