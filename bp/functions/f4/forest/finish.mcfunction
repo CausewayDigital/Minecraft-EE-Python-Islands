@@ -13,6 +13,3 @@ execute @p ~ ~ ~ title @p title World Complete
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 400080
 scoreboard players set @a f4-status 400080
-
-#Call the reset function as the task is now over.
-function f4/forest/reset

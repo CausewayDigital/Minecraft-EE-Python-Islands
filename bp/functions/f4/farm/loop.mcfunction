@@ -229,3 +229,9 @@ execute @p[scores={f4-farm-prog=1..10}] ~ ~ ~ detect 1029 159 568 air 0 execute 
 execute @p[scores={f4-farm-prog=1..10}] ~ ~ ~ detect 1018 159 567 air 0 execute @p ~ ~ ~ tp @c 1018 160 566 facing 1019 160 566
 #End of row three
 execute @p[scores={f4-farm-prog=1..10}] ~ ~ ~ detect 1029 159 566 air 0 execute @p ~ ~ ~ tp @c 1025 163 566 facing 1026 163 566
+
+
+execute @p[scores={f4-farm-prog=2}] ~ ~ ~ replaceitem entity @c slot.inventory 0 red_flower 1 0
+execute @p[scores={f4-farm-prog=3}] ~ ~ ~ replaceitem entity @c slot.inventory 0 red_flower 2 0
+execute @p[scores={f4-farm-prog=4}] ~ ~ ~ replaceitem entity @c slot.inventory 0 red_flower 3 0
+execute @p[scores={f4-farm-prog=5}] ~ ~ ~ replaceitem entity @c slot.inventory 0 red_flower 4 0
