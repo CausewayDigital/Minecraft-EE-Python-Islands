@@ -2,10 +2,6 @@ scoreboard objectives remove f4-status
 scoreboard objectives add f4-status dummy
 scoreboard players set @a f4-status 0
 
-scoreboard objectives remove f4-prog
-scoreboard objectives add f4-prog dummy
-scoreboard players set @a f4-prog 0
-
 scoreboard objectives remove f4-mine-b-prog
 scoreboard objectives add f4-mine-b-prog dummy
 scoreboard players set @a f4-mine-b-prog 0

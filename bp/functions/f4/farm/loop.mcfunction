@@ -2,12 +2,20 @@
 # here (and it sound be run from the main world loop)
 
 #Block off Fram
-execute @p[x=1018,y=159,z=595,r=5,scores={f4-prog=0}] ~ ~ ~ detect 1018 159 595 air 0 execute @p ~ ~ ~ clone 1027 153 561 1029 153 562 1018 159 595 replace
-execute @p[x=1018,y=159,z=595,r=5,scores={f4-prog=1}] ~ ~ ~ detect 1018 159 595 air 0 execute @p ~ ~ ~ clone 1027 153 561 1029 153 562 1018 159 595 replace
+execute @p[x=1018,y=159,z=595,r=5,scores={f4-status=400000}] ~ ~ ~ detect 1018 159 595 air 0 execute @p ~ ~ ~ clone 1027 153 561 1029 153 562 1018 159 595 replace
+execute @p[x=1018,y=159,z=595,r=5,scores={f4-status=400010}] ~ ~ ~ detect 1018 159 595 air 0 execute @p ~ ~ ~ clone 1027 153 561 1029 153 562 1018 159 595 replace
 
-execute @p[x=1018,y=159,z=595,r=5,scores={f4-prog=2}] ~ ~ ~ detect 1018 159 595 fence 1 execute @p ~ ~ ~ fill 1018 159 595 1020 159 596 air 0
-execute @p[x=1018,y=159,z=595,r=5,scores={f4-prog=3}] ~ ~ ~ detect 1018 159 595 fence 1 execute @p ~ ~ ~ fill 1018 159 595 1020 159 596 air 0
-execute @p[x=1018,y=159,z=595,r=5,scores={f4-prog=4}] ~ ~ ~ detect 1018 159 595 fence 1 execute @p ~ ~ ~ fill 1018 159 595 1020 159 596 air 0
+
+execute @p[x=1018,y=159,z=595,r=5,scores={f4-status=400020}] ~ ~ ~ detect 1018 159 595 fence 1 execute @p ~ ~ ~ fill 1018 159 595 1020 159 596 air 0
+execute @p[x=1018,y=159,z=595,r=5,scores={f4-status=400030}] ~ ~ ~ detect 1018 159 595 fence 1 execute @p ~ ~ ~ fill 1018 159 595 1020 159 596 air 0
+execute @p[x=1018,y=159,z=595,r=5,scores={f4-status=400040}] ~ ~ ~ detect 1018 159 595 fence 1 execute @p ~ ~ ~ fill 1018 159 595 1020 159 596 air 0
+execute @p[x=1018,y=159,z=595,r=5,scores={f4-status=400050}] ~ ~ ~ detect 1018 159 595 fence 1 execute @p ~ ~ ~ fill 1018 159 595 1020 159 596 air 0
+execute @p[x=1018,y=159,z=595,r=5,scores={f4-status=400060}] ~ ~ ~ detect 1018 159 595 fence 1 execute @p ~ ~ ~ fill 1018 159 595 1020 159 596 air 0
+execute @p[x=1018,y=159,z=595,r=5,scores={f4-status=400070}] ~ ~ ~ detect 1018 159 595 fence 1 execute @p ~ ~ ~ fill 1018 159 595 1020 159 596 air 0
+execute @p[x=1018,y=159,z=595,r=5,scores={f4-status=400080}] ~ ~ ~ detect 1018 159 595 fence 1 execute @p ~ ~ ~ fill 1018 159 595 1020 159 596 air 0
+execute @p[x=1018,y=159,z=595,r=5,scores={f4-status=400090}] ~ ~ ~ detect 1018 159 595 fence 1 execute @p ~ ~ ~ fill 1018 159 595 1020 159 596 air 0
+execute @p[x=1018,y=159,z=595,r=5,scores={f4-status=400100}] ~ ~ ~ detect 1018 159 595 fence 1 execute @p ~ ~ ~ fill 1018 159 595 1020 159 596 air 0
+
 
 # Make the flower processing script run as a loop
 execute @p[x=1029, y=163, z=566, r=25] ~ ~ ~ function f4/farm/flower_processing

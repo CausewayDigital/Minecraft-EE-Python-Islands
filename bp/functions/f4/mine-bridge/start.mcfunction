@@ -20,5 +20,5 @@ execute @p ~ ~ ~ title @p title Walk over to your agent to get started
 codebuilder navigate @p false https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_4/Bridge/Bridge_1.json
 
 #Set the task scoreboard to the correct task
-scoreboard players set §r objective 400040
-scoreboard players set @a f4-status 400040
+scoreboard players set §r objective 400010
+scoreboard players set @a f4-status 400010
