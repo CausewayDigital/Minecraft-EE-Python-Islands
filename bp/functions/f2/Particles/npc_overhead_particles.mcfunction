@@ -1,2 +1,2 @@
 # Mayor
-execute @p[scores={f3-status=200010}] ~ ~ ~ particle minecraft:endrod 114 157 670
+execute @p[scores={f2-status=200010}] ~ ~ ~ particle minecraft:endrod 120 155 219
