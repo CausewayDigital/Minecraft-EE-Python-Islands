@@ -50,3 +50,7 @@ scoreboard objectives remove f4-forest-comp
 scoreboard objectives add f4-forest-comp dummy
 scoreboard players set @a f4-forest-comp 0
 
+scoreboard objectives remove f5-forest-d-t
+scoreboard objectives add f5-forest-d-t dummy
+scoreboard players set @a f5-forest-d-t 0
+

@@ -10,6 +10,12 @@ execute @p[x=1023,y=155,z=636,r=5,scores={f4-prog=3}] ~ ~ ~ detect 1023 155 635 
 execute @p[x=1023,y=155,z=636,r=5,scores={f4-prog=4}] ~ ~ ~ detect 1023 155 635 fence 1 execute @p ~ ~ ~ fill 1023 155 635 1022 156 536 air 0
 
 
+#Destroy Dispensers and redstone
+execute @p[scores={f4-forest-d-t=1}] ~ ~ ~ scoreboard players add @p f4-forest-d-t 1
+execute @p[scores={f4-forest-d-t=10}] ~ ~ ~ fill 1045 158 656 1045 157 646 air 0
+execute @p[scores={f4-forest-d-t=10}] ~ ~ ~ scoreboard players set @p f4-forest-d-t 0
+
+
 #Check for blocks being collected
 execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 656 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 concrete 1 8
 execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 656 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ clone 1042 149 651 1042 149 651 1045 154 656 replace
