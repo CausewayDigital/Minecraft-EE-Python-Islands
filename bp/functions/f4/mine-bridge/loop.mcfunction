@@ -3,8 +3,12 @@
 
 # Block and unblock the bridge
 execute @p[x=936,y=150,z=627,r=5,scores={f4-mine-b-prog=0, f4-prog=0}] ~ ~ ~ detect 937 150 626 air 0 execute @p ~ ~ ~ clone 948 126 621 949 126 619 937 150 626 replace
+
 execute @p[x=936,y=150,z=627,r=5,scores={f4-mine-b-prog=1..20}] ~ ~ ~ detect 937 150 626 fence 1 execute @p ~ ~ ~ fill 937 150 626 937 150 628 air 0
-execute @p[x=936,y=150,z=627,r=5,scores={f4-prog=1..10}] ~ ~ ~ detect 937 150 626 fence 1 execute @p ~ ~ ~ fill 937 150 626 937 150 628 air 0
+execute @p[x=936,y=150,z=627,r=5,scores={f4-prog=1}] ~ ~ ~ detect 937 150 626 fence 1 execute @p ~ ~ ~ fill 937 150 626 937 150 628 air 0
+execute @p[x=936,y=150,z=627,r=5,scores={f4-prog=2}] ~ ~ ~ detect 937 150 626 fence 1 execute @p ~ ~ ~ fill 937 150 626 937 150 628 air 0
+execute @p[x=936,y=150,z=627,r=5,scores={f4-prog=3}] ~ ~ ~ detect 937 150 626 fence 1 execute @p ~ ~ ~ fill 937 150 626 937 150 628 air 0
+execute @p[x=936,y=150,z=627,r=5,scores={f4-prog=4}] ~ ~ ~ detect 937 150 626 fence 1 execute @p ~ ~ ~ fill 937 150 626 937 150 628 air 0
 
 # 1
 execute @p[scores={f4-mine-b-prog=1}, x=935, y=150, z=627, r=1] ~ ~ ~ give @p stone 0 16

@@ -4,7 +4,7 @@
 execute @p ~ ~ ~ scoreboard players set @p f4-mine-b-comp 1
 
 #Update Island status scoreboard
-execute @p ~ ~ ~ scoreboard players set @p f4-prog 3
+execute @p ~ ~ ~ scoreboard players set @p f4-prog 1
 
 # Give the player a message telling them that they have completed the task
 execute @p ~ ~ ~ title @p subtitle Oh! There is an island over here.

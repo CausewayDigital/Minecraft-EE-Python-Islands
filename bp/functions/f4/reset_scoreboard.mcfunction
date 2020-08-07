@@ -42,3 +42,11 @@ scoreboard objectives remove f4-mine-f-score
 scoreboard objectives add f4-mine-f-score dummy
 scoreboard players set @a f4-mine-f-score 0
 
+scoreboard objectives remove f4-forest-prog
+scoreboard objectives add f4-forest-prog dummy
+scoreboard players set @a f4-forest-prog 0
+
+scoreboard objectives remove f4-forest-comp
+scoreboard objectives add f4-forest-comp dummy
+scoreboard players set @a f4-forest-comp 0
+

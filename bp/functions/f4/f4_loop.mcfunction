@@ -8,14 +8,14 @@ function code_status
 
 # Island activities
 
-# Farm
-function f4/farm/loop
-# Mine
-function f4/mine-factory/loop
-
 # Mine Bridge
 function f4/mine-bridge/loop
 
-# Mine Distant
+# Farm
+function f4/farm/loop
 
-# Lumberjack
+# Mine
+function f4/mine-factory/loop
+
+# Forest
+function f4/forest/loop
