@@ -13,6 +13,8 @@ effect @a saturation 99999 255 true
 
 function f2/standalone/loop
 
+function f2/Particles/loop
+
 function code_status
 
 # Return to mine if both farm and forest are done
