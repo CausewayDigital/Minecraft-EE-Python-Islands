@@ -6,6 +6,9 @@ effect @p clear
 #Clear the agent
 function clear_agent
 
+#Clear Items
+kill @e[x=1045, y=155, z=663, dx=0, dy=0, dz=-20, type=item]
+
 #Reset the broken airship
 #Droppers
 clone 1042 150 648 1042 150 648 1045 157 656 replace
