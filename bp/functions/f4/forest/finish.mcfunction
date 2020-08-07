@@ -4,7 +4,7 @@
 execute @p ~ ~ ~ scoreboard players set @p f4-forest-comp 1
 
 #Update Island status scoreboard
-execute @p ~ ~ ~ scoreboard players set @p f4-prog 4
+execute @p ~ ~ ~ scoreboard players add @p f4-forest-prog 1
 
 # Give the player a message telling them that they have completed the task
 execute @p ~ ~ ~ title @p subtitle Yay, you have completed Island 4
