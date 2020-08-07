@@ -2,14 +2,13 @@
 execute @p[scores={f3-status=300000}] ~ ~ ~ particle minecraft:endrod 114 157 670
 
 # King/front NPC of town
-execute @p[scores={f3-status=300010}] ~ ~ ~ particle minecraft:endrod 104 156 649
-execute @p[scores={f3-status=300010}] ~ ~ ~ particle minecraft:endrod 131 158.5 622.9
+execute @p[scores={f3-status=300010}] ~ ~ ~ particle minecraft:endrod 104 156 650
 
 # Wizard
 execute @p[scores={f3-status=300020}] ~ ~ ~ particle minecraft:endrod 89 172 628
 
 # Librarian
-execute @p[scores={f3-status=300030}] ~ ~ ~ particle minecraft:endrod 123 143 611
+execute @p[scores={f3-status=300030}] ~ ~ ~ particle minecraft:endrod 126 151 621
 
 # Wizard
 execute @p[scores={f3-status=300035}] ~ ~ ~ particle minecraft:endrod 89 172 628
