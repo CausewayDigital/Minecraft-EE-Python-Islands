@@ -11,7 +11,7 @@ execute @p[x=1023,y=155,z=636,r=5,scores={f4-prog=4}] ~ ~ ~ detect 1023 155 635 
 
 
 #Destroy Dispensers and redstone
-execute @p[scores={f4-forest-d-t=1}] ~ ~ ~ scoreboard players add @p f4-forest-d-t 1
+execute @p[scores={f4-forest-d-t=1..15}] ~ ~ ~ scoreboard players add @p f4-forest-d-t 1
 execute @p[scores={f4-forest-d-t=10}] ~ ~ ~ fill 1045 158 656 1045 157 646 air 0
 execute @p[scores={f4-forest-d-t=10}] ~ ~ ~ scoreboard players set @p f4-forest-d-t 0
 
