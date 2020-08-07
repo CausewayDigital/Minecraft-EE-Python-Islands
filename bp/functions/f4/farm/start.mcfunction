@@ -3,6 +3,9 @@
 #Reset the task before start
 function f4/farm/reset
 
+#Clear the agent
+function clear_agent
+
 #Set progress to 1
 scoreboard players set @p f4-farm-prog 1
 

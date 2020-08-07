@@ -3,9 +3,6 @@
 #Clear any effects added to the player
 effect @p clear
 
-#Clear the agent
-function clear_agent
-
 #Reset the flower bed
 execute @p ~ ~ ~ clone 1018 153 566 1029 153 569 1018 159 566 replace
 
