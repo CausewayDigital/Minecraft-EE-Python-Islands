@@ -12,22 +12,36 @@ execute @p[x=1023,y=155,z=636,r=5,scores={f4-prog=4}] ~ ~ ~ detect 1023 155 635 
 
 #Check for blocks being collected
 execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 656 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 concrete 1 8
+execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 656 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ clone 1042 149 651 1042 149 651 1045 154 656 replace
+
 execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 655 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 concrete 1 8
+execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 655 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ clone 1042 149 651 1042 149 651 1045 154 655 replace
+
 execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 652 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 concrete 1 8
+execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 652 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ clone 1042 149 651 1042 149 651 1045 154 652 replace
+
 execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 651 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 concrete 1 8
+execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 651 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ clone 1042 149 651 1042 149 651 1045 154 651 replace
+
 execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 650 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 concrete 1 8
+execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 650 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ clone 1042 149 651 1042 149 651 1045 154 650 replace
+
 execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 649 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 concrete 1 8
+execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 649 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ clone 1042 149 651 1042 149 651 1045 154 649 replace
+
 execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 646 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 concrete 1 8
+execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 646 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ clone 1042 149 651 1042 149 651 1045 154 646 replace
+
 
 
 #Detect blocks being placed
-execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 156 656 concrete 8 execute @p ~ ~ ~ scoreboard players add @p f4-forest-prog 1
-execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 156 655 concrete 8 execute @p ~ ~ ~ scoreboard players add @p f4-forest-prog 1
-execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 156 652 concrete 8 execute @p ~ ~ ~ scoreboard players add @p f4-forest-prog 1
-execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 156 651 concrete 8 execute @p ~ ~ ~ scoreboard players add @p f4-forest-prog 1
-execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 156 650 concrete 8 execute @p ~ ~ ~ scoreboard players add @p f4-forest-prog 1
-execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 156 649 concrete 8 execute @p ~ ~ ~ scoreboard players add @p f4-forest-prog 1
-execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 156 646 concrete 8 execute @p ~ ~ ~ scoreboard players add @p f4-forest-prog 1
+execute @p[scores={f4-forest-prog=1}] ~ ~ ~ detect 1045 156 656 concrete 8 execute @p ~ ~ ~ scoreboard players add @p f4-forest-prog 1
+execute @p[scores={f4-forest-prog=2}] ~ ~ ~ detect 1045 156 655 concrete 8 execute @p ~ ~ ~ scoreboard players add @p f4-forest-prog 1
+execute @p[scores={f4-forest-prog=3}] ~ ~ ~ detect 1045 156 652 concrete 8 execute @p ~ ~ ~ scoreboard players add @p f4-forest-prog 1
+execute @p[scores={f4-forest-prog=4}] ~ ~ ~ detect 1045 156 651 concrete 8 execute @p ~ ~ ~ scoreboard players add @p f4-forest-prog 1
+execute @p[scores={f4-forest-prog=5}] ~ ~ ~ detect 1045 156 650 concrete 8 execute @p ~ ~ ~ scoreboard players add @p f4-forest-prog 1
+execute @p[scores={f4-forest-prog=6}] ~ ~ ~ detect 1045 156 649 concrete 8 execute @p ~ ~ ~ scoreboard players add @p f4-forest-prog 1
+execute @p[scores={f4-forest-prog=7}] ~ ~ ~ detect 1045 156 646 concrete 8 execute @p ~ ~ ~ scoreboard players add @p f4-forest-prog 1
 
 
 execute @p[scores={f4-forest-prog=8}] ~ ~ ~ function f4/forest/finish
