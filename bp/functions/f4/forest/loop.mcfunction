@@ -15,31 +15,6 @@ execute @p[scores={f4-forest-d-t=1..15}] ~ ~ ~ scoreboard players add @p f4-fore
 execute @p[scores={f4-forest-d-t=10}] ~ ~ ~ fill 1045 158 656 1045 157 646 air 0
 execute @p[scores={f4-forest-d-t=10}] ~ ~ ~ scoreboard players set @p f4-forest-d-t 0
 
-
-#Check for blocks being collected
-execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 656 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 concrete 1 8
-execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 656 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ clone 1042 149 651 1042 149 651 1045 154 656 replace
-
-execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 655 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 concrete 1 8
-execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 655 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ clone 1042 149 651 1042 149 651 1045 154 655 replace
-
-execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 652 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 concrete 1 8
-execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 652 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ clone 1042 149 651 1042 149 651 1045 154 652 replace
-
-execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 651 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 concrete 1 8
-execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 651 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ clone 1042 149 651 1042 149 651 1045 154 651 replace
-
-execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 650 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 concrete 1 8
-execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 650 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ clone 1042 149 651 1042 149 651 1045 154 650 replace
-
-execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 649 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 concrete 1 8
-execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 649 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ clone 1042 149 651 1042 149 651 1045 154 649 replace
-
-execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 646 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 concrete 1 8
-execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ detect 1045 154 646 air 0 execute @p ~ ~ ~ execute @p ~ ~ ~ clone 1042 149 651 1042 149 651 1045 154 646 replace
-
-
-
 #Detect blocks being placed
 execute @p[scores={f4-forest-prog=1}] ~ ~ ~ detect 1045 156 656 concrete 8 execute @p ~ ~ ~ scoreboard players add @p f4-forest-prog 1
 execute @p[scores={f4-forest-prog=2}] ~ ~ ~ detect 1045 156 655 concrete 8 execute @p ~ ~ ~ scoreboard players add @p f4-forest-prog 1
