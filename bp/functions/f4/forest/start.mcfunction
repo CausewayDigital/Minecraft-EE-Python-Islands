@@ -5,6 +5,7 @@ function f4/forest/reset
 
 #Set progress to 1
 scoreboard players set @p f4-forest-prog 1
+scoreboard players set @p f4-forest-comp 0
 
 # Teleport the agent into place
 execute @p ~ ~ ~ tp @c 1045 157 658 facing 1045 157 657

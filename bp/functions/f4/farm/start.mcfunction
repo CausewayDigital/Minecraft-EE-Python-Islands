@@ -8,6 +8,7 @@ function clear_agent
 
 #Set progress to 1
 scoreboard players set @p f4-farm-prog 1
+execute @p ~ ~ ~ scoreboard players set @p f4-farm-comp 0
 
 # Teleport the agent into place
 execute @p ~ ~ ~ tp @c 1029 160 569 facing 1028 160 569
