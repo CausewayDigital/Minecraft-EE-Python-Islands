@@ -12,4 +12,3 @@ fill 1025 154 564 1025 154 564 air 0
 
 #Clear all the task scoreboards
 execute @p ~ ~ ~ scoreboard players set @p f4-farm-prog 0
-execute @p ~ ~ ~ scoreboard players set @p f4-farm-comp 0

@@ -5,6 +5,7 @@ function f4/mine-bridge/reset
 
 #Set progress to 1
 scoreboard players set @p f4-mine-b-prog 1
+execute @p ~ ~ ~ scoreboard players set @p f4-mine-b-comp 0
 
 # Teleport the agent into place with all its required blocks
 execute @p ~ ~ ~ tp @c 935 150 627 facing 934 150 627
