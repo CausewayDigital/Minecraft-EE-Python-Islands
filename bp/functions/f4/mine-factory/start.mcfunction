@@ -5,7 +5,6 @@
 function f4/mine-factory/reset
 #Set progress to 1
 scoreboard players set @p f4-mine-f-prog 1
-scoreboard players set @p f4-mine-f-comp 0
 
 # Teleport the agent into place with all its required blocks
 execute @p ~ ~ ~ tp @c 947 143 615 facing 947 143 614
