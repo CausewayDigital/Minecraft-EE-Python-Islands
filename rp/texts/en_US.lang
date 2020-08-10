@@ -63,17 +63,24 @@ objective=§l§6- Current Task -§r
 300120=§fDeliver everything to the King
 300130=§fWorld Complete!
 
+400000=§fTalk to the MP at the entrance
+400005=§fSpeak the the Prime Minister at Parliment
 
-400000=§fTalk to the Mine Manager about the distant island
-400010=§fBuid a bridge to the distant island
+400010=§fTalk to the Mine Manager about this use
+400015=§fBuid a bridge to the distant island
 
-400020=§fGo to the farm
-400030=§fPick the red flowers
+400020=§fNow head over to the farm
+400025=§fPick the red flowers
+
+400030=§fHead to the Airship Factory with the dye
 
 400040=§fTalk to Frankie in the mines
-400050=§fUse your agent to mine for diamonds
+400045=§fUse your agent to sort the ores
 
-400060=§fGo to the Airship Factory
-400070=§fRepair the holes in the Airship
+400050=§fGo to the Airship Factory with the Diamonds
+400055=§fTalk to the factory worker
+400060=§fRepair the holes in the Airship
 
-400080=§fFinished
+400070=§fDeliver Certificate to the Prime Minster
+
+400080=§fWorld Complete!

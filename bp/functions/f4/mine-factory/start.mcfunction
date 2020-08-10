@@ -5,7 +5,6 @@
 function f4/mine-factory/reset
 #Set progress to 1
 scoreboard players set @p f4-mine-f-prog 1
-scoreboard players set @p f4-mine-f-comp 0
 
 # Teleport the agent into place with all its required blocks
 execute @p ~ ~ ~ tp @c 947 143 615 facing 947 143 614
@@ -19,5 +18,5 @@ execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=1}] ~ ~ ~ detect 947 14
 codebuilder navigate @p false https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_4/Mine/Mine_1.json
 
 #Set the task scoreboard to the correct task
-scoreboard players set §r objective 400050
-scoreboard players set @a f4-status 400050
+scoreboard players set §r objective 400045
+scoreboard players set @a f4-status 400045

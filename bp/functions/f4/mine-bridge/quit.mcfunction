@@ -4,5 +4,5 @@
 function f4/mine-bridge/reset
 
 #Show a title to tell the player what is going on
-execute @p[scores={f4-mine-b-comp=0}] ~ ~ ~ title @p title Oh no...
-execute @p[scores={f4-mine-b-comp=0}] ~ ~ ~ title @p subtitle Leaving Mission. You can start it again anytime.
+execute @p[x=935, y=150, z=627, r=25, scores={f4-mine-b-comp=0}] ~ ~ ~ title @p title Oh no...
+execute @p[x=935, y=150, z=627, r=25, scores={f4-mine-b-comp=0}] ~ ~ ~ title @p subtitle Leaving Mission. You can start it again anytime.

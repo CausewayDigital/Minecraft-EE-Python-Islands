@@ -4,8 +4,8 @@
 execute @p ~ ~ ~ scoreboard players set @p f4-mine-b-comp 1
 
 # Give the player a message telling them that they have completed the task
-execute @p ~ ~ ~ title @p subtitle Oh! There is an island over here.
-execute @p ~ ~ ~ title @p title You Did It!
+execute @p[x=935, y=150, z=627, r=25] ~ ~ ~ title @p subtitle Oh! There is an island over here.
+execute @p[x=935, y=150, z=627, r=25] ~ ~ ~ title @p title You Did It!
 
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 400020
