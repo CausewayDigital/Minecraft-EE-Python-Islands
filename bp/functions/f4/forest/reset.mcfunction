@@ -20,3 +20,4 @@ function f4/forest/spawn_items
 
 #Clear all the task scoreboards
 scoreboard players set @p f4-forest-prog 0
+scoreboard players set @p f4-forest-title 0
