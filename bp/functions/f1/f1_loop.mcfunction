@@ -3,7 +3,7 @@ execute @p[x=-351,y=159,z=170] ~ ~ ~ function f1/farm/loop
 function f1/forest/loop
 function f1/mine/loop
 function f1/f1_tick_loop
-execute @e[type=fishing_hook] ~ ~ ~ function f1/use_whistle
+execute @e[type=fishing_hook] ~ ~ ~ function use_whistle
 
 execute @p -383 156 192 function f1/paths/npc_overhead_particles
 
