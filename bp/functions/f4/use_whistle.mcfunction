@@ -14,3 +14,10 @@ execute @p[scores={whistle-enabled=0}] ~ ~ ~ title @p subtitle Agent can't be ca
 
 execute @p[scores={whistle-enabled=1}] ~ ~ ~ title @p title ...
 execute @p[scores={whistle-enabled=0}] ~ ~ ~ title @p title !!!
+
+
+
+# Task specific behavior
+execute @p ~ ~ ~ execute @s[scores={whistle-enabled=2, f4-farm-prog=1..10}] ~ ~ ~ teleport @c 1029 160 569 facing 1028 160 569
+execute @p ~ ~ ~ execute @s[scores={whistle-enabled=2, f4-farm-prog=1..10}] ~ ~ ~ title @p title ...
+execute @p ~ ~ ~ execute @s[scores={whistle-enabled=2, f4-farm-prog=1..10}] ~ ~ ~ title @p subtitle Agent teleported back to start of task
