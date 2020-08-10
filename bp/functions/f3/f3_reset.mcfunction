@@ -14,3 +14,4 @@ function f3/Forest/reset_access
 
 scoreboard players set §r objective 300000
 scoreboard players set @a f3-status 300000
+scoreboard players set @a whistle-enabled 1
