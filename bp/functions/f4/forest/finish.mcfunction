@@ -8,5 +8,5 @@ execute @p ~ ~ ~ title @p subtitle Yay, you have completed Island 4
 execute @p ~ ~ ~ title @p title World Complete
 
 #Set the task scoreboard to the correct task
-scoreboard players set §r objective 400080
-scoreboard players set @a f4-status 400080
+scoreboard players set §r objective 400070
+scoreboard players set @a f4-status 400070

@@ -14,8 +14,8 @@ give @p diamond 1
 
 
 #Set the task scoreboard to the correct task
-scoreboard players set §r objective 400060
-scoreboard players set @a f3-status 400060
+scoreboard players set §r objective 400050
+scoreboard players set @a f3-status 400050
 
 #Call the reset function as the task is now over.
 function f4/mine-factory/reset

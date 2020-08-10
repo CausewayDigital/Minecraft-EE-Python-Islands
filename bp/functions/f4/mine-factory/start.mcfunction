@@ -18,5 +18,5 @@ execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=1}] ~ ~ ~ detect 947 14
 codebuilder navigate @p false https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_4/Mine/Mine_1.json
 
 #Set the task scoreboard to the correct task
-scoreboard players set §r objective 400050
-scoreboard players set @a f4-status 400050
+scoreboard players set §r objective 400045
+scoreboard players set @a f4-status 400045

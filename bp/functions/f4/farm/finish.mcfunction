@@ -10,12 +10,12 @@ execute @p ~ ~ ~ tp @c 1025 163 566 facing 1026 163 566
 give @p dye 1 1
 
 # Give the player a message telling them that they have completed the task
-execute @p ~ ~ ~ title @p subtitle You have successfully picked all the red flowers.
+execute @p ~ ~ ~ title @p subtitle You have successfully picked all the Poppys.
 execute @p ~ ~ ~ title @p title Woo Hoo!
 
 #Set the task scoreboard to the correct task
-scoreboard players set §r objective 400040
-scoreboard players set @a f4-status 400040
+scoreboard players set §r objective 400030
+scoreboard players set @a f4-status 400030
 
 #Call the reset function as the task is now over.
 function f4/farm/reset
