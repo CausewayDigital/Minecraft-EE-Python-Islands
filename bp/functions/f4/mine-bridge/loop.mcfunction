@@ -2,10 +2,10 @@
 # here (and it sound be run from the main world loop)
 
 # Block and unblock the bridge
-execute @p[x=936,y=150,z=627,r=20,scores={f4-mine-b-prog=0, f4-mine-b-comp=0}] ~ ~ ~ detect 937 150 626 air 0 execute @p ~ ~ ~ clone 973 152 626 974 152 624 937 150 626 replace
+execute @p[x=936,y=150,z=627,r=20,scores={f4-mine-b-prog=0, f4-mine-b-comp=0}] ~ ~ ~ detect 937 150 626 air 0 clone 973 152 626 974 152 624 937 150 626 replace
 
-execute @p[x=936,y=150,z=627,r=20,scores={f4-mine-b-prog=1..20}] ~ ~ ~ detect 937 150 626 fence 1 execute @p ~ ~ ~ fill 937 150 626 937 150 628 air 0
-execute @p[x=936,y=150,z=627,r=20,scores={f4-status=400014..400100}] ~ ~ ~ detect 937 150 626 fence 1 execute @p ~ ~ ~ fill 937 150 626 937 150 628 air 0
+execute @p[x=936,y=150,z=627,r=20,scores={f4-mine-b-prog=1..20}] ~ ~ ~ detect 937 150 626 fence 1 fill 937 150 626 937 150 628 air 0
+execute @p[x=936,y=150,z=627,r=20,scores={f4-status=400014..400100}] ~ ~ ~ detect 937 150 626 fence 1 fill 937 150 626 937 150 628 air 0
 
 
 # 1
@@ -21,7 +21,7 @@ execute @p[scores={f4-mine-b-prog=0, f4-mine-b-blind=1}] ~ ~ ~ function f4/mine-
 
 # 2 to 17
 #execute @p[scores={f4-mine-b-prog=2..17}] ~ ~ ~ function f4/mine-bridge/check_mine_bridge
-execute @p ~ ~ ~ function f4/mine-bridge/check_mine_bridge
+function f4/mine-bridge/check_mine_bridge
 execute @p[x=935, y=150, z=627, r=25, scores={f4-mine-b-prog=11, f4-mine-b-title=0}] ~ ~ ~ title @p title I can see the Island
 execute @p[x=935, y=150, z=627, r=25, scores={f4-mine-b-prog=11, f4-mine-b-title=0}] ~ ~ ~ title @p subtitle Only 6 more to go!
 execute @p[scores={f4-mine-b-prog=11, f4-mine-b-title=0}] ~ ~ ~ scoreboard players set @p f4-mine-b-title 1

@@ -21,4 +21,4 @@ codebuilder navigate @p false https://meecode.blob.core.windows.net/everglade/ci
 
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 400015
-scoreboard players set @a f4-status 400015
+scoreboard players set @a f4-status 400015 

@@ -7,7 +7,7 @@ function f4/forest/reset
 scoreboard players set @p f4-forest-prog 1
 
 # Teleport the agent into place
-execute @p ~ ~ ~ tp @c 1045 157 658 facing 1045 157 657
+tp @c 1045 157 658 facing 1045 157 657
 
 
 # Open the Notebook URL (using false always)

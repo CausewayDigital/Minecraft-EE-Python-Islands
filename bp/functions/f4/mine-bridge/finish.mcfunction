@@ -1,7 +1,7 @@
 # Code run when the player completes the task. It should run quit.mcfunction as well
 
 #Set the completeion scoreboard to 1
-execute @p ~ ~ ~ scoreboard players set @p f4-mine-b-comp 1
+scoreboard players set @p f4-mine-b-comp 1
 
 # Give the player a message telling them that they have completed the task
 execute @p[x=935, y=150, z=627, r=25] ~ ~ ~ title @p subtitle Oh! There is an island over here.

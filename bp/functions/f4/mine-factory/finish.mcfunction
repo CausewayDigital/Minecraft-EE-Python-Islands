@@ -17,5 +17,5 @@ give @p diamond 1
 scoreboard players set §r objective 400050
 scoreboard players set @a f3-status 400050
 
-#Call the reset function as the task is now over.
+#Call the reset function as the task is now over. 
 function f4/mine-factory/reset
