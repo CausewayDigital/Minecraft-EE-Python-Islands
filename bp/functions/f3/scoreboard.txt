@@ -18,3 +18,4 @@ f3-mine-prog
 f3-mine-titles
 
 f3-status
+whistle-enabled

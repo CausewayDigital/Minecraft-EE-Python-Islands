@@ -54,3 +54,7 @@ scoreboard objectives remove f3-status
 scoreboard objectives add f3-status dummy
 scoreboard players set @a f3-status 0
 
+scoreboard objectives remove whistle-enabled
+scoreboard objectives add whistle-enabled dummy
+scoreboard players set @a whistle-enabled 0
+
