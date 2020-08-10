@@ -2,18 +2,9 @@
 # here (and it sound be run from the main world loop)
 
 #Block task off with a fence so player can't play it when they are not supposed to
-execute @p[x=940,y=147,z=619,r=5,scores={f4-status=400000}] ~ ~ ~ detect 941 147 619 air 0 execute @p ~ ~ ~ clone 973 152 619 972 152 621 940 147 619 replace
-execute @p[x=940,y=147,z=619,r=5,scores={f4-status=400010}] ~ ~ ~ detect 941 147 619 air 0 execute @p ~ ~ ~ clone 973 152 619 972 152 621 940 147 619 replace
-execute @p[x=940,y=147,z=619,r=5,scores={f4-status=400020}] ~ ~ ~ detect 941 147 619 air 0 execute @p ~ ~ ~ clone 973 152 619 972 152 621 940 147 619 replace
-execute @p[x=940,y=147,z=619,r=5,scores={f4-status=400030}] ~ ~ ~ detect 941 147 619 air 0 execute @p ~ ~ ~ clone 973 152 619 972 152 621 940 147 619 replace
+execute @p[x=940,y=147,z=619,r=5,scores={f4-status=400000..400038}] ~ ~ ~ detect 941 147 619 air 0 execute @p ~ ~ ~ clone 973 152 619 972 152 621 940 147 619 replace
 
-execute @p[x=940,y=147,z=619,r=5,scores={f4-status=400040}] ~ ~ ~ detect 941 147 619 fence 1 execute @p ~ ~ ~ fill 941 147 619 941 147 621 air 0
-execute @p[x=940,y=147,z=619,r=5,scores={f4-status=400050}] ~ ~ ~ detect 941 147 619 fence 1 execute @p ~ ~ ~ fill 941 147 619 941 147 621 air 0
-execute @p[x=940,y=147,z=619,r=5,scores={f4-status=400060}] ~ ~ ~ detect 941 147 619 fence 1 execute @p ~ ~ ~ fill 941 147 619 941 147 621 air 0
-execute @p[x=940,y=147,z=619,r=5,scores={f4-status=400070}] ~ ~ ~ detect 941 147 619 fence 1 execute @p ~ ~ ~ fill 941 147 619 941 147 621 air 0
-execute @p[x=940,y=147,z=619,r=5,scores={f4-status=400080}] ~ ~ ~ detect 941 147 619 fence 1 execute @p ~ ~ ~ fill 941 147 619 941 147 621 air 0
-execute @p[x=940,y=147,z=619,r=5,scores={f4-status=400090}] ~ ~ ~ detect 941 147 619 fence 1 execute @p ~ ~ ~ fill 941 147 619 941 147 621 air 0
-execute @p[x=940,y=147,z=619,r=5,scores={f4-status=400100}] ~ ~ ~ detect 941 147 619 fence 1 execute @p ~ ~ ~ fill 941 147 619 941 147 621 air 0
+execute @p[x=940,y=147,z=619,r=5,scores={f4-status=400038..400100}] ~ ~ ~ detect 941 147 619 fence 1 execute @p ~ ~ ~ fill 941 147 619 941 147 621 air 0
 
 
 
