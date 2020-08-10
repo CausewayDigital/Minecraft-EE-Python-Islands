@@ -17,4 +17,4 @@ clone 1042 150 650 1042 150 650 1045 156 649 replace
 clone 1042 150 650 1042 150 650 1045 156 646 replace
 
 #Set dispenser timer before destroying it
-scoreboard players set @p f4-forest-d-t 1
+scoreboard players set @p f4-forest-d-t 1 

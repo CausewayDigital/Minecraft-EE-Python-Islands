@@ -10,7 +10,7 @@ function clear_agent
 scoreboard players set @p f4-farm-prog 1
 
 # Teleport the agent into place
-execute @p ~ ~ ~ tp @c 1029 160 569 facing 1028 160 569
+function f4/farm/reset_agent
 
 
 # Open the Notebook URL (using false always)

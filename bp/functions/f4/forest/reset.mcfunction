@@ -5,7 +5,7 @@ effect @p clear
 
 #Clear the agent
 function clear_agent
-function f4/forest/clear_items
+function f4/forest/clear_items 
 #Missing Blocks
 fill 1045 156 656 1045 156 656 air 0
 fill 1045 156 652 1045 156 652 air 0

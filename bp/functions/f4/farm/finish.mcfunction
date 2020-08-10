@@ -1,7 +1,7 @@
 # Code run when the player completes the task. It should run quit.mcfunction as well
 
 #Set the completeion scoreboard to 1
-execute @p ~ ~ ~ scoreboard players set @p f4-farm-comp 1
+scoreboard players set @p f4-farm-comp 1
 
 #Update Island status scoreboard
 
@@ -10,8 +10,8 @@ execute @p ~ ~ ~ tp @c 1025 163 566 facing 1026 163 566
 give @p dye 1 1
 
 # Give the player a message telling them that they have completed the task
-execute @p ~ ~ ~ title @p subtitle You have successfully picked all the Poppys.
-execute @p ~ ~ ~ title @p title Woo Hoo!
+title @p subtitle You have successfully picked all the Poppys.
+title @p title Woo Hoo!
 
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 400030

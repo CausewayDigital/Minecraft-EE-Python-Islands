@@ -2,9 +2,9 @@
 # here (and it sound be run from the main world loop)
 
 #Block task off with a fence so player can't play it when they are not supposed to
-execute @p[x=940,y=147,z=619,r=5,scores={f4-status=400000..400038}] ~ ~ ~ detect 941 147 619 air 0 execute @p ~ ~ ~ clone 973 152 619 972 152 621 940 147 619 replace
+execute @p[x=940,y=147,z=619,r=5,scores={f4-status=400000..400038}] ~ ~ ~ detect 941 147 619 air 0 clone 973 152 619 972 152 621 940 147 619 replace
 
-execute @p[x=940,y=147,z=619,r=5,scores={f4-status=400038..400100}] ~ ~ ~ detect 941 147 619 fence 1 execute @p ~ ~ ~ fill 941 147 619 941 147 621 air 0
+execute @p[x=940,y=147,z=619,r=5,scores={f4-status=400038..400100}] ~ ~ ~ detect 941 147 619 fence 1 fill 941 147 619 941 147 621 air 0
 
 
 
@@ -12,15 +12,15 @@ execute @p[x=940,y=147,z=619,r=5,scores={f4-status=400038..400100}] ~ ~ ~ detect
 #Block one gets moved in the start function
 
 #Move the other blocks blocks into position when it is their time indicated by the progress scoreboard (f4-mine-factory-prog)
-execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=3}] ~ ~ ~ detect 947 143 614 air 0 execute @p ~ ~ ~ clone 950 143 611 950 143 611 947 143 614 replace
-execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=5}] ~ ~ ~ detect 947 143 614 air 0 execute @p ~ ~ ~ clone 949 143 611 949 143 611 947 143 614 replace
-execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=7}] ~ ~ ~ detect 947 143 614 air 0 execute @p ~ ~ ~ clone 948 143 611 948 143 611 947 143 614 replace
-execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=9}] ~ ~ ~ detect 947 143 614 air 0 execute @p ~ ~ ~ clone 947 143 611 947 143 611 947 143 614 replace
-execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=11}] ~ ~ ~ detect 947 143 614 air 0 execute @p ~ ~ ~ clone 946 143 611 946 143 611 947 143 614 replace
-execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=13}] ~ ~ ~ detect 947 143 614 air 0 execute @p ~ ~ ~ clone 945 143 611 945 143 611 947 143 614 replace
-execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=15}] ~ ~ ~ detect 947 143 614 air 0 execute @p ~ ~ ~ clone 944 143 611 944 143 611 947 143 614 replace
-execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=17}] ~ ~ ~ detect 947 143 614 air 0 execute @p ~ ~ ~ clone 943 143 611 943 143 611 947 143 614 replace
-execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=19}] ~ ~ ~ detect 947 143 614 air 0 execute @p ~ ~ ~ clone 942 143 611 942 143 611 947 143 614 replace
+execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=3}] ~ ~ ~ detect 947 143 614 air 0 clone 950 143 611 950 143 611 947 143 614 replace
+execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=5}] ~ ~ ~ detect 947 143 614 air 0 clone 949 143 611 949 143 611 947 143 614 replace
+execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=7}] ~ ~ ~ detect 947 143 614 air 0 clone 948 143 611 948 143 611 947 143 614 replace
+execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=9}] ~ ~ ~ detect 947 143 614 air 0 clone 947 143 611 947 143 611 947 143 614 replace
+execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=11}] ~ ~ ~ detect 947 143 614 air 0 clone 946 143 611 946 143 611 947 143 614 replace
+execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=13}] ~ ~ ~ detect 947 143 614 air 0 clone 945 143 611 945 143 611 947 143 614 replace
+execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=15}] ~ ~ ~ detect 947 143 614 air 0 clone 944 143 611 944 143 611 947 143 614 replace
+execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=17}] ~ ~ ~ detect 947 143 614 air 0 clone 943 143 611 943 143 611 947 143 614 replace
+execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=19}] ~ ~ ~ detect 947 143 614 air 0 clone 942 143 611 942 143 611 947 143 614 replace
 
 
 # Call the finish function if the player has done the task correctly
