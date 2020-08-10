@@ -11,7 +11,9 @@ execute @p[x=1023,y=155,z=636,r=5,scores={f4-status=400049..400100}] ~ ~ ~ detec
 
 #Destroy Dispensers and redstone
 execute @p[scores={f4-forest-d-t=1..15}] ~ ~ ~ scoreboard players add @p f4-forest-d-t 1
-execute @p[scores={f4-forest-d-t=10}] ~ ~ ~ fill 1045 156 656 1045 155 646 air 0
+execute @p[scores={f4-forest-d-t=10}] ~ ~ ~ fill 1045 156 656 1045 155 655 air 0
+execute @p[scores={f4-forest-d-t=10}] ~ ~ ~ fill 1045 156 652 1045 155 649 air 0
+execute @p[scores={f4-forest-d-t=10}] ~ ~ ~ fill 1045 156 646 1045 155 646 air 0
 execute @p[scores={f4-forest-d-t=10}] ~ ~ ~ scoreboard players set @p f4-forest-d-t 0
 
 #Detect blocks being placed
