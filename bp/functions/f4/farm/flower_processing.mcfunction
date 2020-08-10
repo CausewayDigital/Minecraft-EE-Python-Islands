@@ -22,6 +22,6 @@ execute @p[scores={f4-farm-prog=4}] ~ ~ ~ detect 1025 154 564 red_flower 0 execu
 
 
 execute @p[scores={f4-farm-prog=5}] ~ ~ ~ function f4/farm/finish
-execute @p[scores={f4-farm-prog=5}] ~ ~ ~ detect 1025 154 564 red_flower 0 execute @p ~ ~ ~ function function f4/farm/fail
+execute @p[scores={f4-farm-prog=5}] ~ ~ ~ detect 1025 154 564 red_flower 0 execute @p ~ ~ ~ function f4/farm/fail
 
 fill 1025 154 564 1025 154 564 air 0 
