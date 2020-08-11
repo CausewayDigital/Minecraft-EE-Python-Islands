@@ -25,6 +25,8 @@ execute @p[scores={f4-forest-prog=5}] ~ ~ ~ detect 1045 156 650 concrete 8 score
 execute @p[scores={f4-forest-prog=6}] ~ ~ ~ detect 1045 156 649 concrete 8 scoreboard players add @p f4-forest-prog 1
 execute @p[scores={f4-forest-prog=7}] ~ ~ ~ detect 1045 156 646 concrete 8 scoreboard players add @p f4-forest-prog 1
 
+#Action bar
+execute @p[scores={f4-forest-prog=1..20}, x=1038,y=156,z=646,r=25] ~ ~ ~ title @p actionbar Press "C" to code or touch the Agent icon
 
 execute @p[scores={f4-forest-prog=8}] ~ ~ ~ function f4/forest/finish
 
