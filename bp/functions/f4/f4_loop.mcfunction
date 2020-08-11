@@ -19,4 +19,4 @@ function f4/farm/loop
 function f4/mine-factory/loop
 
 # Forest
-function f4/forest/loop
+execute @p[x=1045, y=161, z=653] ~ ~ ~ function f4/forest/loop
