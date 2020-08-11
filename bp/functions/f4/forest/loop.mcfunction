@@ -9,6 +9,15 @@ execute @p[x=1023,y=155,z=636,r=10,scores={f4-status=400029..400100}] ~ ~ ~ dete
 execute @p[x=1036,y=156,z=644,r=10,scores={f4-status=400000..400048}] ~ ~ ~ detect 1039 156 645 air 0 clone 1042 148 641 1042 148 643 1039 156 645 replace
 execute @p[x=1036,y=156,z=644,r=10,scores={f4-status=400049..400100}] ~ ~ ~ detect 1039 156 645 fence 1 fill 1039 156 645 1039 156 647 air 0
 
+#Spawn Items
+#Block One
+execute @p[scores={f4-foreest-d-t=0}] ~ ~ ~ clone 1042 150 650 1042 150 650 1047 150 641 replace
+execute @p[scores={f4-foreest-d-t=0}] ~ ~ ~ scoreboard players set @p f4-forestd-t 1
+
+execute @p[scores={f4-foreest-d-t=1}] ~ ~ ~ fill 1047 150 641 1047 150 641 air 0
+execute @p[scores={f4-foreest-d-t=1}] ~ ~ ~ clone 1042 150 650 1042 150 650 1047 150 643 replace
+execute @p[scores={f4-foreest-d-t=1}] ~ ~ ~ scoreboard players set @p f4-forestd-t 2
+
 #Destroy Dispensers and redstone
 execute @p[scores={f4-forest-d-t=1..15}] ~ ~ ~ scoreboard players add @p f4-forest-d-t 1
 execute @p[scores={f4-forest-d-t=10}] ~ ~ ~ fill 1045 155 656 1045 154 655 air 0
