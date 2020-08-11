@@ -2,9 +2,9 @@
 # here (and it sound be run from the main world loop)
 
 #Block off Fram
-execute @p[x=1018,y=159,z=595,r=5,scores={f4-status=400000..400018}] ~ ~ ~ detect 1018 159 595 air 0 clone 1027 153 561 1029 153 562 1018 159 595 replace
+execute @p[x=1018,y=159,z=595,r=10,scores={f4-status=400000..400018}] ~ ~ ~ detect 1018 159 595 air 0 clone 1027 153 561 1029 153 562 1018 159 595 replace
 
-execute @p[x=1018,y=159,z=595,r=5,scores={f4-status=400019..400100}] ~ ~ ~ detect 1018 159 595 fence 1 fill 1018 159 595 1020 159 596 air 0
+execute @p[x=1018,y=159,z=595,r=10,scores={f4-status=400019..400100}] ~ ~ ~ detect 1018 159 595 fence 1 fill 1018 159 595 1020 159 596 air 0
 
 
 # Make the flower processing script run as a loop
