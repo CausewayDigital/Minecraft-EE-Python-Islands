@@ -12,6 +12,9 @@ execute @p[scores={f4-forest-title=0}] ~ ~ ~ scoreboard players set @p f4-forest
 #The Nautilus shell is reskinned to look like a piece of paper
 give @p nautilus_shell 1
 
+#TP Agent out of task
+execute @p ~ ~ ~ tp @c 1049 156 651 facing 1050 156 651
+
 #Enable whistle
 scoreboard players set @a whistle-enabled 1
 
