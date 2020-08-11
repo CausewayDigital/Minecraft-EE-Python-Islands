@@ -7,4 +7,3 @@ function clear_agent
 scoreboard players set @p f4-mine-b-prog 0
 scoreboard players set @p f4-mine-b-blind 0
 scoreboard players set @p f4-mine-b-title 0
-execute @p ~ ~ ~ tp @c 942 147 628 facing 941 147 628

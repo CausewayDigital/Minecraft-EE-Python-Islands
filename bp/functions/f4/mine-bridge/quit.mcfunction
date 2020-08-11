@@ -10,5 +10,8 @@ execute @p[x=935, y=150, z=627, r=25, scores={f4-mine-b-comp=0}] ~ ~ ~ title @p 
 #Enable whistle
 scoreboard players set @a whistle-enabled 1
 
+#Reset Agent
+execute @p ~ ~ ~ tp @c 942 147 628 facing 941 147 628
+
 scoreboard players set §r objective 400010
 scoreboard players set @a f4-status 400010 
