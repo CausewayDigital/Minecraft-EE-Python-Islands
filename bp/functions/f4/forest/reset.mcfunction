@@ -18,4 +18,3 @@ fill 1045 156 646 1045 156 646 air 0
 #Clear all the task scoreboards
 scoreboard players set @p f4-forest-prog 0
 scoreboard players set @p f4-forest-title 0
-scoreboard players set @p f4-forest-d-t 0

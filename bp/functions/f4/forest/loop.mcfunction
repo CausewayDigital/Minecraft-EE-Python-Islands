@@ -30,7 +30,8 @@ execute @p[r=25, scores={f4-forest-d-t=10}] ~ ~ ~ fill 1044 150 644 1044 150 644
 execute @p[r=25, scores={f4-forest-d-t=10}] ~ ~ ~ fill 1044 150 642 1044 150 642 air 0
 
 #Disable timer
-execute @p[r=25, scores={f4-forest-d-t=10}] ~ ~ ~ scoreboard players set @p f4-forest-d-t 0
+execute @p[r=25, scores={f4-forest-d-t=10}] ~ ~ ~ scoreboard players add @p f4-forest-d-t 1
+execute @p[r=25, scores={f4-forest-d-t=11}] ~ ~ ~ scoreboard players set @p f4-forest-d-t 0
 
 
 
