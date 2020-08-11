@@ -8,6 +8,10 @@ execute @p[scores={f4-forest-title=0}] ~ ~ ~ title @p title All Patched Up!
 execute @p[scores={f4-forest-title=0}] ~ ~ ~ title @p subtitle The airship is ready for flight again
 execute @p[scores={f4-forest-title=0}] ~ ~ ~ scoreboard players set @p f4-forest-title 1
 
+#Give player the Certificate of Air worthyness
+#The Nautilus shell is reskinned to look like a piece of paper
+give @p nautilus_shell 1
+
 #Enable whistle
 scoreboard players set @a whistle-enabled 1
 
