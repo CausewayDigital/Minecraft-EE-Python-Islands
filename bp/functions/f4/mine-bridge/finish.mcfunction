@@ -16,6 +16,9 @@ execute @p ~ ~ ~ tp @c 942 147 628 facing 941 147 628
 #Enable whistle
 scoreboard players set @a whistle-enabled 1
 
+#Run story notebook
+codebuilder navigate @p true https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_4/Prime_Minster/PM_To_Farm_1.json
+
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 400020
 scoreboard players set @a f4-status 400020
