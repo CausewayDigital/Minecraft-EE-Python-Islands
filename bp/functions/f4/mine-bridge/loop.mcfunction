@@ -2,10 +2,10 @@
 # here (and it sound be run from the main world loop)
 
 # Block and unblock the bridge
-execute @p[x=936,y=150,z=627,r=20,scores={f4-mine-b-prog=0, f4-mine-b-comp=0}] ~ ~ ~ detect 937 150 626 air 0 clone 973 152 626 974 152 624 937 150 626 replace
+execute @p[x=936,y=150,z=627,r=10,scores={f4-mine-b-prog=0, f4-mine-b-comp=0}] ~ ~ ~ detect 937 150 626 air 0 clone 973 152 626 974 152 624 937 150 626 replace
 
-execute @p[x=936,y=150,z=627,r=20,scores={f4-mine-b-prog=1..20}] ~ ~ ~ detect 937 150 626 fence 1 fill 937 150 626 937 150 628 air 0
-execute @p[x=936,y=150,z=627,r=20,scores={f4-status=400014..400100}] ~ ~ ~ detect 937 150 626 fence 1 fill 937 150 626 937 150 628 air 0
+execute @p[x=936,y=150,z=627,r=10,scores={f4-mine-b-prog=1..20}] ~ ~ ~ detect 937 150 626 fence 1 fill 937 150 626 937 150 628 air 0
+execute @p[x=936,y=150,z=627,r=10,scores={f4-status=400014..400100}] ~ ~ ~ detect 937 150 626 fence 1 fill 937 150 626 937 150 628 air 0
 
 
 # 1
@@ -25,4 +25,4 @@ execute @p[scores={f4-mine-b-prog=11, f4-mine-b-title=0}] ~ ~ ~ scoreboard playe
 execute @p[x=916, y=151, z=627, r=3, scores={f4-mine-b-prog=18}] ~ ~ ~ function f4/mine-bridge/finish
 
 #Action bar
-execute @p[scores={f4-mine-b-prog=1..17}, x=146,y=158,z=605,r=25] ~ ~ ~ title @p actionbar Press "C" to code or touch the Agent icon
+execute @p[scores={f4-mine-b-comp=0}, x=936,y=150,z=627,r=25] ~ ~ ~ title @p actionbar Press "C" to code or touch the Agent icon

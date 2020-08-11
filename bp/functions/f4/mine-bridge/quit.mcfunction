@@ -3,9 +3,6 @@
 #reset the task as we are quiting it
 function f4/mine-bridge/reset
 
-#Clear any effects added to the player
-effect @p clear
-
 #Show a title to tell the player what is going on
 execute @p[x=935, y=150, z=627, r=25, scores={f4-mine-b-comp=0}] ~ ~ ~ title @p title Oh no...
 execute @p[x=935, y=150, z=627, r=25, scores={f4-mine-b-comp=0}] ~ ~ ~ title @p subtitle Leaving Mission. You can start it again anytime. 
