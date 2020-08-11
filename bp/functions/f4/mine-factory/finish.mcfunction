@@ -20,7 +20,7 @@ execute @p ~ ~ ~ tp @c 946 143 621 facing 947 143 621
 
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 400050
-scoreboard players set @a f3-status 400050
+scoreboard players set @a f4-status 400050
 
 #Call the reset function as the task is now over. 
 function f4/mine-factory/reset
