@@ -5,7 +5,7 @@ execute @e[type=fishing_hook] ~ ~ ~ function use_whistle
 function code_status
 
 #Teleport NPC's in and out
-#function f4/tp_npcs
+function f4/tp_npcs
 
 # Island activities
 
@@ -19,4 +19,4 @@ function f4/farm/loop
 function f4/mine-factory/loop
 
 # Forest
-function f4/forest/loop
+execute @p[x=1045, y=161, z=653] ~ ~ ~ function f4/forest/loop

@@ -14,6 +14,9 @@ execute @p ~ ~ ~ replaceitem entity @c slot.inventory 1 wool 10 3
 #Move the first block into place
 execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=1}] ~ ~ ~ detect 947 143 614 air 0 clone 951 143 611 951 143 611 947 143 614 replace
 
+#Disable Whstle
+scoreboard players set @a whistle-enabled 0
+
 # Open the Notebook URL (using false always)
 codebuilder navigate @p false https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_4/Mine/Mine_1.json
 

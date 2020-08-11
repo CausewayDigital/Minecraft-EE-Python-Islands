@@ -1,11 +1,12 @@
 ﻿item.sugar.name=Sandwich	#
 item.phantom_membrane.name=Agent Licence	#
+item.nautilus_shell.name=Certificate of Airworthiness   #
 item.fishing_rod.name=Call Agent	#
-item.prismarine_crystals.name=Apple
-item.dye.black_new.name=Spell Book
-item.elytra.name=Robes
-item.golden_helmet.name=Crown
-tile.element_constructor.name=Conveyor Belt
+item.prismarine_crystals.name=Apple     #
+item.dye.black_new.name=Spell Book      #
+item.elytra.name=Robes      #
+item.golden_helmet.name=Crown       #
+tile.element_constructor.name=Conveyor Belt     #
 
 
 
@@ -63,23 +64,16 @@ objective=§l§6- Current Task -§r
 300120=§fDeliver everything to the King
 300130=§fWorld Complete!
 
-400000=§fSpeak to the Prime Minister at the island entrance
-
-400010=§fTalk to the Mine Manager about this use
-400015=§fBuid a bridge to the distant island
-
-400020=§fNow head over to the farm
-400025=§fPick the red flowers
-
+400000=§fTalk to the Prime Minister
+400010=§fTalk to the Mine Manager
+400015=§fBuild a bridge to the distant island
+400020=§fHead over to the Botanical Gardens
+400025=§fPick 4 Poppies for the Gardener
 400030=§fHead to the Airship Factory with the dye
-
 400040=§fTalk to Frankie in the mine control room
 400045=§fUse your agent to sort the ores
-
-400050=§fGo to the Airship Factory with the Diamonds
+400050=§fHead to Airship Factory with the Diamond
 400055=§fTalk to the factory worker
 400060=§fRepair the holes in the Airship
-
 400070=§fDeliver Certificate to the Prime Minster
-
 400080=§fWorld Complete!
