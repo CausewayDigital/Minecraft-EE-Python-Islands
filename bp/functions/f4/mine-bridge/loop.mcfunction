@@ -25,4 +25,4 @@ execute @p[scores={f4-mine-b-prog=11, f4-mine-b-title=0}] ~ ~ ~ scoreboard playe
 execute @p[x=916, y=151, z=627, r=3, scores={f4-mine-b-prog=18}] ~ ~ ~ function f4/mine-bridge/finish
 
 #Action bar
-execute @p[scores={f4-mine-b-comp=0}, x=936,y=150,z=627,r=25] ~ ~ ~ title @p actionbar Press "C" to code or touch the Agent icon
+execute @p[scores={f4-mine-b-prog=1..17}, x=936,y=150,z=627,r=25] ~ ~ ~ title @p actionbar Press "C" to code or touch the Agent icon
