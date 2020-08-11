@@ -12,7 +12,7 @@ scoreboard players set @p f4-farm-prog 1
 # Teleport the agent into place
 function f4/farm/reset_agent
 
-#Disable Whstle
+# Switch whistle to special mode
 scoreboard players set @a whistle-enabled 2
 
 # Open the Notebook URL (using false always)
