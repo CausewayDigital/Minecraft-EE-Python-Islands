@@ -12,6 +12,8 @@ execute @p[scores={f4-mine-f-comp=1}] ~ ~ ~ title @p Subtitle You found all the 
 #Give the player 1 diamond a a reward for the task
 give @p diamond 1
 
+#Enable whistle
+scoreboard players set @a whistle-enabled 1
 
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 400050

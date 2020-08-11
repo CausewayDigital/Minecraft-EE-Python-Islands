@@ -13,7 +13,7 @@ scoreboard players set @p f4-farm-prog 1
 function f4/farm/reset_agent
 
 #Disable Whstle
-scoreboard players set @a whistle-enabled 2
+scoreboard players set @a whistle-enabled 0
 
 # Open the Notebook URL (using false always)
 codebuilder navigate @p false https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_4/Farm/Farm_1.json

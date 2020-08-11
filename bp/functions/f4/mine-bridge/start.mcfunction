@@ -17,7 +17,7 @@ fill 934 149 627 919 149 627 air 0
 execute @p[x=935, y=150, z=627, r=25] ~ ~ ~ title @p title Walk over to your agent to get started
 
 #Disable Whstle
-scoreboard players set @a whistle-enabled 2
+scoreboard players set @a whistle-enabled 0
 
 # Open the Notebook URL (using false always)
 codebuilder navigate @p false https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_4/Bridge/Bridge_1.json

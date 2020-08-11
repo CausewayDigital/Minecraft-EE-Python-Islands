@@ -230,6 +230,15 @@ execute @p[scores={f4-farm-prog=1..10}] ~ ~ ~ detect 1029 159 566 air 0 tp @c 10
 
 
 execute @p[scores={f4-farm-prog=2}] ~ ~ ~ replaceitem entity @c slot.inventory 0 red_flower 1 0
+execute @p[scores={f4-farm-prog=2}] ~ ~ ~ title @p title 3 Poppies left!
+
 execute @p[scores={f4-farm-prog=3}] ~ ~ ~ replaceitem entity @c slot.inventory 0 red_flower 2 0
+execute @p[scores={f4-farm-prog=3}] ~ ~ ~ title @p title 2 Poppies left!
+
 execute @p[scores={f4-farm-prog=4}] ~ ~ ~ replaceitem entity @c slot.inventory 0 red_flower 3 0
+execute @p[scores={f4-farm-prog=4}] ~ ~ ~ title @p title 1 Poppy left!
+
 execute @p[scores={f4-farm-prog=5}] ~ ~ ~ replaceitem entity @c slot.inventory 0 red_flower 4 0
+
+#Action bar
+execute @p[scores={f4-mine-b-prog=1..10}, x=1024,y=163,z=567,r=25] ~ ~ ~ title @p actionbar Press "C" to code or touch the Agent icon
