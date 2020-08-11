@@ -10,7 +10,6 @@ execute @p[x=1036,y=156,z=644,r=10,scores={f4-status=400000..400048}] ~ ~ ~ dete
 execute @p[x=1036,y=156,z=644,r=10,scores={f4-status=400049..400100}] ~ ~ ~ detect 1039 156 645 fence 1 fill 1039 156 645 1039 156 647 air 0
 
 #Spawn Items
-#Block One
 clone 1042 150 650 1042 150 650 1047 150 641 replace
 clone 1042 150 650 1042 150 650 1047 150 643 replace
 clone 1042 150 650 1042 150 650 1047 150 645 replace
@@ -18,6 +17,11 @@ clone 1042 150 650 1042 150 650 1047 150 647 replace
 clone 1042 150 650 1042 150 650 1044 150 646 replace
 clone 1042 150 650 1042 150 650 1044 150 644 replace
 clone 1042 150 650 1042 150 650 1044 150 642 replace
+
+
+#Use scoreboard to wait for items to fall
+execute @p[scores={f4-forest-d-t=1..9}] ~ ~ ~ scoreboard players add @p f4-forest-d-t 1
+#execute @p[scores={f4-forest-d-t=10}]
 
 
 
