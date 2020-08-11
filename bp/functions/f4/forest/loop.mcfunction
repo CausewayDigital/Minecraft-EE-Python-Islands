@@ -14,9 +14,11 @@ execute @p[x=1036,y=156,z=644,r=10,scores={f4-status=400049..400100}] ~ ~ ~ dete
 execute @p[scores={f4-forest-d-t=1}] ~ ~ ~ clone 1042 150 650 1042 150 650 1047 150 641 replace
 execute @p[scores={f4-forest-d-t=1}] ~ ~ ~ scoreboard players set @p f4-forestd-t 2
 
-execute @p[scores={f4-forest-d-t=2}] ~ ~ ~ fill 1047 150 641 1047 150 641 air 0
-execute @p[scores={f4-forest-d-t=2}] ~ ~ ~ clone 1042 150 650 1042 150 650 1047 150 643 replace
 execute @p[scores={f4-forest-d-t=2}] ~ ~ ~ scoreboard players set @p f4-forestd-t 3
+
+execute @p[scores={f4-forest-d-t=3}] ~ ~ ~ fill 1047 150 641 1047 150 641 air 0
+execute @p[scores={f4-forest-d-t=3}] ~ ~ ~ clone 1042 150 650 1042 150 650 1047 150 643 replace
+execute @p[scores={f4-forest-d-t=3}] ~ ~ ~ scoreboard players set @p f4-forestd-t 4
 
 #Destroy Dispensers and redstone
 execute @p[scores={f4-forest-d-t=1..15}] ~ ~ ~ scoreboard players add @p f4-forest-d-t 1
