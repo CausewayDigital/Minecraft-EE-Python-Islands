@@ -2,9 +2,9 @@
 # here (and it sound be run from the main world loop)
 
 #Block task off with a fence so player can't play it when they are not supposed to
-execute @p[x=940,y=147,z=619,r=5,scores={f4-status=400000..400038}] ~ ~ ~ detect 941 147 619 air 0 clone 973 152 619 974 152 621 954 147 623 replace
+execute @p[x=956,y=147,z=624,r=10,scores={f4-status=400000..400038}] ~ ~ ~ detect 941 147 619 air 0 clone 973 152 619 974 152 621 954 147 623 replace
 
-execute @p[x=940,y=147,z=619,r=5,scores={f4-status=400038..400100}] ~ ~ ~ detect 941 147 619 fence 1 fill 941 147 619 941 147 621 air 0
+execute @p[x=956,y=147,z=624,r=10,scores={f4-status=400038..400100}] ~ ~ ~ detect 951 147 625 fence 1 fill 954 147 625 954 147 623s air 0
 
 
 
