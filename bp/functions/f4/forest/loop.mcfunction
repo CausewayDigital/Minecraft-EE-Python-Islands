@@ -11,25 +11,13 @@ execute @p[x=1036,y=156,z=644,r=10,scores={f4-status=400049..400100}] ~ ~ ~ dete
 
 #Spawn Items
 #Block One
-execute @p[scores={f4-forest-d-t=1}] ~ ~ ~ clone 1042 150 650 1042 150 650 1047 150 641 replace
-execute @p[scores={f4-forest-d-t=1}] ~ ~ ~ scoreboard players set @p f4-forestd-t 2
-
-#Wait a tick to allow the dispenser to spawn the item
-execute @p[scores={f4-forest-d-t=2}] ~ ~ ~ scoreboard players set @p f4-forestd-t 3
-
-#Teleport the item
-execute @p[x=1047, y=147, z=641, scores={f4-forest-d-t=3}] ~ ~ ~ tp @e[type=item, c=1, r=1] 1045 153 656
-
-#Block Two
-execute @p[scores={f4-forest-d-t=3}] ~ ~ ~ fill 1047 150 641 1047 150 641 air 0
-execute @p[scores={f4-forest-d-t=3}] ~ ~ ~ clone 1042 150 650 1042 150 650 1047 150 643 replace
-execute @p[scores={f4-forest-d-t=3}] ~ ~ ~ scoreboard players set @p f4-forestd-t 4
-
-#Wait a tick to allow the dispenser to spawn the item
-execute @p[scores={f4-forest-d-t=4}] ~ ~ ~ scoreboard players set @p f4-forestd-t 5
-
-#Teleport the item
-execute @p[x=1047, y=147, z=643, scores={f4-forest-d-t=5}] ~ ~ ~ tp @e[type=item, c=1, r=1] 1045 153 655
+clone 1042 150 650 1042 150 650 1047 150 641 replace
+clone 1042 150 650 1042 150 650 1047 150 643 replace
+clone 1042 150 650 1042 150 650 1047 150 645 replace
+clone 1042 150 650 1042 150 650 1047 150 647 replace
+clone 1042 150 650 1042 150 650 1044 150 646 replace
+clone 1042 150 650 1042 150 650 1044 150 644 replace
+clone 1042 150 650 1042 150 650 1044 150 642 replace
 
 
 
