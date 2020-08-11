@@ -4,8 +4,8 @@
 scoreboard players set @p f4-forest-comp 1
 
 # Give the player a message telling them that they have completed the task
-execute @p[scores={f4-forest-title=0}] ~ ~ ~ title @p subtitle Patched Up!
-execute @p[scores={f4-forest-title=0}] ~ ~ ~ title @p title The airship is ready for flight again
+execute @p[scores={f4-forest-title=0}] ~ ~ ~ title @p title All Patched Up!
+execute @p[scores={f4-forest-title=0}] ~ ~ ~ title @p subtitle The airship is ready for flight again
 execute @p[scores={f4-forest-title=0}] ~ ~ ~ scoreboard players set @p f4-forest-title 1
 
 #Enable whistle
