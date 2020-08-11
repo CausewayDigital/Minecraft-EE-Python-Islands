@@ -12,7 +12,8 @@ execute @p[x=1036,y=156,z=644,r=10,scores={f4-status=400049..400100}] ~ ~ ~ dete
 
 #Use scoreboard to wait for items to fall
 execute @p[scores={f4-forest-d-t=1..9}] ~ ~ ~ scoreboard players add @p f4-forest-d-t 1
-#execute @p[scores={f4-forest-d-t=10}]
+execute @p[x=1047, y=147, z=641, scores={f4-forest-d-t=10}] ~ ~ ~ tp @e[type=item, c=1, r=1] 1045 153 656
+execute @p[x=1047, y=147, z=643, scores={f4-forest-d-t=10}] ~ ~ ~ tp @e[type=item, c=1, r=1] 1045 153 655
 
 
 
