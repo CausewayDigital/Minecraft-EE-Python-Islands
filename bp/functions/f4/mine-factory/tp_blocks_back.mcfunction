@@ -16,6 +16,7 @@ execute @p[scores={f4-mine-f-prog=1}] ~ ~ ~ detect 951 144 611 wool 3 scoreboard
 #This tells the player that they have found a diamond
 #It only runs on the diamond ore blocks
 execute @p[scores={f4-mine-f-prog=1, f4-mine-f-title=0}] ~ ~ ~ detect 951 144 611 wool 3 title @p title Diamond Found!
+execute @p[scores={f4-mine-f-prog=1, f4-mine-f-title=0}] ~ ~ ~ detect 951 144 611 wool 3 subtitle @p title Only 2 more to go
 execute @p[scores={f4-mine-f-prog=1, f4-mine-f-title=0}] ~ ~ ~ detect 951 144 611 wool 3 scoreboard players set @p f4-mine-f-title 1
 
 #This gives the player an error message if they get it wrong.
@@ -77,6 +78,7 @@ execute @p[scores={f4-mine-f-prog=13}] ~ ~ ~ fill 947 144 615 947 144 615 air 0
 execute @p[scores={f4-mine-f-prog=13}] ~ ~ ~ fill 947 143 614 947 143 614 air 0
 execute @p[scores={f4-mine-f-prog=13}] ~ ~ ~ detect 945 144 611 wool 3 scoreboard players add @p f4-mine-f-score 1
 execute @p[scores={f4-mine-f-prog=13, f4-mine-f-title=1}] ~ ~ ~ detect 951 144 611 wool 3 title @p title Diamond Found!
+execute @p[scores={f4-mine-f-prog=13, f4-mine-f-title=1}] ~ ~ ~ detect 951 144 611 wool 3 subtitle @p title Only 1 more to go
 execute @p[scores={f4-mine-f-prog=13, f4-mine-f-title=1}] ~ ~ ~ detect 951 144 611 wool 3 scoreboard players set @p f4-mine-f-title 2
 execute @p[scores={f4-mine-f-prog=13}] ~ ~ ~ detect 945 144 611 wool 15 function f4/mine-factory/failed
 execute @p[scores={f4-mine-f-prog=13}] ~ ~ ~ scoreboard players set @p f4-mine-f-prog 14
