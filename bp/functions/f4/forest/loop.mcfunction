@@ -6,7 +6,7 @@ execute @p[x=1023,y=155,z=636,r=10,scores={f4-status=400000..400028}] ~ ~ ~ dete
 execute @p[x=1023,y=155,z=636,r=10,scores={f4-status=400029..400100}] ~ ~ ~ detect 1023 155 635 fence 1 fill 1023 155 635 1022 156 636 air 0
 
 #Block off the airship entrance
-execute @p[x=1036,y=156,z=644,r=10,scores={f4-status=400000..400048}] ~ ~ ~ detect 1039 156 645 air 0 clone 1042 148 641 1042 148 643 1039 156 647 replace
+execute @p[x=1036,y=156,z=644,r=10,scores={f4-status=400000..400048}] ~ ~ ~ detect 1039 156 645 air 0 clone 1042 148 641 1042 148 643 1039 156 645 replace
 execute @p[x=1036,y=156,z=644,r=10,scores={f4-status=400049..400100}] ~ ~ ~ detect 1039 156 645 fence 1 fill 1039 156 645 1039 156 647 air 0
 
 #Destroy Dispensers and redstone
