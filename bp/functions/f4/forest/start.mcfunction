@@ -9,6 +9,8 @@ scoreboard players set @p f4-forest-prog 1
 # Teleport the agent into place
 execute @p ~ ~ ~ tp @c 1045 157 657 facing 1045 157 656
 
+#Disable Whstle
+scoreboard players set @a whistle-enabled 2
 
 # Open the Notebook URL (using false always)
 codebuilder navigate @p false https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_4/Factory/Factory_1.json
