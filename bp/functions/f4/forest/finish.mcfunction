@@ -11,6 +11,8 @@ execute @p[scores={f4-forest-title=0}] ~ ~ ~ scoreboard players set @p f4-forest
 #Enable whistle
 scoreboard players set @a whistle-enabled 1
 
+scoreboard players set @p f4-forest-prog 0
+
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 400070
 scoreboard players set @a f4-status 400070
