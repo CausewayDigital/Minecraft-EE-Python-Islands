@@ -11,7 +11,7 @@ execute @p[x=89.5, y=157, z=620.5, r=0.7] ~ ~ ~ effect @s levitation 5 5 true
 execute @p[x=89, y=166, z=620, r=3] ~ ~ ~ effect @s slow_falling 5 5 true
 
 function f3/f3_lifeboat
-execute @e[type=fishing_hook] ~ ~ ~ function f3/use_whistle
+execute @e[type=fishing_hook] ~ ~ ~ function use_whistle
 
 # Particles
 function f3/Particles/loop
