@@ -15,9 +15,6 @@ fill 1045 156 650 1045 156 650 air 0
 fill 1045 156 649 1045 156 649 air 0
 fill 1045 156 646 1045 156 646 air 0
 
-#Spawn Items
-scoreboard players set @p f4-forest-d-t 1
-
 #Clear all the task scoreboards
 scoreboard players set @p f4-forest-prog 0
 scoreboard players set @p f4-forest-title 0
