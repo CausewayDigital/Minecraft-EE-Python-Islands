@@ -18,6 +18,10 @@ execute @p ~ ~ ~ tp @c 1049 156 651 facing 1050 156 651
 #Enable whistle
 scoreboard players set @a whistle-enabled 1
 
+#Diable timer
+scoreboard players set @p f4-forest-d-t 0
+
+#Set prog back to 0
 scoreboard players set @p f4-forest-prog 0
 
 #Set the task scoreboard to the correct task

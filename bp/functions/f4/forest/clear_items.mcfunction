@@ -1,1 +1,1 @@
-kill @e[x=1045, y=154, z=663, dx=0, dy=-4, dz=-20, type=item] 
+kill @e[x=1045, y=154, z=663, dx=0, dy=-4, dz=-20, type=item]  
