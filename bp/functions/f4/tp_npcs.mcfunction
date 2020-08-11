@@ -23,5 +23,5 @@ execute @p[scores={f4-status=400040..400043}] ~ ~ ~ tp @e[type=npc, tag=f4-fm-2]
 execute @p[scores={f4-status=400044..400100}] ~ ~ ~ tp @e[type=npc, tag=f4-fm-2] 1045 156 641 facing 1044 156 642
 
 #MM (Mine Manager)
-execute @p[scores={f4-status=400000..400019}] ~ ~ ~ tp @e[type=npc, tag=f4-mm] 1045 156 641 facing 1044 156 642
+execute @p[scores={f4-status=400000..400019}] ~ ~ ~ tp @e[type=npc, tag=f4-mm] 941 147 629 facing 1044 156 642
 execute @p[scores={f4-status=400020..400000}] ~ ~ ~ tp @e[type=npc, tag=f4-mm] 1012 161 670
