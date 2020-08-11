@@ -10,7 +10,7 @@ execute @p ~ ~ ~ tp @c 1025 163 566 facing 1026 163 566
 give @p dye 1 1
 
 # Give the player a message telling them that they have completed the task
-execute @p[scores={f4-farm-title=3}] ~ ~ ~ title @p subtitle You have successfully picked all the Poppies.
+execute @p[scores={f4-farm-title=3}] ~ ~ ~ title @p subtitle Now take the dye to the airship factory
 execute @p[scores={f4-farm-title=3}] ~ ~ ~ title @p title Woo Hoo!
 execute @p[scores={f4-farm-title=3}] ~ ~ ~ scoreboard players set @p f4-farm-title 4
 
