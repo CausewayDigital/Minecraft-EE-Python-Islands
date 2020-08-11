@@ -30,6 +30,10 @@ scoreboard objectives remove f4-farm-comp
 scoreboard objectives add f4-farm-comp dummy
 scoreboard players set @a f4-farm-comp 0
 
+scoreboard objectives remove f4-farm-title
+scoreboard objectives add f4-farm-title dummy
+scoreboard players set @a f4-farm-title 0
+
 scoreboard objectives remove f4-mine-f-prog
 scoreboard objectives add f4-mine-f-prog dummy
 scoreboard players set @a f4-mine-f-prog 0
