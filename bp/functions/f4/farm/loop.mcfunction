@@ -239,7 +239,7 @@ execute @p[scores={f4-farm-prog=3, f4-farm-title=1}] ~ ~ ~ scoreboard players se
 
 execute @p[scores={f4-farm-prog=4, f4-farm-title=2}] ~ ~ ~ replaceitem entity @c slot.inventory 0 red_flower 3 0
 execute @p[scores={f4-farm-prog=4, f4-farm-title=2}] ~ ~ ~ title @p title 1 Poppy left!
-execute @p[scores={f4-farm-prog=3, f4-farm-title=2}] ~ ~ ~ scoreboard players set @p f4-farm-title 3
+execute @p[scores={f4-farm-prog=4, f4-farm-title=2}] ~ ~ ~ scoreboard players set @p f4-farm-title 3
 
 execute @p[scores={f4-farm-prog=5}] ~ ~ ~ replaceitem entity @c slot.inventory 0 red_flower 4 0
 
