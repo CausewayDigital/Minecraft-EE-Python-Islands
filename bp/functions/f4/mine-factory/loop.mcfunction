@@ -4,7 +4,7 @@
 #Block task off with a fence so player can't play it when they are not supposed to
 execute @p[x=956,y=147,z=624,r=10,scores={f4-status=400000..400038}] ~ ~ ~ detect 951 147 625 air 0 clone 973 152 619 974 152 621 954 147 623 replace
 
-execute @p[x=956,y=147,z=624,r=10,scores={f4-status=400038..400100}] ~ ~ ~ detect 951 147 625 fence 1 fill 954 147 625 954 147 623 air 0
+execute @p[x=956,y=147,z=624,r=10,scores={f4-status=400039..400100}] ~ ~ ~ detect 951 147 625 fence 1 fill 954 147 625 954 147 623 air 0
 
 
 
@@ -44,3 +44,7 @@ execute @p[scores={f4-mine-f-prog=14}] ~ ~ ~ scoreboard players set @p f4-mine-f
 execute @p[scores={f4-mine-f-prog=16}] ~ ~ ~ scoreboard players set @p f4-mine-f-prog 17
 execute @p[scores={f4-mine-f-prog=18}] ~ ~ ~ scoreboard players set @p f4-mine-f-prog 19
 execute @p[scores={f4-mine-f-prog=20}] ~ ~ ~ scoreboard players set @p f4-mine-f-prog 21
+
+
+#Action bar
+execute @p[scores={f4-mine-f-prog=1..30}, x=952,y=146,z=624,r=25] ~ ~ ~ title @p actionbar Press "C" to code or touch the Agent icon
