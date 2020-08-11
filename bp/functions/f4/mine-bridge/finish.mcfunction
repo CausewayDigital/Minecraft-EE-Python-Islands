@@ -3,6 +3,9 @@
 #Set the completeion scoreboard to 1
 scoreboard players set @p f4-mine-b-comp 1
 
+#Clear any effects added to the player
+effect @p clear
+
 # Give the player a message telling them that they have completed the task
 execute @p[x=935, y=150, z=627, r=25] ~ ~ ~ title @p subtitle Oh! There is an island over here.
 execute @p[x=935, y=150, z=627, r=25] ~ ~ ~ title @p title You Did It!

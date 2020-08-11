@@ -1,8 +1,5 @@
 # Any code needed to reset a task, should be run here.
 
-#Clear any effects added to the player
-effect @p clear
-
 #Clear the agent
 function clear_agent
 
