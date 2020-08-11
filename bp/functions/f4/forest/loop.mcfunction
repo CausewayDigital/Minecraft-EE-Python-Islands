@@ -11,27 +11,27 @@ execute @p[x=1036,y=156,z=644,r=10,scores={f4-status=400049..400100}] ~ ~ ~ dete
 
 
 #Use scoreboard to wait for items to fall
-execute @p[scores={f4-forest-d-t=1..9}] ~ ~ ~ scoreboard players add @p f4-forest-d-t 1
-execute @p[r=25, scores={f4-forest-d-t=10}] 1047 147 641 tp @e[type=item, c=1, r=1] 1045 153 656
-execute @p[r=25, scores={f4-forest-d-t=10}] 1047 147 643 tp @e[type=item, c=1, r=1] 1045 152 655
-execute @p[r=25, scores={f4-forest-d-t=10}] 1047 147 645 tp @e[type=item, c=1, r=1] 1045 152 652
-execute @p[r=25, scores={f4-forest-d-t=10}] 1047 147 647 tp @e[type=item, c=1, r=1] 1045 152 651
-execute @p[r=25, scores={f4-forest-d-t=10}] 1044 147 646 tp @e[type=item, c=1, r=1] 1045 152 650
-execute @p[r=25, scores={f4-forest-d-t=10}] 1044 147 644 tp @e[type=item, c=1, r=1] 1045 152 649
-execute @p[r=25, scores={f4-forest-d-t=10}] 1044 147 642 tp @e[type=item, c=1, r=1] 1045 152 646
+execute @p[scores={f4-forest-d-t=1..19}] ~ ~ ~ scoreboard players add @p f4-forest-d-t 1
+execute @p[r=25, scores={f4-forest-d-t=20}] 1047 147 641 tp @e[type=item, c=1, r=1] 1045 153 656
+execute @p[r=25, scores={f4-forest-d-t=20}] 1047 147 643 tp @e[type=item, c=1, r=1] 1045 152 655
+execute @p[r=25, scores={f4-forest-d-t=20}] 1047 147 645 tp @e[type=item, c=1, r=1] 1045 152 652
+execute @p[r=25, scores={f4-forest-d-t=20}] 1047 147 647 tp @e[type=item, c=1, r=1] 1045 152 651
+execute @p[r=25, scores={f4-forest-d-t=20}] 1044 147 646 tp @e[type=item, c=1, r=1] 1045 152 650
+execute @p[r=25, scores={f4-forest-d-t=20}] 1044 147 644 tp @e[type=item, c=1, r=1] 1045 152 649
+execute @p[r=25, scores={f4-forest-d-t=20}] 1044 147 642 tp @e[type=item, c=1, r=1] 1045 152 646
 
 #Destroy redstone
-execute @p[r=25, scores={f4-forest-d-t=10}] ~ ~ ~ fill 1047 150 641 1047 150 641 air 0
-execute @p[r=25, scores={f4-forest-d-t=10}] ~ ~ ~ fill 1047 150 643 1047 150 643 air 0
-execute @p[r=25, scores={f4-forest-d-t=10}] ~ ~ ~ fill 1047 150 645 1047 150 645 air 0
-execute @p[r=25, scores={f4-forest-d-t=10}] ~ ~ ~ fill 1047 150 647 1047 150 647 air 0
-execute @p[r=25, scores={f4-forest-d-t=10}] ~ ~ ~ fill 1044 150 646 1044 150 646 air 0
-execute @p[r=25, scores={f4-forest-d-t=10}] ~ ~ ~ fill 1044 150 644 1044 150 644 air 0
-execute @p[r=25, scores={f4-forest-d-t=10}] ~ ~ ~ fill 1044 150 642 1044 150 642 air 0
+execute @p[r=25, scores={f4-forest-d-t=20}] ~ ~ ~ fill 1047 150 641 1047 150 641 air 0
+execute @p[r=25, scores={f4-forest-d-t=20}] ~ ~ ~ fill 1047 150 643 1047 150 643 air 0
+execute @p[r=25, scores={f4-forest-d-t=20}] ~ ~ ~ fill 1047 150 645 1047 150 645 air 0
+execute @p[r=25, scores={f4-forest-d-t=20}] ~ ~ ~ fill 1047 150 647 1047 150 647 air 0
+execute @p[r=25, scores={f4-forest-d-t=20}] ~ ~ ~ fill 1044 150 646 1044 150 646 air 0
+execute @p[r=25, scores={f4-forest-d-t=20}] ~ ~ ~ fill 1044 150 644 1044 150 644 air 0
+execute @p[r=25, scores={f4-forest-d-t=20}] ~ ~ ~ fill 1044 150 642 1044 150 642 air 0
 
 #Disable timer
-execute @p[r=25, scores={f4-forest-d-t=10}] ~ ~ ~ scoreboard players add @p f4-forest-d-t 1
-execute @p[r=25, scores={f4-forest-d-t=11}] ~ ~ ~ scoreboard players set @p f4-forest-d-t 0
+execute @p[r=25, scores={f4-forest-d-t=20}] ~ ~ ~ scoreboard players add @p f4-forest-d-t 1
+execute @p[r=25, scores={f4-forest-d-t=21}] ~ ~ ~ scoreboard players set @p f4-forest-d-t 0
 
 
 
