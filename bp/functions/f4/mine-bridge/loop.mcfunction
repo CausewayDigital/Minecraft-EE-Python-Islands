@@ -18,7 +18,7 @@ execute @p[x=947, y=147, z=634, dx=1, dy=0, dz=-25, scores={f4-mine-b-comp=0, f4
 # 2 to 17
 function f4/mine-bridge/check_mine_bridge
 execute @p[x=935, y=150, z=627, r=25, scores={f4-mine-b-prog=11, f4-mine-b-title=0}] ~ ~ ~ title @p title I can see the Island
-execute @p[x=935, y=150, z=627, r=25, scores={f4-mine-b-prog=11, f4-mine-b-title=0}] ~ ~ ~ title @p subtitle Only 6 more to go!
+execute @p[x=935, y=150, z=627, r=25, scores={f4-mine-b-prog=11, f4-mine-b-title=0}] ~ ~ ~ title @p subtitle Only 6 more blocks to go!
 execute @p[scores={f4-mine-b-prog=11, f4-mine-b-title=0}] ~ ~ ~ scoreboard players set @p f4-mine-b-title 1
 
 # Finish
