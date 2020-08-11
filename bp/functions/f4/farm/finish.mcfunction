@@ -13,6 +13,9 @@ give @p dye 1 1
 title @p subtitle You have successfully picked all the Poppys.
 title @p title Woo Hoo!
 
+#Enable whistle
+scoreboard players set @a whistle-enabled 1
+
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 400030
 scoreboard players set @a f4-status 400030

@@ -19,6 +19,9 @@ summon fireworks_rocket ~ ~1 ~
 #Reset Agent
 execute @p ~ ~ ~ tp @c 942 147 628 facing 941 147 628
 
+#Enable whistle
+scoreboard players set @a whistle-enabled 1
+
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 400020
 scoreboard players set @a f4-status 400020
