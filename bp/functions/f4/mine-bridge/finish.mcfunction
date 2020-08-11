@@ -10,12 +10,6 @@ effect @p clear
 execute @p[x=935, y=150, z=627, r=25] ~ ~ ~ title @p subtitle Oh! There is an island over here.
 execute @p[x=935, y=150, z=627, r=25] ~ ~ ~ title @p title You Did It!
 
-#Fireworks
-summon fireworks_rocket ~ ~1 ~
-summon fireworks_rocket ~ ~1 ~
-summon fireworks_rocket ~ ~1 ~
-summon fireworks_rocket ~ ~1 ~
-
 #Reset Agent
 execute @p ~ ~ ~ tp @c 942 147 628 facing 941 147 628
 
