@@ -10,7 +10,7 @@ execute @p ~ ~ ~ tp @c 1025 163 566 facing 1026 163 566
 give @p dye 1 1
 
 # Give the player a message telling them that they have completed the task
-title @p subtitle You have successfully picked all the Poppys.
+title @p subtitle You have successfully picked all the Poppies.
 title @p title Woo Hoo!
 
 #Set the task scoreboard to the correct task
