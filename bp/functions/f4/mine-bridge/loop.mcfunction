@@ -16,7 +16,7 @@ execute @p[scores={f4-mine-b-prog=1}, x=935, y=150, z=627, r=3] ~ ~ ~ scoreboard
 execute @p[x=947, y=147, z=634, dx=1, dy=4, dz=-25, scores={f4-mine-b-comp=0, f4-mine-b-blind=0}] ~ ~ ~ function f4/mine-bridge/blinded
 
 # Turn Blindness Off
-execute @p[x=955, y=147, z=623, dx=5, dy=4, dz=-2a, scores={f4-mine-b-blind=1}] ~ ~ ~ function f4/mine-bridge/eyes_cleared
+execute @p[x=955, y=147, z=623, dx=5, dy=4, dz=-2, scores={f4-mine-b-blind=1}] ~ ~ ~ function f4/mine-bridge/eyes_cleared
 
 # 2 to 17
 function f4/mine-bridge/check_mine_bridge
