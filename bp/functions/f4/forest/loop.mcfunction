@@ -44,29 +44,29 @@ execute @p[r=25, scores={f4-forest-d-t=21}] ~ ~ ~ scoreboard players set @p f4-f
 
 
 #Detect blocks being placed
-execute @p[scores={f4-forest-prog=1}] ~ ~ ~ detect 1045 156 656 concrete 8 scoreboard players add @p f4-forest-prog 1
 execute @p[scores={f4-forest-prog=1, f4-forest-title=0}] ~ ~ ~ detect 1045 156 656 concrete 8 title @p title 6 Blocks to go
 execute @p[scores={f4-forest-prog=1, f4-forest-title=0}] ~ ~ ~ detect 1045 156 656 concrete 8 scoreboard players add @p f4-forest-title 1
+execute @p[scores={f4-forest-prog=1}] ~ ~ ~ detect 1045 156 656 concrete 8 scoreboard players add @p f4-forest-prog 1
 
-execute @p[scores={f4-forest-prog=2}] ~ ~ ~ detect 1045 156 655 concrete 8 scoreboard players add @p f4-forest-prog 1
 execute @p[scores={f4-forest-prog=2, f4-forest-title=1}] ~ ~ ~ detect 1045 156 655 concrete 8 title @p title 5 Blocks to go
 execute @p[scores={f4-forest-prog=2, f4-forest-title=1}] ~ ~ ~ detect 1045 156 655 concrete 8 scoreboard players add @p f4-forest-title 1
+execute @p[scores={f4-forest-prog=2}] ~ ~ ~ detect 1045 156 655 concrete 8 scoreboard players add @p f4-forest-prog 1
 
-execute @p[scores={f4-forest-prog=3}] ~ ~ ~ detect 1045 156 652 concrete 8 scoreboard players add @p f4-forest-prog 1
 execute @p[scores={f4-forest-prog=3, f4-forest-title=2}] ~ ~ ~ detect 1045 156 652 concrete 8 title @p title 4 Blocks to go
 execute @p[scores={f4-forest-prog=3, f4-forest-title=2}] ~ ~ ~ detect 1045 156 652 concrete 8 scoreboard players add @p f4-forest-title 1
+execute @p[scores={f4-forest-prog=3}] ~ ~ ~ detect 1045 156 652 concrete 8 scoreboard players add @p f4-forest-prog 1
 
-execute @p[scores={f4-forest-prog=4}] ~ ~ ~ detect 1045 156 651 concrete 8 scoreboard players add @p f4-forest-prog 1
 execute @p[scores={f4-forest-prog=4, f4-forest-title=3}] ~ ~ ~ detect 1045 156 651 concrete 8 title @p title 3 Blocks to go
 execute @p[scores={f4-forest-prog=4, f4-forest-title=3}] ~ ~ ~ detect 1045 156 651 concrete 8 scoreboard players add @p f4-forest-title 1
+execute @p[scores={f4-forest-prog=4}] ~ ~ ~ detect 1045 156 651 concrete 8 scoreboard players add @p f4-forest-prog 1
 
-execute @p[scores={f4-forest-prog=5}] ~ ~ ~ detect 1045 156 650 concrete 8 scoreboard players add @p f4-forest-prog 1
 execute @p[scores={f4-forest-prog=5, f4-forest-title=4}] ~ ~ ~ detect 1045 156 650 concrete 8 title @p title 2 Blocks to go
 execute @p[scores={f4-forest-prog=5, f4-forest-title=4}] ~ ~ ~ detect 1045 156 650 concrete 8 scoreboard players add @p f4-forest-title 1
+execute @p[scores={f4-forest-prog=5}] ~ ~ ~ detect 1045 156 650 concrete 8 scoreboard players add @p f4-forest-prog 1
 
-execute @p[scores={f4-forest-prog=6}] ~ ~ ~ detect 1045 156 649 concrete 8 scoreboard players add @p f4-forest-prog 1
 execute @p[scores={f4-forest-prog=6, f4-forest-title=5}] ~ ~ ~ detect 1045 156 649 concrete 8 title @p title Only 1 Block to go
 execute @p[scores={f4-forest-prog=6, f4-forest-title=5}] ~ ~ ~ detect 1045 156 649 concrete 8 scoreboard players add @p f4-forest-title 1
+execute @p[scores={f4-forest-prog=6}] ~ ~ ~ detect 1045 156 649 concrete 8 scoreboard players add @p f4-forest-prog 1
 
 execute @p[scores={f4-forest-prog=7}] ~ ~ ~ detect 1045 156 646 concrete 8 scoreboard players add @p f4-forest-prog 1
 
