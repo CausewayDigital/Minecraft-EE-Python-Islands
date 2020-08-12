@@ -1,5 +1,24 @@
 # Any code that should run each game tick, should be placed within
 # here (and it sound be run from the main world loop)
+
+#Check for items code
+scoreboard players set @p f4-forest-item 0
+scoreboard players add @p f4-forest-item-t 1
+execute @p[scores={f4-forest-item-t=200..210}] ~ ~ ~ execute @e[type=item, x=1045, y=154, z=657, dx=0, dy=-5, dz=-11] 1045 153 651 scoreboard players set @p f4-forest-item 1
+execute @p[scores={f4-forest-item=0}] ~ ~ ~ function f4/forest/spawn_items
+
+
+
+
+
+
+
+
+
+
+
+
+
 execute @a[x=1045,y=156,z=660,dx=0,dy=0,dz=-15] ~ ~ ~ function f4/forest/lifeboat
 #Block off airship Bridge
 execute @p[x=1023,y=155,z=636,r=10,scores={f4-status=400000..400028}] ~ ~ ~ detect 1023 155 635 air 0 clone 1049 148 650 1048 149 651 1022 155 635 replace
