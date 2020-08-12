@@ -9,8 +9,18 @@ execute @p[scores={f4-mine-b-comp=0}] ~ ~ ~ title @p subtitle Leaving Mission. Y
 #Enable whistle
 scoreboard players set @a whistle-enabled 1
 
-#Disable timer
+#Diable timer
 scoreboard players set @p f4-forest-d-t 0
+
+#Disaable item checker
+scoreboard players set @p f4-forest-item-t 0
+scoreboard players set @p f4-forest-item 0
+
+#Set prog back to 0
+scoreboard players set @p f4-forest-prog 0
+
+#Clear all items
+function f4/forest/clear_items 
 
 scoreboard players set §r objective 400055
 scoreboard players set @a f4-status 400055

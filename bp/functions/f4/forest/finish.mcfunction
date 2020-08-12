@@ -21,8 +21,15 @@ scoreboard players set @a whistle-enabled 1
 #Diable timer
 scoreboard players set @p f4-forest-d-t 0
 
+#Disaable item checker
+scoreboard players set @p f4-forest-item-t 0
+scoreboard players set @p f4-forest-item 0
+
 #Set prog back to 0
 scoreboard players set @p f4-forest-prog 0
+
+#Clear all items
+function f4/forest/clear_items 
 
 #Run story notebook
 codebuilder navigate @p true https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_4/Prime_Minster/Cert_To_PM_1.json
