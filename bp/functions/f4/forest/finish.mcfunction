@@ -24,6 +24,9 @@ scoreboard players set @p f4-forest-d-t 0
 #Set prog back to 0
 scoreboard players set @p f4-forest-prog 0
 
+#Run story notebook
+codebuilder navigate @p true https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_4/Prime_Minster/Cert_To_PM_1.json
+
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 400070
 scoreboard players set @a f4-status 400070
