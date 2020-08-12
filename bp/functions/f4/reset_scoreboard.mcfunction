@@ -66,3 +66,11 @@ scoreboard objectives remove f4-forest-title
 scoreboard objectives add f4-forest-title dummy
 scoreboard players set @a f4-forest-title 0
 
+scoreboard objectives remove f4-forest-item-t
+scoreboard objectives add f4-forest-item-t dummy
+scoreboard players set @a f4-forest-item-t 0
+
+scoreboard objectives remove f4-forest-item
+scoreboard objectives add f4-forest-item dummy
+scoreboard players set @a f4-forest-item 0
+
