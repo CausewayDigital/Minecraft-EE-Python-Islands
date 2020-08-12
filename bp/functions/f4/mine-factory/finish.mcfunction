@@ -18,9 +18,12 @@ scoreboard players set @a whistle-enabled 1
 #Reset Agent
 execute @p ~ ~ ~ tp @c 946 143 621 facing 947 143 621
 
+#Run story notebook
+codebuilder navigate @p true https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_4/Mine_Technician/Mine_To_Factory_1.json
+
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 400050
 scoreboard players set @a f4-status 400050
 
-#Call the reset function as the task is now over. 
+#Call the reset function as the task is now over.
 function f4/mine-factory/reset
