@@ -2,11 +2,11 @@
 # here (and it sound be run from the main world loop)
 
 #Check for items code
-#execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ scoreboard players add @p f4-forest-item-t 1
-#execute @p[scores={f4-forest-item-t=200, f4-forest-prog=1..20}] ~ ~ ~ scoreboard players set @p f4-forest-item 0
-#execute @p[scores={f4-forest-item-t=200, f4-forest-prog=1..20}] ~ ~ ~ execute @e[type=item, x=1045, y=154, z=657, dx=0, dy=-5, dz=-11] 1045 153 651 scoreboard players set @p f4-forest-item 1
-#execute @p[scores={f4-forest-item=0, f4-forest-prog=1..20}] ~ ~ ~ function f4/forest/spawn_items
-#execute @p[scores={f4-forest-item-t=200, f4-forest-prog=1..20}] ~ ~ ~ scoreboard players set @p f4-forest-item-t 0
+execute @p[scores={f4-forest-prog=1..20}] ~ ~ ~ scoreboard players add @p f4-forest-item-t 1
+execute @p[scores={f4-forest-item-t=200, f4-forest-prog=1..20}] ~ ~ ~ scoreboard players set @p f4-forest-item 0
+execute @p[scores={f4-forest-item-t=200, f4-forest-prog=1..20}] ~ ~ ~ execute @e[type=item, x=1045, y=154, z=657, dx=0, dy=-5, dz=-11] 1045 153 651 scoreboard players set @p f4-forest-item 1
+execute @p[scores={f4-forest-item=0, f4-forest-prog=1..20, f4-forest-item-t=200}] ~ ~ ~ function f4/forest/spawn_items
+execute @p[scores={f4-forest-item-t=200, f4-forest-prog=1..20}] ~ ~ ~ scoreboard players set @p f4-forest-item-t 0
 
 
 
