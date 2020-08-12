@@ -4,7 +4,7 @@
 #Check for items code
 execute @p[r=30, scores={f4-forest-prog=1..20}] ~ ~ ~ scoreboard players add @p f4-forest-item-t 1
 execute @p[r=30,scores={f4-forest-item-t=20, f4-forest-prog=1..20}] ~ ~ ~ scoreboard players set @p f4-forest-item 0
-execute @p[r=30,scores={f4-forest-item-t=20, f4-forest-prog=1..20}] ~ ~ ~ execute @e[type=item, x=1045, y=154, z=657, dx=0, dy=-5, dz=-11] 1045 153 651 scoreboard players set @p f4-forest-item 1
+execute @p[r=30,scores={f4-forest-item-t=20, f4-forest-prog=1..20}] ~ ~ ~ execute @e[type=item, x=1044, y=158, z=657, dx=3, dy=-10, dz=-15] 1045 153 651 scoreboard players set @p f4-forest-item 1
 execute @p[r=30,scores={f4-forest-item=0, f4-forest-prog=1..20, f4-forest-item-t=20}] ~ ~ ~ function f4/forest/spawn_items
 execute @p[r=30,scores={f4-forest-item-t=20, f4-forest-prog=1..20}] ~ ~ ~ scoreboard players set @p f4-forest-item-t 0
 
