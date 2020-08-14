@@ -8,7 +8,7 @@ scoreboard players set @p f5-s-t-prog 1
 
 # Teleport the agent into place with all its required blocks
 execute @p ~ ~ ~ tp @c 1021 159 70 facing 1021 159 69
-execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 stone 0 64
+execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 quartz_block 0 64
 execute @p ~ ~ ~ replaceitem entity @c slot.inventory 1 quartz_block 0 64
 execute @p ~ ~ ~ replaceitem entity @c slot.inventory 2 quartz_block 0 64
 execute @p ~ ~ ~ replaceitem entity @c slot.inventory 3 quartz_block 0 64
