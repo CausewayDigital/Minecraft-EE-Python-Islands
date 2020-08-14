@@ -33,5 +33,3 @@ execute @p[scores={f4-s-t-prog=1..17}] ~ ~ ~ title @p actionbar Press "C" to cod
 
 #Finish
 execute @p[scores={f5-s-t-prog=9}] ~ ~ ~ function f5/supporting-towers/finish
-
-say boop
