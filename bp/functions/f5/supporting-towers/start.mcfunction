@@ -11,10 +11,10 @@ execute @p ~ ~ ~ tp @c 1021 159 70 facing 1021 159 69
 execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 planks 0 64
 
 #Clear tower 1
-fill 1021 159 70 1025 167 66 air 0
+fill 1026 159 71 1030 172 67 air 0
 
 #Clear tower 2
-fill 1012 159 70 1016 167 66 air 0
+fill 1008 159 71 1012 172 67 air 0
 
 #Tell the player what to do with a message
 execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ title @p title Walk over to your agent to get started
