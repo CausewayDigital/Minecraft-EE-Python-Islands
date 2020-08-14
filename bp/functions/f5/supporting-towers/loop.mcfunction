@@ -32,4 +32,4 @@ execute @p[scores={f5-s-t-prog=8}] ~ ~ ~ detect 1010 173 70 quartz_block 0 score
 execute @p[scores={f4-s-t-prog=1..17}] ~ ~ ~ title @p actionbar Press "C" to code or touch the Agent icon
 
 #Finish
-execute @p[scores={f5-s-t-prog=9}] ~ ~ ~ function f5/supporting-towers/finish
+execute @p[scores={f5-s-t-prog=9}, x=1019, y=159, z=68, r=30] ~ ~ ~ function f5/supporting-towers/finish
