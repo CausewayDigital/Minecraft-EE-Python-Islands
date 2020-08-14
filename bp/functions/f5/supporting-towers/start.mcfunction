@@ -10,6 +10,9 @@ scoreboard players set @p f5-s-t-prog 1
 execute @p ~ ~ ~ tp @c 1021 159 70 facing 1021 159 69
 execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 planks 0 64
 
+#Clear Test Tower
+fill 1017 159 80 1021 173 76 air 0
+
 #Clear tower 1
 fill 1027 159 70 1029 172 68 air 0
 
