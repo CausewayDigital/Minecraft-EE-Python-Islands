@@ -3,6 +3,9 @@
 #Set the completeion scoreboard to 1
 scoreboard players set @p f4-s-t-comp 1
 
+#Stop Timer
+scoreboard players set @p f4-s-t-timer 0
+
 #Clear any effects added to the player
 effect @p clear
 

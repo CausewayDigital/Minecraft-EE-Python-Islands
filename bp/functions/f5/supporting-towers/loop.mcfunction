@@ -3,6 +3,13 @@
 
 # Block and unblock the bridge
 
+#Increase Timer
+execute @p[scores={f5-s-t-timer=1..200}] ~ ~ ~ scoreboard players add @p f5-s-t-timer 1
+
+#Check Timer
+execute @p[scores={f5-s-t-timer=200}] ~ ~ ~ replaceitem entity @c slot.inventory 0 quartz_block 0 64
+execute @p[scores={f5-s-t-timer=200}] ~ ~ ~ scoreboard players add @p f5-s-t-timer 1
+
 #Test Tower
 #Correct Blocks
 execute @p[scores={f5-s-t-prog=1}] ~ ~ ~ detect 1019 159 79 quartz_block 0 scoreboard players add @p f5-s-t-prog 1
@@ -29,9 +36,10 @@ execute @p[scores={f5-s-t-prog=1..10, f5-s-t-wrong=0}] ~ ~ ~ detect 1018 159 80 
 execute @p[scores={f5-s-t-prog=1..10, f5-s-t-wrong=0}] ~ ~ ~ detect 1018 159 80 quartz_block 0 scoreboard players set @p f5-s-t-wrong 1
 execute @p[scores={f5-s-t-prog=1..10}] ~ ~ ~ detect 1018 159 80 air 0 scoreboard players set @p f5-s-t-wrong 0
 
-execute @p[scores={f5-s-t-prog=7}] ~ ~ ~ title @p title Test Tower Complete!
-execute @p[scores={f5-s-t-prog=7}] ~ ~ ~ title @p subtitle Now lets do the others
-execute @p[scores={f5-s-t-prog=7}] ~ ~ ~ clone 1025 153 60 1025 153 60 1027 154 60 replace
+execute @p[scores={f5-s-t-prog=7, f5-s-t-title=0}] ~ ~ ~ title @p title Test Tower Complete!
+execute @p[scores={f5-s-t-prog=7, f5-s-t-title=0}] ~ ~ ~ title @p subtitle Now lets do the others
+execute @p[scores={f5-s-t-prog=7, f5-s-t-title=0}] ~ ~ ~ clone 1025 153 60 1025 153 60 1027 154 60 replace
+execute @p[scores={f5-s-t-prog=7, f5-s-t-title=0}] ~ ~ ~ scoreboard players set @p f5-s-t-title 1
 
 #Tower 1
 execute @p[scores={f5-s-t-prog=7}] ~ ~ ~ detect 1028 173 70 quartz_block 0 scoreboard players add @p f5-s-t-prog 1
