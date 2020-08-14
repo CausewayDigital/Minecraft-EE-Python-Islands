@@ -11,10 +11,13 @@ execute @p ~ ~ ~ tp @c 1021 159 70 facing 1021 159 69
 execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 planks 0 64
 
 #Clear tower 1
-fill 1026 159 71 1030 172 67 air 0
+fill 1027 159 70 1029 172 68 air 0
 
 #Clear tower 2
-fill 1008 159 71 1012 172 67 air 0
+fill 1009 159 70 1011 172 68 air 0
+
+#Clear Validation block
+fill 1027 154 60 1027 154 60 air 0
 
 #Tell the player what to do with a message
 execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ title @p title Walk over to your agent to get started
@@ -23,7 +26,7 @@ execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ title @p title Walk over to your age
 scoreboard players set @a whistle-enabled 0
 
 # Open the Notebook URL (using false always)
-#codebuilder navigate @p false https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_4/Bridge/Bridge_1.json
+codebuilder navigate @p false https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_5/Tower/Tower.json
 
 ############### DO THIS LATER #######################
 #Set the task scoreboard to the correct task
