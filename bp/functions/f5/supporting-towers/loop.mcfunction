@@ -26,10 +26,12 @@ execute @p[scores={f5-s-t-prog=7}] ~ ~ ~ clone 1025 153 60 1025 153 60 1027 154 
 execute @p[scores={f5-s-t-prog=7}] ~ ~ ~ detect 1028 173 70 quartz_block 0 scoreboard players add @s f5-s-t-prog 1
 
 #Tower 2
-execute @p[scores={f5-s-t-prog=8}] ~ ~ ~ detect 1028 173 70 quartz_block 0 scoreboard players add @s f5-s-t-prog 1
+execute @p[scores={f5-s-t-prog=8}] ~ ~ ~ detect 1010 173 70 quartz_block 0 scoreboard players add @s f5-s-t-prog 1
 
 #Action bar
 execute @p[scores={f4-s-t-prog=1..17}] ~ ~ ~ title @p actionbar Press "C" to code or touch the Agent icon
 
 #Finish
 execute @p[scores={f5-s-t-prog=9}] ~ ~ ~ function f5/supporting-towers/finish
+
+say boop
