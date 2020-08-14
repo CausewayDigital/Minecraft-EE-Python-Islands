@@ -22,3 +22,7 @@ scoreboard objectives remove f5-s-t-wrong
 scoreboard objectives add f5-s-t-wrong dummy
 scoreboard players set @a f5-s-t-wrong 0
 
+scoreboard objectives remove f5-s-t-timer
+scoreboard objectives add f5-s-t-timer dummy
+scoreboard players set @a f5-s-t-timer 0
+
