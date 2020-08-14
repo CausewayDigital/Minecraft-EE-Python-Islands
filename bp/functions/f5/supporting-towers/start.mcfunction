@@ -12,15 +12,7 @@ scoreboard players set @p f5-s-t-timer 1
 # Teleport the agent into place with all its required blocks
 execute @p ~ ~ ~ tp @c 1021 159 70 facing 1021 159 69
 execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 quartz_block 64
-execute @p ~ ~ ~ replaceitem entity @c slot.inventory 1 quartz_block 64
-execute @p ~ ~ ~ replaceitem entity @c slot.inventory 2 quartz_block 64
-execute @p ~ ~ ~ replaceitem entity @c slot.inventory 3 quartz_block 64
-execute @p ~ ~ ~ replaceitem entity @c slot.inventory 4 quartz_block 64
-execute @p ~ ~ ~ replaceitem entity @c slot.inventory 5 quartz_block 64
-execute @p ~ ~ ~ replaceitem entity @c slot.inventory 6 quartz_block 64
-execute @p ~ ~ ~ replaceitem entity @c slot.inventory 7 quartz_block 64
-execute @p ~ ~ ~ replaceitem entity @c slot.inventory 8 quartz_block 64
-execute @p ~ ~ ~ replaceitem entity @c slot.inventory 9 quartz_block 64
+
 
 #Clear Test Tower
 fill 1017 159 80 1021 173 76 air 0
