@@ -13,7 +13,7 @@ execute @p[scores={f5-s-t-prog=5}] ~ ~ ~ detect 1019 171 77 quartz_block 0 score
 execute @p[scores={f5-s-t-prog=6}] ~ ~ ~ detect 1019 173 79 quartz_block 0 scoreboard players add @s f5-s-t-prog 1
 
 #Wrong Blocks
-detect 1017 159 80 quartz_block 0 say Wrong!
+execute @p[scores={f5-s-t-prog=1..10}] ~ ~ ~ detect 1017 159 80 quartz_block 0 say Wrong!
 detect 10179 159 76 quartz_block 0 clone 1026 153 60 1026 153 60 1027 154 60 replace
 detect 1021 159 78 quartz_block 0 clone 1026 153 60 1026 153 60 1027 154 60 replace
 detect 1018 159 80 quartz_block 0 clone 1026 153 60 1026 153 60 1027 154 60 replace
@@ -29,7 +29,7 @@ execute @p[scores={f5-s-t-prog=7}] ~ ~ ~ detect 1028 173 70 quartz_block 0 score
 execute @p[scores={f5-s-t-prog=8}] ~ ~ ~ detect 1010 173 70 quartz_block 0 scoreboard players add @s f5-s-t-prog 1
 
 #Action bar
-execute @p[scores={f5-s-t-prog=1..17}] ~ ~ ~ title @p actionbar Press "C" to code or touch the Agent icon
+execute @p[scores={f5-s-t-prog=1..10}] ~ ~ ~ title @p actionbar Press "C" to code or touch the Agent icon
 
 #Finish
 execute @p[scores={f5-s-t-prog=9}, x=1019, y=159, z=68, r=30] ~ ~ ~ function f5/supporting-towers/finish
