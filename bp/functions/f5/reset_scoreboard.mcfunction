@@ -18,3 +18,7 @@ scoreboard objectives remove f5-s-t-title
 scoreboard objectives add f5-s-t-title dummy
 scoreboard players set @a f5-s-t-title 0
 
+scoreboard objectives remove f5-s-t-wrong
+scoreboard objectives add f5-s-t-wrong dummy
+scoreboard players set @a f5-s-t-wrong 0
+
