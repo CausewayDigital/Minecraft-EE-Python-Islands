@@ -13,10 +13,21 @@ execute @p[scores={f5-s-t-prog=5}] ~ ~ ~ detect 1019 171 77 quartz_block 0 score
 execute @p[scores={f5-s-t-prog=6}] ~ ~ ~ detect 1019 173 79 quartz_block 0 scoreboard players add @s f5-s-t-prog 1
 
 #Wrong Blocks
-execute @p[scores={f5-s-t-prog=1..10}] ~ ~ ~ detect 1017 159 80 quartz_block 0 say Wrong!
-detect 10179 159 76 quartz_block 0 clone 1026 153 60 1026 153 60 1027 154 60 replace
-detect 1021 159 78 quartz_block 0 clone 1026 153 60 1026 153 60 1027 154 60 replace
-detect 1018 159 80 quartz_block 0 clone 1026 153 60 1026 153 60 1027 154 60 replace
+execute @p[scores={f5-s-t-prog=1..10, f5-s-t-wrong=0}] ~ ~ ~ detect 1017 159 80 quartz_block 0 clone 1026 153 60 1026 153 60 1027 154 60 replace
+execute @p[scores={f5-s-t-prog=1..10, f5-s-t-wrong=0}] ~ ~ ~ detect 1017 159 80 quartz_block 0 scoreboard players set @s f5-s-t-wrong 1
+execute @p[scores={f5-s-t-prog=1..10}] ~ ~ ~ detect 1017 159 80 air 0 scoreboard players set @s f5-s-t-wrong 0
+
+execute @p[scores={f5-s-t-prog=1..10, f5-s-t-wrong=0}] ~ ~ ~ detect 1017 159 76 quartz_block 0 clone 1026 153 60 1026 153 60 1027 154 60 replace
+execute @p[scores={f5-s-t-prog=1..10, f5-s-t-wrong=0}] ~ ~ ~ detect 1017 159 76 quartz_block 0 scoreboard players set @s f5-s-t-wrong 1
+execute @p[scores={f5-s-t-prog=1..10}] ~ ~ ~ detect 1017 159 76 air 0 scoreboard players set @s f5-s-t-wrong 0
+
+execute @p[scores={f5-s-t-prog=1..10, f5-s-t-wrong=0}] ~ ~ ~ detect 1021 159 78 quartz_block 0 clone 1026 153 60 1026 153 60 1027 154 60 replace
+execute @p[scores={f5-s-t-prog=1..10, f5-s-t-wrong=0}] ~ ~ ~ detect 1021 159 78 quartz_block 0 scoreboard players set @s f5-s-t-wrong 1
+execute @p[scores={f5-s-t-prog=1..10}] ~ ~ ~ detect 1021 159 78 air 0 scoreboard players set @s f5-s-t-wrong 0
+
+execute @p[scores={f5-s-t-prog=1..10, f5-s-t-wrong=0}] ~ ~ ~ detect 1018 159 80 quartz_block 0 clone 1026 153 60 1026 153 60 1027 154 60 replace
+execute @p[scores={f5-s-t-prog=1..10, f5-s-t-wrong=0}] ~ ~ ~ detect 1018 159 80 quartz_block 0 scoreboard players set @s f5-s-t-wrong 1
+execute @p[scores={f5-s-t-prog=1..10}] ~ ~ ~ detect 1018 159 80 air 0 scoreboard players set @s f5-s-t-wrong 0
 
 execute @p[scores={f5-s-t-prog=7}] ~ ~ ~ title @p title Test Tower Complete!
 execute @p[scores={f5-s-t-prog=7}] ~ ~ ~ title @p subtitle Now lets do the others
