@@ -7,13 +7,14 @@ function f5/supporting-towers/reset
 scoreboard players set @p f5-s-t-prog 1
 
 # Teleport the agent into place with all its required blocks
-execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ tp @c 1021 159 70 facing 1021 159 69
-execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ replaceitem entity @c slot.inventory 0 quartz_block 0 64
-execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ replaceitem entity @c slot.inventory 1 quartz_block 0 64
-execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ replaceitem entity @c slot.inventory 2 quartz_block 0 64
-execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ replaceitem entity @c slot.inventory 3 quartz_block 0 64
-execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ replaceitem entity @c slot.inventory 4 quartz_block 0 64
-execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ replaceitem entity @c slot.inventory 5 quartz_block 0 64
+execute @p ~ ~ ~ tp @c 1021 159 70 facing 1021 159 69
+
+replaceitem entity @c slot.inventory 0 quartz_block 0 64
+replaceitem entity @c slot.inventory 1 quartz_block 0 64
+replaceitem entity @c slot.inventory 2 quartz_block 0 64
+replaceitem entity @c slot.inventory 3 quartz_block 0 64
+replaceitem entity @c slot.inventory 4 quartz_block 0 64
+replaceitem entity @c slot.inventory 5 quartz_block 0 64
 
 #Clear Test Tower
 fill 1017 159 80 1021 173 76 air 0
