@@ -33,7 +33,7 @@ execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ title @p title Walk over to your age
 scoreboard players set @a whistle-enabled 0
 
 # Open the Notebook URL (using false always)
-codebuilder navigate @p false https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_5/Tower/Tower.json
+codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_5/Tower/Tower.json
 
 ############### DO THIS LATER #######################
 #Set the task scoreboard to the correct task
