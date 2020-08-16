@@ -26,3 +26,15 @@ scoreboard objectives remove f5-s-t-timer
 scoreboard objectives add f5-s-t-timer dummy
 scoreboard players set @a f5-s-t-timer 0
 
+scoreboard objectives remove f5-l-t-prog
+scoreboard objectives add f5-l-t-prog dummy
+scoreboard players set @a f5-l-t-prog 0
+
+scoreboard objectives remove f5-l-t-comp
+scoreboard objectives add f5-l-t-comp dummy
+scoreboard players set @a f5-l-t-comp 0
+
+scoreboard objectives remove f5-l-t-title
+scoreboard objectives add f5-l-t-title dummy
+scoreboard players set @a f5-l-t-title 0
+

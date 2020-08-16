@@ -12,6 +12,7 @@ function code_status
 execute @p[x=1019, y=159, z=68] ~ ~ ~ function f5/supporting-towers/loop
 
 # Light Translator
+execute @p[x=1010, y=154, z=137] ~ ~ ~ function f5/supporting-towers/loop
 
 # Bouncy Building
 

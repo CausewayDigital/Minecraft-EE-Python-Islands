@@ -9,3 +9,8 @@ f5-s-t-comp
 f5-s-t-title
 f5-s-t-wrong
 f5-s-t-timer
+
+
+f5-l-t-prog
+f5-l-t-comp
+f5-l-t-title

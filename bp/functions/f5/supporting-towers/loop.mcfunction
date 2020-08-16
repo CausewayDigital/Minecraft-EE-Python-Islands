@@ -8,7 +8,7 @@ execute @p[scores={f5-s-t-timer=1..200}] ~ ~ ~ scoreboard players add @p f5-s-t-
 
 #Check Timer
 execute @p[scores={f5-s-t-timer=200}] ~ ~ ~ replaceitem entity @c slot.inventory 0 quartz_block 64
-execute @p[scores={f5-s-t-timer=200}] ~ ~ ~ scoreboard players add @p f5-s-t-timer 1
+execute @p[scores={f5-s-t-timer=200}] ~ ~ ~ scoreboard players set @p f5-s-t-timer 1
 
 #Test Tower
 #Correct Blocks
