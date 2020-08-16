@@ -1,0 +1,1 @@
+execute @p[scores={f5-l-t-prog=7}] ~ ~ ~ summon snow_golem 1014 148 131
