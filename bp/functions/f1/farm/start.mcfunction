@@ -7,4 +7,4 @@ scoreboard players set @a whistle-enabled 0
 
 give @p wheat_seeds 3
 
-codebuilder navigate @p false https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_1/Farm/Farm.json
+codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_1/Farm/Farm.json

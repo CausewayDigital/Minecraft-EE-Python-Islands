@@ -18,7 +18,7 @@ execute @p[scores={f4-farm-title=3}] ~ ~ ~ scoreboard players set @p f4-farm-tit
 scoreboard players set @a whistle-enabled 1
 
 #Run story notebook
-codebuilder navigate @p true https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_4/Gardener/Gardener_To_Factory_1.json
+codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_4/Gardener/Gardener_To_Factory_1.json
 
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 400030
