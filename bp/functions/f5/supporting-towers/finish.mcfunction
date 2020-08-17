@@ -23,7 +23,7 @@ scoreboard players set @a whistle-enabled 1
 
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 500020
-scoreboard players set @a f4-status 500020
+scoreboard players set @a f5-status 500020
 
 #Call the reset function as the task is now over.
 function f5/supporting-towers/reset
