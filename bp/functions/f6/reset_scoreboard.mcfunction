@@ -38,3 +38,15 @@ scoreboard objectives remove f5-l-t-title
 scoreboard objectives add f5-l-t-title dummy
 scoreboard players set @a f5-l-t-title 0
 
+scoreboard objectives remove f6-runway-prog
+scoreboard objectives add f6-runway-prog dummy
+scoreboard players set @a f6-runway-prog 0
+
+scoreboard objectives remove f6-runway-comp
+scoreboard objectives add f6-runway-comp dummy
+scoreboard players set @a f6-runway-comp 0
+
+scoreboard objectives remove f6-runway-count
+scoreboard objectives add f6-runway-count dummy
+scoreboard players set @a f6-runway-count 0
+
