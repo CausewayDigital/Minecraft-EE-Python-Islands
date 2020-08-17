@@ -1,0 +1,16 @@
+# All scoreboard variable name should be placed before 1 per line, this will automatically generate the f4_scoreboard_reset.mcfunction file.
+
+f5-status
+whistle-enabled
+
+
+f5-s-t-prog
+f5-s-t-comp
+f5-s-t-title
+f5-s-t-wrong
+f5-s-t-timer
+
+
+f5-l-t-prog
+f5-l-t-comp
+f5-l-t-title
