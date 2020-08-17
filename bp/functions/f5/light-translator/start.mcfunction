@@ -23,7 +23,6 @@ scoreboard players set @a whistle-enabled 0
 # Open the Notebook URL (using false always)
 codebuilder navigate @p false https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_5/Translator/Translator.json
 
-############### DO THIS LATER #######################
 #Set the task scoreboard to the correct task
-#scoreboard players set §r objective 400015
-#scoreboard players set @a f4-status 400015 
+scoreboard players set §r objective 500025
+scoreboard players set @a f4-status 500025 

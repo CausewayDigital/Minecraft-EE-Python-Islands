@@ -77,3 +77,17 @@ objective=§l§6- Current Task -§r
 400060=§fRepair the holes in the Airship
 400070=§fDeliver Certificate to the Prime Minster
 400080=§fWorld Complete!
+
+
+
+500000=§fTalk to the first person
+500010=§fGo to the Telescope Island
+500015=§fBuild the supports
+500020=§fHead over to the centre for computer research
+500025=§fDecode the message
+500030=§fGo over to the Power Factory
+500040=§fPull a cable to the telescope
+500050=§fHead to the jumping platform
+500055=§fJump up the telescope
+500060=§fTalk to the last person
+500070=§fWorld Complete!

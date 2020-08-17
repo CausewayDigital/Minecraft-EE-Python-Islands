@@ -1,8 +1,6 @@
 # Any code that should run each game tick, should be placed within
 # here (and it sound be run from the main world loop)
 
-# Block and unblock the bridge
-
 #Increase Timer
 execute @p[scores={f5-s-t-timer=1..200}] ~ ~ ~ scoreboard players add @p f5-s-t-timer 1
 

@@ -22,9 +22,8 @@ scoreboard players set @a whistle-enabled 1
 #Run story notebook
 
 #Set the task scoreboard to the correct task
-############### DO THIS LATER #######################
-#scoreboard players set §r objective 400020
-#scoreboard players set @a f4-status 400020
+scoreboard players set §r objective 500020
+scoreboard players set @a f4-status 500020
 
 #Call the reset function as the task is now over.
 function f5/supporting-towers/reset
