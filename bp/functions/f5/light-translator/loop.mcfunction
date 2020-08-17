@@ -2,7 +2,7 @@
 # here (and it sound be run from the main world loop)
 
 #Block off task
-execute @p[x=1007,y=154,z=137,r=10, scores={f5-status=500000..500019}] ~ ~ ~ detect 1008 152 137 redstone_torch fill 1008 152 137 1008 152 137 air 0
+execute @p[x=1007,y=154,z=137,r=10, scores={f5-status=500000..500019}] ~ ~ ~ detect 1008 152 137 redstone_torch 0 fill 1008 152 137 1008 152 137 air 0
 
 execute @p[x=1007,y=154,z=137,r=10, scores={f5-status=500020..500100}] ~ ~ ~ detect 1008 152 137 air 0 fill 1008 152 137 1008 152 137 redstone_torch
 
