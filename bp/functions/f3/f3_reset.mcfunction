@@ -11,6 +11,7 @@ function f3/Mine/reset_access
 function f3/Mine/reset
 
 function f3/Forest/reset_access
+function f3/Forest/reset
 
 function f3/Farm/reset
 
