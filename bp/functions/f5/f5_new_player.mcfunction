@@ -8,4 +8,4 @@ title @p subtitle Intro to Functions
 title @p title Welcome to Island 5
 
 scoreboard players set §r objective 500000
-scoreboard players set @a f4-status 500000
+scoreboard players set @a f5-status 500000

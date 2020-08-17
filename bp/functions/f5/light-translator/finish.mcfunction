@@ -20,7 +20,7 @@ scoreboard players set @a whistle-enabled 1
 
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 500030
-scoreboard players set @a f4-status 500030
+scoreboard players set @a f5-status 500030
 
 #Call the reset function as the task is now over.
 function f5/light-translator/reset
