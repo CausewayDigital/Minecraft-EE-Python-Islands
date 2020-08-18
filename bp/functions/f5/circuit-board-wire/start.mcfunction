@@ -43,9 +43,10 @@ fill 1021 159 85 1021 159 85 air 0
 #Repeater break on z=84
 fill 1021 159 83 1021 159 83 air 0
 fill 1021 159 82 1021 159 82 air 0
-fill 1021 159 81 1021 159 81 air 0
-fill 1022 159 81 1022 159 81 air 0
-fill 1023 159 81 1023 159 81 air 0
+fill 1022 159 82 1022 159 82 air 0
+fill 1023 159 82 1023 159 82 air 0
+fill 1024 159 82 1024 159 82 air 0
+fill 1024 159 83 1024 159 83 air 0
 
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 500055
