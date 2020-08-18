@@ -19,6 +19,9 @@ execute @p ~ ~ ~ tp @c 1023 159 78 facing 1023 159 77
 #Enable whistle
 scoreboard players set @a whistle-enabled 1
 
+#clear test tower
+fill 1017 159 80 1021 173 76 air 0
+
 #Run story notebook
 
 #Set the task scoreboard to the correct task
