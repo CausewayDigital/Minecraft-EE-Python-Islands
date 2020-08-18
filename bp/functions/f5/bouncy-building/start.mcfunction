@@ -9,6 +9,9 @@ scoreboard players set @p f5-b-b-prog 1
 # Teleport the agent into place
 execute @p ~ ~ ~ tp @c 1012 159 77 facing 1012 159 76
 
+#Give agent beacon
+execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 beacon 1
+
 #Tell the player what to do with a message
 execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ title @p title Walk over to your agent to get started
 
