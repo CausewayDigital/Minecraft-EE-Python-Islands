@@ -9,7 +9,8 @@ scoreboard players set @p f5-c-b-prog 1
 # Teleport the agent into place
 execute @p ~ ~ ~ tp @c 1021 153 102 facing 1021 153 101
 
-
+#Give agent redstone
+execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 redstone 64
 
 #Tell the player what to do with a message
 execute @p[x=1021, y=153, z=103, r=30] ~ ~ ~ title @p title Walk over to your agent to get started

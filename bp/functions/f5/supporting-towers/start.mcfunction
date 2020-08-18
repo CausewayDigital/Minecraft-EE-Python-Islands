@@ -26,6 +26,9 @@ fill 1009 159 70 1011 173 68 air 0
 #Clear Validation block
 fill 1027 154 60 1027 154 60 air 0
 
+#Clear telescope
+fill 1009 159 57 1029 180 81 air 0
+
 #Tell the player what to do with a message
 execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ title @p title Walk over to your agent to get started
 
