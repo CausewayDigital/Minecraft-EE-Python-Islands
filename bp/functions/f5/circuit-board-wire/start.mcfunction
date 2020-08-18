@@ -18,7 +18,8 @@ execute @p[x=1021, y=153, z=103, r=30] ~ ~ ~ title @p title Walk over to your ag
 scoreboard players set @a whistle-enabled 0
 
 # Open the Notebook URL (using false always)
-#codebuilder navigate @p false https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_5/Translator/Translator.json
+codebuilder navigate @p false https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_5/Wire/Wire.json
+
 
 #clear all redstone
 fill 1021 153 101 1021 153 101 air 0
