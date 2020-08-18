@@ -15,6 +15,10 @@ f5-l-t-prog
 f5-l-t-comp
 f5-l-t-title
 
+f5-b-b-prog
+f5-b-b-comp
+f5-b-b-title
+
 f5-c-b-prog
 f5-c-b-comp
 f5-c-b-title
