@@ -38,3 +38,15 @@ scoreboard objectives remove f5-l-t-title
 scoreboard objectives add f5-l-t-title dummy
 scoreboard players set @a f5-l-t-title 0
 
+scoreboard objectives remove f5-c-b-prog
+scoreboard objectives add f5-c-b-prog dummy
+scoreboard players set @a f5-c-b-prog 0
+
+scoreboard objectives remove f5-c-b-comp
+scoreboard objectives add f5-c-b-comp dummy
+scoreboard players set @a f5-c-b-comp 0
+
+scoreboard objectives remove f5-c-b-title
+scoreboard objectives add f5-c-b-title dummy
+scoreboard players set @a f5-c-b-title 0
+
