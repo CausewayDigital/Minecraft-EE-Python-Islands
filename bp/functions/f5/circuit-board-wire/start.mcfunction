@@ -46,5 +46,5 @@ fill 1022 159 81 1022 159 81 air 0
 fill 1023 159 81 1023 159 81 air 0
 
 #Set the task scoreboard to the correct task
-scoreboard players set §r objective 500040
-scoreboard players set @a f5-status 500040 
+scoreboard players set §r objective 500055
+scoreboard players set @a f5-status 500055 
