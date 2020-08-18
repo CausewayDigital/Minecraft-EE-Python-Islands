@@ -33,18 +33,19 @@ execute @s ~ ~ ~ detect 945 146 130 carpet 0 execute @s ~ ~ ~ detect 945 145 130
 execute @s ~ ~ ~ detect 945 146 130 carpet 0 setblock 945 145 130 concrete 0 replace
 
 #|
-execute @s ~ ~ ~ detect 946 146 129 carpet 0 execute @s ~ ~ ~ detect 946 145 129 coal_block 0 scoreboard players add @s f6-runway-count 1
-execute @s ~ ~ ~ detect 946 146 129 carpet 0 setblock 946 145 129 concrete 0 replace
+execute @s ~ ~ ~ detect 945 146 129 carpet 0 execute @s ~ ~ ~ detect 945 145 129 coal_block 0 scoreboard players add @s f6-runway-count 1
+execute @s ~ ~ ~ detect 945 146 129 carpet 0 setblock 945 145 129 concrete 0 replace
 
-execute @s ~ ~ ~ detect 946 146 128 carpet 0 execute @s ~ ~ ~ detect 946 145 128 coal_block 0 scoreboard players add @s f6-runway-count 1
-execute @s ~ ~ ~ detect 946 146 128 carpet 0 setblock 946 145 128 concrete 0 replace
+execute @s ~ ~ ~ detect 945 146 128 carpet 0 execute @s ~ ~ ~ detect 945 145 128 coal_block 0 scoreboard players add @s f6-runway-count 1
+execute @s ~ ~ ~ detect 945 146 128 carpet 0 setblock 945 145 128 concrete 0 replace
 
-execute @s ~ ~ ~ detect 946 146 127 carpet 0 execute @s ~ ~ ~ detect 946 145 127 coal_block 0 scoreboard players add @s f6-runway-count 1
-execute @s ~ ~ ~ detect 946 146 127 carpet 0 setblock 946 145 127 concrete 0 replace
+execute @s ~ ~ ~ detect 945 146 127 carpet 0 execute @s ~ ~ ~ detect 945 145 127 coal_block 0 scoreboard players add @s f6-runway-count 1
+execute @s ~ ~ ~ detect 945 146 127 carpet 0 setblock 945 145 127 concrete 0 replace
 
+#_
 execute @s ~ ~ ~ detect 946 146 126 carpet 0 execute @s ~ ~ ~ detect 946 145 126 coal_block 0 scoreboard players add @s f6-runway-count 1
 execute @s ~ ~ ~ detect 946 146 126 carpet 0 setblock 946 145 126 concrete 0 replace
-#_
+
 execute @s ~ ~ ~ detect 945 146 126 carpet 0 execute @s ~ ~ ~ detect 946 145 126 coal_block 0 scoreboard players add @s f6-runway-count 1
 execute @s ~ ~ ~ detect 945 146 126 carpet 0 setblock 946 145 126 concrete 0 replace
 
