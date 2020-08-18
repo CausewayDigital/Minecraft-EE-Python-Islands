@@ -11,4 +11,4 @@ execute @p[scores={f5-c-b-prog=1, f5-c-b-title=0}] ~ ~ ~ detect 1021 156 91 reds
 execute @p[scores={f5-c-b-prog=1, f5-c-b-title=0}] ~ ~ ~ detect 1021 156 91 redstone_wire -1 scoreboard players set @p f5-c-b-prog 2
 execute @p[scores={f5-c-b-prog=1..2, f5-c-b-title=0}] ~ ~ ~ detect 1021 156 91 redstone_wire -1 scoreboard players add @p f5-c-b-title 1
 
-execute @p[scores={f5-c-b-prog=2, f5-c-b-title=0}] ~ ~ ~ detect 1023 159 981 redstone_wire -1 scoreboard players set @p f5-c-b-prog 3
+execute @p[scores={f5-c-b-prog=2, f5-c-b-title=0}] ~ ~ ~ detect 1024 159 83 redstone_wire -1 scoreboard players set @p f5-c-b-prog 3
