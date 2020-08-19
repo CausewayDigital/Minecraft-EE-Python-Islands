@@ -38,4 +38,4 @@ particle minecraft:totem_particle ~ ~ ~
 particle minecraft:totem_particle ~ ~ ~
 
 title @p title World Complete!
-title @p subtitle You have finished Island 4
+title @p subtitle You have finished Island 5
