@@ -4,7 +4,7 @@
 function f5/bouncy-building/reset
 
 #Set progress to 1
-scoreboard players set @p f5-b-b-prog 1
+scoreboard players set @p f5-bounce-prog 1
 
 # Teleport the agent into place
 execute @p ~ ~ ~ tp @c 1012 159 77 facing 1012 159 76

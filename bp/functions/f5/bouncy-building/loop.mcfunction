@@ -11,4 +11,4 @@ execute @p[x=1021, y=154, z=74, r=10, scores={f5-status=500000..500029}] ~ ~ ~ d
 execute @p[x=1021, y=154, z=74, r=10, scores={f5-status=500030..500100}] ~ ~ ~ detect 1021 152 73 air 0 fill 1021 152 73 1021 152 73 redstone_torch
 
 #Detect beacon
-execute @p[scores={f5-b-b-prog=1}] ~ ~ ~ detect 1019 173 65 beacon -1 function f5/bouncy-building/finish
+execute @p[scores={f5-bounce-prog=1}] ~ ~ ~ detect 1019 173 65 beacon -1 function f5/bouncy-building/finish

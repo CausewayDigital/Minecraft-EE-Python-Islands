@@ -14,6 +14,5 @@ fill 1009 159 57 1029 180 81 air 0
 
 scoreboard players set @a whistle-enabled 1
 
-########## DO THIS LATER ##################
-#scoreboard players set §r objective 400000
-#scoreboard players set @a f4-status 400000
+scoreboard players set §r objective 500000
+scoreboard players set @a f4-status 500000

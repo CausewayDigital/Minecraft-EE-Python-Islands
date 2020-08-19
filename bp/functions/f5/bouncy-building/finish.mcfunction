@@ -1,7 +1,7 @@
 # Code run when the player completes the task. It should run quit.mcfunction as well
 
 #Set the completeion scoreboard to 1
-scoreboard players set @p f5-b-b-comp 1
+scoreboard players set @p f5-bounce-comp 1
 
 #Clear any effects added to the player
 effect @p clear

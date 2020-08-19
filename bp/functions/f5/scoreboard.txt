@@ -4,21 +4,21 @@ f5-status
 whistle-enabled
 
 
-f5-s-t-prog
-f5-s-t-comp
-f5-s-t-title
-f5-s-t-wrong
-f5-s-t-timer
+f5-tower-prog
+f5-tower-comp
+f5-tower-title
+f5-tower-wrong
+f5-tower-timer
 
 
-f5-l-t-prog
-f5-l-t-comp
-f5-l-t-title
+f5-light-prog
+f5-light-comp
+f5-light-title
 
-f5-b-b-prog
-f5-b-b-comp
-f5-b-b-title
+f5-bounce-prog
+f5-bounce-comp
+f5-bounce-title
 
-f5-c-b-prog
-f5-c-b-comp
-f5-c-b-title
+f5-wire-prog
+f5-wire-comp
+f5-wire-title
