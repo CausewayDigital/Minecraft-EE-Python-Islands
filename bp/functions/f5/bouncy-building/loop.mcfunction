@@ -14,4 +14,4 @@ execute @p[x=1021, y=154, z=74, r=10, scores={f5-status=500030..500100}] ~ ~ ~ d
 execute @p[scores={f5-bounce-prog=1}] ~ ~ ~ detect 1019 173 65 beacon -1 function f5/bouncy-building/finish
 
 #Add partical
-execute @p[scores={f5-status=500030}] ~ ~ ~ particle minecraft:endrod 1019 173 65
+execute @p[scores={f5-status=500030}] ~ ~ ~ particle minecraft:endrod 1019 174 65
