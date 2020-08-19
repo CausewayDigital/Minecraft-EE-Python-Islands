@@ -4,7 +4,7 @@
 function f5/light-translator/reset
 
 #Set progress to 1
-scoreboard players set @p f5-l-t-prog 1
+scoreboard players set @p f5-light-prog 1
 
 # Teleport the agent into place
 execute @p ~ ~ ~ tp @c 1012 155 137 facing 1013 155 137

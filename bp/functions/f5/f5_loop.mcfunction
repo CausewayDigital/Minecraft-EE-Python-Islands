@@ -9,12 +9,13 @@ function code_status
 # Island activities
 
 # Supporting Towers
-execute @p[x=1019, y=159, z=68] ~ ~ ~ function f5/supporting-towers/loop
+execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ function f5/supporting-towers/loop
 
 # Light Translator
-execute @p[x=1010, y=154, z=137] ~ ~ ~ function f5/light-translator/loop
+execute @p[x=1010, y=154, z=137, r=30] ~ ~ ~ function f5/light-translator/loop
+
+# Bouncy Building
+execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ function f5/bouncy-building/loop
 
 # Circuit Board Wire
-execute @p[x=1021, y=156, z=91] ~ ~ ~ function f5/circuit-board-wire/loop
-
-# Bouncy Building 
+execute @p[x=1021, y=156, z=91, r=30] ~ ~ ~ function f5/circuit-board-wire/loop

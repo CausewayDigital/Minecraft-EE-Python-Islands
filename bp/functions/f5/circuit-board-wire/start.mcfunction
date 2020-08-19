@@ -4,7 +4,7 @@
 function f5/circuit-board-wire/reset
 
 #Set progress to 1
-scoreboard players set @p f5-c-b-prog 1
+scoreboard players set @p f5-wire-prog 1
 
 # Teleport the agent into place
 execute @p ~ ~ ~ tp @c 1021 153 102 facing 1021 153 101

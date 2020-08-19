@@ -4,11 +4,11 @@
 function f5/supporting-towers/reset
 
 #Stop Timer
-scoreboard players set @p f4-s-t-timer 0
+scoreboard players set @p f5-tower-timer 0
 
 #Show a title to tell the player what is going on
-execute @p[x=1019, y=159, z=68, r=30, scores={f4-s-t-comp=0}] ~ ~ ~ title @p title Oh no...
-execute @p[x=1019, y=159, z=68, r=30, scores={f4-s-t-comp=0}] ~ ~ ~ title @p subtitle Leaving Mission. You can start it again anytime. 
+execute @p[x=1019, y=159, z=68, r=30, scores={f5-tower-comp=0}] ~ ~ ~ title @p title Oh no...
+execute @p[x=1019, y=159, z=68, r=30, scores={f5-tower-comp=0}] ~ ~ ~ title @p subtitle Leaving Mission. You can start it again anytime. 
 
 #Enable whistle
 scoreboard players set @a whistle-enabled 1

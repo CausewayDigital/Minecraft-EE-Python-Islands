@@ -10,4 +10,4 @@ clone 1010 148 130 1010 148 130 1013 159 136 replace
 clone 1011 148 130 1011 148 130 1013 160 136 replace
 
 #Reset Scoreboard
-scoreboard players set @p f5-l-t-prog 1 
+scoreboard players set @p f5-light-prog 1 

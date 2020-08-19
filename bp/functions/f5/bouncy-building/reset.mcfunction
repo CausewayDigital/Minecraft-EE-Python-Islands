@@ -4,5 +4,5 @@
 function clear_agent
 
 #Clear all the task scoreboards
-scoreboard players set @p f5-b-b-prog 0
-scoreboard players set @p f5-b-b-title 0
+scoreboard players set @p f5-bounce-prog 0
+scoreboard players set @p f5-bounce-title 0

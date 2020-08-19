@@ -4,10 +4,10 @@
 function f5/supporting-towers/reset
 
 #Set progress to 1
-scoreboard players set @p f5-s-t-prog 1
+scoreboard players set @p f5-tower-prog 1
 
 #Start Timer
-scoreboard players set @p f5-s-t-timer 1
+scoreboard players set @p f5-tower-timer 1
 
 # Teleport the agent into place with all its required blocks
 execute @p ~ ~ ~ tp @c 1021 159 70 facing 1021 159 69
