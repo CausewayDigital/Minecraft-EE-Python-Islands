@@ -25,3 +25,6 @@ scoreboard players set @a f5-status 500060
 
 #Call the reset function as the task is now over.
 function f5/circuit-board-wire/reset
+
+#Mark task as finished for notebooks
+clone 1025 154 60 1025 154 60 1021 154 60
