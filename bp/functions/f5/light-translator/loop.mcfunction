@@ -21,4 +21,4 @@ execute @p[scores={f5-light-prog=5, f5-light-title=3}] ~ ~ ~ scoreboard players 
 execute @p[scores={f5-light-prog=6, f5-light-title=4}] ~ ~ ~ title @p title Only 1 block to go
 execute @p[scores={f5-light-prog=6, f5-light-title=4}] ~ ~ ~ scoreboard players add @p f5-light-title 1
 
-execute @p[x=1010, y=154, z=137, r=30] ~ ~ ~ title @p actionbar Press "C" to code or touch the Agent icon
+execute @p[x=1010, y=154, z=137, r=30, scores={f5-light-prog=1..20}] ~ ~ ~ title @p actionbar Press "C" to code or touch the Agent icon
