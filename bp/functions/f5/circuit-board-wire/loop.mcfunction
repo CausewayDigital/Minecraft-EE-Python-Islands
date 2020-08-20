@@ -12,3 +12,5 @@ execute @p[scores={f5-wire-prog=1, f5-wire-title=0}] ~ ~ ~ detect 1021 156 91 re
 execute @p[scores={f5-wire-prog=1..2, f5-wire-title=0}] ~ ~ ~ detect 1021 156 91 redstone_wire -1 scoreboard players add @p f5-wire-title 1
 
 execute @p[scores={f5-wire-prog=2}] ~ ~ ~ detect 1024 159 83 redstone_wire -1 scoreboard players set @p f5-wire-prog 3
+
+execute @p[x=1021, y=153, z=103, r=30] ~ ~ ~ title @p actionbar Press "C" to code or touch the Agent icon

@@ -10,7 +10,7 @@ scoreboard players set @p f5-tower-prog 1
 scoreboard players set @p f5-tower-timer 1
 
 # Teleport the agent into place with all its required blocks
-execute @p ~ ~ ~ tp @c 1021 159 70 facing 1021 159 69
+execute @p ~ ~ ~ tp @c 1022 159 76 facing 1022 159 77
 execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 quartz_block 64
 
 
