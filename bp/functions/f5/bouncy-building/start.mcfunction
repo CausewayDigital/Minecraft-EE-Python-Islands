@@ -10,10 +10,10 @@ scoreboard players set @p f5-bounce-prog 1
 execute @p ~ ~ ~ tp @c 1012 159 77 facing 1012 159 76
 
 #Give agent beacon
-execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 beacon 1
+give @p beacon 1
 
 #Tell the player what to do with a message
-execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ title @p title Walk over to your agent to get started
+execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ title @p title Walk over to the jump pad to get started
 
 #Disable Whstle
 scoreboard players set @a whistle-enabled 0
