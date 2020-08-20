@@ -46,7 +46,7 @@ execute @p[scores={f5-tower-prog=7}] ~ ~ ~ detect 1028 173 70 quartz_block 0 sco
 execute @p[scores={f5-tower-prog=8}] ~ ~ ~ detect 1010 173 70 quartz_block 0 scoreboard players add @p f5-tower-prog 1
 
 #Action bar
-execute @p[scores={x=1019, y=159, z=68, r=30, f5-tower-prog=1..10}] ~ ~ ~ title @p actionbar Press "C" to code or touch the Agent icon
+execute @p[x=1019, y=159, z=68, r=30, scores={f5-tower-prog=1..10}] ~ ~ ~ title @p actionbar Press "C" to code or touch the Agent icon
 
 #Finish
 execute @p[scores={f5-tower-prog=9}, x=1019, y=159, z=68, r=30] ~ ~ ~ function f5/supporting-towers/finish

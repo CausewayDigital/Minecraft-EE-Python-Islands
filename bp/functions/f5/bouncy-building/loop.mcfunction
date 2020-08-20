@@ -17,4 +17,4 @@ execute @p[scores={f5-bounce-prog=1}] ~ ~ ~ detect 1019 173 65 beacon -1 functio
 #Add partical
 execute @p[scores={f5-status=500030}] ~ ~ ~ particle minecraft:endrod 1019 174 65
 
-execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ title @p actionbar Press "C" to code or touch the Agent icon
+execute @p[x=1019, y=159, z=68, r=30, scores={f5-bounce-prog=1..20] ~ ~ ~ title @p actionbar Press "C" to code or touch the Agent icon
