@@ -1,42 +1,46 @@
-scoreboard objectives remove f5-status
-scoreboard objectives add f5-status dummy
-scoreboard players set @a f5-status 0
+scoreboard objectives remove f6-status
+scoreboard objectives add f6-status dummy
+scoreboard players set @a f6-status 0
 
 scoreboard objectives remove whistle-enabled
 scoreboard objectives add whistle-enabled dummy
 scoreboard players set @a whistle-enabled 0
 
-scoreboard objectives remove f5-s-t-prog
-scoreboard objectives add f5-s-t-prog dummy
-scoreboard players set @a f5-s-t-prog 0
+scoreboard objectives remove f6-dig-prog
+scoreboard objectives add f6-dig-prog dummy
+scoreboard players set @a f6-dig-prog 0
 
-scoreboard objectives remove f5-s-t-comp
-scoreboard objectives add f5-s-t-comp dummy
-scoreboard players set @a f5-s-t-comp 0
+scoreboard objectives remove f6-dig-comp
+scoreboard objectives add f6-dig-comp dummy
+scoreboard players set @a f6-dig-comp 0
 
-scoreboard objectives remove f5-s-t-title
-scoreboard objectives add f5-s-t-title dummy
-scoreboard players set @a f5-s-t-title 0
+scoreboard objectives remove f6-dig-count
+scoreboard objectives add f6-dig-count dummy
+scoreboard players set @a f6-dig-count 0
 
-scoreboard objectives remove f5-s-t-wrong
-scoreboard objectives add f5-s-t-wrong dummy
-scoreboard players set @a f5-s-t-wrong 0
+scoreboard objectives remove f6-plant-prog
+scoreboard objectives add f6-plant-prog dummy
+scoreboard players set @a f6-plant-prog 0
 
-scoreboard objectives remove f5-s-t-timer
-scoreboard objectives add f5-s-t-timer dummy
-scoreboard players set @a f5-s-t-timer 0
+scoreboard objectives remove f6-plant-comp
+scoreboard objectives add f6-plant-comp dummy
+scoreboard players set @a f6-plant-comp 0
 
-scoreboard objectives remove f5-l-t-prog
-scoreboard objectives add f5-l-t-prog dummy
-scoreboard players set @a f5-l-t-prog 0
+scoreboard objectives remove f6-plant-count
+scoreboard objectives add f6-plant-count dummy
+scoreboard players set @a f6-plant-count 0
 
-scoreboard objectives remove f5-l-t-comp
-scoreboard objectives add f5-l-t-comp dummy
-scoreboard players set @a f5-l-t-comp 0
+scoreboard objectives remove f6-rocket-prog
+scoreboard objectives add f6-rocket-prog dummy
+scoreboard players set @a f6-rocket-prog 0
 
-scoreboard objectives remove f5-l-t-title
-scoreboard objectives add f5-l-t-title dummy
-scoreboard players set @a f5-l-t-title 0
+scoreboard objectives remove f6-rocket-comp
+scoreboard objectives add f6-rocket-comp dummy
+scoreboard players set @a f6-rocket-comp 0
+
+scoreboard objectives remove f6-rocket-count
+scoreboard objectives add f6-rocket-count dummy
+scoreboard players set @a f6-rocket-count 0
 
 scoreboard objectives remove f6-runway-prog
 scoreboard objectives add f6-runway-prog dummy
