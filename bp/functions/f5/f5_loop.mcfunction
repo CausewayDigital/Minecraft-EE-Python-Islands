@@ -5,7 +5,7 @@ execute @e[type=fishing_hook] ~ ~ ~ function use_whistle
 function code_status
 
 #Teleport NPC's in and out
-#function f5/tp_npcs
+function f5/tp_npcs
 
 # Island activities
 
