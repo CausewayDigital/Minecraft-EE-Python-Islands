@@ -48,6 +48,9 @@ fill 1023 159 82 1023 159 82 air 0
 fill 1024 159 82 1024 159 82 air 0
 fill 1024 159 83 1024 159 83 air 0
 
+#Clear finish block
+fill 1021 154 60 1021 154 60 air 0
+
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 500055
 scoreboard players set @a f5-status 500055 

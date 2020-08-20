@@ -12,9 +12,6 @@ execute @p ~ ~ ~ tp @c 1012 155 137 facing 1013 155 137
 #Reset Bits
 function f5/light-translator/reset_bit
 
-#Clear finish block
-fill 1021 154 60 1021 154 60 air 0
-
 #Tell the player what to do with a message
 execute @p[x=1010, y=154, z=137, r=30] ~ ~ ~ title @p title Walk over to your agent to get started
 
