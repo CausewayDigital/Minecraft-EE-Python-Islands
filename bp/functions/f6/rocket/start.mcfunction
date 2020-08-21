@@ -12,3 +12,4 @@ fill 1048 156 158 1051 156 158 fence 0 replace
 
 scoreboard players set @p f6-rocket-prog 1
 scoreboard players set @p f6-rocket-count 0
+scoreboard players set @p f6-rocket-corect 0
