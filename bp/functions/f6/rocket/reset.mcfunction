@@ -15,3 +15,6 @@ fill 1046 145 142 1046 145 154 air 0 replace
 
 # Guess...
 function clear_agent
+
+scoreboard players reset @a f6-rocket-prog
+scoreboard players reset @a f6-rocket-count

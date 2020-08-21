@@ -9,3 +9,6 @@ execute @a[x=1049, y=156, z=160, r=10] ~ ~ ~ replaceitem entity @c slot.inventor
 fill 1048 156 162 1051 156 162 fence 0 replace
 fill 1051 156 161 1051 156 159 fence 0 replace
 fill 1048 156 158 1051 156 158 fence 0 replace
+
+scoreboard players set @p f6-rocket-prog 1
+scoreboard players set @p f6-rocket-count 0
