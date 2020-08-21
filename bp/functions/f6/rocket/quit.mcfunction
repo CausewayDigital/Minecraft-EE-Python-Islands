@@ -1,1 +1,1 @@
-#
+function f6/rocket/reset
