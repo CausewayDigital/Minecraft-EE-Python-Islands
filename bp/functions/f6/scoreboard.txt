@@ -14,6 +14,7 @@ f6-plant-count
 f6-rocket-prog
 f6-rocket-comp
 f6-rocket-count
+f6-rocket-corect
 
 f6-runway-prog
 f6-runway-comp
