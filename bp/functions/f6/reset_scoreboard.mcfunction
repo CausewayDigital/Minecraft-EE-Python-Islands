@@ -42,6 +42,10 @@ scoreboard objectives remove f6-rocket-count
 scoreboard objectives add f6-rocket-count dummy
 scoreboard players set @a f6-rocket-count 0
 
+scoreboard objectives remove f6-rocket-corect
+scoreboard objectives add f6-rocket-corect dummy
+scoreboard players set @a f6-rocket-corect 0
+
 scoreboard objectives remove f6-runway-prog
 scoreboard objectives add f6-runway-prog dummy
 scoreboard players set @a f6-runway-prog 0
