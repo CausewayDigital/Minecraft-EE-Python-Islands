@@ -18,3 +18,4 @@ function clear_agent
 
 scoreboard players reset @a f6-rocket-prog
 scoreboard players reset @a f6-rocket-count
+scoreboard players reset @a f6-rocket-corect 
