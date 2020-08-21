@@ -10,4 +10,6 @@ execute @s[scores={f2-wizard-comple=1}] ~ ~ ~ scoreboard players set @a f2-statu
 execute @s[scores={f2-wizard-comple=0}] ~ ~ ~ title @s subtitle Seems like something went wrong...
 execute @s[scores={f2-wizard-comple=0}] ~ ~ ~ title @s title Oh no...
 
+tp @c 1049 156 158 facing 1050 156 158
+
 function f2/Blacksmith/quit

@@ -28,13 +28,15 @@ execute @s ~ ~ ~ detect 1050 181 160 concrete 14 execute @s ~ ~ ~ scoreboard pla
 
 execute @s[scores={f6-rocket-corect=26}] ~ ~ ~ scoreboard players set @s f6-rocket-comp 1
 
-execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ title @s subtitle Here's something to reward you for the help...
+execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ title @s subtitle The rocket is now prepped for launch!
 execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ title @s title Great job!
 execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ give @s iron_ingot 2
+execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ summon fireworks_rocket 1050 156 160
 # execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ scoreboard players set §r objective 200120
 # execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ scoreboard players set @a f2-status 200120
 
 execute @s[scores={f6-rocket-comp=0}] ~ ~ ~ title @s subtitle Seems like something went wrong...
 execute @s[scores={f6-rocket-comp=0}] ~ ~ ~ title @s title Oh no...
 
+tp @c 1049 156 158 facing 1050 156 158
 function f6/rocket/quit
