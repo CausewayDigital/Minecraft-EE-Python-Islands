@@ -1,4 +1,4 @@
-# All scoreboard variable name should be placed before 1 per line, this will automatically generate the f4_scoreboard_reset.mcfunction file.
+# All scoreboard variable name should be placed before 1 per line, this will automatically generate the f6_scoreboard_reset.mcfunction file.
 
 f6-status
 whistle-enabled

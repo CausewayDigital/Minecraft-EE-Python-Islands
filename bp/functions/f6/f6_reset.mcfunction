@@ -11,4 +11,4 @@ function f6/runway/reset
 scoreboard players set @a whistle-enabled 1
 
 scoreboard players set §r objective 600000
-scoreboard players set @a f4-status 600000
+scoreboard players set @a f6-status 600000
