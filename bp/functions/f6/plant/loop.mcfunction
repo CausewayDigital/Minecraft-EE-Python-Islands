@@ -2,8 +2,7 @@
 # here (and it sound be run from the main world loop)
 
 #Block off task
-execute @p[x=1053,y=156,z=145,r=10, scores={f6-status=500000..599999}] ~ ~ ~ detect 1053 154 145 redstone_torch 0 fill 1053 154 145 1053 154 144 air 0
-execute @p[x=1053,y=156,z=145,r=10, scores={f6-status=600000..500100}] ~ ~ ~ detect 1053 154 145 air 0 fill 1053 154 145 1053 154 144 redstone_torch 0
+execute @p[x=1053,y=156,z=145,r=10, scores={f6-status=600000..600100}] ~ ~ ~ detect 1053 154 145 air 0 fill 1053 154 145 1053 154 144 redstone_torch 0
 
 #Start Task
 execute @p[x=1055, y=156,z=136, scores={f6-plant-prog=0}] ~ ~ ~ function f6/plant/start
