@@ -4,6 +4,9 @@ function f6/f6_lifeboat
 execute @e[type=fishing_hook] ~ ~ ~ function use_whistle
 function code_status
 
+#Teleport People
+function f6/tp_npcs
+
 # Island activities #
 #plant
 execute @p[x=1055, y=156, z=136, r=25] ~ ~ ~ function f6/plant/loop

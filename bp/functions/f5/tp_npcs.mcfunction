@@ -22,24 +22,3 @@ execute @p[scores={f5-status=500029..500100}] ~ ~ ~ tp @e[type=npc, tag=f5-build
 #Engineer
 execute @p[scores={f5-status=500000..500028}] ~ ~ ~ tp @e[type=npc, tag=f5-engineer] 1020 151 69
 execute @p[scores={f5-status=500029..500100}] ~ ~ ~ tp @e[type=npc, tag=f5-engineer] 1017 159 67 facing 1019 159 71
-
-# TP in and out for island 5/6
-#PM (Prime Minister) One
-execute @p[scores={f6-status=600000..699999}] ~ ~ ~ tp @e[type=npc, tag=f5-pm-1] 1026 151 69
-
-#PM (Prime Minister) Two
-execute @p[scores={f6-status=600000..699999}] ~ ~ ~ tp @e[type=npc, tag=f5-pm-2] 1024 151 69
-
-#Builder
-execute @p[scores={f6-status=600000..699999}] ~ ~ ~ tp @e[type=npc, tag=f5-builder] 1022 151 69
-
-#Engineer
-execute @p[scores={f6-status=600000..699999}] ~ ~ ~ tp @e[type=npc, tag=f5-engineer] 1020 151 69
-
-#CP (Computer Person)
-execute @p[scores={f6-status=600000..699999}] ~ ~ ~ tp @e[type=npc, tag=f5-cp] 1018 151 69
-execute @p[scores={f5-status=500000..599999}] ~ ~ ~ tp @e[type=npc, tag=f5-cp] 1010 154 138 facing 1009 155 137
-
-#PP (Power Person)
-execute @p[scores={f6-status=600000..699999}] ~ ~ ~ tp @e[type=npc, tag=f5-pp] 1016 151 69
-execute @p[scores={f5-status=500000..599999}] ~ ~ ~ tp @e[type=npc, tag=f5-pp] 1026 153 102 facing 1025 154 103
