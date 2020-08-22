@@ -12,7 +12,7 @@ execute @p[scores={f6-status=600000..600010}] ~ ~ ~ tp @e[type=npc, tag=f6-pm-1]
 execute @p[scores={f6-status=600011..600100}] ~ ~ ~ tp @e[type=npc, tag=f6-pm-1] 1026 151 64
 
 #PM (Prime Minister) Two
-execute @p[scores={f6-status=600000..600028}] ~ ~ ~ tp @e[type=npc, tag=f6-pm-1] 1024 151 64
-execute @p[scores={f6-status=600029..600100}] ~ ~ ~ tp @e[type=npc, tag=f6-pm-1] 1003 153 150 facing 1003 153 151
+execute @p[scores={f6-status=600000..600028}] ~ ~ ~ tp @e[type=npc, tag=f6-pm-2] 1024 151 64
+execute @p[scores={f6-status=600029..600100}] ~ ~ ~ tp @e[type=npc, tag=f6-pm-2] 1003 153 150 facing 1003 153 151
 
 
