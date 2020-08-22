@@ -8,7 +8,7 @@ title @p subtitle Intro to Functions
 title @p title Welcome to Island 6
 
 scoreboard players set §r objective 600000
-scoreboard players set @a f4-status 600000
+scoreboard players set @a f6-status 600000
 
 # Teleport NPC's In/Out #
 #ISLAND 6
