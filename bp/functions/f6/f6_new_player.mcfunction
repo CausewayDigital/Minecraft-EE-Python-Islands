@@ -30,7 +30,6 @@ execute @p[scores={f6-status=600000..699999}] ~ ~ ~ tp @e[type=npc, tag=f6-air] 
 
 #ISLAND 5
 #PM (Prime Minister) One
-say test!
 execute @p[scores={f6-status=600000..699999}] ~ ~ ~ tp @e[type=npc, tag=f5-pm-1] 1026 151 69
 
 #PM (Prime Minister) Two
