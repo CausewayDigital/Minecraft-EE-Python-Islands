@@ -26,10 +26,6 @@ scoreboard objectives remove f6-plant-comp
 scoreboard objectives add f6-plant-comp dummy
 scoreboard players set @a f6-plant-comp 0
 
-scoreboard objectives remove f6-plant-count
-scoreboard objectives add f6-plant-count dummy
-scoreboard players set @a f6-plant-count 0
-
 scoreboard objectives remove f6-rocket-prog
 scoreboard objectives add f6-rocket-prog dummy
 scoreboard players set @a f6-rocket-prog 0

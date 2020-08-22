@@ -16,3 +16,8 @@ fill 1048 156 158 1051 156 158 fence 0 replace
 scoreboard players set @p f6-rocket-prog 1
 scoreboard players set @p f6-rocket-count 0
 scoreboard players set @p f6-rocket-corect 0
+
+
+#Set the task scoreboard to the correct task
+scoreboard players set §r objective 600040
+scoreboard players set @a f6-status 600040 

@@ -1,12 +1,14 @@
 # General functions
-function f5/reset_scoreboard
+function f6/reset_scoreboard
 
 #Reset Activities
 
-function f5/supporting-towers/reset
+function f6/plant/reset
+function f6/dig/reset
+function f6/rocket/reset
+function f6/runway/reset
 
 scoreboard players set @a whistle-enabled 1
 
-########## DO THIS LATER ##################
-#scoreboard players set §r objective 400000
-#scoreboard players set @a f4-status 400000
+scoreboard players set §r objective 600000
+scoreboard players set @a f4-status 600000

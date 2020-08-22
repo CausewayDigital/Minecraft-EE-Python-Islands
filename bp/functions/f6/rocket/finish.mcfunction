@@ -40,3 +40,7 @@ execute @s[scores={f6-rocket-comp=0}] ~ ~ ~ title @s title Oh no...
 
 tp @c 1049 156 158 facing 1050 156 158
 function f6/rocket/quit
+
+#Set the task scoreboard to the correct task
+scoreboard players set §r objective 600050
+scoreboard players set @a f6-status 600050 

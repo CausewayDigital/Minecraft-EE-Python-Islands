@@ -8,3 +8,7 @@ codebuilder navigate @s false https://notebooks.minecrafteduservices.com/evergla
 scoreboard players set @p f6-runway-prog 1
 scoreboard players set @p whistle-enabled 0
 scoreboard players set @p f6-runway-count 0
+
+#Set the task scoreboard to the correct task
+scoreboard players set §r objective 600055
+scoreboard players set @a f6-status 600055 
