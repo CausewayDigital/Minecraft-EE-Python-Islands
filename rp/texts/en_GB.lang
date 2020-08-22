@@ -93,3 +93,17 @@ objective=§l§6- Current Task -§r
 500055=§fPull a cable to the telescope
 500060=§fInform to the Prime Minister
 500070=§fWorld Complete!
+
+
+
+600000=§fTalk to the Prime Minister
+600010=§fGo to the Space Centre
+600015=§fSort the flowers
+600020=§fGo to dig site
+600025=§fUncover the hidden artifacts
+600030=§fGo back the the space Centre
+600040=§fPatch up the rocket
+600050=§fGo over to the airport
+600055=§fPaint the runway
+600060=§fInform to the Prime Minister
+600070=§fWorld Complete!

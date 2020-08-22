@@ -10,3 +10,7 @@ execute @s[scores={f6-runway-comp=0}] ~ ~ ~ title @s subtitle Seems like somethi
 execute @s[scores={f6-runway-comp=0}] ~ ~ ~ title @s title Oh no...
 
 function f6/runway/quit
+
+#Set the task scoreboard to the correct task
+scoreboard players set §r objective 600060
+scoreboard players set @a f6-status 600060 

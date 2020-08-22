@@ -1,4 +1,4 @@
-function f5/f5_reset
+function f6/f6_reset
 clear @p
 replaceitem entity @p slot.hotbar 0 fishing_rod
 

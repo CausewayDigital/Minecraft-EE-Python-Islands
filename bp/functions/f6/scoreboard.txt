@@ -9,7 +9,6 @@ f6-dig-count
 
 f6-plant-prog
 f6-plant-comp
-f6-plant-count
 
 f6-rocket-prog
 f6-rocket-comp
