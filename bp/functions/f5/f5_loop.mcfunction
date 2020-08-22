@@ -7,7 +7,7 @@ function code_status
 #Teleport NPC's in and out
 function f5/tp_npcs
 
-# Island activities
+# Island activities #
 
 # Supporting Towers
 execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ function f5/supporting-towers/loop
