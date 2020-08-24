@@ -10,6 +10,9 @@ title @p title Welcome to Island 6
 scoreboard players set §r objective 600000
 scoreboard players set @a f6-status 600000
 
+scoreboard players set @a f6-active 1
+scoreboard players set @a f5-active 0
+
 # Teleport NPC's In/Out #
 #ISLAND 6
 #RE (Rocket Engineer) One

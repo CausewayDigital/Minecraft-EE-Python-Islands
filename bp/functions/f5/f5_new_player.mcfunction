@@ -10,6 +10,9 @@ title @p title Welcome to Island 5
 scoreboard players set §r objective 500000
 scoreboard players set @a f5-status 500000
 
+scoreboard players set @a f5-active 1
+scoreboard players set @a f6-active 0
+
 
 # Teleport NPC's In/Out #
 #Island 5
@@ -39,3 +42,21 @@ execute @p[scores={f5-status=500000..599999}] ~ ~ ~ tp @e[type=npc, tag=f6-dm] 1
 
 #AIR (Airport Person)
 execute @p[scores={f5-status=500000..599999}] ~ ~ ~ tp @e[type=npc, tag=f6-air] 1016 151 64
+
+
+#Block off areas
+#Bridge Gate Block Off
+detect 958 146 122 air 0 fill 958 146 122 958 149 120 iron_bars 0
+detect 958 146 122 air 0 clone 1013 151 63 1013 151 63 959 148 121 replace
+
+#Subway Gate Block off
+detect 948 141 119 air 0 fill 948 141 119 950 143 119 iron_bars 0
+detect 948 141 119 air 0 clone 1014 152 63 1014 152 63 949 142 120 replace
+
+#Rocket/Plant
+detect 1056 154 150 air 0 fill 1056 154 150 1055 154 150 redstone_torch 0
+detect 1050 154 147 redstone_wire -1 setblock 1050 154 147 redstone_torch 0
+detect 1053 154 145 redstone_torch 0 fill 1053 154 145 1053 154 144 air 0
+
+#Dig
+detect 1000 143 120 air 0 setblock 1000 143 120 fence 0
