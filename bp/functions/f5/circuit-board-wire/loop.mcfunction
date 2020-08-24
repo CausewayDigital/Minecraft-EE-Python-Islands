@@ -2,9 +2,9 @@
 # here (and it sound be run from the main world loop)
 
 #Block off task
-execute @p[x=1021,y=153,z=103, r=10, scores={f5-status=500000..500049}] ~ ~ ~ detect 1022 151 103 redstone_torch 0 fill 1022 151 103 1022 151 103 air 0
+execute @p[x=1021,y=153,z=103, r=10, scores={f5-status=500000..500049, f5-active=1}] ~ ~ ~ detect 1022 151 103 redstone_torch 0 fill 1022 151 103 1022 151 103 air 0
 
-execute @p[x=1021,y=153,z=103, r=10, scores={f5-status=500050..500100}] ~ ~ ~ detect 1022 151 103 air 0 fill 1022 151 103 1022 151 103 redstone_torch
+execute @p[x=1021,y=153,z=103, r=10, scores={f5-status=500050..500100, f5-active=1}] ~ ~ ~ detect 1022 151 103 air 0 fill 1022 151 103 1022 151 103 redstone_torch
 
 #Detect redstone
 execute @p[scores={f5-wire-prog=1, f5-wire-title=0}] ~ ~ ~ detect 1021 156 91 redstone_wire -1 title @p title Half way there!

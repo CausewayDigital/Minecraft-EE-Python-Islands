@@ -2,6 +2,10 @@ scoreboard objectives remove f5-status
 scoreboard objectives add f5-status dummy
 scoreboard players set @a f5-status 0
 
+scoreboard objectives remove f5-active
+scoreboard objectives add f5-active dummy
+scoreboard players set @a f5-active 0
+
 scoreboard objectives remove whistle-enabled
 scoreboard objectives add whistle-enabled dummy
 scoreboard players set @a whistle-enabled 0

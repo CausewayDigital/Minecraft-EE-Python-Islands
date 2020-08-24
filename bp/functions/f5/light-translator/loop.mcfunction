@@ -2,9 +2,9 @@
 # here (and it sound be run from the main world loop)
 
 #Block off task
-execute @p[x=1007,y=154,z=137,r=10, scores={f5-status=500000..500019}] ~ ~ ~ detect 1008 152 137 redstone_torch 0 fill 1008 152 137 1008 152 137 air 0
+execute @p[x=1007,y=154,z=137,r=10, scores={f5-status=500000..500019, f5-active=1}] ~ ~ ~ detect 1008 152 137 redstone_torch 0 fill 1008 152 137 1008 152 137 air 0
 
-execute @p[x=1007,y=154,z=137,r=10, scores={f5-status=500020..500100}] ~ ~ ~ detect 1008 152 137 air 0 fill 1008 152 137 1008 152 137 redstone_torch
+execute @p[x=1007,y=154,z=137,r=10, scores={f5-status=500020..500100, f5-active=1}] ~ ~ ~ detect 1008 152 137 air 0 fill 1008 152 137 1008 152 137 redstone_torch
 
 execute @p[scores={f5-light-prog=2, f5-light-title=0}] ~ ~ ~ title @p title 5 bits to go
 execute @p[scores={f5-light-prog=2, f5-light-title=0}] ~ ~ ~ scoreboard players add @p f5-light-title 1
