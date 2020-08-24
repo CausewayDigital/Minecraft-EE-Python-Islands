@@ -10,8 +10,9 @@ effect @p clear
 execute @p[x=1055, y=156, z=143, r=30] ~ ~ ~ title @p subtitle You got the plants
 execute @p[x=1055, y=156, z=143, r=30] ~ ~ ~ title @p title Woo Hoo
 
-#Reset Agent
-execute @p ~ ~ ~ tp @c 1056 156 135 facing 1056 156 136
+#Reset Agent and player
+execute @p ~ ~ ~ tp @c 1056 156 143 facing 1056 156 142
+tp @p 1055 156 143 facing 1055 156 142
 
 #Enable whistle
 scoreboard players set @a whistle-enabled 1
