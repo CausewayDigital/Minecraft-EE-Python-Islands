@@ -25,7 +25,7 @@ setblock 1052 156 136 sapling
 setblock 1052 156 135 deadbush
 
 # Open the Notebook URL (using false always)
-codebuilder navigate @s false https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_6/Plant/Plant.json
+codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_6/Plant/Plant.json
 
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 600015
