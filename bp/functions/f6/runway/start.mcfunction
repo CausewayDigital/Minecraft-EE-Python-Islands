@@ -7,6 +7,7 @@ codebuilder navigate @p false https://notebooks.minecrafteduservices.com/evergla
 #Clear Runway
 fill 948 146 121 938 146 132 air 0 replace
 fill 947 145 122 939 145 131 coal_block 0 replace
+fill 948 144 121 938 144 132 air 0 replace
 
 scoreboard players set @p f6-runway-prog 1
 scoreboard players set @p f6-runway-count 0
