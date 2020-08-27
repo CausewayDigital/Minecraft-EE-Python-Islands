@@ -11,7 +11,7 @@ execute @p[x=1019, y=141, z=110, r=30] ~ ~ ~ title @p subtitle The artifacts hav
 execute @p[x=1019, y=141, z=110, r=30] ~ ~ ~ title @p title You did it!
 
 #Reset Agent
-execute @p ~ ~ ~ tp @c 1056 156 135 facing 1056 156 136
+execute @p ~ ~ ~ tp @c 1022 142 119 facing 1022 142 118
 
 #Enable whistle
 scoreboard players set @a whistle-enabled 1

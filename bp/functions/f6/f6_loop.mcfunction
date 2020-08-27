@@ -8,7 +8,7 @@ function code_status
 function f6/tp_npcs
 
 # Island activities #
-#plant
+#Plant
 execute @p[x=1055, y=156, z=136, r=25] ~ ~ ~ function f6/plant/loop
 
 #Dig
