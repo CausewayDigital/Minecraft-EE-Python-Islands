@@ -7,7 +7,7 @@ execute @p[x=1000,y=143,z=120,r=10, scores={f6-status=600020..500100, f6-active=
 
 
 #Finish Task
-detect 991 144 122 barrier -1 function f6/dig/finish
+execute @p[scores={f6-dig-prog=1, f6-active=1}] ~ ~ ~ detect 991 144 122 barrier -1 function f6/dig/finish
 
 #Action bar
 execute @p[x=1000,y=143,z=120, r=30, scores={f6-dig-prog=1..10}] ~ ~ ~ title @p actionbar Press "C" to code or touch the Agent icon
