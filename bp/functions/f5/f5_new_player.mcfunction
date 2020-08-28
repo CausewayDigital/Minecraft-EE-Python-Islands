@@ -60,3 +60,8 @@ detect 1053 154 145 redstone_torch 0 fill 1053 154 145 1053 154 144 air 0
 
 #Dig
 detect 1000 143 120 air 0 setblock 1000 143 120 fence 0
+
+
+
+#Delete Rocket
+fill 1040 156 154 1051 185 167 air 0

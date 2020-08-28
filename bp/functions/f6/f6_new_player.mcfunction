@@ -49,3 +49,7 @@ execute @p[scores={f6-status=600000..699999}] ~ ~ ~ tp @e[type=npc, tag=f5-cp] 1
 
 #PP (Power Person)
 execute @p[scores={f6-status=600000..699999}] ~ ~ ~ tp @e[type=npc, tag=f5-pp] 1016 151 69
+
+
+#Clone rocket in
+clone 2030 157 617 2019 186 630 1040 156 154 replace
