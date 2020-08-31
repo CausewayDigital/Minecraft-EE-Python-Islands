@@ -2,8 +2,8 @@
 # here (and it sound be run from the main world loop)
 
 #Block off task
-execute @p[x=1000,y=143,z=120,r=10, scores={f6-status=600000..500019, f6-active=1}] ~ ~ ~ detect 1000 143 120 air 0 setblock 1000 143 120 fence 0
-execute @p[x=1000,y=143,z=120,r=10, scores={f6-status=600020..500100, f6-active=1}] ~ ~ ~ detect 1000 143 120 fence 0 setblock 1000 143 120 air 0
+execute @p[x=1000,y=143,z=120,r=10, scores={f6-status=600000..600019, f6-active=1}] ~ ~ ~ detect 1000 143 120 air 0 setblock 1000 143 120 fence 0
+execute @p[x=1000,y=143,z=120,r=10, scores={f6-status=600020..600100, f6-active=1}] ~ ~ ~ detect 1000 143 120 fence 0 setblock 1000 143 120 air 0
 
 
 #Finish Task
