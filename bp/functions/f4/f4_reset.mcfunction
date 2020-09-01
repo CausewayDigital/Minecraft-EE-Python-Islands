@@ -9,3 +9,6 @@ scoreboard players set §r objective 400000
 scoreboard players set @a f4-status 400000
 
 # Island activities
+
+fill 998 153 616 998 154 614 iron_bars
+clone 1041 149 645 1041 149 645 999 154 615
