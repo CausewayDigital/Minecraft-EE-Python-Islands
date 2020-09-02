@@ -29,6 +29,10 @@ fill 1027 154 60 1027 154 60 air 0
 #Clear telescope
 fill 1009 159 57 1029 180 81 air 0
 
+#Add test tower allow blocks
+fill 1018 157 79 1020 157 77 allow 0
+fill 1019 157 78 1019 157 78 air 0
+
 #Tell the player what to do with a message
 execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ title @p title Walk over to your agent to get started
 
