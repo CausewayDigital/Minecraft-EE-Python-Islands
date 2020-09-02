@@ -35,7 +35,7 @@ execute @p[scores={f5-tower-prog=1..10, f5-tower-wrong=0}] ~ ~ ~ detect 1018 159
 execute @p[scores={f5-tower-prog=1..10}] ~ ~ ~ detect 1018 159 80 air 0 scoreboard players set @p f5-tower-wrong 0
 
 execute @p[scores={f5-tower-prog=7, f5-tower-title=0}] ~ ~ ~ title @p title Test Tower Complete!
-execute @p[scores={f5-tower-prog=7, f5-tower-title=0}] ~ ~ ~ title @p subtitle Now lets do the others
+execute @p[scores={f5-tower-prog=7, f5-tower-title=0}] ~ ~ ~ title @p subtitle Now let's do the others
 execute @p[scores={f5-tower-prog=7, f5-tower-title=0}] ~ ~ ~ clone 1025 153 60 1025 153 60 1027 154 60 replace
 execute @p[scores={f5-tower-prog=7, f5-tower-title=0}] ~ ~ ~ scoreboard players set @p f5-tower-title 1
 

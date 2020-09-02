@@ -21,4 +21,5 @@ execute @p[scores={f5-status=500029..500100, f5-active=1}] ~ ~ ~ tp @e[type=npc,
 
 #Engineer
 execute @p[scores={f5-status=500000..500028, f5-active=1}] ~ ~ ~ tp @e[type=npc, tag=f5-engineer] 1020 151 69
-execute @p[scores={f5-status=500029..500100, f5-active=1}] ~ ~ ~ tp @e[type=npc, tag=f5-engineer] 1017 159 67 facing 1019 159 71
+execute @p[scores={f5-status=500029..500049, f5-active=1}] ~ ~ ~ tp @e[type=npc, tag=f5-engineer] 1017 159 67 facing 1019 159 71
+execute @p[scores={f5-status=500050..500100, f5-active=1}] ~ ~ ~ tp @e[type=npc, tag=f5-engineer] 1020 151 69
