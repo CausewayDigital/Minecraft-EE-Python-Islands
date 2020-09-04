@@ -9,7 +9,7 @@
 
 # Throughout Island 6 #
 #PM (Prime Minister) One
-execute @p[scores={f6-status=600000..600010, f6-active=1}] ~ ~ ~ tp @e[type=npc, tag=f6-pm-1] 1003 153 150 facing 1003 153 151
+execute @p[scores={f6-status=600000..600010, f6-active=1}] ~ ~ ~ tp @e[type=npc, tag=f6-pm-1] 1003 153 149 facing 1003 153 150
 execute @p[scores={f6-status=600011..600100, f6-active=1}] ~ ~ ~ tp @e[type=npc, tag=f6-pm-1] 1026 151 64
 
 #PM (Prime Minister) Two
