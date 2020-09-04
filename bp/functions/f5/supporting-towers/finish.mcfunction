@@ -10,7 +10,7 @@ scoreboard players set @p f5-tower-timer 0
 effect @p clear
 
 # Give the player a message telling them that they have completed the task
-execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ title @p subtitle Oh, the dishes now have supports
+execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ title @p subtitle The dish now has supports
 execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ title @p title You Did It!
 
 #Reset Agent
