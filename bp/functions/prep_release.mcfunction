@@ -8,6 +8,11 @@ function f3/f3_new_player
 function f3/f3_new_player
 function f4/f4_new_player
 function f4/f4_new_player
+function f5/f5_new_player
+function f5/f5_new_player
+function f6/f6_new_player
+function f6/f6_new_player
+
 
 scoreboard objectives setdisplay sidebar objective
 
