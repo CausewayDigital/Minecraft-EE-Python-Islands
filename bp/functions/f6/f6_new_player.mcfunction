@@ -15,6 +15,10 @@ scoreboard players set @a f5-active 0
 
 # Teleport NPC's In/Out #
 #ISLAND 6
+
+#HEAD SCI (Head Scientist)
+execute @p[scores={f6-status=600000..699999}] ~ ~ ~ tp @e[type=npc, tag=f6-head-sci] 1054 156 139 facing 1054 156 140
+
 #RE (Rocket Engineer) One
 execute @p[scores={f6-status=600000..699999}] ~ ~ ~ tp @e[type=npc, tag=f6-re-1] 1050 156 157 facing 1053 156 160
 
