@@ -17,7 +17,7 @@ give @p beacon 1
 fill 1018 157 79 1020 157 77 air 0
 
 #Tell the player what to do with a message
-execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ title @p title Walk over to the jump pad to get started
+execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ title @p title Walk over to the Bounce Pad to get started
 
 #Disable Whstle
 scoreboard players set @a whistle-enabled 0
