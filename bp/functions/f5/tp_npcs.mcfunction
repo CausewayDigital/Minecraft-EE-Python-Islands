@@ -8,7 +8,7 @@
 
 # Throughout Island 5 #
 #PM (Prime Minister) One
-execute @p[scores={f5-status=500000..500010, f5-active=1}] ~ ~ ~ tp @e[type=npc, tag=f5-pm-1] 1003 153 150 facing 1003 153 151
+execute @p[scores={f5-status=500000..500010, f5-active=1}] ~ ~ ~ tp @e[type=npc, tag=f5-pm-1] 1003 153 149 facing 1003 153 150
 execute @p[scores={f5-status=500011..500100, f5-active=1}] ~ ~ ~ tp @e[type=npc, tag=f5-pm-1] 1026 151 69
 
 #PM (Prime Minister) Two
