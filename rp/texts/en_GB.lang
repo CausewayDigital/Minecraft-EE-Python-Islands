@@ -91,7 +91,7 @@ objective=§l§6- Current Task -§r
 500040=§fJump up  the telescope
 500050=§fGo over to the Power Station
 500055=§fPull a cable to the telescope
-500060=§fInform to the Prime Minister
+500060=§fInform the Prime Minister
 500070=§fWorld Complete!
 
 
@@ -105,5 +105,5 @@ objective=§l§6- Current Task -§r
 600040=§fPatch up the rocket
 600050=§fGo over to the airport
 600055=§fPaint the runway
-600060=§fInform to the Prime Minister
+600060=§fInform the Prime Minister
 600070=§fWorld Complete!
