@@ -7,8 +7,8 @@ scoreboard players set @p f5-bounce-comp 1
 effect @p clear
 
 # Give the player a message telling them that they have completed the task
-execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ title @p subtitle The telescope now has power!
-execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ title @p title You Did It!
+execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ title @p subtitle The telescope is now complete.
+execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ title @p title Yay!
 
 #Reset Agent
 execute @p ~ ~ ~ tp @c 1012 159 77 facing 1012 159 76
