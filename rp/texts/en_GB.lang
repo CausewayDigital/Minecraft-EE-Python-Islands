@@ -87,23 +87,23 @@ objective=§l§6- Current Task -§r
 500015=§fBuild the supports
 500020=§fGo to the Centre for Computer Research
 500025=§fDecode the message
-500030=§fHead to the Telescope Control Romm
+500030=§fHead to the Telescope Control Room
 500040=§fJump up  the telescope
 500050=§fGo over to the Power Station
-500055=§fPull a cable to the telescope
+500055=§fPlace a wire to the telescope
 500060=§fInform the Prime Minister
 500070=§fWorld Complete!
 
 
 
 600000=§fTalk to the Prime Minister
-600010=§fFind the Space Centre
-600015=§fSort the flowers
-600020=§fGo to dig site
+600010=§fTalk to Davin at Space Centre
+600015=§fAnalyse the flowers
+600020=§fGo to Dig Site
 600025=§fUncover the hidden artifacts
-600030=§fGo back the the space Centre
+600030=§fGo to rocket at Space Centre
 600040=§fPatch up the rocket
-600050=§fGo over to the airport
+600050=§fHead to the Airport runway
 600055=§fPaint the runway
 600060=§fInform the Prime Minister
 600070=§fWorld Complete!
