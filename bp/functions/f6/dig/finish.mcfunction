@@ -7,7 +7,7 @@ scoreboard players set @p f6-dig-comp 1
 effect @p clear
 
 # Give the player a message telling them that they have completed the task
-execute @p[x=1019, y=141, z=110, r=30] ~ ~ ~ title @p subtitle The artifacts have been uncovered
+execute @p[x=1019, y=141, z=110, r=30] ~ ~ ~ title @p subtitle The artifacts have been uncovered...
 execute @p[x=1019, y=141, z=110, r=30] ~ ~ ~ title @p title You did it!
 
 #Reset Agent
