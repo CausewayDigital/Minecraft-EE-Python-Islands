@@ -4,6 +4,9 @@ replaceitem entity @p slot.hotbar 0 fishing_rod
 
 tp @p 1003 153 151 facing 1003 153 150
 
+# Open Notebook
+codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_6/Start/Start.json
+
 title @p subtitle Intro to Functions
 title @p title Welcome to Island 6
 
@@ -31,10 +34,6 @@ execute @p[scores={f6-status=600000..699999}] ~ ~ ~ tp @e[type=npc, tag=f6-dm] 1
 #AIR (Airport Person)
 execute @p[scores={f6-status=600000..699999}] ~ ~ ~ tp @e[type=npc, tag=f6-air] 946 146 118 facing 948 146 116
 
-
-
-
-
 #ISLAND 5
 #PM (Prime Minister) One
 execute @p[scores={f6-status=600000..699999}] ~ ~ ~ tp @e[type=npc, tag=f5-pm-1] 1026 151 69
@@ -53,7 +52,6 @@ execute @p[scores={f6-status=600000..699999}] ~ ~ ~ tp @e[type=npc, tag=f5-cp] 1
 
 #PP (Power Person)
 execute @p[scores={f6-status=600000..699999}] ~ ~ ~ tp @e[type=npc, tag=f5-pp] 1016 151 69
-
 
 #Clone rocket in
 clone 2030 157 617 2019 186 630 1040 156 154 replace
