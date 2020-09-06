@@ -18,7 +18,7 @@ tp @p 1055 156 143 facing 1055 156 142
 scoreboard players set @a whistle-enabled 1
 
 #Run story notebook
-#codebuilder navigate @p true https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_5/Builder/To_CFCR.json
+codebuilder navigate @p true https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_6/Misc/From_Plant_To_Dig.json
 
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 600020
