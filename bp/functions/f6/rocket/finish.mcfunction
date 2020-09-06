@@ -32,15 +32,12 @@ execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ title @s subtitle The rocket is now 
 execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ title @s title Great job!
 execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ give @s iron_ingot 2
 execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ summon fireworks_rocket 1050 156 160
-# execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ scoreboard players set §r objective 200120
-# execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ scoreboard players set @a f2-status 200120
+#Set the task scoreboard to the correct task
+execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ scoreboard players set §r objective 600050
+execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ scoreboard players set @a f6-status 600050 
 
 execute @s[scores={f6-rocket-comp=0}] ~ ~ ~ title @s subtitle Seems like something went wrong...
 execute @s[scores={f6-rocket-comp=0}] ~ ~ ~ title @s title Oh no...
 
 tp @c 1049 156 158 facing 1050 156 158
 function f6/rocket/quit
-
-#Set the task scoreboard to the correct task
-scoreboard players set §r objective 600050
-scoreboard players set @a f6-status 600050 
