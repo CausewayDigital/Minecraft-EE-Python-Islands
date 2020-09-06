@@ -43,5 +43,5 @@ execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ detect 947 141 119 iron_bars 0 fill 
 execute @s[scores={f6-rocket-comp=0}] ~ ~ ~ title @s subtitle Seems like something went wrong...
 execute @s[scores={f6-rocket-comp=0}] ~ ~ ~ title @s title Oh no...
 
-tp @c 1049 155 158 facing 1050 155 158
+tp @c 1049 156 158 facing 1050 156 158
 function f6/rocket/quit
