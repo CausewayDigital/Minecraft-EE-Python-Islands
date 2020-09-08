@@ -1,5 +1,6 @@
 function f1/reset_scoreboard
 
+codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_shared/No_Coding/no_coding.json
 tp @e[type=npc,tag=mine-fly-over-nicole] -347 146 213
 scoreboard players set @a f1-mine-birds -1
 scoreboard players set @a whistle-enabled 1

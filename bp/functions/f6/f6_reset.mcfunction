@@ -1,6 +1,9 @@
 # General functions
 function f6/reset_scoreboard
 
+codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_shared/No_Coding/no_coding.json
+
+
 #Reset Activities
 
 function f6/plant/reset
@@ -38,4 +41,3 @@ execute @p[x=958,y=146,z=121,r=10, scores={f6-status=600000..600049, f6-active=1
 # Airport Subway Gate Block off
 execute @p[x=949,y=141,z=120,r=10, scores={f6-status=600000..600049, f6-active=1}] ~ ~ ~ detect 947 141 119 air 0 fill 947 141 119 950 143 119 iron_bars 0
 execute @p[x=949,y=141,z=120,r=10, scores={f6-status=600000..600049, f6-active=1}] ~ ~ ~ detect 949 142 120 air 0 clone 1014 152 63 1014 152 63 949 142 120 replace
-
