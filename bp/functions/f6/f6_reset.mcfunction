@@ -13,7 +13,7 @@ scoreboard players set @a whistle-enabled 1
 scoreboard players set §r objective 600000
 scoreboard players set @a f6-status 600000
 
-scoreboard objective setdisplay sidebar objective
+scoreboard objectives setdisplay sidebar objective
 
 # - Single Resets for tasks
 # Close Doors at front of Space Centre

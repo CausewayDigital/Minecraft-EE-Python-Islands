@@ -55,3 +55,6 @@ execute @p[scores={f6-status=600000..699999}] ~ ~ ~ tp @e[type=npc, tag=f5-pp] 1
 
 #Clone rocket in
 clone 2030 157 617 2019 186 630 1040 156 154 replace
+
+#clone telescope in
+clone 2042 160 589 2062 181 613 1009 159 57 replace
