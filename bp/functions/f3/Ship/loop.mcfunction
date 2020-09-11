@@ -13,6 +13,6 @@ execute @p[scores={f3-ship-h-prog=20}, r=20] ~ ~ ~ scoreboard players set §r ob
 execute @p[scores={f3-ship-h-prog=20}, r=20] ~ ~ ~ scoreboard players set @a f3-status 300005
 
 # Trigger task finish on placing final block of gangplank
-execute @p ~ ~ ~ detect 104 152 658 planks -1 function f3/Ship/finish
+execute @p[scores={f3-ship-h-done=0}] ~ ~ ~ detect 104 152 658 planks -1 function f3/Ship/finish
 
 #execute @p[scores={f3-ship-h-prog=20}, r=4, x=104, y=153, z=657] ~ ~ ~ function f3/Ship/finish
