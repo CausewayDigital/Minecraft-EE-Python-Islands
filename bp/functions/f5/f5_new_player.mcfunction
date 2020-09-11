@@ -64,7 +64,10 @@ execute @p ~ ~ ~ detect 1053 154 145 redstone_torch 0 fill 1053 154 145 1053 154
 #Dig
 execute @p ~ ~ ~ detect 1000 143 120 air 0 setblock 1000 143 120 fence 0
 
-
-
 #Delete Rocket
 fill 1040 156 154 1051 185 167 air 0
+
+
+#Clone in Island Number
+fill 1010 174 120 1018 186 120 air 0
+clone 2023 169 601 2031 181 601 1010 174 120 replace
