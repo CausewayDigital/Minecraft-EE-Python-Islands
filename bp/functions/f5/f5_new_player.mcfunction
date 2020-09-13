@@ -5,7 +5,7 @@ replaceitem entity @p slot.hotbar 0 fishing_rod
 tp @p 1003 153 151 facing 1003 153 150
 
 title @p subtitle Intro to Functions
-title @p title Welcome to Island 5 
+title @p title Welcome to Island 5
 
 scoreboard players set §r objective 500000
 scoreboard players set @a f5-status 500000
@@ -51,6 +51,9 @@ execute @p[scores={f5-status=500000..599999}] ~ ~ ~ tp @e[type=npc, tag=f6-air] 
 #Bridge Gate Block Off
 execute @p[x=958,y=146,z=121,r=10] ~ ~ ~ detect 958 146 122 air 0 fill 958 146 122 958 149 120 iron_bars 0
 execute @p[x=958,y=146,z=121,r=10] ~ ~ ~ detect 959 148 121 air 0 clone 1013 151 63 1013 151 63 959 148 121 replace
+fill 987 153 122 987 155 120 iron_bars
+clone 1013 151 63 1013 151 63 988 154 121 replace
+
 
 #Subway Gate Block off
 execute @p[x=949,y=141,z=120,r=10] ~ ~ ~ detect 947 141 119 air 0 fill 947 141 119 950 143 119 iron_bars 0
