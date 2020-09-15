@@ -3,6 +3,9 @@
 #Reset the task before start
 function f6/dig/reset
 
+# Remove the artifact
+clear coral_block
+
 #Set progress to 1
 scoreboard players set @p f6-dig-prog 1
 
@@ -17,4 +20,4 @@ codebuilder navigate @p false https://notebooks.minecrafteduservices.com/evergla
 
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 600025
-scoreboard players set @a f6-status 600025 
+scoreboard players set @a f6-status 600025
