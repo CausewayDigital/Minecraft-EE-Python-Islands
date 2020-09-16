@@ -11,7 +11,7 @@
 
 # 3 = Started, built ladder, approached big bird
 #execute @p[scores={f1-forest-prog=2}, x=-348, y=164, z=226, dx=-7, dy=0, dz=-10] ~ ~ ~ function f1/forest/lesson2
-title @p[scores={f1-forest-prog=2}] actionbar Place ladders inside your agent and write code to fix the ladders
+title @p[scores={f1-forest-prog=2}] actionbar Write some code to fix the ladder
 
 # 4 = Started, talked to big bird, fetching apples
 execute @p[scores={f1-forest-prog=4}] ~ ~ ~ function f1/forest/fetch_apples
