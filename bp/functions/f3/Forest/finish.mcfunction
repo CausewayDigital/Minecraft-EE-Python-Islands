@@ -10,3 +10,5 @@ scoreboard players set §r objective 300070
 scoreboard players set @a f3-status 300070
 
 function clear_agent
+
+execute @p[scores={f3-forest-comp=1}] ~ ~ ~  codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_3/Wizard/wizard_to_mine_1.json
