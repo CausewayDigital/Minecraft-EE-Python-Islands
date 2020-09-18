@@ -27,5 +27,5 @@ codebuilder navigate @p false https://notebooks.minecrafteduservices.com/evergla
 
 
 #Set the task scoreboard to the correct task
-scoreboard players set §r objective 500030
-scoreboard players set @a f5-status 500030 
+scoreboard players set §r objective 500040
+scoreboard players set @a f5-status 500040 
