@@ -6,3 +6,8 @@ function clear_agent
 #Clear all the task scoreboards
 scoreboard players set @p f5-wire-prog 0
 scoreboard players set @p f5-wire-title 0
+
+#Place deny blocks
+fill 1021 9 85 1021 9 82 deny 0
+fill 1022 9 82 1024 9 82 deny 0
+fill 1024 9 83 1024 9 83 deny 0
