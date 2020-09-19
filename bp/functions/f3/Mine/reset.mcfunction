@@ -29,3 +29,5 @@ setblock 68 128 599 air
 setblock 70 129 597 air
 setblock 67 129 597 air
 setblock 67 129 601 air
+
+execute @p ~ ~ ~ tp @c 67 135 596 facing 67 135 597
