@@ -7,4 +7,7 @@ scoreboard players set @p f3-farm-titles 1
 execute @p ~ ~ ~ scoreboard players set @s f3-farm-prog 1
 scoreboard players set §r objective 300105
 scoreboard players set @a f3-status 300105
+
+scoreboard players set @a whistle-enabled 0
+
 codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_3/Farm/Farm.json
