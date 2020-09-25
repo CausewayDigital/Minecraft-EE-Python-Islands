@@ -10,8 +10,6 @@ execute @p[scores={f4-status=400020}] ~ ~ ~ particle minecraft:endrod 1029 166 5
 execute @p[scores={f4-status=400030}] ~ ~ ~ particle minecraft:endrod 1038 159 646
 #Frankie
 execute @p[scores={f4-status=400040}] ~ ~ ~ particle minecraft:endrod 945 146 620
-#Airship lady two
-execute @p[scores={f4-status=400050}] ~ ~ ~ particle minecraft:endrod 1045 159 641
 #Factory Worker
 execute @p[scores={f4-status=400055}] ~ ~ ~ particle minecraft:endrod 1048 159 651
 #PM 2
