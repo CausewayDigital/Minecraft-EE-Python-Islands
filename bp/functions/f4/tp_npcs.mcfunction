@@ -14,8 +14,8 @@ execute @p[scores={f4-status=400000..400019}] ~ ~ ~ tp @e[type=npc, tag=f4-pm-2]
 execute @p[scores={f4-status=400020..400100}] ~ ~ ~ tp @e[type=npc, tag=f4-pm-2] 1032 156 620 facing 1031 156 620
 
 #FM (Factory Manager) One
-execute @p[scores={f4-status=400000..400038}] ~ ~ ~ tp @e[type=npc, tag=f4-fm-1] 1038 156 646 facing 1037 156 646
-execute @p[scores={f4-status=400039..400100}] ~ ~ ~ tp @e[type=npc, tag=f4-fm-1] 1016 161 670
+execute @p[scores={f4-status=400000..400043}] ~ ~ ~ tp @e[type=npc, tag=f4-fm-1] 1038 156 646 facing 1037 156 646
+execute @p[scores={f4-status=400044..400100}] ~ ~ ~ tp @e[type=npc, tag=f4-fm-1] 1016 161 670
 
 #MM (Mine Manager)
 execute @p[scores={f4-status=400000..400019}] ~ ~ ~ tp @e[type=npc, tag=f4-mm] 941 147 629 facing 1044 156 642
