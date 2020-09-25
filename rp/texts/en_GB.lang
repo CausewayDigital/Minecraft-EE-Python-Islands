@@ -69,16 +69,15 @@ objective=§l§6- Current Task -§r
 400000=§fTalk to the Prime Minister
 400010=§fTalk to the Mine Manager
 400015=§fBuild a bridge to the distant island
-400020=§fHead over to the Botanical Gardens
-400025=§fPick 4 Poppies for the Gardener
-400030=§fHead to the Airship Factory with the dye
-400040=§fTalk to Frankie in the mine control room
-400045=§fUse your agent to sort the ores
-400050=§fHead to Airship Factory with the Diamond
-400055=§fTalk to the factory worker
-400060=§fRepair the holes in the Airship
-400070=§fDeliver Certificate to the Prime Minster
-400080=§fWorld Complete!
+400020=§fTalk to Frankie in the mine control room
+400025=§fUse your agent to sort the ores
+400030=§fHead over to the Botanical Gardens
+400035=§fPick 4 Poppies for the Gardener
+400040=§fHead to Airship Factory with the Materials
+400050=§fTalk to the factory worker
+400055=§fRepair the holes in the Airship
+400060=§fDeliver Certificate to the Prime Minster
+400065=§fWorld Complete!
 
 
 
@@ -99,7 +98,7 @@ objective=§l§6- Current Task -§r
 600000=§fTalk to the Prime Minister
 600010=§fTalk to Davin at Space Centre
 600015=§fAnalyse the flowers
-600020=§fGo to Dig Site
+600020=§fGo to Dig Siteno
 600025=§fUncover the hidden artifacts
 600030=§fGo to rocket at Space Centre
 600040=§fPatch up the rocket
