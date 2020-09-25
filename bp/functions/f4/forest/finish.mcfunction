@@ -35,5 +35,5 @@ function f4/forest/clear_items
 codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_4/Prime_Minster/Cert_To_PM_1.json
 
 #Set the task scoreboard to the correct task
-scoreboard players set §r objective 400070
-scoreboard players set @a f4-status 400070
+scoreboard players set §r objective 400060
+scoreboard players set @a f4-status 400060

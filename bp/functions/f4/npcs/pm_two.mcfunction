@@ -1,5 +1,5 @@
-scoreboard players set §r objective 400080
-scoreboard players set @a f4-status 400080
+scoreboard players set §r objective 400065
+scoreboard players set @a f4-status 400065
 clear @a nautilus_shell 0
 
 particle minecraft:totem_particle ~ ~ ~

@@ -9,9 +9,10 @@ execute @p[r=30,scores={f4-forest-item=0, f4-forest-prog=1..20, f4-forest-item-t
 execute @p[r=30,scores={f4-forest-item-t=20, f4-forest-prog=1..20}] ~ ~ ~ scoreboard players set @p f4-forest-item-t 0
 
 execute @a[x=1045,y=156,z=660,dx=0,dy=0,dz=-15] ~ ~ ~ function f4/forest/lifeboat
+
 #Block off airship Bridge
-execute @p[x=1023,y=155,z=636,r=10,scores={f4-status=400000..400028}] ~ ~ ~ detect 1023 155 635 air 0 clone 1049 148 650 1048 149 651 1022 155 635 replace
-execute @p[x=1023,y=155,z=636,r=10,scores={f4-status=400029..400100}] ~ ~ ~ detect 1023 155 635 fence 1 fill 1023 155 635 1022 156 636 air 0
+execute @p[x=1023,y=155,z=636,r=10,scores={f4-status=400000..400038}] ~ ~ ~ detect 1023 155 635 air 0 clone 1049 148 650 1048 149 651 1022 155 635 replace
+execute @p[x=1023,y=155,z=636,r=10,scores={f4-status=400039..400100}] ~ ~ ~ detect 1023 155 635 fence 1 fill 1023 155 635 1022 156 636 air 0
 
 #Block off the airship entrance
 execute @p[x=1036,y=156,z=644,r=10,scores={f4-status=400000..400048}] ~ ~ ~ detect 1039 156 645 air 0 clone 1042 148 641 1042 148 643 1039 156 645 replace

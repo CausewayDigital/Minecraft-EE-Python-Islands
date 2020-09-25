@@ -22,8 +22,8 @@ execute @p ~ ~ ~ tp @c 946 143 621 facing 947 143 621
 codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_4/Mine_Technician/Mine_To_Factory_1.json
 
 #Set the task scoreboard to the correct task
-scoreboard players set §r objective 400050
-scoreboard players set @a f4-status 400050
+scoreboard players set §r objective 400030
+scoreboard players set @a f4-status 400030
 
 #Call the reset function as the task is now over.
 function f4/mine-factory/reset
