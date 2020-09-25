@@ -21,8 +21,8 @@ scoreboard players set @a whistle-enabled 1
 codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_4/Gardener/Gardener_To_Factory_1.json
 
 #Set the task scoreboard to the correct task
-scoreboard players set §r objective 400030
-scoreboard players set @a f4-status 400030
+scoreboard players set §r objective 400040
+scoreboard players set @a f4-status 400040
 
 #Call the reset function as the task is now over.
 function f4/farm/reset

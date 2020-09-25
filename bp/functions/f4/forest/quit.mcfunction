@@ -22,5 +22,5 @@ scoreboard players set @p f4-forest-prog 0
 #Clear all items
 function f4/forest/clear_items 
 
-scoreboard players set §r objective 400055
-scoreboard players set @a f4-status 400055
+scoreboard players set §r objective 400050
+scoreboard players set @a f4-status 400050

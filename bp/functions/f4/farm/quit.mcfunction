@@ -13,5 +13,5 @@ scoreboard players set @a whistle-enabled 1
 #Reset Agent
 execute @p ~ ~ ~ tp @c 1025 163 566 facing 1026 163 566
 
-scoreboard players set §r objective 400020
-scoreboard players set @a f4-status 400020
+scoreboard players set §r objective 400030
+scoreboard players set @a f4-status 400030

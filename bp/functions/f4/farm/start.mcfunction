@@ -19,5 +19,5 @@ scoreboard players set @a whistle-enabled 2
 codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_4/Farm/Farm_1.json
 
 #Set the task scoreboard to the correct task
-scoreboard players set §r objective 400025
-scoreboard players set @a f4-status 400025
+scoreboard players set §r objective 400035
+scoreboard players set @a f4-status 400035
