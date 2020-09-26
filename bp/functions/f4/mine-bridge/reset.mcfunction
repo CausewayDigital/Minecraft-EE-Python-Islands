@@ -7,3 +7,5 @@ function clear_agent
 scoreboard players set @p f4-mine-b-prog 0
 scoreboard players set @p f4-mine-b-blind 0
 scoreboard players set @p f4-mine-b-title 0
+
+fill 934 149 627 919 149 627 air 0
