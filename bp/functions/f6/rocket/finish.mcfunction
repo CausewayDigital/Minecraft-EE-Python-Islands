@@ -26,7 +26,8 @@ execute @s ~ ~ ~ detect 1050 179 160 concrete 5 execute @s ~ ~ ~ scoreboard play
 execute @s ~ ~ ~ detect 1050 180 160 concrete 5 execute @s ~ ~ ~ scoreboard players add @s f6-rocket-corect 1
 execute @s ~ ~ ~ detect 1050 181 160 concrete 14 execute @s ~ ~ ~ scoreboard players add @s f6-rocket-corect 1
 
-execute @s[scores={f6-rocket-corect=26}] ~ ~ ~ scoreboard players set @s f6-rocket-comp 1
+#execute @s[scores={f6-rocket-corect=26}] ~ ~ ~ scoreboard players set @s f6-rocket-comp 1
+scoreboard players set @s f6-rocket-comp 1
 
 execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ title @s subtitle The rocket is now prepped for launch!
 execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ title @s title Great job!
