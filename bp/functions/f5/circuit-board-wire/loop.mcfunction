@@ -11,6 +11,7 @@ execute @p ~ ~ ~ detect 1021 158 87 redstone_wire 1 setblock 1021 156 86 redston
 
 #If no more redstone, set to air instead
 execute @p ~ ~ ~ detect 1021 158 87 redstone_wire 0 setblock 1021 156 86 air
+execute @p ~ ~ ~ detect 1021 158 87 air 0 setblock 1021 156 86 air
 
 #Detect redstone
 execute @p[scores={f5-wire-prog=1, f5-wire-title=0}] ~ ~ ~ detect 1021 156 91 redstone_wire -1 title @p title Half way there!
