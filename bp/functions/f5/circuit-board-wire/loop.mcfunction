@@ -7,10 +7,10 @@ execute @p[x=1021,y=153,z=103, r=10, scores={f5-status=500000..500049, f5-active
 execute @p[x=1021,y=153,z=103, r=10, scores={f5-status=500050..500100, f5-active=1}] ~ ~ ~ detect 1022 151 103 air 0 fill 1022 151 103 1022 151 103 redstone_torch
 
 #Detect the redstone moving up the stairs and place torch to extend
-execute @p ~ ~ ~ detect 1021 158 87 redstone 1 setblock 1021 156 86 redstone_torch
+execute @p ~ ~ ~ detect 1021 158 87 redstone_wire 1 setblock 1021 156 86 redstone_torch
 
 #If no more redstone, set to air instead
-execute @p ~ ~ ~ detect 1021 158 87 redstone 0 setblock 1021 156 86 air
+execute @p ~ ~ ~ detect 1021 158 87 redstone_wire 0 setblock 1021 156 86 air
 
 #Detect redstone
 execute @p[scores={f5-wire-prog=1, f5-wire-title=0}] ~ ~ ~ detect 1021 156 91 redstone_wire -1 title @p title Half way there!
