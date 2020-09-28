@@ -43,8 +43,8 @@ fill 1018 152 114 1016 154 114 air 0
 setblock 1017 153 113 air 0
 
 #Museum
-fill 997 153 118 998 153 118 air 0
-setblock 998 154 119 air 0
+fill 996 149 117 994 151 117 air 0
+setblock 995 150 116 air 0
 
 #Dig
 fill 1025 153 132 1026 154 132 air 0
