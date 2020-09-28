@@ -10,8 +10,8 @@ execute @p[x=1021,y=153,z=103, r=10, scores={f5-status=500050..500100, f5-active
 execute @p ~ ~ ~ detect 1021 158 87 redstone_wire 1 setblock 1021 156 86 redstone_torch
 
 #If no more redstone, set to air instead
-execute @p ~ ~ ~ detect 1021 158 87 redstone_wire 0 setblock 1021 156 86 air
-execute @p ~ ~ ~ detect 1021 158 87 air 0 setblock 1021 156 86 air
+execute @p ~ ~ ~ detect 1021 157 89 redstone_wire 0 setblock 1021 155 88 air
+execute @p ~ ~ ~ detect 1021 157 89 air 0 setblock 1021 155 88 air
 
 #Detect redstone
 execute @p[scores={f5-wire-prog=1, f5-wire-title=0}] ~ ~ ~ detect 1021 156 91 redstone_wire -1 title @p title Half way there!
