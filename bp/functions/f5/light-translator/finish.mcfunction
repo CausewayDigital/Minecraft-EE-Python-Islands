@@ -25,3 +25,6 @@ scoreboard players set @a f5-status 500030
 
 #Call the reset function as the task is now over.
 function f5/light-translator/reset
+
+#clone telescope for pevious task in
+clone 2042 160 589 2062 181 613 1009 159 57 replace
