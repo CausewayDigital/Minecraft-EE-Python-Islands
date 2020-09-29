@@ -40,8 +40,6 @@ execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ codebuilder navigate @p true https:/
 execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ fill 958 146 122 958 149 120 air 0
 execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ fill 959 148 121 959 148 121 air 0
 execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ fill 987 153 122 987 155 120 air 0
-# Force Subway Gate Open
-execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ detect 947 141 119 iron_bars 0 fill 947 141 120 950 143 119 air 0
 
 execute @s[scores={f6-rocket-comp=0}] ~ ~ ~ title @s subtitle Seems like something went wrong...
 execute @s[scores={f6-rocket-comp=0}] ~ ~ ~ title @s title Oh no...
