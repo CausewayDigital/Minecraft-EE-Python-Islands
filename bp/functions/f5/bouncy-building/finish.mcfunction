@@ -20,11 +20,12 @@ scoreboard players set @a whistle-enabled 1
 codebuilder navigate @p true https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_5/Telescope_Op/To_Power_Station.json
 
 #Set the task scoreboard to the correct task
-scoreboard players set §r objective 500060
-scoreboard players set @a f5-status 500060
+scoreboard players set §r objective 500050
+scoreboard players set @a f5-status 500050
 
 #clone telescope for pevious task in
 clone 2042 160 589 2062 181 613 1009 159 57 replace
 setblock 1019 173 65 beacon 0
+
 #Call the reset function as the task is now over.
 function f5/bouncy-building/reset
