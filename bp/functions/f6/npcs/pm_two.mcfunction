@@ -58,5 +58,8 @@ setblock 1046 153 143 air 0
 fill 1022 154 72 1020 156 72 air 0
 setblock 1021 155 71 air 0
 
+# Force Subway Gate Open
+fill 947 141 120 950 143 119 air 0
+
 title @p title World Complete!
 title @p subtitle You have finished Island 6
