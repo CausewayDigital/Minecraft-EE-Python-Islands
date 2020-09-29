@@ -88,3 +88,6 @@ clone 1048 149 138 1048 149 138 1021 155 71 replace
 #Clone in Island Number
 fill 1010 174 120 1018 186 120 air 0
 clone 2023 169 606 2031 181 606 1010 174 120 replace
+
+#Open mine entrance
+fill 997 153 118 998 154 119 air 0
