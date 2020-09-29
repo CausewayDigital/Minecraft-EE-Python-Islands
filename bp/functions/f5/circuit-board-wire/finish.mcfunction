@@ -28,3 +28,6 @@ function f5/circuit-board-wire/reset
 
 #Mark task as finished for notebooks
 clone 1025 153 60 1025 153 60 1021 154 60 replace
+
+#clone telescope for pevious task in
+clone 2042 160 589 2062 181 613 1009 159 57 replace

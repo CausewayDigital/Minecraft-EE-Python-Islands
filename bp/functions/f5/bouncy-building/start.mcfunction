@@ -25,6 +25,8 @@ scoreboard players set @a whistle-enabled 0
 # Open the Notebook URL (using false always)
 codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_5/Bounce/Bounce.json
 
+#clone telescope for pevious task in
+clone 2042 160 589 2062 181 613 1009 159 57 replace
 
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 500040
