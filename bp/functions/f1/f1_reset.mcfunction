@@ -7,8 +7,8 @@ scoreboard players set @a whistle-enabled 1
 function f1/mine/clone_bird
 
 
-scoreboard players set @a f1-particle-path 1
-scoreboard players set §r objective 900030
+scoreboard players set @a f1-particle-path 0
+scoreboard players set §r objective 900020
 
 # Add barrier to farm
 fill -363 156 174 -363 154 177 barrier

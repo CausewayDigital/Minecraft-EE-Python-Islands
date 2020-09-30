@@ -1,5 +1,6 @@
-execute @p[scores={f1-say-complete=0}, r=100] ~ ~ ~ particle minecraft:endrod -390 156 200
-execute @p[scores={f1-var-complete=0}, r=100] ~ ~ ~ particle minecraft:endrod -402 159 190
+execute @p[scores={f1-particle-path=0, f1-say-complete=0, f1-var-complete=0}, r=100] ~ ~ ~ particle minecraft:endrod -393 156 212
+execute @p[scores={f1-particle-path=1, f1-say-complete=0}, r=100] ~ ~ ~ particle minecraft:endrod -390 156 200
+execute @p[scores={f1-particle-path=1, f1-var-complete=0}, r=100] ~ ~ ~ particle minecraft:endrod -402 159 190
 execute @p[scores={f1-particle-path=2}, r=100] ~ ~ ~ particle minecraft:endrod -379 158 196
 
 execute @p[scores={f1-particle-path=3}, r=100] ~ ~ ~ particle minecraft:endrod -373 158 202
