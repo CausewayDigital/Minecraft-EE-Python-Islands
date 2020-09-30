@@ -7,7 +7,9 @@ scoreboard players set @p f1-started 1
 
 function f1/f1_reset
 clear @p
-replaceitem entity @p slot.hotbar 0 fishing_rod
+
+# Don't give player the fishing rod (whistle) until they complete agent certification task
+#replaceitem entity @p slot.hotbar 0 fishing_rod
 
 title @p subtitle Introduction to Python
 title @p title Welcome to Island 1
