@@ -57,6 +57,7 @@ fill 1021 154 60 1021 154 60 air 0
 fill 1021 9 85 1021 9 82 air 0
 fill 1022 9 82 1024 9 82 air 0
 fill 1024 9 83 1024 9 83 air 0
+fill 1021 9 86 1021 9 101 air 0
 
 #clone telescope for pevious task in
 clone 2042 160 589 2062 181 613 1009 159 57 replace
