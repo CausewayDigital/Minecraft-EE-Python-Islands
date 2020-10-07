@@ -8,4 +8,3 @@ fill 1027 159 70 1029 173 68 air 0
 fill 1009 159 70 1011 173 68 air 0
 
 scoreboard players set @p f5-tower-wrong 0
-scoreboard players set @p f5-tower-prog 0
