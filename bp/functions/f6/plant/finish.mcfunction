@@ -20,6 +20,9 @@ scoreboard players set @a whistle-enabled 1
 #Run story notebook
 codebuilder navigate @p true https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_6/Misc/From_Plant_To_Dig.json
 
+#Open Dig Task
+fill 1025 153 132 1026 154 132 air 0
+
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 600020
 scoreboard players set @a f6-status 600020
