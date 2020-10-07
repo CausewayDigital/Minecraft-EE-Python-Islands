@@ -8,6 +8,7 @@ execute @a[x=1049, y=156, z=160, r=10] ~ ~ ~ replaceitem entity @c slot.inventor
 
 codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_6/Rocket/Rocket.json
 
+clear @p coral_block 11 1
 
 fill 1048 156 162 1051 156 162 fence 0 replace
 fill 1051 156 161 1051 156 159 fence 0 replace
