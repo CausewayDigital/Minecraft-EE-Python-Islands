@@ -22,6 +22,10 @@ execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=15}] ~ ~ ~ detect 947 1
 execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=17}] ~ ~ ~ detect 947 143 614 air 0 clone 943 143 611 943 143 611 947 143 614 replace
 execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=19}] ~ ~ ~ detect 947 143 614 air 0 clone 942 143 611 942 143 611 947 143 614 replace
 
+# Particle and sound effect when block being changed
+execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=3..19}] ~ ~ ~ detect 947 143 614 air 0 particle minecraft:cauldron_explosion_emitter 947 144 614
+execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=3..19}] ~ ~ ~ detect 947 143 614 air 0 playsound dig.stone @p 947 144 614
+
 
 # Call the finish function if the player has done the task correctly
 execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=21, f4-mine-f-score=10, f4-mine-f-comp=0}] ~ ~ ~ function f4/mine-factory/finish
