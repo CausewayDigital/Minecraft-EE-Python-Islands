@@ -102,7 +102,6 @@ execute @p[scores={f4-mine-f-prog=17}] ~ ~ ~ detect 943 144 611 wool 3 function 
 execute @p[scores={f4-mine-f-prog=17}] ~ ~ ~ scoreboard players set @p f4-mine-f-prog 18
 
 
-
 #Block Ten
 execute @p[scores={f4-mine-f-prog=19}] ~ ~ ~ clone 947 144 615 947 144 615 942 144 611 replace
 execute @p[scores={f4-mine-f-prog=19}] ~ ~ ~ fill 947 144 615 947 144 615 air 0
@@ -112,7 +111,3 @@ execute @p[scores={f4-mine-f-prog=19, f4-mine-f-title=2}] ~ ~ ~ detect 951 144 6
 execute @p[scores={f4-mine-f-prog=19, f4-mine-f-title=2}] ~ ~ ~ detect 951 144 611 wool 3 scoreboard players set @p f4-mine-f-title 3
 execute @p[scores={f4-mine-f-prog=19}] ~ ~ ~ detect 942 144 611 wool 15 function f4/mine-factory/failed
 execute @p[scores={f4-mine-f-prog=19}] ~ ~ ~ scoreboard players set @p f4-mine-f-prog 20
-
-
-
-
