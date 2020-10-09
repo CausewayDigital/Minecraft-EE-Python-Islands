@@ -6,10 +6,11 @@ execute @p[x=956,y=147,z=624,r=10,scores={f4-status=400000..400018}] ~ ~ ~ detec
 
 execute @p[x=956,y=147,z=624,r=10,scores={f4-status=400019..400100}] ~ ~ ~ detect 954 147 625 fence 1 fill 954 147 625 954 147 623 air 0
 
-
-
-
 #Block one gets moved in the start function
+
+# Particle and sound effect when block being changed
+execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=3..19}] ~ ~ ~ detect 947 143 614 air 0 particle minecraft:cauldron_explosion_emitter 947 144 614
+execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=3..19}] ~ ~ ~ detect 947 143 614 air 0 playsound dig.stone @p 947 144 614
 
 #Move the other blocks blocks into position when it is their time indicated by the progress scoreboard (f4-mine-factory-prog)
 execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=3}] ~ ~ ~ detect 947 143 614 air 0 clone 950 143 611 950 143 611 947 143 614 replace
@@ -21,11 +22,6 @@ execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=13}] ~ ~ ~ detect 947 1
 execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=15}] ~ ~ ~ detect 947 143 614 air 0 clone 944 143 611 944 143 611 947 143 614 replace
 execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=17}] ~ ~ ~ detect 947 143 614 air 0 clone 943 143 611 943 143 611 947 143 614 replace
 execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=19}] ~ ~ ~ detect 947 143 614 air 0 clone 942 143 611 942 143 611 947 143 614 replace
-
-# Particle and sound effect when block being changed
-execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=3..19}] ~ ~ ~ detect 947 143 614 air 0 particle minecraft:cauldron_explosion_emitter 947 144 614
-execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=3..19}] ~ ~ ~ detect 947 143 614 air 0 playsound dig.stone @p 947 144 614
-
 
 # Call the finish function if the player has done the task correctly
 execute @p[x=947,y=143,z=620,r=15,scores={f4-mine-f-prog=21, f4-mine-f-score=10, f4-mine-f-comp=0}] ~ ~ ~ function f4/mine-factory/finish
