@@ -66,7 +66,7 @@ objective=§l§6- Current Task -§r
 300120=§fDeliver everything to the King
 300130=§fWorld Complete!
 
-400000=§fTalk to the Prime Minister
+400000=§fTalk to the Prime Minister   ###Island 4 scoreboard titles
 400010=§fTalk to the Mine Manager
 400015=§fBuild a bridge to the distant island
 400020=§fTalk to Frankie in the mine control room
@@ -81,7 +81,7 @@ objective=§l§6- Current Task -§r
 
 
 
-500000=§fTalk to the Prime Minister
+500000=§fTalk to the Prime Minister   ###Island 5 scoreboard titles
 500010=§fGo to the Telescope Island
 500015=§fBuild the Telescope supports
 500020=§fGo to the Centre for Computer Research
@@ -95,7 +95,7 @@ objective=§l§6- Current Task -§r
 
 
 
-600000=§fTalk to the Prime Minister
+600000=§fTalk to the Prime Minister   ###Island 6 scoreboard titles
 600010=§fTalk to Davin at Space Centre
 600015=§fAnalyse the flowers
 600020=§fGo to Dig Site
