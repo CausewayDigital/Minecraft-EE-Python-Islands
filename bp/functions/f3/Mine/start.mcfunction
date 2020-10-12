@@ -13,4 +13,4 @@ scoreboard players set @a f3-status 300080
 
 scoreboard players set @a whistle-enabled 0
 
-codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_3/Mine/Mine.json
+codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://meecode.blob.core.windows.net/everglade/content/row/master/islands/island_3/Mine/Mine.json

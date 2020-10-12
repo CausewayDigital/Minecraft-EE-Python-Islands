@@ -1,7 +1,7 @@
 #block entrance to the forest
 clone 164 150 216 165 151 217 142 155 204
 
-codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_shared/No_Coding/no_coding.json
+codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://meecode.blob.core.windows.net/everglade/content/row/master/islands/island_shared/No_Coding/no_coding.json
 
 
 function f2/reset_scoreboard
