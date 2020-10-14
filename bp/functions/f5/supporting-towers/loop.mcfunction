@@ -2,11 +2,11 @@
 # here (and it sound be run from the main world loop)
 
 #Increase Timer
-execute @p[scores={f5-tower-timer=1..200}] ~ ~ ~ scoreboard players add @p f5-tower-timer 1
+execute @p[scores={f5-tower-timer=1..10}] ~ ~ ~ scoreboard players add @p f5-tower-timer 1
 
 #Check Timer
-execute @p[scores={f5-tower-timer=200}] ~ ~ ~ replaceitem entity @c slot.inventory 0 quartz_block 64
-execute @p[scores={f5-tower-timer=200}] ~ ~ ~ scoreboard players set @p f5-tower-timer 1
+execute @p[scores={f5-tower-timer=10}] ~ ~ ~ replaceitem entity @c slot.inventory 0 quartz_block 64
+execute @p[scores={f5-tower-timer=10}] ~ ~ ~ scoreboard players set @p f5-tower-timer 1
 
 #Test Tower
 #Correct Blocks
