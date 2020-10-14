@@ -7,4 +7,4 @@ scoreboard players set @a whistle-enabled 0
 
 execute @p ~ ~ ~ replaceitem entity @c slot.inventory 0 wheat_seeds 3
 
-codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_1/Farm/Farm.json
+codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://meecode.blob.core.windows.net/everglade/content/row/master/islands/island_1/Farm/Farm.json
