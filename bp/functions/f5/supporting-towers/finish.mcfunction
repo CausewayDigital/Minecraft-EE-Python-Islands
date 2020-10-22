@@ -23,7 +23,7 @@ scoreboard players set @a whistle-enabled 1
 fill 1017 159 80 1021 173 76 air 0
 
 #Run story notebook
-codebuilder navigate @p true https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_5/Builder/To_CFCR.json
+codebuilder navigate @p true https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://meecode.blob.core.windows.net/everglade/content/row/master/islands/island_5/Builder/To_CFCR.json
 
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 500020

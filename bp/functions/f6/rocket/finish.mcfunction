@@ -35,7 +35,7 @@ execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ summon fireworks_rocket 1050 156 160
 #Set the task scoreboard to the correct task
 execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ scoreboard players set §r objective 600050
 execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ scoreboard players set @a f6-status 600050
-execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ codebuilder navigate @p true https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_6/Misc/From_Rocket_To_Airport.json
+execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ codebuilder navigate @p true https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://meecode.blob.core.windows.net/everglade/content/row/master/islands/island_6/Misc/From_Rocket_To_Airport.json
 # Force Airport Bridge Gate Open
 execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ fill 958 146 122 958 149 120 air 0
 execute @s[scores={f6-rocket-comp=1}] ~ ~ ~ fill 959 148 121 959 148 121 air 0

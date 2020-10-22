@@ -17,7 +17,7 @@ execute @p ~ ~ ~ tp @c 1009 154 136 facing 1010 154 136
 scoreboard players set @a whistle-enabled 1
 
 #Run story notebook
-codebuilder navigate @p true https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://causewaydigital.github.io/Everglade-live/lessons/islands/island_5/Computer_Scientist/To_Telescope.json
+codebuilder navigate @p true https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://meecode.blob.core.windows.net/everglade/content/row/master/islands/island_5/Computer_Scientist/To_Telescope.json
 
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 500030
