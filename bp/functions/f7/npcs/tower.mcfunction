@@ -1,0 +1,1 @@
+codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://nb.causewaydigital.io/RefTask-TowerBuilder/lessons/reference_tutorials/tower_builder/tower_builder.json

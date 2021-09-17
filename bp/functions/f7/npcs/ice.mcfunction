@@ -1,0 +1,1 @@
+codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://nb.causewaydigital.io/RefTask-IceWalker/lessons/reference_tutorials/ice_walker/ice_walker.json
