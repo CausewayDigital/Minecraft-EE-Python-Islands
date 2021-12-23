@@ -1,0 +1,41 @@
+{
+	"format_version": "1.17.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "cd:trigger",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "cd:right"
+				}
+			},
+			"minecraft:icon": {
+				"texture": "cd_trigger"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:allow_off_hand": true,
+			"minecraft:display_name": {
+				"value": "§l§aAgent Whistle§rn§l\\n§bClick to Call Agent"
+			}
+		},
+		"events": {
+			"cd:right": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"execute @s ~ ~ ~ function whistle"
+							]
+						}
+					},
+					{
+						"swing": {}
+					}
+				]
+			}
+		}
+	}
+}
