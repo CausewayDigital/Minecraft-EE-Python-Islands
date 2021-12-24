@@ -1,7 +1,6 @@
 
 # General functions
 function f6/f6_lifeboat
-execute @e[type=fishing_hook] ~ ~ ~ function use_whistle
 function code_status
 
 #Teleport People
