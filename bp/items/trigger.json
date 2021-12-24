@@ -18,7 +18,7 @@
 			"minecraft:hand_equipped": true,
 			"minecraft:allow_off_hand": true,
 			"minecraft:display_name": {
-				"value": "§l§aAgent Whistle§rn§l\\n§bClick to Call Agent"
+				"value": "§l§aPersonal Agent Whistle§r§l\n§bClick to Call Agent"
 			}
 		},
 		"events": {
@@ -27,7 +27,7 @@
 					{
 						"run_command": {
 							"command": [
-								"execute @s ~ ~ ~ function whistle"
+								"execute @s ~ ~ ~ function trigger"
 							]
 						}
 					},
