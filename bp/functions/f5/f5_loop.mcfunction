@@ -1,7 +1,6 @@
 
 # General functions
 function f5/f5_lifeboat
-execute @e[type=fishing_hook] ~ ~ ~ function use_whistle
 function code_status
 
 #Teleport NPC's in and out

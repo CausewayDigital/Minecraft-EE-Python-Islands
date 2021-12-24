@@ -1,13 +1,15 @@
 ﻿item.sugar.name=Sandwich
 item.phantom_membrane.name=Agent Licence
 item.nautilus_shell.name=Certificate of Airworthiness
-item.fishing_rod.name=Call Agent
 item.prismarine_crystals.name=Apple
 item.dye.black_new.name=Spell Book
 item.elytra.name=Robes
 item.golden_helmet.name=Crown
 tile.element_constructor.name=Conveyor Belt
 tile.coral_block.red_dead.name=Artifact
+
+item.fishing_rod.name=Call Agent
+action.interact.fishing=Call Agent
 
 
 900020=§fTalk to Jessie
@@ -106,3 +108,7 @@ objective=§l§6- Current Task -§r
 600055=§fPaint the runway
 600060=§fInform the Prime Minister
 600070=§fWorld Complete!
+
+
+
+700000=§fExplore the Island  ###Island 7 scoreboard titles

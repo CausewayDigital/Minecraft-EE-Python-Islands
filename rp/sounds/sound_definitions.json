@@ -1,0 +1,9 @@
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"cd.whistle": {
+			"category": "neutral",
+			"sounds": ["sounds/whistle"]
+		}
+	}
+}
