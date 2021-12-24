@@ -9,7 +9,7 @@ function f1/f1_reset
 clear @p
 
 # Don't give player the fishing rod (whistle) until they complete agent certification task
-#replaceitem entity @p slot.hotbar 0 fishing_rod
+#replaceitem entity @p slot.hotbar 0 cd:trigger 1 0 {"minecraft:item_lock":{ "mode": "lock_in_slot" }}
 
 title @p subtitle Introduction to Python
 title @p title Welcome to Island 1
