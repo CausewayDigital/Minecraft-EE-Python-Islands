@@ -1,1 +1,1 @@
-codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://nb.causewaydigital.io/RefTask-Autominer/lessons/reference_tutorials/autominer/autominer.json
+codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://nb.causewaydigital.io/master/lessons/reference_tutorials/autominer/autominer.json
