@@ -1,11 +1,8 @@
-# This function handles the whistle and it's actions. It is shared across all islands.
-# This function should be called by *every* loop island main loop!
+# This function handles the whistle and it's actions. It is shared across all islands. It should be called from the trigger.
 # whistle-enabled = 0 --- This should be used to disable whistle use in a task.
 # whistle-enabled = 1 --- Enables whistle for general usage, teleports agent to the player in direction facing.
 # whistle-enabled = 2 --- Special task usage, must always be combined with checking another scoreboard variable. Task specific (see bottom section of this file)
 
-
-kill @e[type=fishing_hook]
 
 execute @p ~ ~ ~ execute @s[scores={whistle-enabled=1},rym=-45,ry=44] ~ ~ ~ teleport @c ~ ~ ~ 0 0
 execute @p ~ ~ ~ execute @s[scores={whistle-enabled=1},rym=45,ry=134] ~ ~ ~ teleport @c ~ ~ ~ 90 0
