@@ -5,7 +5,7 @@ replaceitem entity @p slot.hotbar 0 cd:trigger 1 0 {"minecraft:item_lock":{ "mod
 tp @p 1003 153 151 facing 1003 153 150
 
 # Open Notebook
-#codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://meecode.blob.core.windows.net/everglade/content/row/master/islands/island_6/Start/Start.json
+#codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_6/Start/Start.json
 
 title @p subtitle Intro to Functions
 title @p title Welcome to Island 6
