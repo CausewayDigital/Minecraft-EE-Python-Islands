@@ -1,9 +1,0 @@
-{
-	"resource_pack_name": "Floating Islands Resource Pack",
-	"texture_name": "atlas.items",
-	"texture_data": {
-		"cd_trigger": {
-			"textures": "textures/items/trigger"
-		}
-	}
-}

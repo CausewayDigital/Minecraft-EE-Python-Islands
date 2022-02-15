@@ -8,7 +8,7 @@ scoreboard players set @p f1-started 1
 function f1/f1_reset
 clear @p
 
-# Don't give player the whistle (cd:trigger) until they complete agent certification task
+# Don't give player the whistle (fishing_rod) until they complete agent certification task
 
 title @p subtitle Introduction to Python
 title @p title Welcome to Island 1

@@ -1,6 +1,6 @@
 function f4/f4_reset
 clear @p
-replaceitem entity @p slot.hotbar 0 cd:trigger 1 0 {"minecraft:item_lock":{ "mode": "lock_in_slot" }}
+replaceitem entity @p slot.hotbar 0 fishing_rod 1 0 {"minecraft:item_lock":{ "mode": "lock_in_slot" }}
 
 tp @p 1003 153 650 facing 1003 153 649
 

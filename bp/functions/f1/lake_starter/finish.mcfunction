@@ -6,7 +6,7 @@ scoreboard players set @p f1-lake-complete 1
 scoreboard players set @a f1-particle-path 3
 scoreboard players set §r objective 900050
 
-replaceitem entity @p slot.hotbar 0 cd:trigger 1 0 {"minecraft:item_lock":{ "mode": "lock_in_slot" }}
+replaceitem entity @p slot.hotbar 0 fishing_rod 1 0 {"minecraft:item_lock":{ "mode": "lock_in_slot" }}
 replaceitem entity @p slot.hotbar 1 phantom_membrane
 
 function f1/lake_starter/quit
