@@ -13,7 +13,7 @@ execute @p[scores={f2-wizard-prog=1}] ~ ~ ~ scoreboard players set @p f2-wizard-
 
 ## CHECK AND SETUP 'IRON' BLOCKS
 
-execute @p[scores={f2-wizard-prog=2}] ~ ~ ~ setblock 128 154 170 hardened_clay 0 replace
+execute @p[scores={f2-wizard-prog=2}] ~ ~ ~ setblock 128 154 170 raw_iron_block 0 replace
 execute @p[scores={f2-wizard-prog=2}] ~ ~ ~ detect 129 155 170 concrete 5 execute @s ~ ~ ~ setblock 130 151 167 concrete 5
 execute @p[scores={f2-wizard-prog=2}] ~ ~ ~ detect 129 155 170 concrete 14 execute @s ~ ~ ~ setblock 130 151 167 concrete 14
 execute @p[scores={f2-wizard-prog=2}] ~ ~ ~ detect 129 155 170 concrete 5 setblock 129 155 170 air 0 replace
@@ -21,7 +21,7 @@ execute @p[scores={f2-wizard-prog=2}] ~ ~ ~ detect 129 155 170 concrete 14 setbl
 execute @p[scores={f2-wizard-prog=2}] ~ ~ ~ detect 130 151 167 concrete 5 execute @s ~ ~ ~ scoreboard players add @s f2-wizard-prog 1
 execute @p[scores={f2-wizard-prog=2}] ~ ~ ~ detect 130 151 167 concrete 14 execute @s ~ ~ ~ scoreboard players add @s f2-wizard-prog 1
 
-execute @p[scores={f2-wizard-prog=3}] ~ ~ ~ setblock 128 154 170 stained_hardened_clay 11 replace
+execute @p[scores={f2-wizard-prog=3}] ~ ~ ~ setblock 128 154 170 raw_gold_block 0 replace
 execute @p[scores={f2-wizard-prog=3}] ~ ~ ~ detect 129 155 170 concrete 5 execute @s ~ ~ ~ setblock 129 151 167 concrete 5
 execute @p[scores={f2-wizard-prog=3}] ~ ~ ~ detect 129 155 170 concrete 14 execute @s ~ ~ ~ setblock 129 151 167 concrete 14
 execute @p[scores={f2-wizard-prog=3}] ~ ~ ~ detect 129 155 170 concrete 5 setblock 129 155 170 air 0 replace
@@ -37,7 +37,7 @@ execute @p[scores={f2-wizard-prog=4}] ~ ~ ~ detect 129 155 170 concrete 14 setbl
 execute @p[scores={f2-wizard-prog=4}] ~ ~ ~ detect 128 151 167 concrete 5 execute @s ~ ~ ~ scoreboard players add @s f2-wizard-prog 1
 execute @p[scores={f2-wizard-prog=4}] ~ ~ ~ detect 128 151 167 concrete 14 execute @s ~ ~ ~ scoreboard players add @s f2-wizard-prog 1
 
-execute @p[scores={f2-wizard-prog=5}] ~ ~ ~ setblock 128 154 170 stained_hardened_clay 15 replace
+execute @p[scores={f2-wizard-prog=5}] ~ ~ ~ setblock 128 154 170 raw_copper_block 0 replace
 execute @p[scores={f2-wizard-prog=5}] ~ ~ ~ detect 129 155 170 concrete 5 execute @s ~ ~ ~ setblock 127 151 167 concrete 5
 execute @p[scores={f2-wizard-prog=5}] ~ ~ ~ detect 129 155 170 concrete 14 execute @s ~ ~ ~ setblock 127 151 167 concrete 14
 execute @p[scores={f2-wizard-prog=5}] ~ ~ ~ detect 129 155 170 concrete 5 setblock 129 155 170 air 0 replace
