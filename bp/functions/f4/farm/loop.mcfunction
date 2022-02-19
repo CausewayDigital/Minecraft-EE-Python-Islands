@@ -212,10 +212,10 @@ execute @p[scores={f4-farm-prog=1..10}] ~ ~ ~ detect 1028 159 569 air 0 clone 10
 #There are no flowers here as this is where the agent spawns
 
 #Update Farm Progress
-execute @p[scores={f4-farm-prog=1}] ~ ~ ~ detect 1016 154 563 red_flower 0 scoreboard players add @p f4-farm-prog 1
-execute @p[scores={f4-farm-prog=2}] ~ ~ ~ detect 1017 154 563 red_flower 0 scoreboard players add @p f4-farm-prog 1
-execute @p[scores={f4-farm-prog=3}] ~ ~ ~ detect 1018 154 563 red_flower 0 scoreboard players add @p f4-farm-prog 1
-execute @p[scores={f4-farm-prog=4}] ~ ~ ~ detect 1019 154 563 red_flower 0 scoreboard players add @p f4-farm-prog 1
+execute @p[scores={f4-farm-prog=1}] ~ ~ ~ detect 1016 154 563 pointed_dripstone -1 scoreboard players add @p f4-farm-prog 1
+execute @p[scores={f4-farm-prog=2}] ~ ~ ~ detect 1017 154 563 pointed_dripstone -1 scoreboard players add @p f4-farm-prog 1
+execute @p[scores={f4-farm-prog=3}] ~ ~ ~ detect 1018 154 563 pointed_dripstone -1 scoreboard players add @p f4-farm-prog 1
+execute @p[scores={f4-farm-prog=4}] ~ ~ ~ detect 1019 154 563 pointed_dripstone -1 scoreboard players add @p f4-farm-prog 1
 
 
 #Teleport the agent when they get to the end of a row
@@ -229,19 +229,19 @@ execute @p[scores={f4-farm-prog=1..10}] ~ ~ ~ detect 1018 159 567 air 0 tp @c 10
 execute @p[scores={f4-farm-prog=1..10}] ~ ~ ~ detect 1029 159 566 air 0 tp @c 1025 163 566 facing 1026 163 566
 
 
-execute @p[scores={f4-farm-prog=2, f4-farm-title=0}] ~ ~ ~ replaceitem entity @c slot.inventory 0 red_flower 1 0
+execute @p[scores={f4-farm-prog=2, f4-farm-title=0}] ~ ~ ~ replaceitem entity @c slot.inventory 0 pointed_dripstone 1 -1
 execute @p[scores={f4-farm-prog=2, f4-farm-title=0}] ~ ~ ~ title @p title 3 Poppies left!
 execute @p[scores={f4-farm-prog=2, f4-farm-title=0}] ~ ~ ~ scoreboard players set @p f4-farm-title 1
 
-execute @p[scores={f4-farm-prog=3, f4-farm-title=1}] ~ ~ ~ replaceitem entity @c slot.inventory 0 red_flower 2 0
+execute @p[scores={f4-farm-prog=3, f4-farm-title=1}] ~ ~ ~ replaceitem entity @c slot.inventory 0 pointed_dripstone 2 -1
 execute @p[scores={f4-farm-prog=3, f4-farm-title=1}] ~ ~ ~ title @p title 2 Poppies left!
 execute @p[scores={f4-farm-prog=3, f4-farm-title=1}] ~ ~ ~ scoreboard players set @p f4-farm-title 2
 
-execute @p[scores={f4-farm-prog=4, f4-farm-title=2}] ~ ~ ~ replaceitem entity @c slot.inventory 0 red_flower 3 0
+execute @p[scores={f4-farm-prog=4, f4-farm-title=2}] ~ ~ ~ replaceitem entity @c slot.inventory 0 pointed_dripstone 3 -1
 execute @p[scores={f4-farm-prog=4, f4-farm-title=2}] ~ ~ ~ title @p title 1 Poppy left!
 execute @p[scores={f4-farm-prog=4, f4-farm-title=2}] ~ ~ ~ scoreboard players set @p f4-farm-title 3
 
-execute @p[scores={f4-farm-prog=5}] ~ ~ ~ replaceitem entity @c slot.inventory 0 red_flower 4 0
+execute @p[scores={f4-farm-prog=5}] ~ ~ ~ replaceitem entity @c slot.inventory 0 pointed_dripstone 4 -1
 
 #Action bar
 execute @p[scores={f4-farm-prog=1..10}, x=1024,y=163,z=567,r=25] ~ ~ ~ title @p actionbar Press "C" to code or touch the Agent icon
