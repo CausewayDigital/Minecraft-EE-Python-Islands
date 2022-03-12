@@ -10,3 +10,4 @@ gamerule mobGriefing false
 gamerule pvp false
 gamerule showCoordinates false
 gamerule sendcommandfeedback false
+immutableworld true
