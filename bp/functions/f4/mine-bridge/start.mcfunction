@@ -16,8 +16,8 @@ fill 934 149 627 919 149 627 air 0
 #Tell the player what to do with a message
 execute @p[x=935, y=150, z=627, r=25] ~ ~ ~ title @p title Walk over to your agent to get started
 
-#Disable Whstle
-scoreboard players set @a whistle-enabled 0
+#Enable Whistle
+scoreboard players set @a whistle-enabled 1
 
 # Open the Notebook URL (using false always)
 codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_4/Bridge/Bridge_1.json
