@@ -24,7 +24,10 @@ function f6/f6_new_player
 kill @e[type=agent]
 function f6/f6_new_player
 kill @e[type=agent]
-
+function f7/f7_new_player
+kill @e[type=agent]
+function f1/f1_new_player
+kill @e[type=agent]
 
 scoreboard objectives setdisplay sidebar objective
 
