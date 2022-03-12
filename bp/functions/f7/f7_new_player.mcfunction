@@ -1,4 +1,6 @@
 function f7/f7_reset
+# This must be enabled on only island 7 due to zombies in one of the tasks
+gamerule doMobSpawning true
 
 scoreboard players set §r objective 700000
 scoreboard players set @a f7-status 700000
