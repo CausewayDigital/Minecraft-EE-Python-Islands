@@ -1,4 +1,5 @@
 # This function should be run once islands have been exported and are being prepared for release
+function settings
 
 function f1/f1_new_player
 kill @e[type=agent]
