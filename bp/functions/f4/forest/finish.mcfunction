@@ -32,7 +32,7 @@ scoreboard players set @p f4-forest-prog 0
 function f4/forest/clear_items 
 
 #Run story notebook
-codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_4/Prime_Minster/Cert_To_PM_1.json
+codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/prod/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_4/Prime_Minster/Cert_To_PM_1.json
 
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 400060

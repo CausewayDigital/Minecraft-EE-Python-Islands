@@ -16,7 +16,7 @@ execute @p ~ ~ ~ tp @c 1020 139 112 facing 1020 139 111
 scoreboard players set @a whistle-enabled 0
 
 # Open the Notebook URL (using false always)
-codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_6/Dig/Dig.json
+codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/prod/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_6/Dig/Dig.json
 
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 600025

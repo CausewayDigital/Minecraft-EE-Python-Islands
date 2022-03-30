@@ -23,7 +23,7 @@ execute @p[x=1019, y=159, z=68, r=30] ~ ~ ~ title @p title Walk over to the Boun
 scoreboard players set @a whistle-enabled 0
 
 # Open the Notebook URL (using false always)
-codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_5/Bounce/Bounce.json
+codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/prod/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_5/Bounce/Bounce.json
 
 #clone telescope for pevious task in
 clone 2042 160 589 2062 181 613 1009 159 57 replace

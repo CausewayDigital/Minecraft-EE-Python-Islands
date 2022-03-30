@@ -19,7 +19,7 @@ execute @p[x=1010, y=154, z=137, r=30] ~ ~ ~ title @p title Walk over to your ag
 scoreboard players set @a whistle-enabled 0
 
 # Open the Notebook URL (using false always)
-codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_5/Translator/Translator.json
+codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/prod/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_5/Translator/Translator.json
 
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 500025

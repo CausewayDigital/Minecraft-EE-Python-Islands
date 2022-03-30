@@ -1,4 +1,4 @@
-execute @p[x=88,y=139,z=168,r=2,scores={f2-mine2-prog=1}] ~ ~ ~ codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_2/Mine/Mine_2.json
+execute @p[x=88,y=139,z=168,r=2,scores={f2-mine2-prog=1}] ~ ~ ~ codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/prod/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_2/Mine/Mine_2.json
 execute @p[x=88,y=139,z=168,r=2,scores={f2-mine2-prog=1}] ~ ~ ~ scoreboard players set §r objective 200090
 execute @p[x=88,y=139,z=168,r=2,scores={f2-mine2-prog=1}] ~ ~ ~ scoreboard players set @a f2-status 200090
 execute @p[x=88,y=139,z=168,r=2,scores={f2-mine2-prog=1}] ~ ~ ~ scoreboard players set @p[x=88,y=139,z=168,r=2,scores={f2-mine2-prog=1}] f2-mine2-prog 2
