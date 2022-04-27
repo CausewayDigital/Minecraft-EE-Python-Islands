@@ -16,7 +16,7 @@ function f4/farm/reset_agent
 scoreboard players set @a whistle-enabled 2
 
 # Open the Notebook URL (using false always)
-codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/prod/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_4/Farm/Farm_1.json
+codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_4/Farm/Farm_1.json
 
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 400035

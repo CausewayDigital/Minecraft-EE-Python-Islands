@@ -6,7 +6,7 @@ tp @s 1052 156 160 facing 1051 156 160
 execute @a[x=1049, y=156, z=160, r=10] ~ ~ ~ replaceitem entity @c slot.inventory 0 concrete 64 5
 execute @a[x=1049, y=156, z=160, r=10] ~ ~ ~ replaceitem entity @c slot.inventory 1 concrete 64 14
 
-codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/prod/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_6/Rocket/Rocket.json
+codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_6/Rocket/Rocket.json
 
 clear @p coral_block 11 1
 

@@ -5,7 +5,7 @@ replaceitem entity @p slot.hotbar 0 fishing_rod 1 0 {"minecraft:item_lock":{ "mo
 tp @p 1003 153 151 facing 1003 153 150
 
 # Open Notebook
-#codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/prod/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_6/Start/Start.json
+#codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_6/Start/Start.json
 
 title @p subtitle Intro to Functions
 title @p title Welcome to Island 6

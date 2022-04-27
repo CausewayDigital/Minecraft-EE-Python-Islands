@@ -11,4 +11,4 @@ replaceitem entity @p slot.hotbar 1 phantom_membrane
 
 function f1/lake_starter/quit
 
-execute @p[scores={f1-say-complete=1, f1-var-complete=1}] ~ ~ ~ codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/prod/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_1/Lake/whistle_1.json
+execute @p[scores={f1-say-complete=1, f1-var-complete=1}] ~ ~ ~ codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_1/Lake/whistle_1.json
