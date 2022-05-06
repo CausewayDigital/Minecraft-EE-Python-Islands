@@ -11,3 +11,7 @@ scoreboard players set §r objective 700000
 scoreboard players set @a f7-status 700000
 
 # Island activities
+function f7/npcs/animal_reset
+function f7/npcs/ice_reset
+function f7/npcs/tower_reset
+function f7/npcs/autominer_reset
