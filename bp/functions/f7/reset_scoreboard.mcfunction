@@ -8,3 +8,7 @@ scoreboard objectives remove whistle-enabled
 scoreboard objectives add whistle-enabled dummy 
 scoreboard players set @a whistle-enabled 0
 
+scoreboard objectives remove f7-zombie
+scoreboard objectives add f7-zombie dummy 
+scoreboard players set @a f7-zombie 0
+
