@@ -8,7 +8,7 @@ tp @p 1003 153 151 facing 1003 153 150
 #codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_6/Start/Start.json
 
 # Spawn agent
-execute @p ~ ~ ~ summon agent
+summon agent
 
 title @p subtitle Intro to Functions
 title @p title Welcome to Island 6
