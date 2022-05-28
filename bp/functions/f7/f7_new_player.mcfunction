@@ -9,7 +9,7 @@ clear @p
 replaceitem entity @p slot.hotbar 0 fishing_rod 1 0 {"minecraft:item_lock":{ "mode": "lock_in_slot" }}
 
 # Spawn agent
-execute @p ~ ~ ~ summon agent
+summon agent
 
 dialogue open @e[tag=f7_mayor, c=1] @p
 tp @p -481 142 676 facing -481 142 672

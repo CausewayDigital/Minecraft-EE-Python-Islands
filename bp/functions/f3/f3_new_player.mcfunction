@@ -5,7 +5,7 @@ clear @p
 replaceitem entity @p slot.hotbar 0 fishing_rod 1 0 {"minecraft:item_lock":{ "mode": "lock_in_slot" }}
 
 # Spawn agent
-execute @p ~ ~ ~ summon agent
+summon agent
 
 title @p subtitle Using For Loops
 title @p title Welcome to Island 3

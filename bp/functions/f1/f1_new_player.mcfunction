@@ -9,7 +9,7 @@ function f1/f1_reset
 clear @p
 
 # Spawn agent
-execute @p ~ ~ ~ summon agent
+summon agent
 
 # Don't give player the whistle (fishing_rod) until they complete agent certification task
 
