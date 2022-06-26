@@ -8,6 +8,9 @@ scoreboard players set @p f1-started 1
 function f1/f1_reset
 clear @p
 
+# Spawn agent
+summon agent
+
 # Don't give player the whistle (fishing_rod) until they complete agent certification task
 
 title @p subtitle Introduction to Python
