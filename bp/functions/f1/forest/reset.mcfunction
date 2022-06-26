@@ -1,6 +1,8 @@
 # Replace broken ladders
 setblock -353 156 218 air 0 replace
 setblock -353 159 218 air 0 replace
+fill -353 157 218 -353 158 218 minecraft:ladder 2
+fill -353 160 218 -353 167 218 minecraft:ladder 2
 
 # Replace broken apples and remove lingering barrier blocks
 scoreboard players set @p f1-forest-appleS 1
