@@ -30,6 +30,9 @@ kill @e[type=agent]
 function f1/f1_new_player
 kill @e[type=agent]
 
+# Kill all players agents
+execute @a ~ ~ ~ kill @c
+
 scoreboard objectives setdisplay sidebar objective
 
 gamerule showcoordinates false
