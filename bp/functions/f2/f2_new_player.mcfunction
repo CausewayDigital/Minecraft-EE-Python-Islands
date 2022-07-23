@@ -6,6 +6,7 @@ replaceitem entity @p slot.hotbar 0 fishing_rod 1 0 {"minecraft:item_lock":{ "mo
 
 # Spawn agent
 summon agent
+tp @c 119 153 219 facing 119 153 220
 
 title @p subtitle Using If Statements
 title @p title Welcome to Island 2
