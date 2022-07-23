@@ -2,7 +2,7 @@
 item.phantom_membrane.name=Agent Licence
 item.nautilus_shell.name=Certificate of Airworthiness
 item.prismarine_crystals.name=Apple
-item.black_dye.name=Spell Book
+item.dye.black.name=Spell Book
 item.elytra.name=Robes
 item.golden_helmet.name=Crown
 tile.element_constructor.name=Conveyor Belt
