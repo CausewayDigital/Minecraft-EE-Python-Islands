@@ -11,6 +11,9 @@ replaceitem entity @p slot.hotbar 0 fishing_rod 1 0 {"minecraft:item_lock":{ "mo
 # Spawn agent
 summon agent
 
+# Required to allow placing blocks by the player in all areas in world 7
+gamemode s @p
+
 dialogue open @e[tag=f7_mayor, c=1] @p
 tp @p -481 142 676 facing -481 142 672
 tp @c -483 142 673 facing -483 142 674

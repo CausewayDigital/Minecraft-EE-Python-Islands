@@ -7,6 +7,7 @@ scoreboard players set @p f1-started 1
 
 function f1/f1_reset
 clear @p
+gamemode a @p
 
 # Spawn agent
 summon agent
