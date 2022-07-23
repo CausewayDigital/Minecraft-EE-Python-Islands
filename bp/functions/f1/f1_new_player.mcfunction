@@ -10,6 +10,7 @@ clear @p
 
 # Spawn agent
 summon agent
+tp @c -394 153 212 facing -394 153 214
 
 # Don't give player the whistle (fishing_rod) until they complete agent certification task
 

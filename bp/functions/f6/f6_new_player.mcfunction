@@ -2,13 +2,14 @@ function f6/f6_reset
 clear @p
 replaceitem entity @p slot.hotbar 0 fishing_rod 1 0 {"minecraft:item_lock":{ "mode": "lock_in_slot" }}
 
-tp @p 1003 153 151 facing 1003 153 150
+tp @p 1003 153 152 facing 1003 153 150
 
 # Open Notebook
 #codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_6/Start/Start.json
 
 # Spawn agent
 summon agent
+tp @c 1002 153 149 facing 1002 153 150
 
 title @p subtitle Intro to Functions
 title @p title Welcome to Island 6

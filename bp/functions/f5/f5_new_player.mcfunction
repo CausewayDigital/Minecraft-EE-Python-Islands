@@ -2,13 +2,14 @@ function f5/f5_reset
 clear @p
 replaceitem entity @p slot.hotbar 0 fishing_rod 1 0 {"minecraft:item_lock":{ "mode": "lock_in_slot" }}
 
-tp @p 1003 153 151 facing 1003 153 150
+tp @p 1003 153 152 facing 1003 153 150
 
 title @p subtitle Intro to Functions
 title @p title Welcome to Island 5 
 
 # Spawn agent
 summon agent
+tp @c 1002 153 149 facing 1002 153 150
 
 scoreboard players set §r objective 500000
 scoreboard players set @a f5-status 500000
