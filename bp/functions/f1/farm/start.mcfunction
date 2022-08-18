@@ -1,4 +1,4 @@
-function f1/farm/quit
+function f1/farm/reset
 scoreboard players set @p f1-farm-progress 1
 scoreboard players set §r objective 900080
 setblock -349 158 172 diamond_block
