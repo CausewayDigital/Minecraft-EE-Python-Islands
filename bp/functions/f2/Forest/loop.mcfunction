@@ -32,3 +32,7 @@ execute @p[scores={f2-forest-done=0, f2-forest-progre=7}] ~ ~ ~ function f2/Fore
 execute @p[scores={f2-forest-done=1, f2-forest-progre=7}] ~ ~ ~ function f2/Forest/finish
 
 execute @p[scores={f2-forest-progre=2..6}, r=40] ~ ~ ~ title @s actionbar Press "C" to code or touch the Agent icon
+
+# If detecting snow golem (triggered from running next() function in Python)
+execute @e[type=snow_golem, x=163, y=150, z=218, dx=10, dy=8, dz=10] ~ ~ ~ scoreboard players add @p f2-forest-progre 1
+execute @e[type=snow_golem, x=163, y=150, z=218, dx=10, dy=8, dz=10] ~ ~ ~ kill @s
