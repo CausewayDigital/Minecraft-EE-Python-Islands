@@ -18,7 +18,7 @@ tp @p 1055 156 143 facing 1055 156 142
 scoreboard players set @a whistle-enabled 1
 
 #Run story notebook
-codebuilder navigate @p true https://meecode.blob.core.windows.net/everglade/ci/index.html?lesson=https://meecode.blob.core.windows.net/everglade/content/row/master/islands/island_6/Misc/From_Plant_To_Dig.json
+codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_6/Misc/From_Plant_To_Dig.json
 
 #Open Dig Task
 fill 1025 153 132 1026 154 132 air 0
