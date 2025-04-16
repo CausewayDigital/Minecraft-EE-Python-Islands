@@ -1,7 +1,7 @@
 # Teleport player to starting position at top of ladder, reset agent and start lesson
 #tp @p[x=-348, y=164, z=226, dx=-7, dy=0, dz=-10] -353 164 219
 tp @c -353 156 217 facing -353 156 218
-codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_1/Forest/Forest_2.json
+codebuilder navigate @p true https://minecraft.makecode.com/?ipc=1&lockedEditor=1&inGame=1#tutorial:https://github.com/CausewayDigital/Minecraft-EE-MakeCode/tutorials/python-islands/island-1/forest/forest_2
 
 #replacing any broken apples
 scoreboard players set @a f1-forest-appleS 1
