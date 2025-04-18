@@ -1,3 +1,6 @@
+# Opens tuorial for platform 2
+codebuilder navigate @p false https://minecraft.makecode.com/?ipc=1&lockedEditor=1&inGame=1#tutorial:https://github.com/CausewayDigital/Minecraft-EE-MakeCode/tutorials/python-islands/island-1/lake/lake_2
+
 title @p subtitle Now try to reach other golden block, in the tree to the left!
 title @p title Success!
 summon fireworks_rocket -383 157 192
