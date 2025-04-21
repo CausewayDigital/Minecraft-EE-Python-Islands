@@ -16,7 +16,7 @@ particle minecraft:huge_explosion_emitter 88 146 167
 particle minecraft:huge_explosion_emitter 88 146 167
 particle minecraft:huge_explosion_emitter 88 146 167
 execute @p ~ ~ ~ tp @c 86 147 171 facing 84 147 171
-codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_2/Mine/Mine_1_done.json
+codebuilder navigate @p true https://minecraft.makecode.com/?ipc=1&lockedEditor=1&inGame=1#tutorial:https://github.com/CausewayDigital/Minecraft-EE-MakeCode/tutorials/python-islands/island-2/mine/mine_1_done_1
 
 scoreboard players set §r objective 200050
 scoreboard players set @a f2-status 200050
