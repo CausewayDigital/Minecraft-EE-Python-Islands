@@ -10,4 +10,4 @@ function f3/Library/quit
 scoreboard players set §r objective 300040
 scoreboard players set @a f3-status 300040
 
-codebuilder navigate @p[r=10] true https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_3/Library/library_found_1.json
+codebuilder navigate @p[r=10] true https://minecraft.makecode.com/?ipc=1&lockedEditor=1&inGame=1#tutorial:https://github.com/CausewayDigital/Minecraft-EE-MakeCode/tutorials/python-islands/island-3/library/library_found_1
