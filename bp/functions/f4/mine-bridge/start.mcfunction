@@ -20,7 +20,7 @@ execute @p[x=935, y=150, z=627, r=25] ~ ~ ~ title @p title Walk over to your age
 scoreboard players set @a whistle-enabled 1
 
 # Open the Notebook URL (using false always)
-codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_4/Bridge/Bridge_1.json
+codebuilder navigate @p true https://minecraft.makecode.com/?ipc=1&lockedEditor=1&inGame=1#tutorial:https://github.com/CausewayDigital/Minecraft-EE-MakeCode/tutorials/python-islands/island-4/bridge/bridge_1
 
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 400015

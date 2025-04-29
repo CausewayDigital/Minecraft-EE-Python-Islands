@@ -8,4 +8,4 @@ execute @p ~ ~ ~ scoreboard players set @s f3-farm-prog 1
 scoreboard players set §r objective 300105
 scoreboard players set @a f3-status 300105
 
-codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_3/Farm/Farm.json
+codebuilder navigate @p true https://minecraft.makecode.com/?ipc=1&lockedEditor=1&inGame=1#tutorial:https://github.com/CausewayDigital/Minecraft-EE-MakeCode/tutorials/python-islands/island-3/farm/farm_1
