@@ -18,8 +18,8 @@ execute @p[x=1021, y=153, z=103, r=30] ~ ~ ~ title @p title Walk over to your ag
 #Disable Whstle
 scoreboard players set @a whistle-enabled 0
 
-# Open the Notebook URL (using false always)
-codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_5/Wire/Wire.json
+# Open the Tutorial URL
+codebuilder navigate @p true https://minecraft.makecode.com/?ipc=1&lockedEditor=1&inGame=1#tutorial:https://github.com/CausewayDigital/Minecraft-EE-MakeCode/tutorials/python-islands/island-5/wire/wire_1
 
 
 #clear all redstone

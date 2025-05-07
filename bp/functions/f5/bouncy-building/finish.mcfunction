@@ -17,7 +17,7 @@ execute @p ~ ~ ~ tp @c 1012 159 77 facing 1012 159 76
 scoreboard players set @a whistle-enabled 1
 
 #Run story notebook
-codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_5/Telescope_Op/To_Power_Station.json
+codebuilder navigate @p true https://minecraft.makecode.com/?ipc=1&lockedEditor=1&inGame=1#tutorial:https://github.com/CausewayDigital/Minecraft-EE-MakeCode/tutorials/python-islands/island-5/telescope_op/to_power_station_1
 
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 500050
