@@ -19,7 +19,7 @@ scoreboard players set @a whistle-enabled 1
 execute @p ~ ~ ~ tp @c 946 143 621 facing 947 143 621
 
 #Run story notebook
-codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_4/Mine_Technician/Mine_To_Factory_1.json
+codebuilder navigate @p true https://minecraft.makecode.com/?ipc=1&lockedEditor=1&inGame=1#tutorial:https://github.com/CausewayDigital/Minecraft-EE-MakeCode/tutorials/python-islands/island-4/mine_technician/mine_to_factory_1
 
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 400030
