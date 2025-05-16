@@ -17,7 +17,7 @@ execute @p ~ ~ ~ tp @c 942 147 628 facing 941 147 628
 scoreboard players set @a whistle-enabled 1
 
 #Run story notebook
-codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_4/Prime_Minster/PM_To_Farm_1.json
+codebuilder navigate @p true https://minecraft.makecode.com/?ipc=1&lockedEditor=1&inGame=1#tutorial:https://github.com/CausewayDigital/Minecraft-EE-MakeCode/tutorials/python-islands/island-4/prime_minster/pm_to_farm_1
 
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 400020
