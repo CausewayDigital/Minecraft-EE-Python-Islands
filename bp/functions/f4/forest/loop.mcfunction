@@ -47,6 +47,7 @@ execute @p[r=25, scores={f4-forest-d-t=21}] ~ ~ ~ scoreboard players set @p f4-f
 #Detect blocks being placed
 execute @p[scores={f4-forest-prog=1, f4-forest-title=0}] ~ ~ ~ detect 1045 156 656 concrete 8 title @p title 6 Blocks to go
 execute @p[scores={f4-forest-prog=1, f4-forest-title=0}] ~ ~ ~ detect 1045 156 656 concrete 8 scoreboard players add @p f4-forest-title 1
+execute @p[scores={f4-forest-prog=1, f4-forest-title=0}] ~ ~ ~ detect 1045 156 656 concrete 8 codebuilder navigate @p true codebuilder navigate @p true https://minecraft.makecode.com/?ipc=1&lockedEditor=1&inGame=1#tutorial:https://github.com/CausewayDigital/Minecraft-EE-MakeCode/tutorials/python-islands/island-4/factory/factory_2
 execute @p[scores={f4-forest-prog=1}] ~ ~ ~ detect 1045 156 656 concrete 8 scoreboard players add @p f4-forest-prog 1
 
 execute @p[scores={f4-forest-prog=2, f4-forest-title=1}] ~ ~ ~ detect 1045 156 655 concrete 8 title @p title 5 Blocks to go
