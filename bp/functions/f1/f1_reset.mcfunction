@@ -25,5 +25,4 @@ clear @a
 
 kill @e[type=agent]
 
-timelock true
 time set midnight
