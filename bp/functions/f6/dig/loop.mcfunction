@@ -10,7 +10,7 @@ execute @p[x=1025,y=153,z=132,r=10, scores={f6-status=600000..600019, f6-active=
 execute @p[x=1025,y=153,z=132,r=10, scores={f6-status=600020..600100, f6-active=1}] ~ ~ ~ detect 1025 153 132 fence 0 fill 1025 153 132 1026 154 132 air 0
 
 #Finish Task
-execute @p[scores={f6-dig-prog=1, f6-active=1}] ~ ~ ~ detect 991 144 122 barrier -1 function f6/dig/finish
+execute @p[scores={f6-dig-prog=1, f6-active=1}] ~ ~ ~ detect 991 144 122 diamond_block -1 function f6/dig/finish
 
 #Action bar
 execute @p[x=1000,y=143,z=120, r=30, scores={f6-dig-prog=1..10}] ~ ~ ~ title @p actionbar Press "C" to code or touch the Agent icon
