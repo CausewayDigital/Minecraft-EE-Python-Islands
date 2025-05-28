@@ -11,4 +11,4 @@ scoreboard players set @a f3-status 300070
 
 function clear_agent
 
-execute @p[scores={f3-forest-comp=1}] ~ ~ ~  codebuilder navigate @p true https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_3/Wizard/wizard_to_mine_1.json
+codebuilder navigate @p true https://minecraft.makecode.com/?ipc=1&lockedEditor=1&inGame=1#tutorial:https://github.com/CausewayDigital/Minecraft-EE-MakeCode/tutorials/python-islands/island-3/forest/forest_2
