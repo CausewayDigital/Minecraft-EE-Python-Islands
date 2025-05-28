@@ -18,8 +18,8 @@ function f4/forest/spawn_items
 #Start Item check timer
 scoreboard players set @a f4-forest-item-t 0
 
-# Open the Notebook URL (using false always)
-codebuilder navigate @p false https://notebooks.minecrafteduservices.com/everglade/ci/index.html?lesson=https://notebooks.minecrafteduservices.com/everglade/content/row/master/islands/island_4/Factory/Factory_1.json
+# Open the MakeCode URL (using true always)
+codebuilder navigate @p true https://minecraft.makecode.com/?ipc=1&lockedEditor=1&inGame=1#tutorial:https://github.com/CausewayDigital/Minecraft-EE-MakeCode/tutorials/python-islands/island-4/factory/factory_1
 
 #Set the task scoreboard to the correct task
 scoreboard players set §r objective 400055
