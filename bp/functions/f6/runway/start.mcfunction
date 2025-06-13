@@ -1,5 +1,5 @@
 function f6/runway/reset
-tp @c 948 147 121 facing 948 147 122
+execute @p ~ ~ ~ tp @c 948 147 121 facing 948 147 122
 execute @a[x=946, y=146, z=119, r=10] ~ ~ ~ replaceitem entity @c slot.inventory 0 carpet 27 0
 codebuilder navigate @p true https://minecraft.makecode.com/?ipc=1&lockedEditor=1&inGame=1#tutorial:https://github.com/CausewayDigital/Minecraft-EE-MakeCode/tutorials/python-islands/island-6/runway/runway_1
 #Clear Runway
